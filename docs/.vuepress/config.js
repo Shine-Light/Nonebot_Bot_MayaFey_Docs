@@ -3,15 +3,13 @@ const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
 const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
 const { gitPlugin } = require('@vuepress/plugin-git')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
+const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 module.exports = {
-    plugins: [
-        backToTopPlugin(), mediumZoomPlugin(),nprogressPlugin(),
-        gitPlugin({
-            // 配置项
-        })
-    ],
     title: '真宵机器人',
     description: '专注群聊的QQ机器人',
+    head: [
+        ['link', {rel: 'icon', href: '/image/logo.png'}],
+    ],
     markdown: {
         extractHeaders: ['h1', 'h2', 'h3', 'h4','h5','h6']
     },
@@ -28,27 +26,31 @@ module.exports = {
         toggleDarkMode: '切换夜间模式',
         navbar: [
             { text: '首页', link: '/' },
-            { text: '指南', link: '/guide/' },
             { text: '功能', link: '/feature/' },
-            { text: '我的主页', link: 'https://shinelight.xyz' }
+            { text: '指南', link: '/guide/' },
+            { text: '零基础', link: '/easy' },
+            { text: '我的主页', link: 'https://shinelight.xyz'}, 
         ],
-        sidebar: [
-            {
-                title: '指南',
-                path: '/guide/',
-                collapsable: true,
-                children: [
-                    {
-                        title: '安装',
-                        path: '/setup/',
-                    }
+        sidebar: {
+            '/guide/': [{
+                text: '指南',
+                children: [ '/guide/',
+                            '/guide/setup/setup',
+                            '/guide/setup/configure',
+                            '/guide/setup/run/',
                 ]
             },
-            {
-                title: '功能',
-                path: '/feature/',
-            }
-        ]
-    })
+            ]
+        }
+    }),
+    plugins: [
+        backToTopPlugin(), mediumZoomPlugin(),nprogressPlugin(),
+        gitPlugin({
+            // 配置项
+        }),
+        activeHeaderLinksPlugin({
+            // 配置项
+        })
+    ]
 
 }

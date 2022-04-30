@@ -1,2 +1,2 @@
-<template><h2 id="b" tabindex="-1"><a class="header-anchor" href="#b" aria-hidden="true">#</a> b</h2>
+<template><h1 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h1>
 </template>

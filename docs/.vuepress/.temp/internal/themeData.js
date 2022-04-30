@@ -19,35 +19,35 @@ export const themeData = {
       "link": "/"
     },
     {
+      "text": "功能",
+      "link": "/feature/"
+    },
+    {
       "text": "指南",
       "link": "/guide/"
     },
     {
-      "text": "功能",
-      "link": "/feature/"
+      "text": "零基础",
+      "link": "/easy"
     },
     {
       "text": "我的主页",
       "link": "https://shinelight.xyz"
     }
   ],
-  "sidebar": [
-    {
-      "title": "指南",
-      "path": "/guide/",
-      "collapsable": true,
-      "children": [
-        {
-          "title": "安装",
-          "path": "/setup/"
-        }
-      ]
-    },
-    {
-      "title": "功能",
-      "path": "/feature/"
-    }
-  ],
+  "sidebar": {
+    "/guide/": [
+      {
+        "text": "指南",
+        "children": [
+          "/guide/",
+          "/guide/setup/setup",
+          "/guide/setup/configure",
+          "/guide/setup/run/"
+        ]
+      }
+    ]
+  },
   "locales": {
     "/": {
       "selectLanguageName": "English"

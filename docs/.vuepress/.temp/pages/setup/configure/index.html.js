@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-d8bfacea",
-  "path": "/setup/",
-  "title": "安装",
+  "key": "v-360cf1d4",
+  "path": "/setup/configure/",
+  "title": "",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "setup/README.md",
+  "filePathRelative": "setup/configure/README.md",
   "git": {
-    "createdTime": 1651147298000,
-    "updatedTime": 1651147298000,
-    "contributors": [
-      {
-        "name": "Shine-Light",
-        "email": "3120815902@qq.com",
-        "commits": 1
-      }
-    ]
+    "createdTime": null,
+    "updatedTime": null,
+    "contributors": []
   }
 }
 
