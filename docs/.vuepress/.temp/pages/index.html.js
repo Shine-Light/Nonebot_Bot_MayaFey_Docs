@@ -22,7 +22,7 @@ export const data = {
       },
       {
         "title": "自定义",
-        "details": "高度自定义,绝大多数插件都可以自定义"
+        "details": "绝大多数插件都可以自定义"
       },
       {
         "title": "娱乐",
@@ -30,19 +30,30 @@ export const data = {
       },
       {
         "title": "权限管理",
-        "details": "配备完整的权限系统,不用担心权限问题"
+        "details": "再也不用担心权限问题"
       },
       {
         "title": "在线更新",
-        "details": "无需进行繁琐的手动更新,可以自动更新文件并重启"
+        "details": "无需进行繁琐的手动更新,可以自动更新"
       }
     ],
-    "footer": "MIT Licensed | Copyright © 2022-present Shine_Light"
+    "footer": "MIT Licensed | Copyright © 2022-present <a href=\"https://shinelight.xyz\" target=\"_blank\">Shine_Light</a>",
+    "footerHtml": true
   },
   "excerpt": "",
   "headers": [],
   "filePathRelative": "README.md",
-  "git": {}
+  "git": {
+    "createdTime": 1651147298000,
+    "updatedTime": 1651147298000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {

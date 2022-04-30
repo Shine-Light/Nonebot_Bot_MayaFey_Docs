@@ -32,9 +32,6 @@ module.exports = {
             { text: '功能', link: '/feature/' },
             { text: '我的主页', link: 'https://shinelight.xyz' }
         ],
-        smoothScroll: true,
-        darkMode: true, 
-        // lastUpdated: 'Last Updated'
         sidebar: [
             {
                 title: '指南',

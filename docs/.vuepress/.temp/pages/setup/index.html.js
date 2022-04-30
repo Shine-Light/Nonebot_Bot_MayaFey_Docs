@@ -14,7 +14,17 @@ export const data = {
     }
   ],
   "filePathRelative": "setup/README.md",
-  "git": {}
+  "git": {
+    "createdTime": 1651147298000,
+    "updatedTime": 1651147298000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
+  }
 }
 
 if (import.meta.webpackHot) {

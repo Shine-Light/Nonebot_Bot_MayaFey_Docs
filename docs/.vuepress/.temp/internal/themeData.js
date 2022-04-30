@@ -1,6 +1,6 @@
 export const themeData = {
   "logo": "/image/logo.png",
-  "repo": "https://github.com/Shine-Light/Nonebot_Bot_MayaFey_docs",
+  "repo": "https://github.com/Shine-Light/Nonebot_Bot_MayaFey_Docs",
   "repoLabel": "项目地址",
   "editLinkText": "在Github上编辑此页",
   "docsDir": "docs",
@@ -31,8 +31,6 @@ export const themeData = {
       "link": "https://shinelight.xyz"
     }
   ],
-  "smoothScroll": true,
-  "darkMode": true,
   "sidebar": [
     {
       "title": "指南",
@@ -55,6 +53,7 @@ export const themeData = {
       "selectLanguageName": "English"
     }
   },
+  "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
   "sidebarDepth": 2,
