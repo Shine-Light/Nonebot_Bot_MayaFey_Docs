@@ -1,6 +1,7 @@
 export const themeData = {
   "logo": "/image/logo.png",
-  "repo": "https://github.com/Shine-Light/Nonebot_Bot_MayaFey_Docs",
+  "repo": "https://github.com/Shine-Light/Nonebot_Bot_MayaFey",
+  "docsRepo": "https://github.com/Shine-Light/Nonebot_Bot_MayaFey_Docs",
   "repoLabel": "项目地址",
   "editLinkText": "在Github上编辑此页",
   "docsDir": "docs",
@@ -13,6 +14,7 @@ export const themeData = {
   ],
   "backToHome": "返回主页",
   "toggleDarkMode": "切换夜间模式",
+  "sidebarDepth": 5,
   "navbar": [
     {
       "text": "首页",
@@ -39,11 +41,12 @@ export const themeData = {
     "/guide/": [
       {
         "text": "指南",
+        "collapsible": true,
         "children": [
           "/guide/",
           "/guide/setup/setup",
           "/guide/setup/configure",
-          "/guide/setup/run/"
+          "/guide/setup/run"
         ]
       }
     ]
@@ -56,7 +59,6 @@ export const themeData = {
   "darkMode": true,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
-  "sidebarDepth": 2,
   "editLink": true,
   "contributors": true,
   "contributorsText": "Contributors",

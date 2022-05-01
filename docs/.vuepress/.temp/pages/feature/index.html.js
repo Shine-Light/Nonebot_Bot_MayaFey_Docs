@@ -41,7 +41,20 @@ export const data = {
           "level": 3,
           "title": "热搜",
           "slug": "热搜",
-          "children": []
+          "children": [
+            {
+              "level": 4,
+              "title": "韩小韩接口版本",
+              "slug": "韩小韩接口版本",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "天行数据版本",
+              "slug": "天行数据版本",
+              "children": []
+            }
+          ]
         },
         {
           "level": 3,
@@ -127,7 +140,14 @@ export const data = {
           "level": 3,
           "title": "群管(禁、解、踢、黑)",
           "slug": "群管-禁、解、踢、黑",
-          "children": []
+          "children": [
+            {
+              "level": 4,
+              "title": "测试功能",
+              "slug": "测试功能",
+              "children": []
+            }
+          ]
         },
         {
           "level": 3,
@@ -182,7 +202,20 @@ export const data = {
           "level": 3,
           "title": "积分获取分式",
           "slug": "积分获取分式",
-          "children": []
+          "children": [
+            {
+              "level": 4,
+              "title": "方式1: 签到",
+              "slug": "方式1-签到",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "方式2: 小游戏",
+              "slug": "方式2-小游戏",
+              "children": []
+            }
+          ]
         }
       ]
     },

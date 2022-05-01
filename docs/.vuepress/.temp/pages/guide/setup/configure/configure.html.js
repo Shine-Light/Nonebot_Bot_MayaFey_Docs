@@ -1,6 +1,6 @@
 export const data = {
-  "key": "v-6e101c72",
-  "path": "/guide/setup/configure/",
+  "key": "v-a8fcf18c",
+  "path": "/guide/setup/configure/configure.html",
   "title": "配置",
   "lang": "en-US",
   "frontmatter": {},
@@ -63,17 +63,11 @@ export const data = {
       ]
     }
   ],
-  "filePathRelative": "guide/setup/configure/README.md",
+  "filePathRelative": "guide/setup/configure/configure.md",
   "git": {
-    "createdTime": 1651319160000,
-    "updatedTime": 1651319160000,
-    "contributors": [
-      {
-        "name": "Shine-Light",
-        "email": "3120815902@qq.com",
-        "commits": 1
-      }
-    ]
+    "createdTime": null,
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

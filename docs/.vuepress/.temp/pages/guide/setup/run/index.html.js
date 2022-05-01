@@ -8,9 +8,15 @@ export const data = {
   "headers": [],
   "filePathRelative": "guide/setup/run/README.md",
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1651319160000,
+    "updatedTime": 1651319160000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

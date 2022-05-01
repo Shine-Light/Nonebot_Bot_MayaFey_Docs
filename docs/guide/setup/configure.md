@@ -83,7 +83,7 @@
 #### 腾讯机器翻译
 ##### tencentcloud_common_region
 说明: 接口地域,详情请前往[官方文档](https://cloud.tencent.com/document/product/551/15614#1.-.E6.9C.8D.E5.8A.A1.E5.9C.B0.E5.9D.80)查询  
-::: waring 注意
+::: warning 注意
 以下设置的密钥请保存好,不要泄露给任何人
 :::
 ##### tencentcloud_common_secretid

@@ -1,5 +1,5 @@
-<template><div class="custom-container tip"><p class="custom-container-title">说明</p>
-<p>在默认情况下,大部分命令前需加 <code>/</code> 号,若需取消 <code>/</code> 或者替换为其他,请查看<RouterLink to="/">进阶配置</RouterLink></p>
+<template><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>在默认情况下,大部分命令前需加 <code>/</code> 号,若需取消 <code>/</code> 或者替换为其他,请查看<RouterLink to="/guide/setup/configure.html#command-start">机器人配置</RouterLink></p>
 <p>命令随时变换,命令按群内帮助菜单为准</p>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
 <p>群内权限: 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>

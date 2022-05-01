@@ -5,9 +5,9 @@ const routeItems = [
   ["v-7554641c","/feature/",{"title":"功能"},["/feature/index.html","/feature/README.md"]],
   ["v-fffb8e28","/guide/",{"title":"向导"},["/guide/index.html","/guide/README.md"]],
   ["v-59159701","/guide/easy/",{"title":"easy"},["/guide/easy/index.html","/guide/easy/README.md"]],
-  ["v-6e101c72","/guide/setup/configure/",{"title":"配置"},["/guide/setup/configure/index.html","/guide/setup/configure/README.md"]],
-  ["v-6c9ab542","/guide/setup/run/",{"title":"运行"},["/guide/setup/run/index.html","/guide/setup/run/README.md"]],
-  ["v-9cccc7e0","/guide/setup/setup/",{"title":"安装"},["/guide/setup/setup/index.html","/guide/setup/setup/README.md"]],
+  ["v-76a2b31e","/guide/setup/configure.html",{"title":"配置"},["/guide/setup/configure","/guide/setup/configure.md"]],
+  ["v-ec059728","/guide/setup/run.html",{"title":"运行"},["/guide/setup/run","/guide/setup/run.md"]],
+  ["v-571ff78c","/guide/setup/setup.html",{"title":"安装"},["/guide/setup/setup","/guide/setup/setup.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 

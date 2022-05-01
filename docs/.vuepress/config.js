@@ -4,6 +4,7 @@ const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
 const { gitPlugin } = require('@vuepress/plugin-git')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
 const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
+const { pwaPlugin } = require('@vuepress/plugin-pwa')
 module.exports = {
     title: '真宵机器人',
     description: '专注群聊的QQ机器人',
@@ -11,11 +12,14 @@ module.exports = {
         ['link', {rel: 'icon', href: '/image/logo.png'}],
     ],
     markdown: {
-        extractHeaders: ['h1', 'h2', 'h3', 'h4','h5','h6']
+        extractHeaders: {
+            level: [2,3,4,5]
+        }
     },
     theme: defaultTheme({
         logo: '/image/logo.png',
-        repo: 'https://github.com/Shine-Light/Nonebot_Bot_MayaFey_Docs',
+        repo: 'https://github.com/Shine-Light/Nonebot_Bot_MayaFey',
+        docsRepo: 'https://github.com/Shine-Light/Nonebot_Bot_MayaFey_Docs',
         repoLabel: '项目地址',
         editLinkText: '在Github上编辑此页',
         docsDir: 'docs',
@@ -24,6 +28,7 @@ module.exports = {
         notFound: ['哎呀,页面找不到了', '页面走丢了', '404 Not Found'],
         backToHome: '返回主页',
         toggleDarkMode: '切换夜间模式',
+        sidebarDepth: 5,
         navbar: [
             { text: '首页', link: '/' },
             { text: '功能', link: '/feature/' },
@@ -34,10 +39,11 @@ module.exports = {
         sidebar: {
             '/guide/': [{
                 text: '指南',
+                collapsible: true,
                 children: [ '/guide/',
                             '/guide/setup/setup',
                             '/guide/setup/configure',
-                            '/guide/setup/run/',
+                            '/guide/setup/run'
                 ]
             },
             ]
@@ -50,7 +56,10 @@ module.exports = {
         }),
         activeHeaderLinksPlugin({
             // 配置项
-        })
+        }),
+        pwaPlugin({
+            skipWaiting: true,
+        }),
     ]
 
 }
