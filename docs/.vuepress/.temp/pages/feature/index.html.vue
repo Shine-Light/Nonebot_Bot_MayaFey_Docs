@@ -1,8 +1,8 @@
 <template><div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>在默认情况下,大部分命令前需加 <code>/</code> 号,若需取消 <code>/</code> 或者替换为其他,请查看<RouterLink to="/guide/setup/configure.html#command-start">机器人配置</RouterLink></p>
+<p>在默认情况下,大部分命令前需加 <code>/</code> 号,若需取消 <code>/</code> 或者替换为其他,请查看<RouterLink to="/guide/configure.html#command-start">机器人配置</RouterLink></p>
 <p>命令随时变换,命令按群内帮助菜单为准</p>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
-<p>群内权限: 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>
+<p>机器人权限(不是群内权限): Van(根用户) &gt; 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>
 <p>具体权限控制请前往<a href="#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</a></p>
 <p>所有功能都是分群管理,不用担心数据混乱</p>
 </div>
@@ -19,7 +19,7 @@
 <p>图片接口来源: <a href="https://api.ixiaowai.cn/" target="_blank" rel="noopener noreferrer">api.ixiaowai.cn<ExternalLinkIcon/></a></p>
 <h3 id="一言" tabindex="-1"><a class="header-anchor" href="#一言" aria-hidden="true">#</a> 一言</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
-<p>该功能非大陆IP机器无法使用</p>
+<p>该功能非大陆IP机器可能无法使用,可能需要代理回国,具体设置查看<a href="#%E4%BB%A3%E7%90%86">代理设置</a></p>
 </div>
 <p>命令: <code>/一言</code> <code>/ian</code></p>
 <p>功能: 随机返回<strong>一句鸡汤或者毒鸡汤</strong></p>
@@ -56,8 +56,8 @@
 </div>
 <h4 id="韩小韩接口版本" tabindex="-1"><a class="header-anchor" href="#韩小韩接口版本" aria-hidden="true">#</a> 韩小韩接口版本</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>无需注册,分类较多,但非大陆IP无法访问。该版本适合大陆IP机器使用
-若非大陆IP想使用该版本,需配置代理至国内,具体设置查看<a href="#%E4%BB%A3%E7%90%86">代理设置</a></p>
+<p>无需注册,分类较多,但非大陆IP无法访问。该版本适合大陆IP机器使用<br>
+非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<a href="#%E4%BB%A3%E7%90%86">代理设置</a></p>
 </div>
 <p>命令: <code>/热搜 {类别}</code></p>
 <p>功能: 获取各平台热搜</p>
@@ -352,7 +352,7 @@
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>此功能为测试功能,不保证能用性</p>
 <p>以下测试功能需机器人为群主</p>
-<p>并且只有根超级用户(即配置文件写死的超级用户)有权使用</p>
+<p>并且只有根用户(即配置文件写死的超级用户)有权使用</p>
 </div>
 <p>命令:</p>
 <p>添加管理员 <code>/管理员+ {@xx} {@xx} ...</code></p>
@@ -559,8 +559,8 @@
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>权限说明: 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
-<p>权限说明(en): owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
+<p>权限说明: Van &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
+<p>权限说明(en): Van &gt; owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
 <p>命令: <code>/我的权限</code></p>
@@ -679,10 +679,11 @@
 <h3 id="违禁图片检测" tabindex="-1"><a class="header-anchor" href="#违禁图片检测" aria-hidden="true">#</a> 违禁图片检测</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能需配置腾讯云内容安全中的图片安全API密钥</p>
-<p>由于其他内容容易误封,所以只开启高度确认为色情的情况下触发</p>
-<p>若需更高等级的检测可自行开启</p>
+<p>检测的类型为: 色情,性感,违法,广告,暴恐,政治,谩骂</p>
+<p>由于容易误封,所以只开启高度确认为违规的情况下触发</p>
+<p>若需关闭检测类型可自行开关</p>
 </div>
-<p>检测到色情图片会撤回并禁言</p>
+<p>检测到违规图片会撤回并禁言</p>
 <h3 id="闪照捕获" tabindex="-1"><a class="header-anchor" href="#闪照捕获" aria-hidden="true">#</a> 闪照捕获</h3>
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>该功能请谨慎开启</p>

@@ -1,6 +1,7 @@
 # 安装
 ## 环境配置
 ::: tip 提示
+系统:Windows 10 / Window 11 / Ubuntu 18.04 / Ubuntu 20.04 / Mac(没试过)
 python >= 3.9  
 poetry >= 1.1.13  
 mysql >= 5.6  
@@ -54,6 +55,6 @@ mysql >= 5.6
 ## 安装机器人
 1. 前往[Github](https://github.com/Shine-Light/Nonebot_Bot_MayaFey)下载最新版本的压缩包并解压  
 
-2. 在解压后的文件夹内打开cmd,输入 `poetry install`,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~15分钟  
+2. 在解压后的文件夹内打开cmd,输入 `poetry install`,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~20分钟  
 
 3. 安装完成

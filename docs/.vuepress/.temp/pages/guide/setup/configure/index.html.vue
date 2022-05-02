@@ -52,7 +52,7 @@
 <h4 id="port" tabindex="-1"><a class="header-anchor" href="#port" aria-hidden="true">#</a> PORT</h4>
 <p>说明: 端口,默认即可</p>
 <h4 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h4>
-<p>说明: 根超级用户,拥有机器人的所有权限,每个超级用户用 <code>&quot;&quot;</code> 包起来,用 <code>,</code> 隔开(英文半角逗号,不是中文的逗号)<br>
+<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code>&quot;&quot;</code> 包起来,用 <code>,</code> 隔开(英文半角逗号,不是中文的逗号)<br>
 示例: <code>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
 <h4 id="nickname" tabindex="-1"><a class="header-anchor" href="#nickname" aria-hidden="true">#</a> NICKNAME</h4>
 <p>说明: 机器人的昵称,默认即可</p>

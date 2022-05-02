@@ -18,6 +18,8 @@ features:
   details: 再也不用担心权限问题
 - title: 在线更新
   details: 无需进行繁琐的手动更新,可以自动更新
+- title: 免费开源
+  details: 项目完全免费且开源
 footer: MIT Licensed | Copyright © 2022-present <a href="https://shinelight.xyz" target="_blank">Shine_Light</a>
 footerHtml: true
 ---

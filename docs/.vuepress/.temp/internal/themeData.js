@@ -30,7 +30,7 @@ export const themeData = {
     },
     {
       "text": "零基础",
-      "link": "/easy"
+      "link": "/easy/"
     },
     {
       "text": "我的主页",
@@ -44,9 +44,22 @@ export const themeData = {
         "collapsible": true,
         "children": [
           "/guide/",
-          "/guide/setup/setup",
-          "/guide/setup/configure",
-          "/guide/setup/run"
+          "/guide/setup",
+          "/guide/configure",
+          "/guide/run"
+        ]
+      }
+    ],
+    "/easy/": [
+      {
+        "text": "零基础",
+        "collapsible": true,
+        "children": [
+          "/easy/",
+          "/easy/pre",
+          "/easy/setup",
+          "/easy/configure",
+          "/easy/run"
         ]
       }
     ]

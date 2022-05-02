@@ -33,7 +33,7 @@ module.exports = {
             { text: '首页', link: '/' },
             { text: '功能', link: '/feature/' },
             { text: '指南', link: '/guide/' },
-            { text: '零基础', link: '/easy' },
+            { text: '零基础', link: '/easy/' },
             { text: '我的主页', link: 'https://shinelight.xyz'}, 
         ],
         sidebar: {
@@ -41,12 +41,21 @@ module.exports = {
                 text: '指南',
                 collapsible: true,
                 children: [ '/guide/',
-                            '/guide/setup/setup',
-                            '/guide/setup/configure',
-                            '/guide/setup/run'
+                            '/guide/setup',
+                            '/guide/configure',
+                            '/guide/run'
                 ]
-            },
-            ]
+            }],
+            '/easy/': [{
+                text: '零基础',
+                collapsible: true,
+                children: [ '/easy/',
+                            '/easy/pre',
+                            '/easy/setup',
+                            '/easy/configure',
+                            '/easy/run'
+                ]
+            }]
         }
     }),
     plugins: [
