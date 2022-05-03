@@ -1,7 +1,7 @@
 <template><h1 id="安装" tabindex="-1"><a class="header-anchor" href="#安装" aria-hidden="true">#</a> 安装</h1>
 <h2 id="环境配置" tabindex="-1"><a class="header-anchor" href="#环境配置" aria-hidden="true">#</a> 环境配置</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>系统:Windows 10 / Window 11 / Ubuntu 18.04 / Ubuntu 20.04 / Mac(没试过)
+<p>系统:Windows 10 / Window 11 / Ubuntu 18.04 / Ubuntu 20.04 / Mac(没试过)<br>
 python &gt;= 3.9<br>
 poetry &gt;= 1.1.13<br>
 mysql &gt;= 5.6<br>

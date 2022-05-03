@@ -12,8 +12,8 @@ const routeItems = [
   ["v-fffb8e28","/guide/",{"title":"向导"},["/guide/index.html","/guide/README.md"]],
   ["v-334df21a","/guide/run.html",{"title":"运行"},["/guide/run","/guide/run.md"]],
   ["v-6c880e68","/guide/setup.html",{"title":"安装"},["/guide/setup","/guide/setup.md"]],
-  ["v-3706649a","/404.html",{"title":""},["/404"]],
   ["v-ca97092e","/problem/",{"title":"常见问题"},["/problem/index.html","/problem/README.md"]],
+  ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(

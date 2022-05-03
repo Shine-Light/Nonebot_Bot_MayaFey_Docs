@@ -117,6 +117,19 @@ export const data = {
               "title": "BAN_COUNT_ALLOW",
               "slug": "ban-count-allow",
               "children": []
+            },
+            {
+              "level": 4,
+              "title": "Epic喜加一",
+              "slug": "epic喜加一",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "epic_scheduler",
+                  "slug": "epic-scheduler",
+                  "children": []
+                }
+              ]
             }
           ]
         }
@@ -131,9 +144,15 @@ export const data = {
   ],
   "filePathRelative": "easy/configure.md",
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1651484398000,
+    "updatedTime": 1651484398000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

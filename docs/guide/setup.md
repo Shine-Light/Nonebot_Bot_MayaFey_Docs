@@ -1,7 +1,7 @@
 # 安装
 ## 环境配置
 ::: tip 提示
-系统:Windows 10 / Window 11 / Ubuntu 18.04 / Ubuntu 20.04 / Mac(没试过)
+系统:Windows 10 / Window 11 / Ubuntu 18.04 / Ubuntu 20.04 / Mac(没试过)  
 python >= 3.9  
 poetry >= 1.1.13  
 mysql >= 5.6  

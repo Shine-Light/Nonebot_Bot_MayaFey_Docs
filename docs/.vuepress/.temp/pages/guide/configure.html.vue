@@ -13,7 +13,7 @@
 <ol>
 <li>搜索 TMT机器翻译 ,进入机器翻译控制台,选择开通</li>
 </ol>
-<h4 id="文件图片检测api-可选" tabindex="-1"><a class="header-anchor" href="#文件图片检测api-可选" aria-hidden="true">#</a> 文件图片检测API(可选)</h4>
+<h4 id="违禁图片检测api-可选" tabindex="-1"><a class="header-anchor" href="#违禁图片检测api-可选" aria-hidden="true">#</a> 违禁图片检测API(可选)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该接口首月免费1w张图片,超出额度或次月开始需自行购买,具体前往<a href="https://cloud.tencent.com/document/product/1125/37108" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>查询</p>
 </div>
@@ -114,4 +114,9 @@
 <h4 id="允许违禁次数" tabindex="-1"><a class="header-anchor" href="#允许违禁次数" aria-hidden="true">#</a> 允许违禁次数</h4>
 <h5 id="ban-count-allow" tabindex="-1"><a class="header-anchor" href="#ban-count-allow" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h5>
 <p>说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑</p>
+<h4 id="epic喜加一" tabindex="-1"><a class="header-anchor" href="#epic喜加一" aria-hidden="true">#</a> Epic喜加一</h4>
+<h5 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h5>
+<p>说明: 订阅推送时间,&quot;星期 小时 分钟 秒&quot;<br>
+示例: 星期五 20:00:00 推送<br>
+<code>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
 </template>

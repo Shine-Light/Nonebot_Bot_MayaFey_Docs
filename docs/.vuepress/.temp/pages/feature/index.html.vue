@@ -201,6 +201,27 @@
 <p>示例: <code>/鲁迅说过 我没说过这句话</code></p>
 <p>权限: 群员及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-memes<ExternalLinkIcon/></a></p>
+<h3 id="答案之书" tabindex="-1"><a class="header-anchor" href="#答案之书" aria-hidden="true">#</a> 答案之书</h3>
+<p>功能: 返回一个 &quot;答案&quot;</p>
+<p>命令: <code>翻看答案{问题}</code></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>问题</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+<p>权限: 群员及以上</p>
+<p>插件来源: <a href="https://github.com/A-kirami/nonebot-plugin-answersbook" target="_blank" rel="noopener noreferrer">github.com/A-kirami/nonebot-plugin-answersbook<ExternalLinkIcon/></a></p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -263,6 +284,39 @@
 <h3 id="违禁词查询" tabindex="-1"><a class="header-anchor" href="#违禁词查询" aria-hidden="true">#</a> 违禁词查询</h3>
 <p>命令: <code>/违禁词 列表</code></p>
 <p>权限: 成员及以上</p>
+<h3 id="epic喜加一资讯" tabindex="-1"><a class="header-anchor" href="#epic喜加一资讯" aria-hidden="true">#</a> Epic喜加一资讯</h3>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>epic喜加一</code></td>
+<td>查询epic本周免费游戏</td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td><code>喜加一订阅</code></td>
+<td>订阅喜加一资讯,定时推送</td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>epic_scheduler</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">github.com/monsterxcn/nonebot_plugin_epicfree<ExternalLinkIcon/></a></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h3>
 <p>命令: <code>/检查更新</code> <code>/更新</code> <code>/更新日志</code></p>

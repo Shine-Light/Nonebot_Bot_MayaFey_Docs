@@ -30,8 +30,8 @@ export const data = {
             },
             {
               "level": 4,
-              "title": "文件图片检测API(可选)",
-              "slug": "文件图片检测api-可选",
+              "title": "违禁图片检测API(可选)",
+              "slug": "违禁图片检测api-可选",
               "children": []
             }
           ]
@@ -273,6 +273,19 @@ export const data = {
                   "children": []
                 }
               ]
+            },
+            {
+              "level": 4,
+              "title": "Epic喜加一",
+              "slug": "epic喜加一",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "epic_scheduler",
+                  "slug": "epic-scheduler",
+                  "children": []
+                }
+              ]
             }
           ]
         }
@@ -281,9 +294,15 @@ export const data = {
   ],
   "filePathRelative": "guide/configure.md",
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1651484398000,
+    "updatedTime": 1651484398000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

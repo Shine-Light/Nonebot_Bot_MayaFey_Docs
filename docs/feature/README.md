@@ -189,6 +189,18 @@ sidebar: auto
 
 插件来源: [github.com/noneplugin/nonebot-plugin-memes](https://github.com/noneplugin/nonebot-plugin-memes)
 
+### 答案之书
+功能: 返回一个 "答案"  
+
+命令: `翻看答案{问题}`  
+
+|参数名|可选值|必须|
+|-|-|-|
+|问题|自行输入|是|
+
+权限: 群员及以上
+
+插件来源: [github.com/A-kirami/nonebot-plugin-answersbook](https://github.com/A-kirami/nonebot-plugin-answersbook)
 ## 生活功能
 ### 翻译
 ::: tip 提示
@@ -244,6 +256,16 @@ sidebar: auto
 命令: `/违禁词 列表`
 
 权限: 成员及以上
+
+### Epic喜加一资讯
+命令: 
+|命令|功能|权限|
+|-|-|-|
+|`epic喜加一`|查询epic本周免费游戏|群员及以上|
+|`喜加一订阅`|订阅喜加一资讯,定时推送|超级用户及以上|
+epic_scheduler
+插件来源: [github.com/monsterxcn/nonebot_plugin_epicfree](https://github.com/monsterxcn/nonebot_plugin_epicfree)
+
 
 ## 管理功能
 ### 机器人更新

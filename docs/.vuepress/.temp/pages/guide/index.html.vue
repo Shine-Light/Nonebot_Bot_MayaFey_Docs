@@ -10,7 +10,7 @@
 <p>该项目名称来自 <a href="https://baike.baidu.com/item/%E9%80%86%E8%BD%AC%E8%A3%81%E5%88%A4/56352" target="_blank" rel="noopener noreferrer">逆转裁判<ExternalLinkIcon/></a> 中的 <a href="https://baike.baidu.com/item/%E7%BB%AB%E9%87%8C%E7%9C%9F%E5%AE%B5/733281" target="_blank" rel="noopener noreferrer">绫里真宵<ExternalLinkIcon/></a></p>
 <h2 id="声明" tabindex="-1"><a class="header-anchor" href="#声明" aria-hidden="true">#</a> 声明</h2>
 <ol>
-<li>由于QQ是不允许第三方机器人存在的,2020年也封禁了大批的机器人,所以在使用过程中可能会出现账号被风控、被冻结、被封号等情况,在使用前请自行权衡,开发者不对这些情况负责</li>
+<li>由于QQ是不允许第三方机器人存在的,所以在使用过程中可能会出现账号被风控、被冻结、被封号等情况,在使用前请自行权衡,开发者不对这些情况负责</li>
 <li>该项目旨在学习和参考,请勿用于非法用途和盈利</li>
 <li>该项目纯兴趣开发,开发者现在高中在读,学业限制,开发进度较缓慢</li>
 <li>本人技术一般,代码写的不咋地,还请各位大佬手下留情</li>
