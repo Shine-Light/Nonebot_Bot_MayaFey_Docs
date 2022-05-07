@@ -67,6 +67,10 @@
 #### timezone
 说明: 时区,默认为上海
 
+### 代理设置
+#### proxy
+说明: 代理地址,若代理需认证,在前面要加上 `用户名:密码@`
+
 ### 数据库设置
 #### mysql_host
 说明: 数据库服务器主机地址,默认即可  
@@ -99,6 +103,14 @@
 说明: 访问密钥id,同[上](#tencentcloudcommonsecretid)
 ##### tankey
 说明: 访问密钥,同[上](#tencentcloudcommonsecretkey)
+
+#### 热搜API版本
+##### nethot_version
+说明: 热搜接口版本选择,`han`(韩小韩) 或 `tian`(天行数据)
+
+#### 天行数据
+##### tianxtoken
+说明: 天行数据接口密钥,在[控制台](https://www.tianapi.com/console/)获取
 
 #### 和风天气
 ##### QWEATHER_APIKEY

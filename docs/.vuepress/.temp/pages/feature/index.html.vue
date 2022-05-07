@@ -19,7 +19,7 @@
 <p>图片接口来源: <a href="https://api.ixiaowai.cn/" target="_blank" rel="noopener noreferrer">api.ixiaowai.cn<ExternalLinkIcon/></a></p>
 <h3 id="一言" tabindex="-1"><a class="header-anchor" href="#一言" aria-hidden="true">#</a> 一言</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
-<p>该功能非大陆IP机器可能无法使用,可能需要代理回国,具体设置查看<a href="#%E4%BB%A3%E7%90%86">代理设置</a></p>
+<p>该功能非大陆IP机器可能无法使用,可能需要代理回国,具体设置查看<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
 </div>
 <p>命令: <code>/一言</code> <code>/ian</code></p>
 <p>功能: 随机返回<strong>一句鸡汤或者毒鸡汤</strong></p>
@@ -57,7 +57,7 @@
 <h4 id="韩小韩接口版本" tabindex="-1"><a class="header-anchor" href="#韩小韩接口版本" aria-hidden="true">#</a> 韩小韩接口版本</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>无需注册,分类较多,但非大陆IP无法访问。该版本适合大陆IP机器使用<br>
-非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<a href="#%E4%BB%A3%E7%90%86">代理设置</a></p>
+非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
 </div>
 <p>命令: <code>/热搜 {类别}</code></p>
 <p>功能: 获取各平台热搜</p>

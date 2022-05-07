@@ -126,6 +126,19 @@ export const data = {
         },
         {
           "level": 3,
+          "title": "代理设置",
+          "slug": "代理设置",
+          "children": [
+            {
+              "level": 4,
+              "title": "proxy",
+              "slug": "proxy",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
           "title": "数据库设置",
           "slug": "数据库设置",
           "children": [
@@ -206,6 +219,32 @@ export const data = {
                   "level": 5,
                   "title": "tankey",
                   "slug": "tankey",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "title": "热搜API版本",
+              "slug": "热搜api版本",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "nethot_version",
+                  "slug": "nethot-version",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "title": "天行数据",
+              "slug": "天行数据",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "tianxtoken",
+                  "slug": "tianxtoken",
                   "children": []
                 }
               ]
@@ -295,12 +334,12 @@ export const data = {
   "filePathRelative": "guide/configure.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1651484398000,
+    "updatedTime": 1651551097000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

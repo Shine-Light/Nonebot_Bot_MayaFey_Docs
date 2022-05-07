@@ -67,6 +67,9 @@
 <p>说明: 机器人QQ号</p>
 <h4 id="timezone" tabindex="-1"><a class="header-anchor" href="#timezone" aria-hidden="true">#</a> timezone</h4>
 <p>说明: 时区,默认为上海</p>
+<h3 id="代理设置" tabindex="-1"><a class="header-anchor" href="#代理设置" aria-hidden="true">#</a> 代理设置</h3>
+<h4 id="proxy" tabindex="-1"><a class="header-anchor" href="#proxy" aria-hidden="true">#</a> proxy</h4>
+<p>说明: 代理地址,若代理需认证,在前面要加上 <code>用户名:密码@</code></p>
 <h3 id="数据库设置" tabindex="-1"><a class="header-anchor" href="#数据库设置" aria-hidden="true">#</a> 数据库设置</h3>
 <h4 id="mysql-host" tabindex="-1"><a class="header-anchor" href="#mysql-host" aria-hidden="true">#</a> mysql_host</h4>
 <p>说明: 数据库服务器主机地址,默认即可</p>
@@ -97,6 +100,12 @@
 <p>说明: 访问密钥id,同<a href="#tencentcloudcommonsecretid">上</a></p>
 <h5 id="tankey" tabindex="-1"><a class="header-anchor" href="#tankey" aria-hidden="true">#</a> tankey</h5>
 <p>说明: 访问密钥,同<a href="#tencentcloudcommonsecretkey">上</a></p>
+<h4 id="热搜api版本" tabindex="-1"><a class="header-anchor" href="#热搜api版本" aria-hidden="true">#</a> 热搜API版本</h4>
+<h5 id="nethot-version" tabindex="-1"><a class="header-anchor" href="#nethot-version" aria-hidden="true">#</a> nethot_version</h5>
+<p>说明: 热搜接口版本选择,<code>han</code>(韩小韩) 或 <code>tian</code>(天行数据)</p>
+<h4 id="天行数据" tabindex="-1"><a class="header-anchor" href="#天行数据" aria-hidden="true">#</a> 天行数据</h4>
+<h5 id="tianxtoken" tabindex="-1"><a class="header-anchor" href="#tianxtoken" aria-hidden="true">#</a> tianxtoken</h5>
+<p>说明: 天行数据接口密钥,在<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取</p>
 <h4 id="和风天气" tabindex="-1"><a class="header-anchor" href="#和风天气" aria-hidden="true">#</a> 和风天气</h4>
 <h5 id="qweather-apikey" tabindex="-1"><a class="header-anchor" href="#qweather-apikey" aria-hidden="true">#</a> QWEATHER_APIKEY</h5>
 <p>说明: APIKEY,在<a href="https://console.qweather.com/#/apps" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>中获取</p>
