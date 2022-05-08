@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-fffb8e28",
-  "path": "/guide/",
-  "title": "注意",
+  "key": "v-1b4deaa9",
+  "path": "/introduce/",
+  "title": "适配",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "guide/README.md",
+  "filePathRelative": "introduce/README.md",
   "git": {
-    "createdTime": 1651147298000,
-    "updatedTime": 1651551097000,
-    "contributors": [
-      {
-        "name": "Shine-Light",
-        "email": "3120815902@qq.com",
-        "commits": 4
-      }
-    ]
+    "createdTime": null,
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

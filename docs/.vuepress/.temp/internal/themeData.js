@@ -21,6 +21,10 @@ export const themeData = {
       "link": "/"
     },
     {
+      "text": "介绍",
+      "link": "/introduce"
+    },
+    {
       "text": "功能",
       "link": "/feature/"
     },

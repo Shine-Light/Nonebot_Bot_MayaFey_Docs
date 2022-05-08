@@ -6,7 +6,10 @@ tagline: 专注群聊的QQ机器人
 actions:
   - text: 快速上手
     link: /guide/
-    type: primary
+    type: secondary
+  - text: 项目介绍
+    link: /introduce/
+    type: secondary
 features:
 - title: 0基础
   details: 哪怕你是一个完全0基础的小白,也可以使用

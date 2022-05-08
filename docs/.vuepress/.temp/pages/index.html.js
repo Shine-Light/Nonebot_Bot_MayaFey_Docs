@@ -12,7 +12,12 @@ export const data = {
       {
         "text": "快速上手",
         "link": "/guide/",
-        "type": "primary"
+        "type": "secondary"
+      },
+      {
+        "text": "项目介绍",
+        "link": "/introduce/",
+        "type": "secondary"
       }
     ],
     "features": [
