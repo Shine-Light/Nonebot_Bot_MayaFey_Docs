@@ -2,6 +2,7 @@ import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
   ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
+  ["v-51f86e14","/docker/",{"title":"Docker安装"},["/docker/index.html","/docker/README.md"]],
   ["v-0ae167c7","/easy/configure.html",{"title":"配置"},["/easy/configure","/easy/configure.md"]],
   ["v-caeef5ac","/easy/pre.html",{"title":"前置准备"},["/easy/pre","/easy/pre.md"]],
   ["v-14801d14","/easy/",{"title":"前言"},["/easy/index.html","/easy/README.md"]],

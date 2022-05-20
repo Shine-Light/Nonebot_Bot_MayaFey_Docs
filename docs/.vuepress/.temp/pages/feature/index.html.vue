@@ -12,6 +12,9 @@
 <p>功能: 获取总菜单,显示所有菜单的命令</p>
 <p>权限: <strong>成员</strong>及以上</p>
 <h2 id="娱乐功能" tabindex="-1"><a class="header-anchor" href="#娱乐功能" aria-hidden="true">#</a> 娱乐功能</h2>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>游戏功能请<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">点击这里</a></p>
+</div>
 <h3 id="签到" tabindex="-1"><a class="header-anchor" href="#签到" aria-hidden="true">#</a> 签到</h3>
 <p>命令: <code>/签到</code> <code>/打卡</code> <code>/sign</code></p>
 <p>功能: 每日一签,随机返回一张<strong>二次元图片</strong>,并增加<strong>积分</strong>。积分增加数随累计签到天数累加</p>
@@ -663,8 +666,12 @@
 </thead>
 <tbody>
 <tr>
-<td>添加</td>
-<td><code>问{问题}答{回答}</code></td>
+<td>添加(精准)</td>
+<td><code>精准问{问题}答{回答}</code></td>
+</tr>
+<tr>
+<td>添加(模糊)</td>
+<td><code>模糊问{问题}答{回答}</code></td>
 </tr>
 <tr>
 <td>删除</td>

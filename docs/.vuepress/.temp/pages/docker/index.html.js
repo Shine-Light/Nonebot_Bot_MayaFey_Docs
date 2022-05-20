@@ -1,22 +1,16 @@
 export const data = {
-  "key": "v-fffb8e28",
-  "path": "/guide/",
-  "title": "注意",
+  "key": "v-51f86e14",
+  "path": "/docker/",
+  "title": "Docker安装",
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "guide/README.md",
+  "filePathRelative": "docker/README.md",
   "git": {
-    "createdTime": 1651147298000,
-    "updatedTime": 1651998490000,
-    "contributors": [
-      {
-        "name": "Shine-Light",
-        "email": "3120815902@qq.com",
-        "commits": 5
-      }
-    ]
+    "createdTime": null,
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

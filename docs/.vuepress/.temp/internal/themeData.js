@@ -37,6 +37,10 @@ export const themeData = {
       "link": "/easy/"
     },
     {
+      "text": "Docker",
+      "link": "/docker/"
+    },
+    {
       "text": "我的主页",
       "link": "https://shinelight.xyz"
     }
@@ -64,6 +68,19 @@ export const themeData = {
           "/easy/setup",
           "/easy/configure",
           "/easy/run"
+        ]
+      }
+    ],
+    "/docker/": [
+      {
+        "text": "Docker",
+        "collapsible": true,
+        "children": [
+          "/docker/",
+          "/docker/pre",
+          "/docker/setup",
+          "/docker/configure",
+          "/docker/run"
         ]
       }
     ]
