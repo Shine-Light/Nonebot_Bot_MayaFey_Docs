@@ -171,7 +171,20 @@ export const data = {
           "level": 3,
           "title": "违禁词",
           "slug": "违禁词",
-          "children": []
+          "children": [
+            {
+              "level": 4,
+              "title": "内置违禁词系统命令",
+              "slug": "内置违禁词系统命令",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "自定义违禁词系统命令",
+              "slug": "自定义违禁词系统命令",
+              "children": []
+            }
+          ]
         },
         {
           "level": 3,
@@ -285,6 +298,25 @@ export const data = {
           "title": "获取各游戏帮助",
           "slug": "获取各游戏帮助",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "游戏列表",
+          "slug": "游戏列表",
+          "children": [
+            {
+              "level": 4,
+              "title": "俄罗斯轮盘",
+              "slug": "俄罗斯轮盘",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "21点",
+              "slug": "_21点",
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -323,12 +355,12 @@ export const data = {
   "filePathRelative": "feature/README.md",
   "git": {
     "createdTime": 1651147298000,
-    "updatedTime": 1652101867000,
+    "updatedTime": 1653054424000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 6
+        "commits": 7
       }
     ]
   }

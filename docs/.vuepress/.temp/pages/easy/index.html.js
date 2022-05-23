@@ -60,12 +60,12 @@ export const data = {
   "filePathRelative": "easy/README.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1651484398000,
+    "updatedTime": 1653054424000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

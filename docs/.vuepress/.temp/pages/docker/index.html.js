@@ -8,9 +8,15 @@ export const data = {
   "headers": [],
   "filePathRelative": "docker/README.md",
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1653054424000,
+    "updatedTime": 1653054424000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

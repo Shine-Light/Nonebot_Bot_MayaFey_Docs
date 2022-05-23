@@ -308,18 +308,9 @@
 <td>订阅喜加一资讯,定时推送</td>
 <td>超级用户及以上</td>
 </tr>
-<tr>
-<td>epic_scheduler</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">github.com/monsterxcn/nonebot_plugin_epicfree<ExternalLinkIcon/></a></td>
-<td></td>
-<td></td>
-</tr>
 </tbody>
 </table>
+<p>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">github.com/monsterxcn/nonebot_plugin_epicfree<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h3>
 <p>命令: <code>/检查更新</code> <code>/更新</code> <code>/更新日志</code></p>
@@ -456,7 +447,7 @@
 </tbody>
 </table>
 <p>权限: 超级用户及以上</p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="违禁词" tabindex="-1"><a class="header-anchor" href="#违禁词" aria-hidden="true">#</a> 违禁词</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>违禁词有两套系统,一套自定义系统,一套内置系统<br />
@@ -465,7 +456,7 @@
 内置系统违禁词为侮辱性词汇及其他敏感词汇,处罚永久为禁言5min<br />
 自定义系统处罚为:第一次禁言10min,第二次禁言1day,第三次踢出并拉黑</p>
 </div>
-<p><strong>内置违禁词系统命令:</strong></p>
+<h4 id="内置违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#内置违禁词系统命令" aria-hidden="true">#</a> 内置违禁词系统命令</h4>
 <table>
 <thead>
 <tr>
@@ -488,9 +479,9 @@
 </tr>
 </tbody>
 </table>
-<p>权限: 超级用户及以上
-<br /><br /><br /></p>
-<p><strong>自定义违禁词系统命令:</strong></p>
+<p>权限: 超级用户及以上<br>
+插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<h4 id="自定义违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#自定义违禁词系统命令" aria-hidden="true">#</a> 自定义违禁词系统命令</h4>
 <table>
 <thead>
 <tr>
@@ -521,10 +512,25 @@
 </tr>
 </tbody>
 </table>
-<p>参数:
-|参数名|可选值|必须|备注|
-|-|-|-|-|-|
-|内容|自行输入|是|关键词检测为模糊检测,即关键词在消息中就会触发|</p>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td>自行输入</td>
+<td>是</td>
+<td>关键词检测为模糊检测,即关键词在消息中就会触发</td>
+</tr>
+</tbody>
+</table>
 <p>示例: <code>/违禁词 + 歌姬吧</code></p>
 <p>权限: 超级用户及以上</p>
 <h3 id="插件控制" tabindex="-1"><a class="header-anchor" href="#插件控制" aria-hidden="true">#</a> 插件控制</h3>
@@ -542,11 +548,11 @@
 <tbody>
 <tr>
 <td>查看插件状态</td>
-<td><code>/开关状态</code></td>
+<td><code>/插件控制 状态</code></td>
 </tr>
 <tr>
 <td>开关插件</td>
-<td><code>/开关{插件}</code></td>
+<td><code>/插件控制 {插件}</code></td>
 </tr>
 </tbody>
 </table>
@@ -569,7 +575,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/开关一言</code></p>
+<p>示例: <code>/插件控制 一言</code></p>
 <p>权限: 超级用户及以上</p>
 <h3 id="入-回群欢迎词" tabindex="-1"><a class="header-anchor" href="#入-回群欢迎词" aria-hidden="true">#</a> 入/回群欢迎词</h3>
 <p>命令:</p>
@@ -591,10 +597,23 @@
 </tr>
 </tbody>
 </table>
-<p>参数:
-|参数名|可选值|必须|
-|-|-|-|-|
-|内容|自行输入|是|</p>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
 <p>示例: <code>/入群欢迎 欢迎新朋友,记得修改群昵称</code></p>
 <p>权限: 超级用户及以上</p>
 <h3 id="插件调用统计" tabindex="-1"><a class="header-anchor" href="#插件调用统计" aria-hidden="true">#</a> 插件调用统计</h3>
@@ -616,7 +635,7 @@
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>权限说明: Van &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
+<p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
 <p>权限说明(en): Van &gt; owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
@@ -645,7 +664,7 @@
 <td>权限</td>
 <td>baned/黑名单/member/成员/<br />superuser/超级用户</td>
 <td>是</td>
-<td>群主和管理员权限不可设置<br />若要设置管理员请使用QQ自带添加管理员</td>
+<td>群主,根用户和管理员权限不可设置<br />设置管理员请使用QQ自带添加管理员<br />设置根用户请在配置文件中修改</td>
 </tr>
 </tbody>
 </table>
@@ -694,13 +713,13 @@
 <td>问题</td>
 <td>自行输入</td>
 <td>是</td>
-<td>关键词检测为模糊检测,即问题在消息里就会触发<br />不建议使用高频词作为问题</td>
+<td></td>
 </tr>
 <tr>
 <td>回答</td>
 <td>自行输入</td>
 <td>是</td>
-<td>回答中只能有图片和文字,其他内容可能不识别</td>
+<td>回答中只能有图片、文字和QQ表情,其他内容不识别</td>
 </tr>
 </tbody>
 </table>
@@ -733,7 +752,99 @@
 </table>
 <p>示例: <code>/俄罗斯轮盘 帮助</code></p>
 <p>权限: 成员及以上</p>
+<h3 id="游戏列表" tabindex="-1"><a class="header-anchor" href="#游戏列表" aria-hidden="true">#</a> 游戏列表</h3>
+<h4 id="俄罗斯轮盘" tabindex="-1"><a class="header-anchor" href="#俄罗斯轮盘" aria-hidden="true">#</a> 俄罗斯轮盘</h4>
+<p>开启游戏：/装弹 {装填子弹数} {@XXX}<br>
+接受对决：/接受对决 /拒绝决斗<br>
+开始对决：/开枪 {打出子弹数}<br>
+结算：/结算（当某一方30秒未开枪，可使用该命令强行结束对决并胜利）<br>
+我的战绩：/我的战绩<br>
+排行榜：/俄罗斯轮盘排名 {类型}<br>
+(注：同一时间群内只能有一场对决)</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>装填子弹数</td>
+<td>1~7</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>积分</td>
+<td>自行输入</td>
+<td>否</td>
+<td>不填默认10积分</td>
+</tr>
+<tr>
+<td>@XXX</td>
+<td>自行输入</td>
+<td>否</td>
+<td>指定决斗对象，为空则所有群友都可接受决斗</td>
+</tr>
+<tr>
+<td>打出子弹数</td>
+<td>1~装填子弹数-1</td>
+<td>否</td>
+<td>默认为1</td>
+</tr>
+<tr>
+<td>打出子弹数</td>
+<td>积分排行榜/胜场排行/败场排行/欧洲人排行/慈善家排行</td>
+<td>是</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>示例：/装弹 1 10</p>
 <p>插件来源: <a href="https://github.com/HibiKier/nonebot_plugin_russian" target="_blank" rel="noopener noreferrer">github.com/HibiKier/nonebot_plugin_russian<ExternalLinkIcon/></a>修改而来</p>
+<h4 id="_21点" tabindex="-1"><a class="header-anchor" href="#_21点" aria-hidden="true">#</a> 21点</h4>
+<p>发起游戏: /21点 {积分}<br>
+查看游戏列表: /21点列表<br>
+加入游戏: /21点加入 {游戏ID}<br>
+叫牌: /叫牌 {游戏ID}<br>
+停牌: /停牌 {游戏ID}<br>
+对战(自动进行): /21点对战 {积分} {@XXX}<br>
+接收对战: /21点接受对战 {游戏ID}<br>
+查看对战列表: /21点对战列表<br>
+可以有多场游戏,也可以同时进行多场游戏</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>积分</td>
+<td>自行输入</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>游戏ID</td>
+<td>自行输入</td>
+<td>是</td>
+<td>游戏ID,通过 查看游戏列表 获取</td>
+</tr>
+<tr>
+<td>@XXX</td>
+<td>自行输入</td>
+<td>是</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2 id="被动功能" tabindex="-1"><a class="header-anchor" href="#被动功能" aria-hidden="true">#</a> 被动功能</h2>
 <h3 id="恶意触发命令检测" tabindex="-1"><a class="header-anchor" href="#恶意触发命令检测" aria-hidden="true">#</a> 恶意触发命令检测</h3>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
