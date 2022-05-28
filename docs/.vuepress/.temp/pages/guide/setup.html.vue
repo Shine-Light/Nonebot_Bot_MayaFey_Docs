@@ -5,7 +5,8 @@
 python &gt;= 3.9<br>
 poetry &gt;= 1.1.13<br>
 mysql &gt;= 5.6<br>
-以前安装过环境的可以跳过</p>
+以前安装过环境的可以跳过<br>
+测试环境: Windows10 Mysql8.0 python3.9 poetry1.1.13</p>
 </div>
 <h3 id="安装微软运行库" tabindex="-1"><a class="header-anchor" href="#安装微软运行库" aria-hidden="true">#</a> 安装微软运行库</h3>
 <ol>

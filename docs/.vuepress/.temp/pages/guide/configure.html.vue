@@ -62,7 +62,7 @@
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>    COMMAND_START=["/", "!"]  
     命令触发: /菜单 !菜单
 </code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="command-sep" tabindex="-1"><a class="header-anchor" href="#command-sep" aria-hidden="true">#</a> COMMAND_SEP</h4>
-<p>说明: 命令分隔符,原来分开命令和参数,不建议修改</p>
+<p>说明: 命令分隔符,用来分开命令和参数,不建议修改</p>
 <h4 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h4>
 <p>说明: 机器人QQ号</p>
 <h4 id="timezone" tabindex="-1"><a class="header-anchor" href="#timezone" aria-hidden="true">#</a> timezone</h4>

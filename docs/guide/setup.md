@@ -6,6 +6,7 @@ python >= 3.9
 poetry >= 1.1.13  
 mysql >= 5.6  
 以前安装过环境的可以跳过  
+测试环境: Windows10 Mysql8.0 python3.9 poetry1.1.13
 :::
 ### 安装微软运行库
 1. 在[官网](https://visualstudio.microsoft.com/zh-hans/downloads/)下载软件并打开(社区版本即可)  

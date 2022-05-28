@@ -1,4 +1,6 @@
-<template><h1 id="适配" tabindex="-1"><a class="header-anchor" href="#适配" aria-hidden="true">#</a> 适配</h1>
+<template><h1 id="本项目" tabindex="-1"><a class="header-anchor" href="#本项目" aria-hidden="true">#</a> 本项目</h1>
+<p>基于<a href="https://https://v2.nonebot.dev/" target="_blank" rel="noopener noreferrer">Nonebot2<ExternalLinkIcon/></a>和<a href="https://github.com/Mrs4s/go-cqhttp" target="_blank" rel="noopener noreferrer">go-cqhttp<ExternalLinkIcon/></a>制作的群聊机器人</p>
+<h1 id="适配" tabindex="-1"><a class="header-anchor" href="#适配" aria-hidden="true">#</a> 适配</h1>
 <p>目前只适配了 go-cqhttp,有兴趣的可以自己尝试其他 Onebot,但请自行承担可能存在的兼容性问题<br>
 机器人所有的功能都只适配了群聊,不保证私聊情况下能正常使用</p>
 <h1 id="名称来源" tabindex="-1"><a class="header-anchor" href="#名称来源" aria-hidden="true">#</a> 名称来源</h1>
@@ -9,6 +11,6 @@
 <li>该项目旨在学习和参考,请勿用于非法用途和盈利</li>
 <li>该项目纯兴趣开发,开发者现在高中在读,学业限制,开发进度较缓慢</li>
 <li>本人技术一般,代码写的不咋地,还请各位大佬手下留情</li>
-<li>若遇到问题请及时提Issues,有时间了我就会修复</li>
+<li>若遇到问题请及时提Issue,有时间了我就会修复</li>
 </ol>
 </template>
