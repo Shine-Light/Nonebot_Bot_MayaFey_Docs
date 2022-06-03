@@ -7,7 +7,7 @@
 <li>该文档为传统安装模式,现建议使用通过<RouterLink to="/docker/">Docker安装</RouterLink></li>
 </ol>
 <h3 id="其他声明" tabindex="-1"><a class="header-anchor" href="#其他声明" aria-hidden="true">#</a> 其他声明</h3>
-<p><RouterLink to="/guide/#%E5%A3%B0%E6%98%8E">其他声明</RouterLink></p>
+<p><RouterLink to="/introduce/#%E5%A3%B0%E6%98%8E">其他声明</RouterLink></p>
 <h2 id="这份文档是写给谁的" tabindex="-1"><a class="header-anchor" href="#这份文档是写给谁的" aria-hidden="true">#</a> 这份文档是写给谁的</h2>
 <ol>
 <li>零基础</li>

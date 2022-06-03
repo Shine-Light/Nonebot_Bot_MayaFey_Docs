@@ -53,12 +53,12 @@ export const data = {
   "filePathRelative": "guide/setup.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1651551097000,
+    "updatedTime": 1653731215000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   }

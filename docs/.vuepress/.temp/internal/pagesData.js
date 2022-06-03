@@ -27,6 +27,8 @@ export const pagesData = {
   "v-1b4deaa9": () => import(/* webpackChunkName: "v-1b4deaa9" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/introduce/index.html.js").then(({ data }) => data),
   // path: /problem/
   "v-ca97092e": () => import(/* webpackChunkName: "v-ca97092e" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/problem/index.html.js").then(({ data }) => data),
+  // path: /updatelog/
+  "v-83047d26": () => import(/* webpackChunkName: "v-83047d26" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/updatelog/index.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
 }

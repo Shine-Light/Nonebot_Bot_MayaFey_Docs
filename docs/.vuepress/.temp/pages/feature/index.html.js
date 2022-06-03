@@ -91,6 +91,12 @@ export const data = {
           "title": "答案之书",
           "slug": "答案之书",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "到账语音生成",
+          "slug": "到账语音生成",
+          "children": []
         }
       ]
     },
@@ -138,71 +144,91 @@ export const data = {
       "children": [
         {
           "level": 3,
-          "title": "机器人更新",
-          "slug": "机器人更新",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "疫情关注",
-          "slug": "疫情关注",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "群管(禁、解、踢、黑)",
-          "slug": "群管-禁、解、踢、黑",
+          "title": "群聊管理",
+          "slug": "群聊管理",
           "children": [
             {
               "level": 4,
-              "title": "测试功能",
-              "slug": "测试功能",
-              "children": []
-            }
-          ]
-        },
-        {
-          "level": 3,
-          "title": "群词云设置",
-          "slug": "群词云设置",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "违禁词",
-          "slug": "违禁词",
-          "children": [
-            {
-              "level": 4,
-              "title": "内置违禁词系统命令",
-              "slug": "内置违禁词系统命令",
+              "title": "机器人更新",
+              "slug": "机器人更新",
               "children": []
             },
             {
               "level": 4,
-              "title": "自定义违禁词系统命令",
-              "slug": "自定义违禁词系统命令",
+              "title": "疫情关注",
+              "slug": "疫情关注",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "群管(禁、解、踢、黑)",
+              "slug": "群管-禁、解、踢、黑",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "测试功能",
+                  "slug": "测试功能",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "title": "群词云设置",
+              "slug": "群词云设置",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "违禁词",
+              "slug": "违禁词",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "内置违禁词系统命令",
+                  "slug": "内置违禁词系统命令",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "自定义违禁词系统命令",
+                  "slug": "自定义违禁词系统命令",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "title": "插件控制",
+              "slug": "插件控制",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "入/回群欢迎词",
+              "slug": "入-回群欢迎词",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "插件调用统计",
+              "slug": "插件调用统计",
               "children": []
             }
           ]
         },
         {
           "level": 3,
-          "title": "插件控制",
-          "slug": "插件控制",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "入/回群欢迎词",
-          "slug": "入-回群欢迎词",
-          "children": []
-        },
-        {
-          "level": 3,
-          "title": "插件调用统计",
-          "slug": "插件调用统计",
-          "children": []
+          "title": "私聊管理",
+          "slug": "私聊管理",
+          "children": [
+            {
+              "level": 4,
+              "title": "执行SQL",
+              "slug": "执行sql",
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -347,6 +373,18 @@ export const data = {
           "level": 3,
           "title": "拉群自接受",
           "slug": "拉群自接受",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "好友自接受",
+          "slug": "好友自接受",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "复读机",
+          "slug": "复读机",
           "children": []
         }
       ]

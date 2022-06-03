@@ -32,6 +32,7 @@ module.exports = {
         navbar: [
             { text: '首页', link: '/' },
             { text: '介绍', link: '/introduce' },
+            { text: '更新日志', link: '/updatelog' },
             { text: '功能', link: '/feature/' },
             { text: '指南', link: '/guide/' },
             { text: '零基础', link: '/easy/' },

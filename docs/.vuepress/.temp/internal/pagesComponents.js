@@ -29,6 +29,8 @@ export const pagesComponents = {
   "v-1b4deaa9": defineAsyncComponent(() => import(/* webpackChunkName: "v-1b4deaa9" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/introduce/index.html.vue")),
   // path: /problem/
   "v-ca97092e": defineAsyncComponent(() => import(/* webpackChunkName: "v-ca97092e" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/problem/index.html.vue")),
+  // path: /updatelog/
+  "v-83047d26": defineAsyncComponent(() => import(/* webpackChunkName: "v-83047d26" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/updatelog/index.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/404.html.vue")),
 }
