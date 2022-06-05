@@ -129,9 +129,15 @@ export const data = {
   ],
   "filePathRelative": "updatelog/README.md",
   "git": {
-    "createdTime": null,
-    "updatedTime": null,
-    "contributors": []
+    "createdTime": 1654260259000,
+    "updatedTime": 1654260259000,
+    "contributors": [
+      {
+        "name": "Shine-Light",
+        "email": "3120815902@qq.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

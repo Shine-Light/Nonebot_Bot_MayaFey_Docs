@@ -1,5 +1,5 @@
-<template><div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>在默认情况下,大部分命令前需加 <code>/</code> 号,若需取消 <code>/</code> 或者替换为其他,请查看<RouterLink to="/guide/configure.html#command-start">机器人配置</RouterLink></p>
+<template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>在默认情况下,大部分命令前需加 <code v-pre>/</code> 号,若需取消 <code v-pre>/</code> 或者替换为其他,请查看<RouterLink to="/guide/configure.html#command-start">机器人配置</RouterLink></p>
 <p>命令随时变换,命令按群内帮助菜单为准</p>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
 <p>机器人权限(不是群内权限): Van(根用户) &gt; 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>
@@ -8,7 +8,7 @@
 </div>
 <h1 id="功能" tabindex="-1"><a class="header-anchor" href="#功能" aria-hidden="true">#</a> 功能</h1>
 <h2 id="菜单功能" tabindex="-1"><a class="header-anchor" href="#菜单功能" aria-hidden="true">#</a> 菜单功能</h2>
-<p>命令: <code>/菜单</code> <code>/帮助</code> <code>/help</code></p>
+<p>命令: <code v-pre>/菜单</code> <code v-pre>/帮助</code> <code v-pre>/help</code></p>
 <p>功能: 获取总菜单,显示所有菜单的命令</p>
 <p>权限: <strong>成员</strong>及以上</p>
 <h2 id="娱乐功能" tabindex="-1"><a class="header-anchor" href="#娱乐功能" aria-hidden="true">#</a> 娱乐功能</h2>
@@ -16,7 +16,7 @@
 <p>游戏功能请<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">点击这里</a></p>
 </div>
 <h3 id="签到" tabindex="-1"><a class="header-anchor" href="#签到" aria-hidden="true">#</a> 签到</h3>
-<p>命令: <code>/签到</code> <code>/打卡</code> <code>/sign</code></p>
+<p>命令: <code v-pre>/签到</code> <code v-pre>/打卡</code> <code v-pre>/sign</code></p>
 <p>功能: 每日一签,随机返回一张<strong>二次元图片</strong>,并增加<strong>积分</strong>。积分增加数随累计签到天数累加</p>
 <p>权限: 群员及以上</p>
 <p>图片接口来源: <a href="https://api.ixiaowai.cn/" target="_blank" rel="noopener noreferrer">api.ixiaowai.cn<ExternalLinkIcon/></a></p>
@@ -24,12 +24,12 @@
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
 <p>该功能非大陆IP机器可能无法使用,可能需要代理回国,具体设置查看<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
 </div>
-<p>命令: <code>/一言</code> <code>/ian</code></p>
+<p>命令: <code v-pre>/一言</code> <code v-pre>/ian</code></p>
 <p>功能: 随机返回<strong>一句鸡汤或者毒鸡汤</strong></p>
 <p>权限: 群员及以上</p>
 <p>接口来源: <a href="https://docs.tenapi.cn/yiyan.html" target="_blank" rel="noopener noreferrer">docs.tenapi.cn/yiyan.html<ExternalLinkIcon/></a></p>
 <h3 id="随机图片" tabindex="-1"><a class="header-anchor" href="#随机图片" aria-hidden="true">#</a> 随机图片</h3>
-<p>命令: <code>/图片 {模式}</code></p>
+<p>命令: <code v-pre>/图片 {模式}</code></p>
 <p>功能: 随机返回一张图片</p>
 <p>参数:</p>
 <table>
@@ -50,7 +50,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/图片 头像</code></p>
+<p>示例: <code v-pre>/图片 头像</code></p>
 <p>权限: 群员及以上</p>
 <p>接口来源: <a href="https://www.eee.dog/tech/rand-pic-api.html" target="_blank" rel="noopener noreferrer">www.eee.dog/tech/rand-pic-api.html<ExternalLinkIcon/></a></p>
 <h3 id="热搜" tabindex="-1"><a class="header-anchor" href="#热搜" aria-hidden="true">#</a> 热搜</h3>
@@ -62,7 +62,7 @@
 <p>无需注册,分类较多,但非大陆IP无法访问。该版本适合大陆IP机器使用<br>
 非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
 </div>
-<p>命令: <code>/热搜 {类别}</code></p>
+<p>命令: <code v-pre>/热搜 {类别}</code></p>
 <p>功能: 获取各平台热搜</p>
 <p>参数:</p>
 <table>
@@ -81,14 +81,14 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/热搜 IT</code></p>
+<p>示例: <code v-pre>/热搜 IT</code></p>
 <p>权限: 群员及以上</p>
 <p>接口来源: <a href="https://api.vvhan.com/hotlist.html" target="_blank" rel="noopener noreferrer">api.vvhan.com/hotlist.html<ExternalLinkIcon/></a></p>
 <h4 id="天行数据版本" tabindex="-1"><a class="header-anchor" href="#天行数据版本" aria-hidden="true">#</a> 天行数据版本</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该版本需注册天行数据账号,免费版每天限制100次请求,但全球可用</p>
 </div>
-<p>命令: <code>/热搜</code></p>
+<p>命令: <code v-pre>/热搜</code></p>
 <p>功能: 获取全网热搜</p>
 <p>权限: 群员及以上</p>
 <p>接口来源: <a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">www.tianapi.com/apiview/223<ExternalLinkIcon/></a></p>
@@ -96,12 +96,12 @@
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
 <p>该功能非大陆IP机器无法使用</p>
 </div>
-<p>命令: <code>/笑话</code> <code>/xh</code></p>
+<p>命令: <code v-pre>/笑话</code> <code v-pre>/xh</code></p>
 <p>功能: 随机返回一个笑话</p>
 <p>权限: 群员及以上</p>
 <p>接口来源: <a href="https://api.vvhan.com/xiaohua.html" target="_blank" rel="noopener noreferrer">api.vvhan.com/xiaohua.html<ExternalLinkIcon/></a></p>
 <h3 id="点歌台" tabindex="-1"><a class="header-anchor" href="#点歌台" aria-hidden="true">#</a> 点歌台</h3>
-<p>命令: <code>/{平台}点歌 {歌名}</code></p>
+<p>命令: <code v-pre>/{平台}点歌 {歌名}</code></p>
 <p>功能: 发送指定歌曲在指定平台的链接</p>
 <p>参数:</p>
 <table>
@@ -128,7 +128,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/qq点歌 孤勇者</code></p>
+<p>示例: <code v-pre>/qq点歌 孤勇者</code></p>
 <p>权限: 群员及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-simplemusic" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-simplemusic<ExternalLinkIcon/></a></p>
 <h3 id="群词云" tabindex="-1"><a class="header-anchor" href="#群词云" aria-hidden="true">#</a> 群词云</h3>
@@ -136,14 +136,14 @@
 <p>该功能只有在群<a href="#%E7%BE%A4%E8%AF%8D%E4%BA%91%E8%AE%BE%E7%BD%AE">开启群词云记录</a>后才能使用
 在开启情况下,每天19:00会自动推送</p>
 </div>
-<p>命令: <code>/群词云</code></p>
+<p>命令: <code v-pre>/群词云</code></p>
 <p>功能: 获取当日群消息词云</p>
 <p>权限: 成员及以上</p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="logo制作" tabindex="-1"><a class="header-anchor" href="#logo制作" aria-hidden="true">#</a> logo制作</h3>
-<p>帮助命令: <code>/logo 帮助</code></p>
+<p>帮助命令: <code v-pre>/logo 帮助</code></p>
 <p>功能: 制作P站,油管等LOGO</p>
-<p>命令: <code>/{类別} {文本1} {文本2} ...</code></p>
+<p>命令: <code v-pre>/{类別} {文本1} {文本2} ...</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -169,13 +169,13 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/ph Bili Bili</code></p>
+<p>示例: <code v-pre>/ph Bili Bili</code></p>
 <p>权限: 群员及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-logo<ExternalLinkIcon/></a></p>
 <h3 id="表情包制作" tabindex="-1"><a class="header-anchor" href="#表情包制作" aria-hidden="true">#</a> 表情包制作</h3>
-<p>帮助命令: <code>/表情包制作</code></p>
+<p>帮助命令: <code v-pre>/表情包制作</code></p>
 <p>功能: 制作鲁迅说,王境泽等表情包</p>
-<p>命令: <code>/{类别} {文本1} {文本2} ...</code></p>
+<p>命令: <code v-pre>/{类别} {文本1} {文本2} ...</code></p>
 <table>
 <thead>
 <tr>
@@ -201,12 +201,12 @@
 </tbody>
 </table>
 <img src="/image/feature/memes_help.jpg" height='500px'>
-<p>示例: <code>/鲁迅说过 我没说过这句话</code></p>
+<p>示例: <code v-pre>/鲁迅说过 我没说过这句话</code></p>
 <p>权限: 群员及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-memes<ExternalLinkIcon/></a></p>
 <h3 id="答案之书" tabindex="-1"><a class="header-anchor" href="#答案之书" aria-hidden="true">#</a> 答案之书</h3>
 <p>功能: 返回一个 &quot;答案&quot;</p>
-<p>命令: <code>翻看答案{问题}</code></p>
+<p>命令: <code v-pre>翻看答案{问题}</code></p>
 <table>
 <thead>
 <tr>
@@ -227,7 +227,7 @@
 <p>插件来源: <a href="https://github.com/A-kirami/nonebot-plugin-answersbook" target="_blank" rel="noopener noreferrer">github.com/A-kirami/nonebot-plugin-answersbook<ExternalLinkIcon/></a></p>
 <h3 id="到账语音生成" tabindex="-1"><a class="header-anchor" href="#到账语音生成" aria-hidden="true">#</a> 到账语音生成</h3>
 <p>功能: 生成一条支付宝到账语音</p>
-<p>命令: <code>/到账 {金额}</code></p>
+<p>命令: <code v-pre>/到账 {金额}</code></p>
 <table>
 <thead>
 <tr>
@@ -251,7 +251,7 @@
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能需配置腾讯云TMT机器翻译接口密钥</p>
 </div>
-<p>命令: <code>/翻译</code></p>
+<p>命令: <code v-pre>/翻译</code></p>
 <p>功能: 翻译指定内容</p>
 <p>权限: 群员及以上</p>
 <p>插件来源: <a href="https://github.com/Lancercmd/nonebot_plugin_translator" target="_blank" rel="noopener noreferrer">github.com/Lancercmd/nonebot_plugin_translator<ExternalLinkIcon/></a></p>
@@ -259,7 +259,7 @@
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能可以设置定时推送指定城市信息,具体前往<a href="#%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD">管理功能</a></p>
 </div>
-<p>命令: <code>{城市}疫情</code> <code>{城市}疫情政策</code></p>
+<p>命令: <code v-pre>{城市}疫情</code> <code v-pre>{城市}疫情政策</code></p>
 <p>功能: 查看指定城市疫情/疫情政策</p>
 <p>参数:</p>
 <table>
@@ -278,14 +278,14 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>上海疫情</code> <code>上海疫情政策</code></p>
+<p>示例: <code v-pre>上海疫情</code> <code v-pre>上海疫情政策</code></p>
 <p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
 <h3 id="天气" tabindex="-1"><a class="header-anchor" href="#天气" aria-hidden="true">#</a> 天气</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能使用了 和风天气API,需配置API密钥</p>
 </div>
 <p>功能:查看指定城市天气</p>
-<p>命令: <code>{城市}天气</code></p>
+<p>命令: <code v-pre>{城市}天气</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -303,10 +303,10 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>北京天气</code></p>
+<p>示例: <code v-pre>北京天气</code></p>
 <p>插件来源: <a href="https://github.com/kexue-z/nonebot-plugin-heweather" target="_blank" rel="noopener noreferrer">github.com/kexue-z/nonebot-plugin-heweather<ExternalLinkIcon/></a></p>
 <h3 id="违禁词查询" tabindex="-1"><a class="header-anchor" href="#违禁词查询" aria-hidden="true">#</a> 违禁词查询</h3>
-<p>命令: <code>/违禁词 列表</code></p>
+<p>命令: <code v-pre>/违禁词 列表</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="epic喜加一资讯" tabindex="-1"><a class="header-anchor" href="#epic喜加一资讯" aria-hidden="true">#</a> Epic喜加一资讯</h3>
 <p>命令:</p>
@@ -320,12 +320,12 @@
 </thead>
 <tbody>
 <tr>
-<td><code>epic喜加一</code></td>
+<td><code v-pre>epic喜加一</code></td>
 <td>查询epic本周免费游戏</td>
 <td>群员及以上</td>
 </tr>
 <tr>
-<td><code>喜加一订阅</code></td>
+<td><code v-pre>喜加一订阅</code></td>
 <td>订阅喜加一资讯,定时推送</td>
 <td>超级用户及以上</td>
 </tr>
@@ -335,10 +335,10 @@
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="群聊管理" tabindex="-1"><a class="header-anchor" href="#群聊管理" aria-hidden="true">#</a> 群聊管理</h3>
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
-<p>命令: <code>/检查更新</code> <code>/更新</code> <code>/更新日志</code></p>
+<p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code></p>
 <p>权限: 超级用户及以上</p>
 <h4 id="疫情关注" tabindex="-1"><a class="header-anchor" href="#疫情关注" aria-hidden="true">#</a> 疫情关注</h4>
-<p>命令: <code>/关注疫情 {城市}</code> <code>/取消关注疫情 {城市}</code> <code>/疫情关注列表</code></p>
+<p>命令: <code v-pre>/关注疫情 {城市}</code> <code v-pre>/取消关注疫情 {城市}</code> <code v-pre>/疫情关注列表</code></p>
 <p>功能: 关注城市疫情并自动在每天18:30推送</p>
 <p>参数:</p>
 <table>
@@ -357,7 +357,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/关注疫情 上海</code></p>
+<p>示例: <code v-pre>/关注疫情 上海</code></p>
 <p>权限: 超级用户及以上</p>
 <p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
 <h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑)</h4>
@@ -375,19 +375,19 @@
 <tbody>
 <tr>
 <td>禁言</td>
-<td><code>/禁{@xx} {@xx} ... {时间}</code></td>
+<td><code v-pre>/禁{@xx} {@xx} ... {时间}</code></td>
 </tr>
 <tr>
 <td>解禁</td>
-<td><code>/解{@xx} {@xx} ...</code></td>
+<td><code v-pre>/解{@xx} {@xx} ...</code></td>
 </tr>
 <tr>
 <td>踢出</td>
-<td><code>/踢{@xx} {@xx} ...</code></td>
+<td><code v-pre>/踢{@xx} {@xx} ...</code></td>
 </tr>
 <tr>
 <td>拉黑</td>
-<td><code>/黑{@xx} {@xx} ...</code></td>
+<td><code v-pre>/黑{@xx} {@xx} ...</code></td>
 </tr>
 </tbody>
 </table>
@@ -416,7 +416,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/禁@群词云 60</code></p>
+<p>示例: <code v-pre>/禁@群词云 60</code></p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="测试功能" tabindex="-1"><a class="header-anchor" href="#测试功能" aria-hidden="true">#</a> 测试功能</h5>
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
@@ -425,8 +425,8 @@
 <p>并且只有根用户(即配置文件写死的超级用户)有权使用</p>
 </div>
 <p>命令:</p>
-<p>添加管理员 <code>/管理员+ {@xx} {@xx} ...</code></p>
-<p>取消管理员 <code>/管理员- {@xx} {@xx} ...</code></p>
+<p>添加管理员 <code v-pre>/管理员+ {@xx} {@xx} ...</code></p>
+<p>取消管理员 <code v-pre>/管理员- {@xx} {@xx} ...</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -446,7 +446,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/管理员+ @群成员</code></p>
+<p>示例: <code v-pre>/管理员+ @群成员</code></p>
 <p>权限: 超级用户及以上</p>
 <h4 id="群词云设置" tabindex="-1"><a class="header-anchor" href="#群词云设置" aria-hidden="true">#</a> 群词云设置</h4>
 <p>命令:</p>
@@ -460,11 +460,11 @@
 <tbody>
 <tr>
 <td>开启</td>
-<td><code>/记录本群</code></td>
+<td><code v-pre>/记录本群</code></td>
 </tr>
 <tr>
 <td>关闭</td>
-<td><code>/停止记录本群</code></td>
+<td><code v-pre>/停止记录本群</code></td>
 </tr>
 </tbody>
 </table>
@@ -489,15 +489,15 @@
 <tbody>
 <tr>
 <td>简单违禁等级</td>
-<td><code>/简单违禁词</code></td>
+<td><code v-pre>/简单违禁词</code></td>
 </tr>
 <tr>
 <td>严格违禁等级</td>
-<td><code>/严格违禁词</code></td>
+<td><code v-pre>/严格违禁词</code></td>
 </tr>
 <tr>
 <td>更新词库</td>
-<td><code>/更新违禁词库</code></td>
+<td><code v-pre>/更新违禁词库</code></td>
 </tr>
 </tbody>
 </table>
@@ -514,23 +514,23 @@
 <tbody>
 <tr>
 <td>添加违禁词</td>
-<td><code>/违禁词 + {内容}</code></td>
+<td><code v-pre>/违禁词 + {内容}</code></td>
 </tr>
 <tr>
 <td>删除违禁词</td>
-<td><code>/违禁词 - {内容}</code></td>
+<td><code v-pre>/违禁词 - {内容}</code></td>
 </tr>
 <tr>
 <td>强制添加违禁词</td>
-<td><code>/违禁词 ++ {内容}</code></td>
+<td><code v-pre>/违禁词 ++ {内容}</code></td>
 </tr>
 <tr>
 <td>清空违禁词</td>
-<td><code>/违禁词 清空</code></td>
+<td><code v-pre>/违禁词 清空</code></td>
 </tr>
 <tr>
 <td><a href="#%E8%BF%9D%E7%A6%81%E8%AF%8D%E6%9F%A5%E8%AF%A2">查看违禁词</a></td>
-<td><code>/违禁词 列表</code></td>
+<td><code v-pre>/违禁词 列表</code></td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +553,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/违禁词 + 歌姬吧</code></p>
+<p>示例: <code v-pre>/违禁词 + 歌姬吧</code></p>
 <p>权限: 超级用户及以上</p>
 <h4 id="插件控制" tabindex="-1"><a class="header-anchor" href="#插件控制" aria-hidden="true">#</a> 插件控制</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -570,11 +570,11 @@
 <tbody>
 <tr>
 <td>查看插件状态</td>
-<td><code>/插件控制 状态</code></td>
+<td><code v-pre>/插件控制 状态</code></td>
 </tr>
 <tr>
 <td>开关插件</td>
-<td><code>/插件控制 {插件}</code></td>
+<td><code v-pre>/插件控制 {插件}</code></td>
 </tr>
 </tbody>
 </table>
@@ -597,7 +597,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/插件控制 一言</code></p>
+<p>示例: <code v-pre>/插件控制 一言</code></p>
 <p>权限: 超级用户及以上</p>
 <h4 id="入-回群欢迎词" tabindex="-1"><a class="header-anchor" href="#入-回群欢迎词" aria-hidden="true">#</a> 入/回群欢迎词</h4>
 <p>命令:</p>
@@ -611,11 +611,11 @@
 <tbody>
 <tr>
 <td>入群欢迎</td>
-<td><code>/入群欢迎 {内容}</code></td>
+<td><code v-pre>/入群欢迎 {内容}</code></td>
 </tr>
 <tr>
 <td>回群欢迎</td>
-<td><code>/回群欢迎 {内容}</code></td>
+<td><code v-pre>/回群欢迎 {内容}</code></td>
 </tr>
 </tbody>
 </table>
@@ -636,10 +636,10 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/入群欢迎 欢迎新朋友,记得修改群昵称</code></p>
+<p>示例: <code v-pre>/入群欢迎 欢迎新朋友,记得修改群昵称</code></p>
 <p>权限: 超级用户及以上</p>
 <h4 id="插件调用统计" tabindex="-1"><a class="header-anchor" href="#插件调用统计" aria-hidden="true">#</a> 插件调用统计</h4>
-<p>命令: <code>/插件统计</code></p>
+<p>命令: <code v-pre>/插件统计</code></p>
 <p>功能: 查看各插件调用次数</p>
 <p>权限: 超级用户及以上</p>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
@@ -647,7 +647,7 @@
 <p>所有私聊管理功能权限需在 管理员 及以上</p>
 </div>
 <h4 id="执行sql" tabindex="-1"><a class="header-anchor" href="#执行sql" aria-hidden="true">#</a> 执行SQL</h4>
-<p>命令: <code>/sql {群号}</code></p>
+<p>命令: <code v-pre>/sql {群号}</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -677,14 +677,14 @@
 <p>权限: 管理员及以上</p>
 <h2 id="积分系统" tabindex="-1"><a class="header-anchor" href="#积分系统" aria-hidden="true">#</a> 积分系统</h2>
 <h3 id="查看积分" tabindex="-1"><a class="header-anchor" href="#查看积分" aria-hidden="true">#</a> 查看积分</h3>
-<p>命令: <code>/我的积分</code> <code>/积分</code></p>
+<p>命令: <code v-pre>/我的积分</code> <code v-pre>/积分</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="积分排行榜-前十" tabindex="-1"><a class="header-anchor" href="#积分排行榜-前十" aria-hidden="true">#</a> 积分排行榜(前十)</h3>
-<p>命令: <code>/积分排行榜</code> <code>/积分排名</code></p>
+<p>命令: <code v-pre>/积分排行榜</code> <code v-pre>/积分排名</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="积分获取分式" tabindex="-1"><a class="header-anchor" href="#积分获取分式" aria-hidden="true">#</a> 积分获取分式</h3>
 <h4 id="方式1-签到" tabindex="-1"><a class="header-anchor" href="#方式1-签到" aria-hidden="true">#</a> 方式1: 签到</h4>
-<p>命令: <code>/签到</code></p>
+<p>命令: <code v-pre>/签到</code></p>
 <p>权限: 成员及以上</p>
 <h4 id="方式2-小游戏" tabindex="-1"><a class="header-anchor" href="#方式2-小游戏" aria-hidden="true">#</a> 方式2: 小游戏</h4>
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
@@ -694,10 +694,10 @@
 <p>权限说明(en): Van &gt; owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
-<p>命令: <code>/我的权限</code></p>
+<p>命令: <code v-pre>/我的权限</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="设置权限" tabindex="-1"><a class="header-anchor" href="#设置权限" aria-hidden="true">#</a> 设置权限</h3>
-<p>命令: <code>/权限设置 {@xx} {权限}</code></p>
+<p>命令: <code v-pre>/权限设置 {@xx} {权限}</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -723,11 +723,11 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/权限设置 @群成员 黑名单</code></p>
+<p>示例: <code v-pre>/权限设置 @群成员 黑名单</code></p>
 <p>权限: 管理员及以上</p>
 <h2 id="问答系统" tabindex="-1"><a class="header-anchor" href="#问答系统" aria-hidden="true">#</a> 问答系统</h2>
 <h3 id="查看问题列表" tabindex="-1"><a class="header-anchor" href="#查看问题列表" aria-hidden="true">#</a> 查看问题列表</h3>
-<p>命令: <code>/问答列表</code></p>
+<p>命令: <code v-pre>/问答列表</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="问答管理-增删" tabindex="-1"><a class="header-anchor" href="#问答管理-增删" aria-hidden="true">#</a> 问答管理(增删)</h3>
 <p>命令:</p>
@@ -741,15 +741,15 @@
 <tbody>
 <tr>
 <td>添加(精准)</td>
-<td><code>精准问{问题}答{回答}</code></td>
+<td><code v-pre>精准问{问题}答{回答}</code></td>
 </tr>
 <tr>
 <td>添加(模糊)</td>
-<td><code>模糊问{问题}答{回答}</code></td>
+<td><code v-pre>模糊问{问题}答{回答}</code></td>
 </tr>
 <tr>
 <td>删除</td>
-<td><code>/问答删除 {问题}</code></td>
+<td><code v-pre>/问答删除 {问题}</code></td>
 </tr>
 </tbody>
 </table>
@@ -778,14 +778,14 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code>问主页答shinelight.xyz</code></p>
+<p>示例: <code v-pre>问主页答shinelight.xyz</code></p>
 <p>权限: 超级用户及以上</p>
 <h2 id="游戏功能" tabindex="-1"><a class="header-anchor" href="#游戏功能" aria-hidden="true">#</a> 游戏功能</h2>
 <h3 id="获取游戏菜单" tabindex="-1"><a class="header-anchor" href="#获取游戏菜单" aria-hidden="true">#</a> 获取游戏菜单</h3>
-<p>命令: <code>/游戏菜单</code></p>
+<p>命令: <code v-pre>/游戏菜单</code></p>
 <p>权限: 群员及以上</p>
 <h3 id="获取各游戏帮助" tabindex="-1"><a class="header-anchor" href="#获取各游戏帮助" aria-hidden="true">#</a> 获取各游戏帮助</h3>
-<p>命令: <code>/{游戏} 帮助</code></p>
+<p>命令: <code v-pre>/{游戏} 帮助</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -801,11 +801,11 @@
 <td>游戏</td>
 <td>自行输入</td>
 <td>是</td>
-<td><a href="#%E8%8E%B7%E5%8F%96%E6%B8%B8%E6%88%8F%E8%8F%9C%E5%8D%95">游戏列表</a>可以使用命令<code>/游戏菜单</code>获取</td>
+<td><a href="#%E8%8E%B7%E5%8F%96%E6%B8%B8%E6%88%8F%E8%8F%9C%E5%8D%95">游戏列表</a>可以使用命令<code v-pre>/游戏菜单</code>获取</td>
 </tr>
 </tbody>
 </table>
-<p>示例: <code>/俄罗斯轮盘 帮助</code></p>
+<p>示例: <code v-pre>/俄罗斯轮盘 帮助</code></p>
 <p>权限: 成员及以上</p>
 <h3 id="游戏列表" tabindex="-1"><a class="header-anchor" href="#游戏列表" aria-hidden="true">#</a> 游戏列表</h3>
 <h4 id="俄罗斯轮盘" tabindex="-1"><a class="header-anchor" href="#俄罗斯轮盘" aria-hidden="true">#</a> 俄罗斯轮盘</h4>
@@ -923,4 +923,4 @@
 <p>自动同意管理员及以上的好友请求</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>
 <p>当群内消息 +1 时,机器人会跟着 +1</p>
-</template>
+</div></template>

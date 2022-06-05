@@ -1,4 +1,4 @@
-<template><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
+<template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
 <h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
 <p>涉及插件: 翻译,违禁图片检测</p>
@@ -52,8 +52,8 @@
 <h4 id="port" tabindex="-1"><a class="header-anchor" href="#port" aria-hidden="true">#</a> PORT</h4>
 <p>说明: 端口,默认即可</p>
 <h4 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h4>
-<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code>&quot;&quot;</code> 包起来,用 <code>,</code> 隔开(英文半角逗号,不是中文的逗号)<br>
-示例: <code>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
+<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号)<br>
+示例: <code v-pre>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
 <h4 id="nickname" tabindex="-1"><a class="header-anchor" href="#nickname" aria-hidden="true">#</a> NICKNAME</h4>
 <p>说明: 机器人的昵称,默认即可</p>
 <h4 id="command-start" tabindex="-1"><a class="header-anchor" href="#command-start" aria-hidden="true">#</a> COMMAND_START</h4>
@@ -61,7 +61,7 @@
 示例:</p>
 <div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>    COMMAND_START=["/", "!"]  
     命令触发: /菜单 !菜单
-</code></pre><div class="line-numbers" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h4 id="command-sep" tabindex="-1"><a class="header-anchor" href="#command-sep" aria-hidden="true">#</a> COMMAND_SEP</h4>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="command-sep" tabindex="-1"><a class="header-anchor" href="#command-sep" aria-hidden="true">#</a> COMMAND_SEP</h4>
 <p>说明: 命令分隔符,用来分开命令和参数,不建议修改</p>
 <h4 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h4>
 <p>说明: 机器人QQ号</p>
@@ -69,7 +69,7 @@
 <p>说明: 时区,默认为上海</p>
 <h3 id="代理设置" tabindex="-1"><a class="header-anchor" href="#代理设置" aria-hidden="true">#</a> 代理设置</h3>
 <h4 id="proxy" tabindex="-1"><a class="header-anchor" href="#proxy" aria-hidden="true">#</a> proxy</h4>
-<p>说明: 代理地址,若代理需认证,在前面要加上 <code>用户名:密码@</code></p>
+<p>说明: 代理地址,若代理需认证,在前面要加上 <code v-pre>用户名:密码@</code></p>
 <h3 id="数据库设置" tabindex="-1"><a class="header-anchor" href="#数据库设置" aria-hidden="true">#</a> 数据库设置</h3>
 <h4 id="mysql-host" tabindex="-1"><a class="header-anchor" href="#mysql-host" aria-hidden="true">#</a> mysql_host</h4>
 <p>说明: 数据库服务器主机地址,默认即可</p>
@@ -94,7 +94,7 @@
 <p>说明: 访问密钥,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取</p>
 <h4 id="腾讯违规图片检测-可选" tabindex="-1"><a class="header-anchor" href="#腾讯违规图片检测-可选" aria-hidden="true">#</a> 腾讯违规图片检测(可选)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该配置为可选配置,若不设置请将 <code>tenid</code> 和 <code>tenkey</code> 设置为 <code>xxxxx</code></p>
+<p>该配置为可选配置,若不设置请将 <code v-pre>tenid</code> 和 <code v-pre>tenkey</code> 设置为 <code v-pre>xxxxx</code></p>
 </div>
 <h5 id="tenid" tabindex="-1"><a class="header-anchor" href="#tenid" aria-hidden="true">#</a> tenid</h5>
 <p>说明: 访问密钥id,同<a href="#tencentcloudcommonsecretid">上</a></p>
@@ -102,7 +102,7 @@
 <p>说明: 访问密钥,同<a href="#tencentcloudcommonsecretkey">上</a></p>
 <h4 id="热搜api版本" tabindex="-1"><a class="header-anchor" href="#热搜api版本" aria-hidden="true">#</a> 热搜API版本</h4>
 <h5 id="nethot-version" tabindex="-1"><a class="header-anchor" href="#nethot-version" aria-hidden="true">#</a> nethot_version</h5>
-<p>说明: 热搜接口版本选择,<code>han</code>(韩小韩) 或 <code>tian</code>(天行数据)</p>
+<p>说明: 热搜接口版本选择,<code v-pre>han</code>(韩小韩) 或 <code v-pre>tian</code>(天行数据)</p>
 <h4 id="天行数据" tabindex="-1"><a class="header-anchor" href="#天行数据" aria-hidden="true">#</a> 天行数据</h4>
 <h5 id="tianxtoken" tabindex="-1"><a class="header-anchor" href="#tianxtoken" aria-hidden="true">#</a> tianxtoken</h5>
 <p>说明: 天行数据接口密钥,在<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取</p>
@@ -127,5 +127,5 @@
 <h5 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h5>
 <p>说明: 订阅推送时间,&quot;星期 小时 分钟 秒&quot;<br>
 示例: 星期五 20:00:00 推送<br>
-<code>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
-</template>
+<code v-pre>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
+</div></template>

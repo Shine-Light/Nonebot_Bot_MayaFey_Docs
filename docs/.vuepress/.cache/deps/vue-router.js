@@ -1,6 +1,6 @@
 import {
   setupDevtoolsPlugin
-} from "./chunk-CQMZPVKX.js";
+} from "./chunk-WMZTZZNO.js";
 import {
   computed,
   defineComponent,
@@ -18,8 +18,8 @@ import {
   unref,
   watch,
   watchEffect
-} from "./chunk-OMYMHUHV.js";
-import "./chunk-E2JX26XA.js";
+} from "./chunk-BU5ENP4N.js";
+import "./chunk-VNKCJBW6.js";
 import "./chunk-FEFTYQ2P.js";
 
 // node_modules/vue-router/dist/vue-router.esm-bundler.js
@@ -638,7 +638,7 @@ function tokensToParser(segments, extraOptions) {
           const text = Array.isArray(param) ? param.join("/") : param;
           if (!text) {
             if (optional) {
-              if (segment.length < 2) {
+              if (segment.length < 2 && segments.length > 1) {
                 if (path.endsWith("/"))
                   path = path.slice(0, -1);
                 else
@@ -1439,6 +1439,7 @@ var RouterViewImpl = defineComponent({
     },
     route: Object
   },
+  compatConfig: { MODE: 3 },
   setup(props, { attrs, slots }) {
     warnDeprecatedUsage();
     const injectedRoute = inject(routerViewLocationKey);
@@ -2165,6 +2166,8 @@ ${JSON.stringify(newTargetLocation, null, 2)}
   }
   let removeHistoryListener;
   function setupListeners() {
+    if (removeHistoryListener)
+      return;
     removeHistoryListener = routerHistory.listen((to, _from, info) => {
       const toLocation = resolve(to);
       const shouldRedirect = handleRedirectRecord(toLocation);
@@ -2295,6 +2298,7 @@ ${JSON.stringify(newTargetLocation, null, 2)}
         if (installedApps.size < 1) {
           pendingLocation = START_LOCATION_NORMALIZED;
           removeHistoryListener && removeHistoryListener();
+          removeHistoryListener = null;
           currentRoute.value = START_LOCATION_NORMALIZED;
           started = false;
           ready = false;
@@ -2364,7 +2368,7 @@ export {
   viewDepthKey
 };
 /*!
-  * vue-router v4.0.14
+  * vue-router v4.0.15
   * (c) 2022 Eduardo San Martin Morote
   * @license MIT
   */

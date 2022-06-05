@@ -1,4 +1,4 @@
-<template><h1 id="前言" tabindex="-1"><a class="header-anchor" href="#前言" aria-hidden="true">#</a> 前言</h1>
+<template><div><h1 id="前言" tabindex="-1"><a class="header-anchor" href="#前言" aria-hidden="true">#</a> 前言</h1>
 <h2 id="声明" tabindex="-1"><a class="header-anchor" href="#声明" aria-hidden="true">#</a> 声明</h2>
 <h3 id="本篇声明" tabindex="-1"><a class="header-anchor" href="#本篇声明" aria-hidden="true">#</a> 本篇声明</h3>
 <ol>
@@ -23,4 +23,4 @@
 <li>在使用机器人时,需要有一个QQ号来接受和发送信息,不建议使用自己的主账号,建议使用小号</li>
 <li>由于QQ是不允许第三方机器人存在的,所以在使用过程中可能会出现账号被风控、被冻结、被封号等情况,在使用前请自行权衡,开发者不对这些情况负责</li>
 </ol>
-</template>
+</div></template>

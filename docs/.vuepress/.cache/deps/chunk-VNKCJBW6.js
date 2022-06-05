@@ -104,6 +104,11 @@ function looseEqual(a, b) {
   if (aValidType || bValidType) {
     return aValidType && bValidType ? a.getTime() === b.getTime() : false;
   }
+  aValidType = isSymbol(a);
+  bValidType = isSymbol(b);
+  if (aValidType || bValidType) {
+    return a === b;
+  }
   aValidType = isArray(a);
   bValidType = isArray(b);
   if (aValidType || bValidType) {
@@ -175,7 +180,7 @@ var hasOwn = (val, key) => hasOwnProperty.call(val, key);
 var isArray = Array.isArray;
 var isMap = (val) => toTypeString(val) === "[object Map]";
 var isSet = (val) => toTypeString(val) === "[object Set]";
-var isDate = (val) => val instanceof Date;
+var isDate = (val) => toTypeString(val) === "[object Date]";
 var isFunction = (val) => typeof val === "function";
 var isString = (val) => typeof val === "string";
 var isSymbol = (val) => typeof val === "symbol";
@@ -274,4 +279,4 @@ export {
   toNumber,
   getGlobalThis
 };
-//# sourceMappingURL=chunk-E2JX26XA.js.map
+//# sourceMappingURL=chunk-VNKCJBW6.js.map

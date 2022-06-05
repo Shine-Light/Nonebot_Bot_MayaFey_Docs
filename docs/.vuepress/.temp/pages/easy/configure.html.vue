@@ -1,4 +1,4 @@
-<template><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
+<template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
 <h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
 <h4 id="翻译api" tabindex="-1"><a class="header-anchor" href="#翻译api" aria-hidden="true">#</a> 翻译API</h4>
@@ -29,17 +29,17 @@
 </details>
 <h2 id="机器人配置" tabindex="-1"><a class="header-anchor" href="#机器人配置" aria-hidden="true">#</a> 机器人配置</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>只需填写全是<code>x</code>的部分,全是<code>a</code>的为可选项,没有提及的就是不必填的默认即可</p>
+<p>只需填写全是<code v-pre>x</code>的部分,全是<code v-pre>a</code>的为可选项,没有提及的就是不必填的默认即可</p>
 </div>
 <h3 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h3>
-<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code>&quot;&quot;</code> 包起来,用 <code>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
-示例: <code>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
+<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
+示例: <code v-pre>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
 <h3 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h3>
 <p>说明: 填入机器人QQ号<br>
-示例: <code>bot_id = &quot;xxxxxxxx&quot;</code></p>
+示例: <code v-pre>bot_id = &quot;xxxxxxxx&quot;</code></p>
 <h3 id="mysql-host" tabindex="-1"><a class="header-anchor" href="#mysql-host" aria-hidden="true">#</a> mysql_host</h3>
 <p>说明: 数据库密码,填入之前设置的密码<br>
-示例: <code>mysql_password = &quot;xxxxxxxx&quot;</code></p>
+示例: <code v-pre>mysql_password = &quot;xxxxxxxx&quot;</code></p>
 <h2 id="api设置" tabindex="-1"><a class="header-anchor" href="#api设置" aria-hidden="true">#</a> API设置</h2>
 <h3 id="腾讯机器翻译" tabindex="-1"><a class="header-anchor" href="#腾讯机器翻译" aria-hidden="true">#</a> 腾讯机器翻译</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
@@ -47,32 +47,32 @@
 </div>
 <h4 id="tencentcloud-common-secretid" tabindex="-1"><a class="header-anchor" href="#tencentcloud-common-secretid" aria-hidden="true">#</a> tencentcloud_common_secretid</h4>
 <p>说明: 访问密钥id,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取<br>
-示例: <code>tencentcloud_common_secretid=&quot;xxxxxxxx&quot;</code></p>
+示例: <code v-pre>tencentcloud_common_secretid=&quot;xxxxxxxx&quot;</code></p>
 <h4 id="tencentcloud-common-secretkey" tabindex="-1"><a class="header-anchor" href="#tencentcloud-common-secretkey" aria-hidden="true">#</a> tencentcloud_common_secretkey</h4>
 <p>说明: 访问密钥,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取<br>
-示例: <code>tencentcloud_common_secretkey=&quot;xxxxxxxx&quot;</code><br>
+示例: <code v-pre>tencentcloud_common_secretkey=&quot;xxxxxxxx&quot;</code><br>
 <img src='/image/easy/configure/ten.png'></p>
 <h3 id="和风天气" tabindex="-1"><a class="header-anchor" href="#和风天气" aria-hidden="true">#</a> 和风天气</h3>
 <h4 id="qweather-apikey" tabindex="-1"><a class="header-anchor" href="#qweather-apikey" aria-hidden="true">#</a> QWEATHER_APIKEY</h4>
 <p>说明: APIKEY,在<a href="https://console.qweather.com/#/apps" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>中获取<br>
-示例: <code>QWEATHER_APIKEY=xxxxxxxx</code></p>
+示例: <code v-pre>QWEATHER_APIKEY=xxxxxxxx</code></p>
 <img src='/image/easy/configure/he3.png'>
 <h4 id="qweather-apitype" tabindex="-1"><a class="header-anchor" href="#qweather-apitype" aria-hidden="true">#</a> QWEATHER_APITYPE</h4>
 <p>说明: 版本,免费版、个人开发版、商业版,区别请看<a href="https://dev.qweather.com/help/account/" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a><br>
-0:免费版,1:个人开发版,2:商业版,没有特殊情况填 <code>0</code> 即可<br>
-示例: <code>QWEATHER_APITYPE=0</code></p>
+0:免费版,1:个人开发版,2:商业版,没有特殊情况填 <code v-pre>0</code> 即可<br>
+示例: <code v-pre>QWEATHER_APITYPE=0</code></p>
 <h3 id="允许违禁次数" tabindex="-1"><a class="header-anchor" href="#允许违禁次数" aria-hidden="true">#</a> 允许违禁次数</h3>
 <h4 id="ban-count-allow" tabindex="-1"><a class="header-anchor" href="#ban-count-allow" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h4>
 <p>说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑<br>
-示例: <code>BAN_COUNT_ALLOW=3</code></p>
+示例: <code v-pre>BAN_COUNT_ALLOW=3</code></p>
 <h4 id="epic喜加一" tabindex="-1"><a class="header-anchor" href="#epic喜加一" aria-hidden="true">#</a> Epic喜加一</h4>
 <h5 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h5>
 <p>说明: 订阅推送时间,&quot;星期 小时 分钟 秒&quot;<br>
 示例: 星期五 20:00:00 推送<br>
-<code>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
+<code v-pre>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
 <h2 id="保存配置" tabindex="-1"><a class="header-anchor" href="#保存配置" aria-hidden="true">#</a> 保存配置</h2>
 <ol>
-<li>回到 Xshell ,打开 <code>传输窗口</code></li>
-<li>将桌面的 <code>.env.prod</code> 拖进 <code>传输窗口</code>,选择是</li>
+<li>回到 Xshell ,打开 <code v-pre>传输窗口</code></li>
+<li>将桌面的 <code v-pre>.env.prod</code> 拖进 <code v-pre>传输窗口</code>,选择是</li>
 </ol>
-</template>
+</div></template>

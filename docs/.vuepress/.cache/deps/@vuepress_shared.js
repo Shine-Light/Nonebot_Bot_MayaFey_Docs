@@ -1,9 +1,8 @@
 import {
   isArray,
   isFunction,
-  isPromise,
   isString
-} from "./chunk-E2JX26XA.js";
+} from "./chunk-VNKCJBW6.js";
 import "./chunk-FEFTYQ2P.js";
 
 // node_modules/@vuepress/shared/dist/index.js
@@ -74,7 +73,7 @@ var isLinkExternal = (link, base = "/") => {
   if (isLinkHttp(link) || isLinkFtp(link)) {
     return true;
   }
-  if (link.startsWith("/") && !link.startsWith(base)) {
+  if (link.startsWith("/") && !link.startsWith(base) && !link.endsWith(".md")) {
     return true;
   }
   return false;
@@ -115,7 +114,6 @@ export {
   isLinkMailto,
   isLinkTel,
   isPlainObject,
-  isPromise,
   isString,
   removeEndingSlash,
   removeLeadingSlash,
