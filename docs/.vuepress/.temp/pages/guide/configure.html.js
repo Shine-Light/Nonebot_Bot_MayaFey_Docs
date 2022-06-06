@@ -302,19 +302,6 @@ export const data = {
             },
             {
               "level": 4,
-              "title": "允许违禁次数",
-              "slug": "允许违禁次数",
-              "children": [
-                {
-                  "level": 5,
-                  "title": "BAN_COUNT_ALLOW",
-                  "slug": "ban-count-allow",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "level": 4,
               "title": "Epic喜加一",
               "slug": "epic喜加一",
               "children": [
@@ -322,6 +309,31 @@ export const data = {
                   "level": 5,
                   "title": "epic_scheduler",
                   "slug": "epic-scheduler",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "title": "群管",
+              "slug": "群管",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "BAN_COUNT_ALLOW",
+                  "slug": "ban-count-allow",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "BAN_RAND_TIME_MIN",
+                  "slug": "ban-rand-time-min",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "BAN_RAND_TIMR_MAX",
+                  "slug": "ban-rand-timr-max",
                   "children": []
                 }
               ]

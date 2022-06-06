@@ -130,12 +130,16 @@
 ##### wordcloud_timezone
 说明: 时区,默认即可  
 
-#### 允许违禁次数
-##### BAN_COUNT_ALLOW
-说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑
-
 #### Epic喜加一
 ##### epic_scheduler
 说明: 订阅推送时间,"星期 小时 分钟 秒"  
 示例: 星期五 20:00:00 推送  
 `epic_scheduler="5 20 0 0"`
+
+#### 群管
+##### BAN_COUNT_ALLOW
+说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑
+##### BAN_RAND_TIME_MIN
+说明: 随机禁言最小时间
+##### BAN_RAND_TIMR_MAX
+说明: 随机禁言最大时间

@@ -120,12 +120,16 @@
 <p>说明: 词云背景颜色</p>
 <h5 id="wordcloud-timezone" tabindex="-1"><a class="header-anchor" href="#wordcloud-timezone" aria-hidden="true">#</a> wordcloud_timezone</h5>
 <p>说明: 时区,默认即可</p>
-<h4 id="允许违禁次数" tabindex="-1"><a class="header-anchor" href="#允许违禁次数" aria-hidden="true">#</a> 允许违禁次数</h4>
-<h5 id="ban-count-allow" tabindex="-1"><a class="header-anchor" href="#ban-count-allow" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h5>
-<p>说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑</p>
 <h4 id="epic喜加一" tabindex="-1"><a class="header-anchor" href="#epic喜加一" aria-hidden="true">#</a> Epic喜加一</h4>
 <h5 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h5>
 <p>说明: 订阅推送时间,&quot;星期 小时 分钟 秒&quot;<br>
 示例: 星期五 20:00:00 推送<br>
 <code v-pre>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
+<h4 id="群管" tabindex="-1"><a class="header-anchor" href="#群管" aria-hidden="true">#</a> 群管</h4>
+<h5 id="ban-count-allow" tabindex="-1"><a class="header-anchor" href="#ban-count-allow" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h5>
+<p>说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑</p>
+<h5 id="ban-rand-time-min" tabindex="-1"><a class="header-anchor" href="#ban-rand-time-min" aria-hidden="true">#</a> BAN_RAND_TIME_MIN</h5>
+<p>说明: 随机禁言最小时间</p>
+<h5 id="ban-rand-timr-max" tabindex="-1"><a class="header-anchor" href="#ban-rand-timr-max" aria-hidden="true">#</a> BAN_RAND_TIMR_MAX</h5>
+<p>说明: 随机禁言最大时间</p>
 </div></template>
