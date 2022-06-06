@@ -18,7 +18,7 @@
 <h3 id="签到" tabindex="-1"><a class="header-anchor" href="#签到" aria-hidden="true">#</a> 签到</h3>
 <p>命令: <code v-pre>/签到</code> <code v-pre>/打卡</code> <code v-pre>/sign</code></p>
 <p>功能: 每日一签,随机返回一张<strong>二次元图片</strong>,并增加<strong>积分</strong>。积分增加数随累计签到天数累加</p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>图片接口来源: <a href="https://api.ixiaowai.cn/" target="_blank" rel="noopener noreferrer">api.ixiaowai.cn<ExternalLinkIcon/></a></p>
 <h3 id="一言" tabindex="-1"><a class="header-anchor" href="#一言" aria-hidden="true">#</a> 一言</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
@@ -26,7 +26,7 @@
 </div>
 <p>命令: <code v-pre>/一言</code> <code v-pre>/ian</code></p>
 <p>功能: 随机返回<strong>一句鸡汤或者毒鸡汤</strong></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://docs.tenapi.cn/yiyan.html" target="_blank" rel="noopener noreferrer">docs.tenapi.cn/yiyan.html<ExternalLinkIcon/></a></p>
 <h3 id="随机图片" tabindex="-1"><a class="header-anchor" href="#随机图片" aria-hidden="true">#</a> 随机图片</h3>
 <p>命令: <code v-pre>/图片 {模式}</code></p>
@@ -51,7 +51,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/图片 头像</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://www.eee.dog/tech/rand-pic-api.html" target="_blank" rel="noopener noreferrer">www.eee.dog/tech/rand-pic-api.html<ExternalLinkIcon/></a></p>
 <h3 id="热搜" tabindex="-1"><a class="header-anchor" href="#热搜" aria-hidden="true">#</a> 热搜</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -82,7 +82,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/热搜 IT</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://api.vvhan.com/hotlist.html" target="_blank" rel="noopener noreferrer">api.vvhan.com/hotlist.html<ExternalLinkIcon/></a></p>
 <h4 id="天行数据版本" tabindex="-1"><a class="header-anchor" href="#天行数据版本" aria-hidden="true">#</a> 天行数据版本</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -90,15 +90,15 @@
 </div>
 <p>命令: <code v-pre>/热搜</code></p>
 <p>功能: 获取全网热搜</p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">www.tianapi.com/apiview/223<ExternalLinkIcon/></a></p>
 <h3 id="随机笑话" tabindex="-1"><a class="header-anchor" href="#随机笑话" aria-hidden="true">#</a> 随机笑话</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
-<p>该功能非大陆IP机器无法使用</p>
+<p>该功能非大陆IP机器可能无法使用,需<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">配置代理</RouterLink></p>
 </div>
 <p>命令: <code v-pre>/笑话</code> <code v-pre>/xh</code></p>
 <p>功能: 随机返回一个笑话</p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://api.vvhan.com/xiaohua.html" target="_blank" rel="noopener noreferrer">api.vvhan.com/xiaohua.html<ExternalLinkIcon/></a></p>
 <h3 id="点歌台" tabindex="-1"><a class="header-anchor" href="#点歌台" aria-hidden="true">#</a> 点歌台</h3>
 <p>命令: <code v-pre>/{平台}点歌 {歌名}</code></p>
@@ -129,7 +129,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/qq点歌 孤勇者</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-simplemusic" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-simplemusic<ExternalLinkIcon/></a></p>
 <h3 id="群词云" tabindex="-1"><a class="header-anchor" href="#群词云" aria-hidden="true">#</a> 群词云</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -138,7 +138,7 @@
 </div>
 <p>命令: <code v-pre>/群词云</code></p>
 <p>功能: 获取当日群消息词云</p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="logo制作" tabindex="-1"><a class="header-anchor" href="#logo制作" aria-hidden="true">#</a> logo制作</h3>
 <p>帮助命令: <code v-pre>/logo 帮助</code></p>
@@ -170,7 +170,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/ph Bili Bili</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-logo<ExternalLinkIcon/></a></p>
 <h3 id="表情包制作" tabindex="-1"><a class="header-anchor" href="#表情包制作" aria-hidden="true">#</a> 表情包制作</h3>
 <p>帮助命令: <code v-pre>/表情包制作</code></p>
@@ -202,7 +202,7 @@
 </table>
 <img src="/image/feature/memes_help.jpg" height='500px'>
 <p>示例: <code v-pre>/鲁迅说过 我没说过这句话</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-memes<ExternalLinkIcon/></a></p>
 <h3 id="答案之书" tabindex="-1"><a class="header-anchor" href="#答案之书" aria-hidden="true">#</a> 答案之书</h3>
 <p>功能: 返回一个 &quot;答案&quot;</p>
@@ -223,7 +223,7 @@
 </tr>
 </tbody>
 </table>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/A-kirami/nonebot-plugin-answersbook" target="_blank" rel="noopener noreferrer">github.com/A-kirami/nonebot-plugin-answersbook<ExternalLinkIcon/></a></p>
 <h3 id="到账语音生成" tabindex="-1"><a class="header-anchor" href="#到账语音生成" aria-hidden="true">#</a> 到账语音生成</h3>
 <p>功能: 生成一条支付宝到账语音</p>
@@ -244,7 +244,7 @@
 </tr>
 </tbody>
 </table>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://mm.cqu.cc/share/zhifubaodaozhang" target="_blank" rel="noopener noreferrer">mm.cqu.cc/share/zhifubaodaozhang<ExternalLinkIcon/></a></p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
@@ -253,7 +253,7 @@
 </div>
 <p>命令: <code v-pre>/翻译</code></p>
 <p>功能: 翻译指定内容</p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/Lancercmd/nonebot_plugin_translator" target="_blank" rel="noopener noreferrer">github.com/Lancercmd/nonebot_plugin_translator<ExternalLinkIcon/></a></p>
 <h3 id="疫情" tabindex="-1"><a class="header-anchor" href="#疫情" aria-hidden="true">#</a> 疫情</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -278,6 +278,7 @@
 </tr>
 </tbody>
 </table>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>示例: <code v-pre>上海疫情</code> <code v-pre>上海疫情政策</code></p>
 <p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
 <h3 id="天气" tabindex="-1"><a class="header-anchor" href="#天气" aria-hidden="true">#</a> 天气</h3>
@@ -303,11 +304,12 @@
 </tr>
 </tbody>
 </table>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>示例: <code v-pre>北京天气</code></p>
 <p>插件来源: <a href="https://github.com/kexue-z/nonebot-plugin-heweather" target="_blank" rel="noopener noreferrer">github.com/kexue-z/nonebot-plugin-heweather<ExternalLinkIcon/></a></p>
 <h3 id="违禁词查询" tabindex="-1"><a class="header-anchor" href="#违禁词查询" aria-hidden="true">#</a> 违禁词查询</h3>
 <p>命令: <code v-pre>/违禁词 列表</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <h3 id="epic喜加一资讯" tabindex="-1"><a class="header-anchor" href="#epic喜加一资讯" aria-hidden="true">#</a> Epic喜加一资讯</h3>
 <p>命令:</p>
 <table>
@@ -336,7 +338,7 @@
 <h3 id="群聊管理" tabindex="-1"><a class="header-anchor" href="#群聊管理" aria-hidden="true">#</a> 群聊管理</h3>
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
 <p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="疫情关注" tabindex="-1"><a class="header-anchor" href="#疫情关注" aria-hidden="true">#</a> 疫情关注</h4>
 <p>命令: <code v-pre>/关注疫情 {城市}</code> <code v-pre>/取消关注疫情 {城市}</code> <code v-pre>/疫情关注列表</code></p>
 <p>功能: 关注城市疫情并自动在每天18:30推送</p>
@@ -358,7 +360,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/关注疫情 上海</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
 <h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -416,6 +418,7 @@
 </tr>
 </tbody>
 </table>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <p>示例: <code v-pre>/禁@群词云 60</code></p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="测试功能" tabindex="-1"><a class="header-anchor" href="#测试功能" aria-hidden="true">#</a> 测试功能</h5>
@@ -447,7 +450,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/管理员+ @群成员</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="群词云设置" tabindex="-1"><a class="header-anchor" href="#群词云设置" aria-hidden="true">#</a> 群词云设置</h4>
 <p>命令:</p>
 <table>
@@ -468,7 +471,7 @@
 </tr>
 </tbody>
 </table>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="违禁词" tabindex="-1"><a class="header-anchor" href="#违禁词" aria-hidden="true">#</a> 违禁词</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -476,7 +479,7 @@
 管理员不会被违禁词系统处罚,但是会有提示<br />
 两者违禁词不可重复,如需将关键词处罚力度提高至自定义系统等级请使用强制添加<br />
 内置系统违禁词为侮辱性词汇及其他敏感词汇,处罚永久为禁言5min<br />
-自定义系统处罚为:第一次禁言10min,第二次禁言1day,第三次踢出并拉黑</p>
+自定义系统处罚为:第一次禁言10min,第二次禁言1day,第n次踢出并拉黑(n在配置文件中设置)</p>
 </div>
 <h5 id="内置违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#内置违禁词系统命令" aria-hidden="true">#</a> 内置违禁词系统命令</h5>
 <table>
@@ -501,8 +504,8 @@
 </tr>
 </tbody>
 </table>
-<p>权限: 超级用户及以上<br>
-插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="自定义违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#自定义违禁词系统命令" aria-hidden="true">#</a> 自定义违禁词系统命令</h5>
 <table>
 <thead>
@@ -554,7 +557,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/违禁词 + 歌姬吧</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="插件控制" tabindex="-1"><a class="header-anchor" href="#插件控制" aria-hidden="true">#</a> 插件控制</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>部分不可控制插件会隐藏</p>
@@ -598,7 +601,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/插件控制 一言</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="入-回群欢迎词" tabindex="-1"><a class="header-anchor" href="#入-回群欢迎词" aria-hidden="true">#</a> 入/回群欢迎词</h4>
 <p>命令:</p>
 <table>
@@ -626,6 +629,7 @@
 <th>参数名</th>
 <th>可选值</th>
 <th>必须</th>
+<th>备注</th>
 </tr>
 </thead>
 <tbody>
@@ -633,15 +637,16 @@
 <td>内容</td>
 <td>自行输入</td>
 <td>是</td>
+<td>支持文字和图片</td>
 </tr>
 </tbody>
 </table>
 <p>示例: <code v-pre>/入群欢迎 欢迎新朋友,记得修改群昵称</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="插件调用统计" tabindex="-1"><a class="header-anchor" href="#插件调用统计" aria-hidden="true">#</a> 插件调用统计</h4>
 <p>命令: <code v-pre>/插件统计</code></p>
 <p>功能: 查看各插件调用次数</p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>所有私聊管理功能权限需在 管理员 及以上</p>
@@ -674,18 +679,18 @@
 </tbody>
 </table>
 <p>功能: 执行sql语句,并返回结果</p>
-<p>权限: 管理员及以上</p>
+<p>权限: <strong>管理员</strong>及以上</p>
 <h2 id="积分系统" tabindex="-1"><a class="header-anchor" href="#积分系统" aria-hidden="true">#</a> 积分系统</h2>
 <h3 id="查看积分" tabindex="-1"><a class="header-anchor" href="#查看积分" aria-hidden="true">#</a> 查看积分</h3>
 <p>命令: <code v-pre>/我的积分</code> <code v-pre>/积分</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h3 id="积分排行榜-前十" tabindex="-1"><a class="header-anchor" href="#积分排行榜-前十" aria-hidden="true">#</a> 积分排行榜(前十)</h3>
 <p>命令: <code v-pre>/积分排行榜</code> <code v-pre>/积分排名</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h3 id="积分获取分式" tabindex="-1"><a class="header-anchor" href="#积分获取分式" aria-hidden="true">#</a> 积分获取分式</h3>
 <h4 id="方式1-签到" tabindex="-1"><a class="header-anchor" href="#方式1-签到" aria-hidden="true">#</a> 方式1: 签到</h4>
 <p>命令: <code v-pre>/签到</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h4 id="方式2-小游戏" tabindex="-1"><a class="header-anchor" href="#方式2-小游戏" aria-hidden="true">#</a> 方式2: 小游戏</h4>
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
@@ -695,7 +700,7 @@
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
 <p>命令: <code v-pre>/我的权限</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h3 id="设置权限" tabindex="-1"><a class="header-anchor" href="#设置权限" aria-hidden="true">#</a> 设置权限</h3>
 <p>命令: <code v-pre>/权限设置 {@xx} {权限}</code></p>
 <p>参数:</p>
@@ -724,11 +729,11 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/权限设置 @群成员 黑名单</code></p>
-<p>权限: 管理员及以上</p>
+<p>权限: <strong>管理员</strong>及以上</p>
 <h2 id="问答系统" tabindex="-1"><a class="header-anchor" href="#问答系统" aria-hidden="true">#</a> 问答系统</h2>
 <h3 id="查看问题列表" tabindex="-1"><a class="header-anchor" href="#查看问题列表" aria-hidden="true">#</a> 查看问题列表</h3>
 <p>命令: <code v-pre>/问答列表</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h3 id="问答管理-增删" tabindex="-1"><a class="header-anchor" href="#问答管理-增删" aria-hidden="true">#</a> 问答管理(增删)</h3>
 <p>命令:</p>
 <table>
@@ -779,11 +784,11 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>问主页答shinelight.xyz</code></p>
-<p>权限: 超级用户及以上</p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h2 id="游戏功能" tabindex="-1"><a class="header-anchor" href="#游戏功能" aria-hidden="true">#</a> 游戏功能</h2>
 <h3 id="获取游戏菜单" tabindex="-1"><a class="header-anchor" href="#获取游戏菜单" aria-hidden="true">#</a> 获取游戏菜单</h3>
 <p>命令: <code v-pre>/游戏菜单</code></p>
-<p>权限: 群员及以上</p>
+<p>权限: <strong>群员</strong>及以上</p>
 <h3 id="获取各游戏帮助" tabindex="-1"><a class="header-anchor" href="#获取各游戏帮助" aria-hidden="true">#</a> 获取各游戏帮助</h3>
 <p>命令: <code v-pre>/{游戏} 帮助</code></p>
 <p>参数:</p>
@@ -806,7 +811,7 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/俄罗斯轮盘 帮助</code></p>
-<p>权限: 成员及以上</p>
+<p>权限: <strong>成员</strong>及以上</p>
 <h3 id="游戏列表" tabindex="-1"><a class="header-anchor" href="#游戏列表" aria-hidden="true">#</a> 游戏列表</h3>
 <h4 id="俄罗斯轮盘" tabindex="-1"><a class="header-anchor" href="#俄罗斯轮盘" aria-hidden="true">#</a> 俄罗斯轮盘</h4>
 <p>开启游戏：/装弹 {装填子弹数} {@XXX}<br>
@@ -907,16 +912,15 @@
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能需配置腾讯云内容安全中的图片安全API密钥</p>
 <p>检测的类型为: 色情,性感,违法,广告,暴恐,政治,谩骂</p>
-<p>由于容易误封,所以只开启高度确认为违规的情况下触发</p>
-<p>若需关闭检测类型可自行开关</p>
+<p>由于容易误封,所以默认为高度确认违规的情况下触发</p>
 </div>
 <p>检测到违规图片会撤回并禁言</p>
 <h3 id="闪照捕获" tabindex="-1"><a class="header-anchor" href="#闪照捕获" aria-hidden="true">#</a> 闪照捕获</h3>
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>该功能请谨慎开启</p>
 </div>
-<p>将群内闪照转化为正常图片,通过私聊发送到指定用户</p>
-<p>接受用户只能在配置文件中设置</p>
+<p>将群内闪照转化为正常图片,通过私聊发送到根用户</p>
+<p>根用户只能在配置文件中设置</p>
 <h3 id="拉群自接受" tabindex="-1"><a class="header-anchor" href="#拉群自接受" aria-hidden="true">#</a> 拉群自接受</h3>
 <p>自动同意超级用户及以上邀请的成员</p>
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>

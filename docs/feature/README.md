@@ -33,7 +33,7 @@ sidebar: auto
 
 功能: 每日一签,随机返回一张**二次元图片**,并增加**积分**。积分增加数随累计签到天数累加
 
-权限: 群员及以上
+权限: **群员**及以上
 
 图片接口来源: [api.ixiaowai.cn](https://api.ixiaowai.cn/)
 
@@ -45,7 +45,7 @@ sidebar: auto
 
 功能: 随机返回**一句鸡汤或者毒鸡汤**
 
-权限: 群员及以上
+权限: **群员**及以上
 
 接口来源: [docs.tenapi.cn/yiyan.html](https://docs.tenapi.cn/yiyan.html)
 
@@ -62,7 +62,7 @@ sidebar: auto
 
 示例: `/图片 头像`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 接口来源: [www.eee.dog/tech/rand-pic-api.html](https://www.eee.dog/tech/rand-pic-api.html)
 
@@ -88,7 +88,7 @@ sidebar: auto
 
 示例: `/热搜 IT`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 接口来源: [api.vvhan.com/hotlist.html](https://api.vvhan.com/hotlist.html)
 
@@ -101,20 +101,20 @@ sidebar: auto
 
 功能: 获取全网热搜
 
-权限: 群员及以上
+权限: **群员**及以上
 
 接口来源: [www.tianapi.com/apiview/223](https://www.tianapi.com/apiview/223)
 
 ### 随机笑话
 ::: warning 注意
-该功能非大陆IP机器无法使用
+该功能非大陆IP机器可能无法使用,需[配置代理](/guide/configure.md/#代理设置)
 :::
 
 命令: `/笑话` `/xh`
 
 功能: 随机返回一个笑话
 
-权限: 群员及以上
+权限: **群员**及以上
 
 接口来源: [api.vvhan.com/xiaohua.html](https://api.vvhan.com/xiaohua.html)
 
@@ -133,7 +133,7 @@ sidebar: auto
 
 示例: `/qq点歌 孤勇者`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/noneplugin/nonebot-plugin-simplemusic](https://github.com/noneplugin/nonebot-plugin-simplemusic)
 
@@ -148,7 +148,7 @@ sidebar: auto
 
 功能: 获取当日群消息词云
 
-权限: 成员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
@@ -168,7 +168,7 @@ sidebar: auto
 
 示例: `/ph Bili Bili`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/noneplugin/nonebot-plugin-logo](https://github.com/noneplugin/nonebot-plugin-logo)
 
@@ -188,7 +188,7 @@ sidebar: auto
 
 示例: `/鲁迅说过 我没说过这句话`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/noneplugin/nonebot-plugin-memes](https://github.com/noneplugin/nonebot-plugin-memes)
 
@@ -201,7 +201,7 @@ sidebar: auto
 |-|-|-|
 |问题|自行输入|是|
 
-权限: 群员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/A-kirami/nonebot-plugin-answersbook](https://github.com/A-kirami/nonebot-plugin-answersbook)
 
@@ -214,7 +214,7 @@ sidebar: auto
 |-|-|-|
 |金额|0.01~999999999999.99|是|  
 
-权限: 群员及以上  
+权限: **群员**及以上  
 
 接口来源: [mm.cqu.cc/share/zhifubaodaozhang](https://mm.cqu.cc/share/zhifubaodaozhang)
 ## 生活功能
@@ -226,7 +226,7 @@ sidebar: auto
 
 功能: 翻译指定内容
 
-权限: 群员及以上
+权限: **群员**及以上
 
 插件来源: [github.com/Lancercmd/nonebot_plugin_translator](https://github.com/Lancercmd/nonebot_plugin_translator)
 
@@ -244,6 +244,8 @@ sidebar: auto
 |参数名|可选值|必须|
 |-|-|-|
 |城市|自行输入|是|
+
+权限: **群员**及以上  
 
 示例: `上海疫情` `上海疫情政策`
 
@@ -264,6 +266,8 @@ sidebar: auto
 |-|-|-|
 |城市|自行输入|是|
 
+权限: **群员**及以上  
+
 示例: `北京天气`
 
 插件来源: [github.com/kexue-z/nonebot-plugin-heweather](https://github.com/kexue-z/nonebot-plugin-heweather)
@@ -271,7 +275,7 @@ sidebar: auto
 ### 违禁词查询
 命令: `/违禁词 列表`
 
-权限: 成员及以上
+权限: **群员**及以上
 
 ### Epic喜加一资讯
 命令: 
@@ -288,7 +292,7 @@ sidebar: auto
 #### 机器人更新
 命令: `/检查更新` `/更新` `/更新日志`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 #### 疫情关注
 命令: `/关注疫情 {城市}` `/取消关注疫情 {城市}` `/疫情关注列表`
@@ -303,7 +307,7 @@ sidebar: auto
 
 示例: `/关注疫情 上海`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上  
 
 插件来源: [github.com/Zeta-qixi/nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)
 
@@ -325,6 +329,8 @@ sidebar: auto
 |-|-|-|-|
 |@xx|@群成员|是|可以@多个,多个之间使用空格隔开<br />若@自带空格则无需再加空格|
 |时间|1~25919999|否|单位:秒,不加则随机时间(不建议)|
+
+权限: **超级用户**及以上  
 
 示例: `/禁@群词云 60`
 
@@ -353,7 +359,7 @@ sidebar: auto
 
 示例: `/管理员+ @群成员`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 #### 群词云设置
 命令:
@@ -362,7 +368,7 @@ sidebar: auto
 |开启|`/记录本群`|
 |关闭|`/停止记录本群`|
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
@@ -372,7 +378,7 @@ sidebar: auto
 管理员不会被违禁词系统处罚,但是会有提示<br />
 两者违禁词不可重复,如需将关键词处罚力度提高至自定义系统等级请使用强制添加<br />
 内置系统违禁词为侮辱性词汇及其他敏感词汇,处罚永久为禁言5min<br />
-自定义系统处罚为:第一次禁言10min,第二次禁言1day,第三次踢出并拉黑
+自定义系统处罚为:第一次禁言10min,第二次禁言1day,第n次踢出并拉黑(n在配置文件中设置)
 :::
 
 ##### 内置违禁词系统命令
@@ -383,7 +389,8 @@ sidebar: auto
 |严格违禁等级|`/严格违禁词`|
 |更新词库|`/更新违禁词库`|
 
-权限: 超级用户及以上  
+权限: **超级用户**及以上  
+
 插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来  
 
 ##### 自定义违禁词系统命令
@@ -403,7 +410,7 @@ sidebar: auto
 
 示例: `/违禁词 + 歌姬吧`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 #### 插件控制
 ::: tip 提示
@@ -423,7 +430,7 @@ sidebar: auto
 
 示例: `/插件控制 一言`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 #### 入/回群欢迎词
 命令:
@@ -433,20 +440,20 @@ sidebar: auto
 |回群欢迎|`/回群欢迎 {内容}`|
 
 参数:  
-|参数名|可选值|必须|
-|-|-|-|
-|内容|自行输入|是|
+|参数名|可选值|必须|备注|
+|-|-|-|-|
+|内容|自行输入|是|支持文字和图片|
 
 示例: `/入群欢迎 欢迎新朋友,记得修改群昵称`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 #### 插件调用统计
 命令: `/插件统计`
 
 功能: 查看各插件调用次数
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 ### 私聊管理
 ::: tip 提示
@@ -463,25 +470,25 @@ sidebar: auto
 
 功能: 执行sql语句,并返回结果  
 
-权限: 管理员及以上
+权限: **管理员**及以上
 
 ## 积分系统
 
 ### 查看积分
 命令: `/我的积分` `/积分`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 ### 积分排行榜(前十)
 命令: `/积分排行榜` `/积分排名`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 ### 积分获取分式
 #### 方式1: 签到
 命令: `/签到`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 #### 方式2: 小游戏
 详情请看[游戏功能](#游戏功能)
@@ -496,7 +503,7 @@ sidebar: auto
 ### 查看当前权限
 命令: `/我的权限`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 ### 设置权限
 命令: `/权限设置 {@xx} {权限}`
@@ -509,13 +516,13 @@ sidebar: auto
 
 示例: `/权限设置 @群成员 黑名单`
 
-权限: 管理员及以上
+权限: **管理员**及以上
 
 ## 问答系统
 ### 查看问题列表
 命令: `/问答列表`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 ### 问答管理(增删)
 命令: 
@@ -533,13 +540,13 @@ sidebar: auto
 
 示例: `问主页答shinelight.xyz`
 
-权限: 超级用户及以上
+权限: **超级用户**及以上
 
 ## 游戏功能
 ### 获取游戏菜单
 命令: `/游戏菜单`
 
-权限: 群员及以上
+权限: **群员**及以上
 
 ### 获取各游戏帮助
 命令: `/{游戏} 帮助`
@@ -551,7 +558,7 @@ sidebar: auto
 
 示例: `/俄罗斯轮盘 帮助`
 
-权限: 成员及以上
+权限: **成员**及以上
 
 ### 游戏列表
 #### 俄罗斯轮盘 
@@ -603,9 +610,7 @@ sidebar: auto
 
 检测的类型为: 色情,性感,违法,广告,暴恐,政治,谩骂
 
-由于容易误封,所以只开启高度确认为违规的情况下触发
-
-若需关闭检测类型可自行开关
+由于容易误封,所以默认为高度确认违规的情况下触发  
 :::
 检测到违规图片会撤回并禁言
 
@@ -613,9 +618,9 @@ sidebar: auto
 ::: danger 警告
 该功能请谨慎开启
 :::
-将群内闪照转化为正常图片,通过私聊发送到指定用户
+将群内闪照转化为正常图片,通过私聊发送到根用户
 
-接受用户只能在配置文件中设置
+根用户只能在配置文件中设置
 
 ### 拉群自接受
 自动同意超级用户及以上邀请的成员
