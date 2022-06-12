@@ -97,6 +97,12 @@ export const data = {
           "title": "到账语音生成",
           "slug": "到账语音生成",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "今日运势",
+          "slug": "今日运势",
+          "children": []
         }
       ]
     },
@@ -133,6 +139,18 @@ export const data = {
           "level": 3,
           "title": "Epic喜加一资讯",
           "slug": "epic喜加一资讯",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "今天吃什么",
+          "slug": "今天吃什么",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "早晚安",
+          "slug": "早晚安",
           "children": []
         }
       ]
@@ -393,12 +411,12 @@ export const data = {
   "filePathRelative": "feature/README.md",
   "git": {
     "createdTime": 1651147298000,
-    "updatedTime": 1654260259000,
+    "updatedTime": 1654498165000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 9
+        "commits": 10
       }
     ]
   }

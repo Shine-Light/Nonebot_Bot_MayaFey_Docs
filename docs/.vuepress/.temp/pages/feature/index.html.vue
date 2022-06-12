@@ -5,6 +5,7 @@
 <p>机器人权限(不是群内权限): Van(根用户) &gt; 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>
 <p>具体权限控制请前往<a href="#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</a></p>
 <p>所有功能都是分群管理,不用担心数据混乱</p>
+<p>出于国内环境的特殊性,本机器人没有涩图相关的功能</p>
 </div>
 <h1 id="功能" tabindex="-1"><a class="header-anchor" href="#功能" aria-hidden="true">#</a> 功能</h1>
 <h2 id="菜单功能" tabindex="-1"><a class="header-anchor" href="#菜单功能" aria-hidden="true">#</a> 菜单功能</h2>
@@ -246,6 +247,84 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://mm.cqu.cc/share/zhifubaodaozhang" target="_blank" rel="noopener noreferrer">mm.cqu.cc/share/zhifubaodaozhang<ExternalLinkIcon/></a></p>
+<h3 id="今日运势" tabindex="-1"><a class="header-anchor" href="#今日运势" aria-hidden="true">#</a> 今日运势</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>想自定义签底?<a href="">点击这里</a></p>
+</div>
+<p>功能: 抽取你今天的运势</p>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+<th>权限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>抽签</td>
+<td><code v-pre>/今日运势</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>指定角色签底</td>
+<td><code v-pre>/指定{角色}签</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>设置群抽签主题</td>
+<td><code v-pre>/设置{主题}签</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>重置群抽签主题</td>
+<td><code v-pre>/重置抽签</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>刷新抽签</td>
+<td><code v-pre>/刷新抽签</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>查看可选的抽签主题</td>
+<td><code v-pre>/主题列表</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>查看群抽签主题</td>
+<td><code v-pre>/抽签设置</code></td>
+<td>群员及以上</td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>角色</td>
+<td>自行输入</td>
+<td>是</td>
+<td>可根据主题列表来尝试角色</td>
+</tr>
+<tr>
+<td>主题</td>
+<td>自行输入</td>
+<td>是</td>
+<td>通过主题列表查看可用主题</td>
+</tr>
+</tbody>
+</table>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_fortune" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_fortune<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -334,6 +413,189 @@
 </tbody>
 </table>
 <p>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">github.com/monsterxcn/nonebot_plugin_epicfree<ExternalLinkIcon/></a>修改而来</p>
+<h3 id="今天吃什么" tabindex="-1"><a class="header-anchor" href="#今天吃什么" aria-hidden="true">#</a> 今天吃什么</h3>
+<p>功能: 让真宵来帮你决定今天吃什么</p>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>吃什么</td>
+<td><code v-pre>/{时间段}吃什么</code></td>
+<td>群员及以上</td>
+<td></td>
+</tr>
+<tr>
+<td>查看群特色菜单</td>
+<td><code v-pre>/群特色菜单</code></td>
+<td>群员及以上</td>
+<td></td>
+</tr>
+<tr>
+<td>添加菜品至群特色菜单</td>
+<td><code v-pre>/添加 {菜名}</code></td>
+<td>超级用户及以上</td>
+<td>只会在本群生效</td>
+</tr>
+<tr>
+<td>从菜单移除菜品</td>
+<td><code v-pre>/移除 {菜名}</code></td>
+<td>超级用户及以上</td>
+<td>可以同时移除特色菜单和基础菜单中的菜品</td>
+</tr>
+<tr>
+<td>查看基础菜单</td>
+<td><code v-pre>/基础菜菜单</code></td>
+<td>超级用户及以上</td>
+<td></td>
+</tr>
+<tr>
+<td>开启/关闭按时吃饭小助手</td>
+<td><code v-pre>/开|关闭饭点小助手</code></td>
+<td>超级用户及以上</td>
+<td>在饭点提醒吃饭</td>
+</tr>
+<tr>
+<td>添加问候</td>
+<td><code v-pre>/添加问候 {问候语}</code></td>
+<td>超级用户及以上</td>
+<td>饭点小助手的问候语</td>
+</tr>
+<tr>
+<td>删除问候</td>
+<td><code v-pre>/删除问候 {问候语}</code></td>
+<td>超级用户及以上</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>时间段</td>
+<td>早上/中午/晚上/夜宵/早餐...</td>
+<td>是</td>
+</tr>
+<tr>
+<td>菜名</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+<tr>
+<td>问候语</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_what2eat" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_what2eat<ExternalLinkIcon/></a>修改而来</p>
+<h3 id="早晚安" tabindex="-1"><a class="header-anchor" href="#早晚安" aria-hidden="true">#</a> 早晚安</h3>
+<p>功能: 和真宵说早晚安，记录睡眠时间</p>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+<th>权限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>早安</td>
+<td><code v-pre>/早安</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>晚安</td>
+<td><code v-pre>/晚安</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>查看自己的作息</td>
+<td><code v-pre>/我的作息</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>查看群友的作息</td>
+<td><code v-pre>/群友作息</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>查看配置</td>
+<td><code v-pre>/早晚安设置</code></td>
+<td>群员及以上</td>
+</tr>
+<tr>
+<td>开启某个配置</td>
+<td><code v-pre>/早安开启 {配置}</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>关闭某个配置</td>
+<td><code v-pre>/早安关闭 {配置}</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>设置配置数值</td>
+<td><code v-pre>/早安设置 {配置} {数值}</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>开启某个配置</td>
+<td><code v-pre>/晚安开启 {配置}</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>关闭某个配置</td>
+<td><code v-pre>/晚安关闭 {配置}</code></td>
+<td>超级用户及以上</td>
+</tr>
+<tr>
+<td>设置配置数值</td>
+<td><code v-pre>/晚安设置 {配置} {数值}</code></td>
+<td>超级用户及以上</td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>配置</td>
+<td>通过查看配置获取</td>
+<td>是</td>
+</tr>
+<tr>
+<td>数值</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_morning" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_morning<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="群聊管理" tabindex="-1"><a class="header-anchor" href="#群聊管理" aria-hidden="true">#</a> 群聊管理</h3>
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>

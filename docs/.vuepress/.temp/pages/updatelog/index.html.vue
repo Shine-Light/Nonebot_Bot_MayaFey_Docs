@@ -1,4 +1,9 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-4-1版本更新日志-2022-6-12" tabindex="-1"><a class="header-anchor" href="#_0-4-1版本更新日志-2022-6-12" aria-hidden="true">#</a> 0.4.1版本更新日志 2022/6/12</h2>
+<h4 id="添加-娱乐功能-今日运势" tabindex="-1"><a class="header-anchor" href="#添加-娱乐功能-今日运势" aria-hidden="true">#</a> 添加 娱乐功能 -&gt; 今日运势</h4>
+<h4 id="添加-生活功能-吃什么" tabindex="-1"><a class="header-anchor" href="#添加-生活功能-吃什么" aria-hidden="true">#</a> 添加 生活功能 -&gt; 吃什么</h4>
+<h4 id="添加-生活功能-早晚安" tabindex="-1"><a class="header-anchor" href="#添加-生活功能-早晚安" aria-hidden="true">#</a> 添加 生活功能 -&gt; 早晚安</h4>
+<h4 id="修复复读会重复命令信息" tabindex="-1"><a class="header-anchor" href="#修复复读会重复命令信息" aria-hidden="true">#</a> 修复复读会重复命令信息</h4>
 <h2 id="_0-4版本更新日志-2022-6-3" tabindex="-1"><a class="header-anchor" href="#_0-4版本更新日志-2022-6-3" aria-hidden="true">#</a> 0.4版本更新日志 2022/6/3</h2>
 <h4 id="项目结构变动" tabindex="-1"><a class="header-anchor" href="#项目结构变动" aria-hidden="true">#</a> 项目结构变动</h4>
 <h4 id="添加复读功能" tabindex="-1"><a class="header-anchor" href="#添加复读功能" aria-hidden="true">#</a> 添加复读功能</h4>
