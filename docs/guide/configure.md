@@ -20,7 +20,7 @@
 
 ### 和风天气API
 ::: tip 提示
-该接口一天1000次调用额度,日常使用足够  
+该接口一天1000次免费调用额度,日常使用足够  
 :::
 涉及插件: 天气
 
@@ -31,7 +31,7 @@
 
 ### 天行数据(可选)
 ::: tip 提示
-该接口每日100次调用额度
+该接口每日100次免费调用额度
 :::
 涉及插件: 全网热搜
 
@@ -55,11 +55,11 @@
 说明: 命令起始符,即命令前加的前缀,若设置为空则命令前无需加前缀  
 示例:
 ```    
-    COMMAND_START=["/", "!"]  
-    命令触发: /菜单 !菜单
+COMMAND_START=["/", "!"]  
+命令触发: /菜单 !菜单
 ```  
 #### COMMAND_SEP
-说明: 命令分隔符,用来分开命令和参数,不建议修改
+说明: 命令分隔符,用来分开命令和参数,默认即可
 
 #### bot_id
 说明: 机器人QQ号
@@ -100,9 +100,9 @@
 该配置为可选配置,若不设置请将 `tenid` 和 `tenkey` 设置为 `xxxxx`
 :::
 ##### tenid
-说明: 访问密钥id,同[上](#tencentcloudcommonsecretid)
+说明: 访问密钥id,[同上](#tencentcloud_common_secretid)
 ##### tankey
-说明: 访问密钥,同[上](#tencentcloudcommonsecretkey)
+说明: 访问密钥,[同上](#tencentcloud_common_secretkey)
 
 #### 热搜API版本
 ##### nethot_version
@@ -143,3 +143,12 @@
 说明: 随机禁言最小时间
 ##### BAN_RAND_TIMR_MAX
 说明: 随机禁言最大时间
+
+#### 今天吃什么
+##### EATING_LIMIT
+说明: 每餐每个时间段询问上限  
+示例: `EATING_LIMIT=9`
+
+#### GROUPS_ID
+说明: 开启按时吃饭提示的群  
+示例: `GROUPS_ID=["123456789"]`

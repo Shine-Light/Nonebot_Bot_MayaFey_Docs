@@ -5,7 +5,20 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Windows",
+      "slug": "windows",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Linux",
+      "slug": "linux",
+      "children": []
+    }
+  ],
   "filePathRelative": "guide/run.md",
   "git": {
     "createdTime": 1651484398000,

@@ -22,7 +22,7 @@
 </ol>
 <h3 id="和风天气api" tabindex="-1"><a class="header-anchor" href="#和风天气api" aria-hidden="true">#</a> 和风天气API</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该接口一天1000次调用额度,日常使用足够</p>
+<p>该接口一天1000次免费调用额度,日常使用足够</p>
 </div>
 <p>涉及插件: 天气</p>
 <h4 id="注册-1" tabindex="-1"><a class="header-anchor" href="#注册-1" aria-hidden="true">#</a> 注册</h4>
@@ -36,7 +36,7 @@
 </ol>
 <h3 id="天行数据-可选" tabindex="-1"><a class="header-anchor" href="#天行数据-可选" aria-hidden="true">#</a> 天行数据(可选)</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该接口每日100次调用额度</p>
+<p>该接口每日100次免费调用额度</p>
 </div>
 <p>涉及插件: 全网热搜</p>
 <h4 id="注册-2" tabindex="-1"><a class="header-anchor" href="#注册-2" aria-hidden="true">#</a> 注册</h4>
@@ -59,10 +59,10 @@
 <h4 id="command-start" tabindex="-1"><a class="header-anchor" href="#command-start" aria-hidden="true">#</a> COMMAND_START</h4>
 <p>说明: 命令起始符,即命令前加的前缀,若设置为空则命令前无需加前缀<br>
 示例:</p>
-<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>    COMMAND_START=["/", "!"]  
-    命令触发: /菜单 !菜单
+<div class="language-text ext-text line-numbers-mode"><pre v-pre class="language-text"><code>COMMAND_START=["/", "!"]  
+命令触发: /菜单 !菜单
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="command-sep" tabindex="-1"><a class="header-anchor" href="#command-sep" aria-hidden="true">#</a> COMMAND_SEP</h4>
-<p>说明: 命令分隔符,用来分开命令和参数,不建议修改</p>
+<p>说明: 命令分隔符,用来分开命令和参数,默认即可</p>
 <h4 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h4>
 <p>说明: 机器人QQ号</p>
 <h4 id="timezone" tabindex="-1"><a class="header-anchor" href="#timezone" aria-hidden="true">#</a> timezone</h4>
@@ -97,9 +97,9 @@
 <p>该配置为可选配置,若不设置请将 <code v-pre>tenid</code> 和 <code v-pre>tenkey</code> 设置为 <code v-pre>xxxxx</code></p>
 </div>
 <h5 id="tenid" tabindex="-1"><a class="header-anchor" href="#tenid" aria-hidden="true">#</a> tenid</h5>
-<p>说明: 访问密钥id,同<a href="#tencentcloudcommonsecretid">上</a></p>
+<p>说明: 访问密钥id,<a href="#tencentcloud_common_secretid">同上</a></p>
 <h5 id="tankey" tabindex="-1"><a class="header-anchor" href="#tankey" aria-hidden="true">#</a> tankey</h5>
-<p>说明: 访问密钥,同<a href="#tencentcloudcommonsecretkey">上</a></p>
+<p>说明: 访问密钥,<a href="#tencentcloud_common_secretkey">同上</a></p>
 <h4 id="热搜api版本" tabindex="-1"><a class="header-anchor" href="#热搜api版本" aria-hidden="true">#</a> 热搜API版本</h4>
 <h5 id="nethot-version" tabindex="-1"><a class="header-anchor" href="#nethot-version" aria-hidden="true">#</a> nethot_version</h5>
 <p>说明: 热搜接口版本选择,<code v-pre>han</code>(韩小韩) 或 <code v-pre>tian</code>(天行数据)</p>
@@ -132,4 +132,11 @@
 <p>说明: 随机禁言最小时间</p>
 <h5 id="ban-rand-timr-max" tabindex="-1"><a class="header-anchor" href="#ban-rand-timr-max" aria-hidden="true">#</a> BAN_RAND_TIMR_MAX</h5>
 <p>说明: 随机禁言最大时间</p>
+<h4 id="今天吃什么" tabindex="-1"><a class="header-anchor" href="#今天吃什么" aria-hidden="true">#</a> 今天吃什么</h4>
+<h5 id="eating-limit" tabindex="-1"><a class="header-anchor" href="#eating-limit" aria-hidden="true">#</a> EATING_LIMIT</h5>
+<p>说明: 每餐每个时间段询问上限<br>
+示例: <code v-pre>EATING_LIMIT=9</code></p>
+<h4 id="groups-id" tabindex="-1"><a class="header-anchor" href="#groups-id" aria-hidden="true">#</a> GROUPS_ID</h4>
+<p>说明: 开启按时吃饭提示的群<br>
+示例: <code v-pre>GROUPS_ID=[&quot;123456789&quot;]</code></p>
 </div></template>

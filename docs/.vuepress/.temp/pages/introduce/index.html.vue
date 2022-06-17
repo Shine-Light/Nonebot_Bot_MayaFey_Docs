@@ -13,6 +13,7 @@
 <li>本人技术一般,代码写的不咋地,还请各位大佬手下留情</li>
 <li>遇到bug请及时提Issue,有时间了我就会修复,欢迎pr</li>
 <li>机器人的插件可以自己扒下来用,但请保留开发者信息</li>
+<li>若该项目有任何地方有侵犯到你的权益请立即联系我 <code v-pre>shine_light@qq.com</code></li>
 </ol>
 <h1 id="感谢" tabindex="-1"><a class="header-anchor" href="#感谢" aria-hidden="true">#</a> 感谢</h1>
 <p><a href="https://github.com/botuniverse/onebot-11" target="_blank" rel="noopener noreferrer">Onebot<ExternalLinkIcon/></a><br>

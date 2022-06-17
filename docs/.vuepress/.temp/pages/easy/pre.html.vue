@@ -26,7 +26,8 @@ Linux:Ubuntu20.04/Ubuntu18.04</p>
 双击程序进行安装</p>
 <h3 id="vscode" tabindex="-1"><a class="header-anchor" href="#vscode" aria-hidden="true">#</a> VScode</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>别问我为什么不用notepad++</p>
+<p>其实记事本也可以<br>
+别问我为什么不用notepad++</p>
 </div>
 <p>在<a href="https://code.visualstudio.com/Download" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>下载安装包<br>
 打开安装程序进行安装</p>
@@ -86,29 +87,38 @@ Linux:Ubuntu20.04/Ubuntu18.04</p>
 </ol>
 <CodeGroup>
 <CodeGroupItem title="18.04">
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse  
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+<span class="token comment"># deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span>
+<span class="token comment"># deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span>
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
 <CodeGroupItem title="20.04">
-<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse  
-deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse  
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse  
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
+<div class="language-bash ext-sh line-numbers-mode"><pre v-pre class="language-bash"><code>deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
+
+<span class="token comment"># deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span>
+<span class="token comment"># deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span>
+
+deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
+ 
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></CodeGroupItem>
 </CodeGroup>
 <ol start="4">
 <li>输入 <code v-pre>:</code>,输入 <code v-pre>wq</code> 回车</li>

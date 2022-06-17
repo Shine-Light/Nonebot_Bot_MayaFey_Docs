@@ -33,12 +33,6 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "这份文档不是写给谁的",
-      "slug": "这份文档不是写给谁的",
-      "children": []
-    },
-    {
-      "level": 2,
       "title": "搭建前的问题",
       "slug": "搭建前的问题",
       "children": [

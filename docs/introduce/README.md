@@ -15,6 +15,7 @@
 4. 本人技术一般,代码写的不咋地,还请各位大佬手下留情  
 5. 遇到bug请及时提Issue,有时间了我就会修复,欢迎pr
 6. 机器人的插件可以自己扒下来用,但请保留开发者信息
+7. 若该项目有任何地方有侵犯到你的权益请立即联系我 `shine_light@qq.com`
 
 # 感谢
 [Onebot](https://github.com/botuniverse/onebot-11)  

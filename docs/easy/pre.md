@@ -29,6 +29,7 @@ Linux:Ubuntu20.04/Ubuntu18.04
 
 ### VScode
 ::: tip 提示
+其实记事本也可以  
 别问我为什么不用notepad++
 :::
 在[官网](https://code.visualstudio.com/Download)下载安装包  
