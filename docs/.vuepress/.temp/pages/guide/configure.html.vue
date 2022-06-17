@@ -6,7 +6,7 @@
 <ol>
 <li>进入<a href="https://cloud.tencent.com" target="_blank" rel="noopener noreferrer">腾讯云官网<ExternalLinkIcon/></a>,注册账号</li>
 </ol>
-<h4 id="翻译api" tabindex="-1"><a class="header-anchor" href="#翻译api" aria-hidden="true">#</a> 翻译API</h4>
+<h4 id="翻译api-可选" tabindex="-1"><a class="header-anchor" href="#翻译api-可选" aria-hidden="true">#</a> 翻译API(可选)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该接口每月有500w字符的免费额度,若超出则需另付费,具体定价参考<a href="https://cloud.tencent.com/document/product/551/35017" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a></p>
 </div>
@@ -20,7 +20,7 @@
 <ol>
 <li>搜索 图片内容安全 ,进入图片内容安全控制台,选择开通</li>
 </ol>
-<h3 id="和风天气api" tabindex="-1"><a class="header-anchor" href="#和风天气api" aria-hidden="true">#</a> 和风天气API</h3>
+<h3 id="和风天气api-可选" tabindex="-1"><a class="header-anchor" href="#和风天气api-可选" aria-hidden="true">#</a> 和风天气API(可选)</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该接口一天1000次免费调用额度,日常使用足够</p>
 </div>

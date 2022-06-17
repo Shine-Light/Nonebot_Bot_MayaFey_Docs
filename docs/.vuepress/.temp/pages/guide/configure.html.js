@@ -24,8 +24,8 @@ export const data = {
             },
             {
               "level": 4,
-              "title": "翻译API",
-              "slug": "翻译api",
+              "title": "翻译API(可选)",
+              "slug": "翻译api-可选",
               "children": []
             },
             {
@@ -38,8 +38,8 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "和风天气API",
-          "slug": "和风天气api",
+          "title": "和风天气API(可选)",
+          "slug": "和风天气api-可选",
           "children": [
             {
               "level": 4,
@@ -365,12 +365,12 @@ export const data = {
   "filePathRelative": "guide/configure.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1654499551000,
+    "updatedTime": 1655476172000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 5
+        "commits": 6
       }
     ]
   }
