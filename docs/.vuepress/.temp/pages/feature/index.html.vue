@@ -265,37 +265,37 @@
 <tr>
 <td>抽签</td>
 <td><code v-pre>/今日运势</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>指定角色签底</td>
 <td><code v-pre>/指定{角色}签</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>设置群抽签主题</td>
 <td><code v-pre>/设置{主题}签</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>重置群抽签主题</td>
 <td><code v-pre>/重置抽签</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>刷新抽签</td>
 <td><code v-pre>/刷新抽签</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>查看可选的抽签主题</td>
 <td><code v-pre>/主题列表</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>查看群抽签主题</td>
 <td><code v-pre>/抽签设置</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 </tbody>
 </table>
@@ -403,12 +403,12 @@
 <tr>
 <td><code v-pre>epic喜加一</code></td>
 <td>查询epic本周免费游戏</td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td><code v-pre>喜加一订阅</code></td>
 <td>订阅喜加一资讯,定时推送</td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 </tbody>
 </table>
@@ -429,49 +429,49 @@
 <tr>
 <td>吃什么</td>
 <td><code v-pre>/{时间段}吃什么</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 <td></td>
 </tr>
 <tr>
 <td>查看群特色菜单</td>
 <td><code v-pre>/群特色菜单</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 <td></td>
 </tr>
 <tr>
 <td>添加菜品至群特色菜单</td>
 <td><code v-pre>/添加 {菜名}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td>只会在本群生效</td>
 </tr>
 <tr>
 <td>从菜单移除菜品</td>
 <td><code v-pre>/移除 {菜名}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td>可以同时移除特色菜单和基础菜单中的菜品</td>
 </tr>
 <tr>
 <td>查看基础菜单</td>
 <td><code v-pre>/基础菜菜单</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td></td>
 </tr>
 <tr>
 <td>开启/关闭按时吃饭小助手</td>
 <td><code v-pre>/开|关闭饭点小助手</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td>在饭点提醒吃饭</td>
 </tr>
 <tr>
 <td>添加问候</td>
 <td><code v-pre>/添加问候 {问候语}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td>饭点小助手的问候语</td>
 </tr>
 <tr>
 <td>删除问候</td>
 <td><code v-pre>/删除问候 {问候语}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 <td></td>
 </tr>
 </tbody>
@@ -519,57 +519,57 @@
 <tr>
 <td>早安</td>
 <td><code v-pre>/早安</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>晚安</td>
 <td><code v-pre>/晚安</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>查看自己的作息</td>
 <td><code v-pre>/我的作息</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>查看群友的作息</td>
 <td><code v-pre>/群友作息</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>查看配置</td>
 <td><code v-pre>/早晚安设置</code></td>
-<td>群员及以上</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>开启某个配置</td>
 <td><code v-pre>/早安开启 {配置}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>关闭某个配置</td>
 <td><code v-pre>/早安关闭 {配置}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>设置配置数值</td>
 <td><code v-pre>/早安设置 {配置} {数值}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>开启某个配置</td>
 <td><code v-pre>/晚安开启 {配置}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>关闭某个配置</td>
 <td><code v-pre>/晚安关闭 {配置}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 <tr>
 <td>设置配置数值</td>
 <td><code v-pre>/晚安设置 {配置} {数值}</code></td>
-<td>超级用户及以上</td>
+<td><strong>超级用户</strong>及以上</td>
 </tr>
 </tbody>
 </table>
@@ -687,7 +687,7 @@
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>此功能为测试功能,不保证能用性</p>
 <p>以下测试功能需机器人为群主</p>
-<p>并且只有根用户(即配置文件写死的超级用户)有权使用</p>
+<p>并且只有<strong>根用户</strong>(即配置文件写死的<strong>SUPERUSER</strong>)有权使用</p>
 </div>
 <p>命令:</p>
 <p>添加管理员 <code v-pre>/管理员+ {@xx} {@xx} ...</code></p>
@@ -957,7 +957,7 @@
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
+<p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; <strong>超级用户</strong> &gt; 成员 &gt; 黑名单</p>
 <p>权限说明(en): Van &gt; owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
@@ -984,9 +984,9 @@
 </tr>
 <tr>
 <td>权限</td>
-<td>baned/黑名单/member/成员/<br />superuser/超级用户</td>
+<td>baned/黑名单/member/成员/<br />superuser/<strong>超级用户</strong></td>
 <td>是</td>
-<td>群主,根用户和管理员权限不可设置<br />设置管理员请使用QQ自带添加管理员<br />设置根用户请在配置文件中修改</td>
+<td><strong>群主,根用户和管理员</strong>权限不可设置<br />设置管理员请使用QQ自带添加管理员<br />设置<strong>根用户</strong>请在<strong>配置文件</strong>中修改</td>
 </tr>
 </tbody>
 </table>
@@ -1181,10 +1181,10 @@
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>该功能请谨慎开启</p>
 </div>
-<p>将群内闪照转化为正常图片,通过私聊发送到根用户</p>
-<p>根用户只能在配置文件中设置</p>
+<p>将群内闪照转化为正常图片,通过私聊发送到<strong>根用户</strong></p>
+<p><strong>根用户</strong>只能在配置文件中设置</p>
 <h3 id="拉群自接受" tabindex="-1"><a class="header-anchor" href="#拉群自接受" aria-hidden="true">#</a> 拉群自接受</h3>
-<p>自动同意超级用户及以上邀请的成员</p>
+<p>自动同意<strong>超级用户</strong>及以上邀请的成员</p>
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>
 <p>自动同意管理员及以上的好友请求</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>

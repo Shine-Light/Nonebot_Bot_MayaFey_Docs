@@ -22,16 +22,12 @@ export const data = {
     ],
     "features": [
       {
-        "title": "0基础",
-        "details": "哪怕你是一个完全0基础的小白,也可以使用"
-      },
-      {
         "title": "自定义",
-        "details": "绝大多数插件都可以自定义"
+        "details": "大多数插件都可以自定义"
       },
       {
         "title": "娱乐",
-        "details": "内置大量生活/娱乐功能"
+        "details": "内含各种生活/娱乐功能"
       },
       {
         "title": "权限管理",
