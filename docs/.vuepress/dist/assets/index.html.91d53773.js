@@ -1,0 +1,1 @@
+const e={key:"v-ca97092e",path:"/problem/",title:"\u5E38\u89C1\u95EE\u9898",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"problem/README.md",git:{createdTime:1651484398e3,updatedTime:1651484398e3,contributors:[{name:"Shine-Light",email:"3120815902@qq.com",commits:1}]}};export{e as data};

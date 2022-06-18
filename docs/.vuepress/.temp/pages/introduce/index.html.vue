@@ -20,4 +20,6 @@
 <a href="https://github.com/nonebot/nonebot2" target="_blank" rel="noopener noreferrer">Nonebot<ExternalLinkIcon/></a><br>
 <a href="https://github.com/Mrs4s/go-cqhttp" target="_blank" rel="noopener noreferrer">go-cqhttp<ExternalLinkIcon/></a><br>
 以及各位插件开发者</p>
+<h2 id="license" tabindex="-1"><a class="header-anchor" href="#license" aria-hidden="true">#</a> License</h2>
+<p><a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener noreferrer">MIT License<ExternalLinkIcon/></a></p>
 </div></template>

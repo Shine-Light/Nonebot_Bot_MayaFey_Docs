@@ -359,7 +359,7 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>示例: <code v-pre>上海疫情</code> <code v-pre>上海疫情政策</code></p>
-<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="天气" tabindex="-1"><a class="header-anchor" href="#天气" aria-hidden="true">#</a> 天气</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能使用了 和风天气API,需配置API密钥</p>
@@ -1167,6 +1167,7 @@
 </tr>
 </tbody>
 </table>
+<p>插件来源: <a href="https://github.com/yaowan233/nonebot-plugin-blackjack" target="_blank" rel="noopener noreferrer">https://github.com/yaowan233/nonebot-plugin-blackjack<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="被动功能" tabindex="-1"><a class="header-anchor" href="#被动功能" aria-hidden="true">#</a> 被动功能</h2>
 <h3 id="恶意触发命令检测" tabindex="-1"><a class="header-anchor" href="#恶意触发命令检测" aria-hidden="true">#</a> 恶意触发命令检测</h3>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>

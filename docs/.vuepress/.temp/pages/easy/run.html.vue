@@ -29,18 +29,9 @@
 <p>libatk-1.0.so.0 libatk-bridge-2.0.so.0 libcups.so.2 libxkbcommon.so.0 libXcomposite.so.1 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXrandr.so.2 libgbm.so.1 libpango-1.0.so.0 libcairo.so.2 libatspi.so.0</p>
 </div>
 <ol start="5">
-<li>
-<p>当出现下面的情况,说明机器人已启动
-<img src='/image/easy/run/bot1.png'></p>
-</li>
-<li>
-<p>同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</p>
-</li>
-<li>
-<p>将机器人拉入群,在群内发送一条信息 <code v-pre>/初始化</code></p>
-</li>
-<li>
-<p>当机器人回复 <code v-pre>初始化成功</code> 时,机器人开始正常运行</p>
-</li>
+<li>等待机器人启动</li>
+<li>启动后,同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</li>
+<li>将机器人拉入群,在群内发送一条信息 <code v-pre>/初始化</code></li>
+<li>当机器人回复 <code v-pre>初始化成功</code> 时,机器人开始正常运行</li>
 </ol>
 </div></template>

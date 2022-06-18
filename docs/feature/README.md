@@ -276,7 +276,7 @@ sidebar: auto
 
 示例: `上海疫情` `上海疫情政策`
 
-插件来源: [github.com/Zeta-qixi/nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)
+插件来源: [github.com/Zeta-qixi/nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)修改而来
 
 ### 天气
 ::: tip 提示
@@ -675,6 +675,8 @@ sidebar: auto
 |积分|自行输入|是||
 |游戏ID|自行输入|是|游戏ID,通过 查看游戏列表 获取|
 |@XXX|自行输入|是||  
+
+插件来源: [https://github.com/yaowan233/nonebot-plugin-blackjack](https://github.com/yaowan233/nonebot-plugin-blackjack)修改而来
 
 ## 被动功能
 ### 恶意触发命令检测

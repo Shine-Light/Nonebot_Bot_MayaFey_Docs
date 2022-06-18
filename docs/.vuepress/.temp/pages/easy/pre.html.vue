@@ -51,23 +51,23 @@ Linux:Ubuntu20.04/Ubuntu18.04</p>
 <details class="custom-container details"><summary>具体流程图</summary>
 <ol>
 <li>进入<a href="https://aliyun.com" target="_blank" rel="noopener noreferrer">阿里云<ExternalLinkIcon/></a>官网,在右上角打开控制台<br>
-<img src='/image/easy/pre/con 1.png'></li>
+<img src='/image/easy/pre/con1.png'></li>
 <li>选择轻量应用服务器<br>
-<img src='/image/easy/pre/con 2.png'></li>
+<img src='/image/easy/pre/con2.png'></li>
 <li>找到刚才购买的服务器<br>
-<img src='/image/easy/pre/con 3.png'></li>
+<img src='/image/easy/pre/con3.png'></li>
 <li>在侧边栏选择远程连接<br>
-<img src='/image/easy/pre/con 4.png'></li>
+<img src='/image/easy/pre/con4.png'></li>
 <li>设置密码,然后复制IP<br>
-<img src='/image/easy/pre/con 5.png'></li>
+<img src='/image/easy/pre/con5.png'></li>
 <li>打开Xshell,选择新建<br>
-<img src='/image/easy/pre/con 6.png'></li>
+<img src='/image/easy/pre/con6.png'></li>
 <li>在主机一栏中填写刚才复制的IP<br>
-<img src='/image/easy/pre/con 7.png'></li>
+<img src='/image/easy/pre/con7.png'></li>
 <li>在侧边栏选择用户身份验证,用户名输入 <code v-pre>root</code>,密码输入刚才设置的密码,填写完点击确定<br>
-<img src='/image/easy/pre/con 8.png'></li>
+<img src='/image/easy/pre/con8.png'></li>
 <li>双击刚才新建得到会话进行连接<br>
-<img src='/image/easy/pre/con 9.png'></li>
+<img src='/image/easy/pre/con9.png'></li>
 </ol>
 </details>
 <h2 id="环境准备" tabindex="-1"><a class="header-anchor" href="#环境准备" aria-hidden="true">#</a> 环境准备</h2>

@@ -16,9 +16,7 @@
 ::: tip 提示
 libatk-1.0.so.0 libatk-bridge-2.0.so.0 libcups.so.2 libxkbcommon.so.0 libXcomposite.so.1 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXrandr.so.2 libgbm.so.1 libpango-1.0.so.0 libcairo.so.2 libatspi.so.0
 :::
-5. 当出现下面的情况,说明机器人已启动
-<img src='/image/easy/run/bot1.png'>
-
-6. 同时按下键盘的 `Ctrl` , `A` 和 `D`键 将程序挂在后台运行
+5. 等待机器人启动  
+6. 启动后,同时按下键盘的 `Ctrl` , `A` 和 `D`键 将程序挂在后台运行
 7. 将机器人拉入群,在群内发送一条信息 `/初始化`
 8. 当机器人回复 `初始化成功` 时,机器人开始正常运行

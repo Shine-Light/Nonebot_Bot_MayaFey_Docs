@@ -51,23 +51,23 @@ Linux:Ubuntu20.04/Ubuntu18.04
 
 ::: details 具体流程图
 1. 进入[阿里云](https://aliyun.com)官网,在右上角打开控制台   
-<img src='/image/easy/pre/con 1.png'>
+<img src='/image/easy/pre/con1.png'>
 2. 选择轻量应用服务器  
-<img src='/image/easy/pre/con 2.png'>
+<img src='/image/easy/pre/con2.png'>
 3. 找到刚才购买的服务器  
-<img src='/image/easy/pre/con 3.png'>
+<img src='/image/easy/pre/con3.png'>
 4. 在侧边栏选择远程连接  
-<img src='/image/easy/pre/con 4.png'>
+<img src='/image/easy/pre/con4.png'>
 5. 设置密码,然后复制IP  
-<img src='/image/easy/pre/con 5.png'>
+<img src='/image/easy/pre/con5.png'>
 6. 打开Xshell,选择新建  
-<img src='/image/easy/pre/con 6.png'>
+<img src='/image/easy/pre/con6.png'>
 7. 在主机一栏中填写刚才复制的IP  
-<img src='/image/easy/pre/con 7.png'>
+<img src='/image/easy/pre/con7.png'>
 8. 在侧边栏选择用户身份验证,用户名输入 `root`,密码输入刚才设置的密码,填写完点击确定  
-<img src='/image/easy/pre/con 8.png'>
+<img src='/image/easy/pre/con8.png'>
 9. 双击刚才新建得到会话进行连接  
-<img src='/image/easy/pre/con 9.png'>
+<img src='/image/easy/pre/con9.png'>
 :::
 
 ## 环境准备

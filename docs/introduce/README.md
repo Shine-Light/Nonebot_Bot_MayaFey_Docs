@@ -22,3 +22,6 @@
 [Nonebot](https://github.com/nonebot/nonebot2)  
 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)  
 以及各位插件开发者
+
+## License
+[MIT License](https://opensource.org/licenses/MIT)
