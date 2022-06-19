@@ -4,6 +4,7 @@
 <h4 id="添加-生活功能-吃什么" tabindex="-1"><a class="header-anchor" href="#添加-生活功能-吃什么" aria-hidden="true">#</a> 添加 生活功能 -&gt; 吃什么</h4>
 <h4 id="添加-生活功能-早晚安" tabindex="-1"><a class="header-anchor" href="#添加-生活功能-早晚安" aria-hidden="true">#</a> 添加 生活功能 -&gt; 早晚安</h4>
 <h4 id="修复复读会重复命令信息" tabindex="-1"><a class="header-anchor" href="#修复复读会重复命令信息" aria-hidden="true">#</a> 修复复读会重复命令信息</h4>
+<h4 id="修复发送违规图片后还会执行命令" tabindex="-1"><a class="header-anchor" href="#修复发送违规图片后还会执行命令" aria-hidden="true">#</a> 修复发送违规图片后还会执行命令</h4>
 <h2 id="_0-4版本更新日志-2022-6-3" tabindex="-1"><a class="header-anchor" href="#_0-4版本更新日志-2022-6-3" aria-hidden="true">#</a> 0.4版本更新日志 2022/6/3</h2>
 <h4 id="项目结构变动" tabindex="-1"><a class="header-anchor" href="#项目结构变动" aria-hidden="true">#</a> 项目结构变动</h4>
 <h4 id="添加复读功能" tabindex="-1"><a class="header-anchor" href="#添加复读功能" aria-hidden="true">#</a> 添加复读功能</h4>

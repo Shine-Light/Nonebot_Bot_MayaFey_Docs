@@ -37,6 +37,12 @@ export const data = {
           "title": "修复复读会重复命令信息",
           "slug": "修复复读会重复命令信息",
           "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复发送违规图片后还会执行命令",
+          "slug": "修复发送违规图片后还会执行命令",
+          "children": []
         }
       ]
     },
@@ -161,12 +167,12 @@ export const data = {
   "filePathRelative": "updatelog/README.md",
   "git": {
     "createdTime": 1654260259000,
-    "updatedTime": 1655042491000,
+    "updatedTime": 1655628844000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 2
+        "commits": 3
       }
     ]
   }
