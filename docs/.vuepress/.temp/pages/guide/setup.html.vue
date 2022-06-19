@@ -73,8 +73,7 @@ mysql &gt;= 5.6<br>
 </ol>
 <h3 id="linux-4" tabindex="-1"><a class="header-anchor" href="#linux-4" aria-hidden="true">#</a> Linux</h3>
 <ol>
-<li><code v-pre>wget </code></li>
-<li><code v-pre>tar -xvf </code></li>
+<li>输入 <code v-pre>git clone https://github.com/Shine-Light/Nonebot_Bot_MayaFey.git</code> 回车</li>
 <li>进入目录,<code v-pre>poetry install</code>,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~20分钟</li>
 <li>安装完成</li>
 </ol>

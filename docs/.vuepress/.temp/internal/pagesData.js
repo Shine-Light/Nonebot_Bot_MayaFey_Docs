@@ -23,8 +23,6 @@ export const pagesData = {
   "v-6c880e68": () => import(/* webpackChunkName: "v-6c880e68" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/guide/setup.html.js").then(({ data }) => data),
   // path: /introduce/
   "v-1b4deaa9": () => import(/* webpackChunkName: "v-1b4deaa9" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/introduce/index.html.js").then(({ data }) => data),
-  // path: /problem/
-  "v-ca97092e": () => import(/* webpackChunkName: "v-ca97092e" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/problem/index.html.js").then(({ data }) => data),
   // path: /updatelog/
   "v-83047d26": () => import(/* webpackChunkName: "v-83047d26" */"H:/project/Bot/Vuepress/docs/.vuepress/.temp/pages/updatelog/index.html.js").then(({ data }) => data),
   // path: /404.html

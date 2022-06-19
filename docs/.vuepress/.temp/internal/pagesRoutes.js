@@ -13,7 +13,6 @@ const routeItems = [
   ["v-334df21a","/guide/run.html",{"title":"运行"},["/guide/run","/guide/run.md"]],
   ["v-6c880e68","/guide/setup.html",{"title":"安装"},["/guide/setup","/guide/setup.md"]],
   ["v-1b4deaa9","/introduce/",{"title":"本项目"},["/introduce/index.html","/introduce/README.md"]],
-  ["v-ca97092e","/problem/",{"title":"常见问题"},["/problem/index.html","/problem/README.md"]],
   ["v-83047d26","/updatelog/",{"title":"更新日志"},["/updatelog/index.html","/updatelog/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
