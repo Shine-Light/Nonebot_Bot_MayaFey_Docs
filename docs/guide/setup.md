@@ -66,7 +66,6 @@ Linux无需该步骤
 2. 在解压后的文件夹内打开cmd,输入 `poetry install`,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~20分钟  
 3. 安装完成
 ### Linux
-1. `wget `
-2. `tar -xvf `
-3. 进入目录,`poetry install`,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~20分钟
-4. 安装完成
+1. 输入 `git clone https://github.com/Shine-Light/Nonebot_Bot_MayaFey.git` 回车
+2. 进入目录,`poetry install`,等待安装完成,安装期间请不要关闭程序,根据机器配置不同可能需要5~20分钟
+3. 安装完成
