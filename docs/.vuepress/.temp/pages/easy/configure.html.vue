@@ -69,7 +69,7 @@
 <h5 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h5>
 <p>说明: 订阅推送时间,&quot;星期 小时 分钟 秒&quot;<br>
 示例: 星期五 20:00:00 推送<br>
-<code v-pre>epic_scheduler=&quot;5 20 0 0&quot;</code></p>
+<code v-pre>epic_scheduler=&quot;4 20 0 0&quot;</code></p>
 <h2 id="保存配置" tabindex="-1"><a class="header-anchor" href="#保存配置" aria-hidden="true">#</a> 保存配置</h2>
 <ol>
 <li>回到 Xshell ,打开 <code v-pre>传输窗口</code></li>

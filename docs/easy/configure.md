@@ -73,7 +73,7 @@
 ##### epic_scheduler
 说明: 订阅推送时间,"星期 小时 分钟 秒"  
 示例: 星期五 20:00:00 推送  
-`epic_scheduler="5 20 0 0"`
+`epic_scheduler="4 20 0 0"`
 
 ## 保存配置
 1. 回到 Xshell ,打开 `传输窗口`
