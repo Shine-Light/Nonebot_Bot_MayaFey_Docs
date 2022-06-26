@@ -1190,4 +1190,6 @@
 <p>自动同意管理员及以上的好友请求</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>
 <p>当群内消息 +1 时,机器人会跟着 +1</p>
+<h3 id="定时撤回" tabindex="-1"><a class="header-anchor" href="#定时撤回" aria-hidden="true">#</a> 定时撤回</h3>
+<p>部分过长信息会在 30~60秒 内自动撤回</p>
 </div></template>
