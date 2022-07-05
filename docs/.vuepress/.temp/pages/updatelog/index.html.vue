@@ -1,4 +1,16 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-4-2版本更新日志-2022-7-5" tabindex="-1"><a class="header-anchor" href="#_0-4-2版本更新日志-2022-7-5" aria-hidden="true">#</a> 0.4.2版本更新日志 2022/7/5</h2>
+<h4 id="新增-管理功能-群聊管理-记过" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-群聊管理-记过" aria-hidden="true">#</a> 新增 管理功能 -&gt; 群聊管理 -&gt; 记过</h4>
+<h4 id="新增-娱乐功能-发言排行榜" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-发言排行榜" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 发言排行榜</h4>
+<h4 id="修正配置说明" tabindex="-1"><a class="header-anchor" href="#修正配置说明" aria-hidden="true">#</a> 修正配置说明</h4>
+<h4 id="修改复读为同一事件只触发一次" tabindex="-1"><a class="header-anchor" href="#修改复读为同一事件只触发一次" aria-hidden="true">#</a> 修改复读为同一事件只触发一次</h4>
+<h4 id="修改日志目录" tabindex="-1"><a class="header-anchor" href="#修改日志目录" aria-hidden="true">#</a> 修改日志目录</h4>
+<h4 id="修复-数据库自动断链" tabindex="-1"><a class="header-anchor" href="#修复-数据库自动断链" aria-hidden="true">#</a> 修复 数据库自动断链</h4>
+<h4 id="修复-可能出现-modulenotfound-的问题" tabindex="-1"><a class="header-anchor" href="#修复-可能出现-modulenotfound-的问题" aria-hidden="true">#</a> 修复 可能出现 ModuleNotFound 的问题</h4>
+<h4 id="修复-天气-国外地址失效" tabindex="-1"><a class="header-anchor" href="#修复-天气-国外地址失效" aria-hidden="true">#</a> 修复 天气 国外地址失效</h4>
+<h4 id="修复定时撤回无法撤回组合信息" tabindex="-1"><a class="header-anchor" href="#修复定时撤回无法撤回组合信息" aria-hidden="true">#</a> 修复定时撤回无法撤回组合信息</h4>
+<h4 id="修复epic订阅配置" tabindex="-1"><a class="header-anchor" href="#修复epic订阅配置" aria-hidden="true">#</a> 修复Epic订阅配置</h4>
+<h4 id="修复撤回可能报错" tabindex="-1"><a class="header-anchor" href="#修复撤回可能报错" aria-hidden="true">#</a> 修复撤回可能报错</h4>
 <h2 id="_0-4-1版本更新日志-2022-6-12" tabindex="-1"><a class="header-anchor" href="#_0-4-1版本更新日志-2022-6-12" aria-hidden="true">#</a> 0.4.1版本更新日志 2022/6/12</h2>
 <h4 id="添加-娱乐功能-今日运势" tabindex="-1"><a class="header-anchor" href="#添加-娱乐功能-今日运势" aria-hidden="true">#</a> 添加 娱乐功能 -&gt; 今日运势</h4>
 <h4 id="添加-生活功能-吃什么" tabindex="-1"><a class="header-anchor" href="#添加-生活功能-吃什么" aria-hidden="true">#</a> 添加 生活功能 -&gt; 吃什么</h4>

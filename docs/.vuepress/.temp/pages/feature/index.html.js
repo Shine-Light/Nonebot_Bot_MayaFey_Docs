@@ -103,6 +103,12 @@ export const data = {
           "title": "今日运势",
           "slug": "今日运势",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "发言排行榜",
+          "slug": "发言排行榜",
+          "children": []
         }
       ]
     },
@@ -231,6 +237,12 @@ export const data = {
               "level": 4,
               "title": "插件调用统计",
               "slug": "插件调用统计",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "记过",
+              "slug": "记过",
               "children": []
             }
           ]
@@ -417,13 +429,26 @@ export const data = {
   "filePathRelative": "feature/README.md",
   "git": {
     "createdTime": 1651147298000,
-    "updatedTime": 1655548077000,
+    "updatedTime": 1656240125000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 13
+        "commits": 14
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

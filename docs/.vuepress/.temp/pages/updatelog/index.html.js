@@ -11,6 +11,79 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "0.4.2版本更新日志 2022/7/5",
+      "slug": "_0-4-2版本更新日志-2022-7-5",
+      "children": [
+        {
+          "level": 4,
+          "title": "新增 管理功能 -> 群聊管理 -> 记过",
+          "slug": "新增-管理功能-群聊管理-记过",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 娱乐功能 -> 发言排行榜",
+          "slug": "新增-娱乐功能-发言排行榜",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修正配置说明",
+          "slug": "修正配置说明",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改复读为同一事件只触发一次",
+          "slug": "修改复读为同一事件只触发一次",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改日志目录",
+          "slug": "修改日志目录",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 数据库自动断链",
+          "slug": "修复-数据库自动断链",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 可能出现 ModuleNotFound 的问题",
+          "slug": "修复-可能出现-modulenotfound-的问题",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 天气 国外地址失效",
+          "slug": "修复-天气-国外地址失效",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复定时撤回无法撤回组合信息",
+          "slug": "修复定时撤回无法撤回组合信息",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复Epic订阅配置",
+          "slug": "修复epic订阅配置",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复撤回可能报错",
+          "slug": "修复撤回可能报错",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "0.4.1版本更新日志 2022/6/12",
       "slug": "_0-4-1版本更新日志-2022-6-12",
       "children": [
@@ -176,4 +249,17 @@ export const data = {
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

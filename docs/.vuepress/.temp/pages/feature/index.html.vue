@@ -247,6 +247,7 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://mm.cqu.cc/share/zhifubaodaozhang" target="_blank" rel="noopener noreferrer">mm.cqu.cc/share/zhifubaodaozhang<ExternalLinkIcon/></a></p>
+<!-- TODO: 自定义签底 -->
 <h3 id="今日运势" tabindex="-1"><a class="header-anchor" href="#今日运势" aria-hidden="true">#</a> 今日运势</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>想自定义签底?<a href="">点击这里</a></p>
@@ -325,6 +326,44 @@
 </tbody>
 </table>
 <p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_fortune" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_fortune<ExternalLinkIcon/></a>修改而来</p>
+<h3 id="发言排行榜" tabindex="-1"><a class="header-anchor" href="#发言排行榜" aria-hidden="true">#</a> 发言排行榜</h3>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/今日榜首</code> <code v-pre>/今天谁话多</code></td>
+<td>查看今日发言最多</td>
+</tr>
+<tr>
+<td><code v-pre>/今日发言排行</code> <code v-pre>/今日发言排行榜</code></td>
+<td>查看今日发言排行榜</td>
+</tr>
+<tr>
+<td><code v-pre>/昨日发言排行</code> <code v-pre>/昨日发言排行榜</code></td>
+<td>查看昨日发言排行榜</td>
+</tr>
+<tr>
+<td><code v-pre>/排行</code> <code v-pre>/谁屁话最多</code></td>
+<td>查看历史发言最多</td>
+</tr>
+<tr>
+<td><code v-pre>/发言数</code> <code v-pre>/发言量</code></td>
+<td>查看自己历史发言数</td>
+</tr>
+<tr>
+<td><code v-pre>/今日发言数</code></td>
+<td>查看自己今天发言数</td>
+</tr>
+</tbody>
+</table>
+<p>权限: <strong>群员及以上</strong></p>
+<p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -909,6 +948,82 @@
 <p>命令: <code v-pre>/插件统计</code></p>
 <p>功能: 查看各插件调用次数</p>
 <p>权限: <strong>超级用户</strong>及以上</p>
+<h4 id="记过" tabindex="-1"><a class="header-anchor" href="#记过" aria-hidden="true">#</a> 记过</h4>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/记过 {@xxx} {@xxx} ... {原因}</code></td>
+<td>记过某成员</td>
+<td><strong>超级用户及以上</strong></td>
+<td>可以同时记录多人</td>
+</tr>
+<tr>
+<td><code v-pre>/查找记过记录 {@xxx}</code></td>
+<td>查看某成员记过记录</td>
+<td><strong>超级用户及以上</strong></td>
+<td>只能查找一人</td>
+</tr>
+<tr>
+<td><code v-pre>/我的记过记录</code></td>
+<td>查看我的记过记录</td>
+<td><strong>群员及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/记过配置</code></td>
+<td>查看本群记过的配置</td>
+<td><strong>群员及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/修改记过配置 {修改项} {参数}</code></td>
+<td>修改本群记过配置</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@xx</td>
+<td>@群成员</td>
+<td>是</td>
+</tr>
+<tr>
+<td>原因</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+<tr>
+<td>修改项</td>
+<td>通过查看配置获取</td>
+<td>是</td>
+</tr>
+<tr>
+<td>参数</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>所有私聊管理功能权限需在 管理员 及以上</p>
