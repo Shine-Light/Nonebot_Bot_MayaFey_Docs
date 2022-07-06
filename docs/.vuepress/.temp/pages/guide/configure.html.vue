@@ -75,12 +75,12 @@
 <p>说明: 数据库服务器主机地址,默认即可</p>
 <h4 id="mysql-port" tabindex="-1"><a class="header-anchor" href="#mysql-port" aria-hidden="true">#</a> mysql_port</h4>
 <p>说明: 数据库服务器端口,默认即可</p>
-<h4 id="mysql-host-1" tabindex="-1"><a class="header-anchor" href="#mysql-host-1" aria-hidden="true">#</a> mysql_host</h4>
+<h4 id="mysql-user" tabindex="-1"><a class="header-anchor" href="#mysql-user" aria-hidden="true">#</a> mysql_user</h4>
 <p>说明: 数据库用户名,默认即可</p>
-<h4 id="mysql-host-2" tabindex="-1"><a class="header-anchor" href="#mysql-host-2" aria-hidden="true">#</a> mysql_host</h4>
+<h4 id="mysql-password" tabindex="-1"><a class="header-anchor" href="#mysql-password" aria-hidden="true">#</a> mysql_password</h4>
 <p>说明: 数据库密码,填入之前设置的密码</p>
-<h4 id="mysql-host-3" tabindex="-1"><a class="header-anchor" href="#mysql-host-3" aria-hidden="true">#</a> mysql_host</h4>
-<p>说明: 数据库名,默认即可</p>
+<h4 id="mysql-db" tabindex="-1"><a class="header-anchor" href="#mysql-db" aria-hidden="true">#</a> mysql_db</h4>
+<p>说明: 数据库名,填入创建时的数据库名,或者用默认</p>
 <h3 id="api设置" tabindex="-1"><a class="header-anchor" href="#api设置" aria-hidden="true">#</a> API设置</h3>
 <h4 id="腾讯机器翻译" tabindex="-1"><a class="header-anchor" href="#腾讯机器翻译" aria-hidden="true">#</a> 腾讯机器翻译</h4>
 <h5 id="tencentcloud-common-region" tabindex="-1"><a class="header-anchor" href="#tencentcloud-common-region" aria-hidden="true">#</a> tencentcloud_common_region</h5>

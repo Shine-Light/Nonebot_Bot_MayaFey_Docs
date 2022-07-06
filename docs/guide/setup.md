@@ -30,14 +30,17 @@ Linux无需该步骤
 方法很多,自行百度
 
 ### 安装poetry
-1. 输入 `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/` 回车  
+1. 在命令行输入 `pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/` 回车  
 2. 输入 `pip install poetry` 回车,等待安装完成  
 3. 输入 `poetry -V` 回车,若显示版本则 poetry 安装成功  
 
 ### 安装mysql
 #### Windows
 1. 下载[XAMPP](https://www.apachefriends.org/zh_cn/index.html),打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成  
-2. 启动XAMPP,选择 Mysql 栏中的 Config,去掉 `password` 前的 `#` 号,修改等号后的 `your password`,这将作为数据库的密码
+2. 启动Mysql
+3. 选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin
+4. 在侧边栏点击刚才创建的数据库
+5. 选择 权限 选项卡,新建一个账户,记好账号和密码
 #### Linux
 方法很多,自行百度
 

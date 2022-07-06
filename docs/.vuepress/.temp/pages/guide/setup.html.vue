@@ -31,7 +31,7 @@ mysql &gt;= 5.6<br>
 <p>方法很多,自行百度</p>
 <h3 id="安装poetry" tabindex="-1"><a class="header-anchor" href="#安装poetry" aria-hidden="true">#</a> 安装poetry</h3>
 <ol>
-<li>输入 <code v-pre>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/</code> 回车</li>
+<li>在命令行输入 <code v-pre>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple/</code> 回车</li>
 <li>输入 <code v-pre>pip install poetry</code> 回车,等待安装完成</li>
 <li>输入 <code v-pre>poetry -V</code> 回车,若显示版本则 poetry 安装成功</li>
 </ol>
@@ -39,7 +39,10 @@ mysql &gt;= 5.6<br>
 <h4 id="windows-1" tabindex="-1"><a class="header-anchor" href="#windows-1" aria-hidden="true">#</a> Windows</h4>
 <ol>
 <li>下载<a href="https://www.apachefriends.org/zh_cn/index.html" target="_blank" rel="noopener noreferrer">XAMPP<ExternalLinkIcon/></a>,打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成</li>
-<li>启动XAMPP,选择 Mysql 栏中的 Config,去掉 <code v-pre>password</code> 前的 <code v-pre>#</code> 号,修改等号后的 <code v-pre>your password</code>,这将作为数据库的密码</li>
+<li>启动Mysql</li>
+<li>选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin</li>
+<li>在侧边栏点击刚才创建的数据库</li>
+<li>选择 权限 选项卡,新建一个账户,记好账号和密码</li>
 </ol>
 <h4 id="linux-2" tabindex="-1"><a class="header-anchor" href="#linux-2" aria-hidden="true">#</a> Linux</h4>
 <p>方法很多,自行百度</p>

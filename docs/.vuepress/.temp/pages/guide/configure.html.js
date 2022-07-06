@@ -156,20 +156,20 @@ export const data = {
             },
             {
               "level": 4,
-              "title": "mysql_host",
-              "slug": "mysql-host-1",
+              "title": "mysql_user",
+              "slug": "mysql-user",
               "children": []
             },
             {
               "level": 4,
-              "title": "mysql_host",
-              "slug": "mysql-host-2",
+              "title": "mysql_password",
+              "slug": "mysql-password",
               "children": []
             },
             {
               "level": 4,
-              "title": "mysql_host",
-              "slug": "mysql-host-3",
+              "title": "mysql_db",
+              "slug": "mysql-db",
               "children": []
             }
           ]
