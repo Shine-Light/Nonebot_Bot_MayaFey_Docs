@@ -240,26 +240,13 @@ export const data = {
   "filePathRelative": "updatelog/README.md",
   "git": {
     "createdTime": 1654260259000,
-    "updatedTime": 1655628844000,
+    "updatedTime": 1657026571000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 3
+        "commits": 4
       }
     ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

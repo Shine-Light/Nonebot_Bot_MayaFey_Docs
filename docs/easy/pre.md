@@ -76,9 +76,6 @@ Linux:Ubuntu20.04/Ubuntu18.04
 :::
 ### 更换 apt 源
 1. 输入 `vim /etc/apt/sources.list` 回车  
-::: tip 提示
-出现`vim command not found`,查看[常见问题]()
-:::
 2. 按下键盘上的 `I` 键,按顺序按下键盘上的 `G` `G` `D` `G`  
 3. 复制下面的代码,右键粘贴
 :::: code-group
@@ -93,8 +90,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted univer
 deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 
-# deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
@@ -111,8 +108,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted univers
 deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
 
-# deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
