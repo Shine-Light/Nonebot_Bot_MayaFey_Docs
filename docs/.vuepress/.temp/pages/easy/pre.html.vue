@@ -77,11 +77,6 @@ Linux:Ubuntu20.04/Ubuntu18.04</p>
 <h3 id="更换-apt-源" tabindex="-1"><a class="header-anchor" href="#更换-apt-源" aria-hidden="true">#</a> 更换 apt 源</h3>
 <ol>
 <li>输入 <code v-pre>vim /etc/apt/sources.list</code> 回车</li>
-</ol>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>出现<code v-pre>vim command not found</code>,查看<a href="">常见问题</a></p>
-</div>
-<ol start="2">
 <li>按下键盘上的 <code v-pre>I</code> 键,按顺序按下键盘上的 <code v-pre>G</code> <code v-pre>G</code> <code v-pre>D</code> <code v-pre>G</code></li>
 <li>复制下面的代码,右键粘贴</li>
 </ol>
@@ -96,8 +91,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted univer
 deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
 
-<span class="token comment"># deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span>
-<span class="token comment"># deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse</span>
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
@@ -112,8 +107,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted univers
 deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
 
-<span class="token comment"># deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span>
-<span class="token comment"># deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse</span>
+deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
 
 deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
 deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
