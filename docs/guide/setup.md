@@ -37,17 +37,18 @@ Linux无需该步骤
 ### 安装mysql
 #### Windows
 1. 下载[XAMPP](https://www.apachefriends.org/zh_cn/index.html),打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成  
-2. 启动Mysql
-3. 选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin
-4. 在侧边栏点击刚才创建的数据库
-5. 选择 权限 选项卡,新建一个账户,记好账号和密码
+2. 以管理员身份启动XAMPP
+3. 启动Apache和Mysql
+4. 选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin
+5. 在侧边栏点击刚才创建的数据库
+6. 选择 权限 选项卡,新建一个账户,记好账号和密码
 #### Linux
 方法很多,自行百度
 
 ## 安装并配置go-cqhttp
 ### Windows
 1. 新建一个文件夹用于存放程序  
-2. 根据自己的系统下载最新版的[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc1),不知道现在那个版本的请参考[版本说明](https://docs.go-cqhttp.org/guide/quick_start.html#%E4%B8%8B%E8%BD%BD),这里以Windows10系统演示(Github 打不开的可以自行百度 github hosts加速)  
+2. 根据自己的系统下载最新版的[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases),不知道现在那个版本的请参考[版本说明](https://docs.go-cqhttp.org/guide/quick_start.html#%E4%B8%8B%E8%BD%BD),这里以Windows10系统演示(Github 打不开的可以自行百度 github hosts加速)  
 3. 打开 `go-cqhttp.exe`,一路确定  
 4. 打开 `go-cqhttp.bat`, 输入 `3`,然后回车  
 5. 打开 `config.yml` (使用记事本,vscode等打开),修改`uin`和`password`为机器人的账号和密码(不建议使用自己的主账号)  
@@ -56,7 +57,7 @@ Linux无需该步骤
 <img src='/image/setup/setup/go_success.png'>
 
 ### Linux
-1. `wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc2/go-cqhttp_linux_amd64.tar.gz`
+1. `wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc3/go-cqhttp_linux_amd64.tar.gz`
 2. `tar -xvf go-cqhttp_linux_amd64.tar.gz`
 3. `cd go-cqhttp_linux_amd64`
 4. `vi config.yml`,按i开始修改,将 `universal` 修改为 `ws://127.0.0.1:25888/onebot/v11/ws`,修改`uin`和`password`为机器人的账号和密码,修改完输入 `:wq`,回车退出

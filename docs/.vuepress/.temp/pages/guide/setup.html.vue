@@ -39,7 +39,8 @@ mysql &gt;= 5.6<br>
 <h4 id="windows-1" tabindex="-1"><a class="header-anchor" href="#windows-1" aria-hidden="true">#</a> Windows</h4>
 <ol>
 <li>下载<a href="https://www.apachefriends.org/zh_cn/index.html" target="_blank" rel="noopener noreferrer">XAMPP<ExternalLinkIcon/></a>,打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成</li>
-<li>启动Mysql</li>
+<li>以管理员身份启动XAMPP</li>
+<li>启动Apache和Mysql</li>
 <li>选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin</li>
 <li>在侧边栏点击刚才创建的数据库</li>
 <li>选择 权限 选项卡,新建一个账户,记好账号和密码</li>
@@ -50,7 +51,7 @@ mysql &gt;= 5.6<br>
 <h3 id="windows-2" tabindex="-1"><a class="header-anchor" href="#windows-2" aria-hidden="true">#</a> Windows</h3>
 <ol>
 <li>新建一个文件夹用于存放程序</li>
-<li>根据自己的系统下载最新版的<a href="https://github.com/Mrs4s/go-cqhttp/releases/tag/v1.0.0-rc1" target="_blank" rel="noopener noreferrer">go-cqhttp<ExternalLinkIcon/></a>,不知道现在那个版本的请参考<a href="https://docs.go-cqhttp.org/guide/quick_start.html#%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener noreferrer">版本说明<ExternalLinkIcon/></a>,这里以Windows10系统演示(Github 打不开的可以自行百度 github hosts加速)</li>
+<li>根据自己的系统下载最新版的<a href="https://github.com/Mrs4s/go-cqhttp/releases" target="_blank" rel="noopener noreferrer">go-cqhttp<ExternalLinkIcon/></a>,不知道现在那个版本的请参考<a href="https://docs.go-cqhttp.org/guide/quick_start.html#%E4%B8%8B%E8%BD%BD" target="_blank" rel="noopener noreferrer">版本说明<ExternalLinkIcon/></a>,这里以Windows10系统演示(Github 打不开的可以自行百度 github hosts加速)</li>
 <li>打开 <code v-pre>go-cqhttp.exe</code>,一路确定</li>
 <li>打开 <code v-pre>go-cqhttp.bat</code>, 输入 <code v-pre>3</code>,然后回车</li>
 <li>打开 <code v-pre>config.yml</code> (使用记事本,vscode等打开),修改<code v-pre>uin</code>和<code v-pre>password</code>为机器人的账号和密码(不建议使用自己的主账号)</li>
@@ -60,7 +61,7 @@ mysql &gt;= 5.6<br>
 </ol>
 <h3 id="linux-3" tabindex="-1"><a class="header-anchor" href="#linux-3" aria-hidden="true">#</a> Linux</h3>
 <ol>
-<li><code v-pre>wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc2/go-cqhttp_linux_amd64.tar.gz</code></li>
+<li><code v-pre>wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc3/go-cqhttp_linux_amd64.tar.gz</code></li>
 <li><code v-pre>tar -xvf go-cqhttp_linux_amd64.tar.gz</code></li>
 <li><code v-pre>cd go-cqhttp_linux_amd64</code></li>
 <li><code v-pre>vi config.yml</code>,按i开始修改,将 <code v-pre>universal</code> 修改为 <code v-pre>ws://127.0.0.1:25888/onebot/v11/ws</code>,修改<code v-pre>uin</code>和<code v-pre>password</code>为机器人的账号和密码,修改完输入 <code v-pre>:wq</code>,回车退出</li>

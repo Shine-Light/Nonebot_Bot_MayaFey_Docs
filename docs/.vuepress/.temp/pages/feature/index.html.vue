@@ -1160,7 +1160,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例: <code v-pre>问主页答shinelight.xyz</code></p>
+<p>示例: <code v-pre>精准问主页答shinelight.xyz</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
 <h2 id="游戏功能" tabindex="-1"><a class="header-anchor" href="#游戏功能" aria-hidden="true">#</a> 游戏功能</h2>
 <h3 id="获取游戏菜单" tabindex="-1"><a class="header-anchor" href="#获取游戏菜单" aria-hidden="true">#</a> 获取游戏菜单</h3>
@@ -1240,7 +1240,7 @@
 </tr>
 </tbody>
 </table>
-<p>示例：/装弹 1 10</p>
+<p>示例：<code v-pre>/装弹 1 10</code></p>
 <p>插件来源: <a href="https://github.com/HibiKier/nonebot_plugin_russian" target="_blank" rel="noopener noreferrer">github.com/HibiKier/nonebot_plugin_russian<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="_21点" tabindex="-1"><a class="header-anchor" href="#_21点" aria-hidden="true">#</a> 21点</h4>
 <p>发起游戏: /21点 {积分}<br>

@@ -652,7 +652,7 @@ sidebar: auto
 |问题|自行输入|是||
 |回答|自行输入|是|回答中只能有图片、文字和QQ表情,其他内容不识别|
 
-示例: `问主页答shinelight.xyz`
+示例: `精准问主页答shinelight.xyz`
 
 权限: **超级用户**及以上
 
@@ -693,7 +693,7 @@ sidebar: auto
 |打出子弹数|积分排行榜/胜场排行/败场排行/欧洲人排行/慈善家排行|是||  
 
 
-示例：/装弹 1 10  
+示例：`/装弹 1 10`  
 
 插件来源: [github.com/HibiKier/nonebot_plugin_russian](https://github.com/HibiKier/nonebot_plugin_russian)修改而来
 
