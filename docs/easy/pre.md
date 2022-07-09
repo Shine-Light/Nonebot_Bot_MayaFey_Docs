@@ -76,7 +76,7 @@ Linux:Ubuntu20.04/Ubuntu18.04
 :::
 ### 更换 apt 源
 1. 输入 `vim /etc/apt/sources.list` 回车  
-2. 按下键盘上的 `I` 键,按顺序按下键盘上的 `G` `G` `D` `G`  
+2. 按顺序按下键盘上的 `g` `g` `d` `G`,按下键盘上的 `i` 键  
 3. 复制下面的代码,右键粘贴
 :::: code-group
 ::: code-group-item 18.04
@@ -123,7 +123,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 ::: tip 提示
 输入 `python3 -V` 回车,如果出现 3.9.x 则说明已经安装过python3.9,可以跳过这一步
 :::
-1. 输入 `apt -y install python3.9`
+1. 输入 `apt install -y python3.9`
 2. 输入 `ln -s /bin/python3.9 /bin/python3`,回车
 3. 输入 `python3 -V`,回车,若出现Python3.9.x,则说明安装成功  
 <img src='/image/easy/pre/python4.png'>
@@ -133,7 +133,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车  
 输入 `pip3 --version` 回车,如果有版本显示,说明已安装过,可以跳过这步
 :::
-1. 输入 `apt install python3-pip`
+1. 输入 `apt install -y python3-pip`
 2. 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车  
 3. 输入 `pip3 --version` 回车,如果有版本显示,说明安装成功 
 <img src='/image/easy/pre/python5.png'>
@@ -149,7 +149,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 ::: tip 提示
 输入 `screen -v` 回车,若有版本显示,则说明已经安装过,可以跳过这一步
 :::
-1. 输入 `apt -y install screen`,等待安装完成
+1. 输入 `apt install -y screen`,等待安装完成
 2. 输入 `screen -v`,若有版本显示,则说明安装成功
 <img src='/image/easy/pre/screen1.png'>
 
@@ -159,22 +159,19 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 :::
 1. 输入 `wget https://dev.mysql.com/get/mysql-apt-config_0.8.22-1_all.deb` 回车
 2. 输入 `dpkg -i mysql-apt-config_0.8.22-1_all.deb` 回车,等待安装完成
-3. 安装过程中会出现一个提示界面,通过方向键选择到 `OK` 然后回车
+3. 如果出现下面的提示,18.04选择bionic,20.04选择focal,没有就不管
+<img src="/image/easy/pre/mysql2.png">
+4. 安装过程中会出现一个提示界面,通过方向键选择到 `OK` 然后回车
 <img src='/image/easy/pre/mysql1.png'>
 
 4. 输入 `apt -y install mysql-server` 回车,等待安装完成
 
 ### MySql修改密码并开机自启
-1. 输入 `cat /etc/mysql/debian.cnf` 回车
-2. `user=`后面的是用户名,`password=`后面的是密码,记录这两个值 
+1. 输入 `mysql` 回车
+2. 输入 `use mysql;` 回车
+3. 输入 `update user set plugin='caching_sha2_password' where user='root';`
+4. 输入 `flush privileges;` 回车
+5. 输入 `exut` 回车
 
-3. 输入 `mysql -u用户名 -p'默认密码'` 回车
-4. 输入 `ALTER user 'root'@'localhost' DENTIFIED WITH mysql_native_password BY '密码';` 回车,密码要牢记,这将作为数据库的密码
-5. 输入 `exit` 回车,退出数据库
-::: details 具体流程图
-2. `user=`后面的是用户名,`password=`后面的是密码,记录这两个值
-<img src='/image/easy/pre/mysql2.png'>
-
-3. 输入 `mysql -u用户名 -p'默认密码'` 回车
-<img src='/image/easy/pre/mysql3.png'>
-:::
+6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,,密码要牢记
+7. 输入 `/etc/init.d/mysql restart` 回车

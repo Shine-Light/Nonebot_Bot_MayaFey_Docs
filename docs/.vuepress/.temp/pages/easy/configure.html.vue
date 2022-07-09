@@ -37,9 +37,11 @@
 <h3 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h3>
 <p>说明: 填入机器人QQ号<br>
 示例: <code v-pre>bot_id = &quot;xxxxxxxx&quot;</code></p>
-<h3 id="mysql-host" tabindex="-1"><a class="header-anchor" href="#mysql-host" aria-hidden="true">#</a> mysql_host</h3>
+<h3 id="mysql-password" tabindex="-1"><a class="header-anchor" href="#mysql-password" aria-hidden="true">#</a> mysql_password</h3>
 <p>说明: 数据库密码,填入之前设置的密码<br>
 示例: <code v-pre>mysql_password = &quot;xxxxxxxx&quot;</code></p>
+<h3 id="mysql-user" tabindex="-1"><a class="header-anchor" href="#mysql-user" aria-hidden="true">#</a> mysql_user</h3>
+<p>说明: 使用 <code v-pre>root``   示例: </code>mysql_user = &quot;root&quot;`</p>
 <h2 id="api设置" tabindex="-1"><a class="header-anchor" href="#api设置" aria-hidden="true">#</a> API设置</h2>
 <h3 id="腾讯机器翻译" tabindex="-1"><a class="header-anchor" href="#腾讯机器翻译" aria-hidden="true">#</a> 腾讯机器翻译</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>

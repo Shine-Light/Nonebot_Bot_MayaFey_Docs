@@ -77,7 +77,7 @@ Linux:Ubuntu20.04/Ubuntu18.04</p>
 <h3 id="更换-apt-源" tabindex="-1"><a class="header-anchor" href="#更换-apt-源" aria-hidden="true">#</a> 更换 apt 源</h3>
 <ol>
 <li>输入 <code v-pre>vim /etc/apt/sources.list</code> 回车</li>
-<li>按下键盘上的 <code v-pre>I</code> 键,按顺序按下键盘上的 <code v-pre>G</code> <code v-pre>G</code> <code v-pre>D</code> <code v-pre>G</code></li>
+<li>按顺序按下键盘上的 <code v-pre>g</code> <code v-pre>g</code> <code v-pre>d</code> <code v-pre>G</code>,按下键盘上的 <code v-pre>i</code> 键</li>
 <li>复制下面的代码,右键粘贴</li>
 </ol>
 <CodeGroup>
@@ -123,7 +123,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <p>输入 <code v-pre>python3 -V</code> 回车,如果出现 3.9.x 则说明已经安装过python3.9,可以跳过这一步</p>
 </div>
 <ol>
-<li>输入 <code v-pre>apt -y install python3.9</code></li>
+<li>输入 <code v-pre>apt install -y python3.9</code></li>
 <li>输入 <code v-pre>ln -s /bin/python3.9 /bin/python3</code>,回车</li>
 <li>输入 <code v-pre>python3 -V</code>,回车,若出现Python3.9.x,则说明安装成功<br>
 <img src='/image/easy/pre/python4.png'></li>
@@ -134,7 +134,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明已安装过,可以跳过这步</p>
 </div>
 <ol>
-<li>输入 <code v-pre>apt install python3-pip</code></li>
+<li>输入 <code v-pre>apt install -y python3-pip</code></li>
 <li>输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车</li>
 <li>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明安装成功
 <img src='/image/easy/pre/python5.png'></li>
@@ -152,7 +152,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <p>输入 <code v-pre>screen -v</code> 回车,若有版本显示,则说明已经安装过,可以跳过这一步</p>
 </div>
 <ol>
-<li>输入 <code v-pre>apt -y install screen</code>,等待安装完成</li>
+<li>输入 <code v-pre>apt install -y screen</code>,等待安装完成</li>
 <li>输入 <code v-pre>screen -v</code>,若有版本显示,则说明安装成功
 <img src='/image/easy/pre/screen1.png'></li>
 </ol>
@@ -168,6 +168,10 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <p>输入 <code v-pre>dpkg -i mysql-apt-config_0.8.22-1_all.deb</code> 回车,等待安装完成</p>
 </li>
 <li>
+<p>如果出现下面的提示,18.04选择bionic,20.04选择focal,没有就不管
+<img src="/image/easy/pre/mysql2.png"></p>
+</li>
+<li>
 <p>安装过程中会出现一个提示界面,通过方向键选择到 <code v-pre>OK</code> 然后回车
 <img src='/image/easy/pre/mysql1.png'></p>
 </li>
@@ -178,31 +182,25 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <h3 id="mysql修改密码并开机自启" tabindex="-1"><a class="header-anchor" href="#mysql修改密码并开机自启" aria-hidden="true">#</a> MySql修改密码并开机自启</h3>
 <ol>
 <li>
-<p>输入 <code v-pre>cat /etc/mysql/debian.cnf</code> 回车</p>
+<p>输入 <code v-pre>mysql</code> 回车</p>
 </li>
 <li>
-<p><code v-pre>user=</code>后面的是用户名,<code v-pre>password=</code>后面的是密码,记录这两个值</p>
+<p>输入 <code v-pre>use mysql;</code> 回车</p>
 </li>
 <li>
-<p>输入 <code v-pre>mysql -u用户名 -p'默认密码'</code> 回车</p>
+<p>输入 <code v-pre>update user set plugin='caching_sha2_password' where user='root';</code></p>
 </li>
 <li>
-<p>输入 <code v-pre>ALTER user 'root'@'localhost' DENTIFIED WITH mysql_native_password BY '密码';</code> 回车,密码要牢记,这将作为数据库的密码</p>
+<p>输入 <code v-pre>flush privileges;</code> 回车</p>
 </li>
 <li>
-<p>输入 <code v-pre>exit</code> 回车,退出数据库</p>
+<p>输入 <code v-pre>exut</code> 回车</p>
+</li>
+<li>
+<p>输入 <code v-pre>mysqladmin -u用户名 -p password '你的密码'</code> 回车 X 2,,密码要牢记</p>
+</li>
+<li>
+<p>输入 <code v-pre>/etc/init.d/mysql restart</code> 回车</p>
 </li>
 </ol>
-<details class="custom-container details"><summary>具体流程图</summary>
-<ol start="2">
-<li>
-<p><code v-pre>user=</code>后面的是用户名,<code v-pre>password=</code>后面的是密码,记录这两个值
-<img src='/image/easy/pre/mysql2.png'></p>
-</li>
-<li>
-<p>输入 <code v-pre>mysql -u用户名 -p'默认密码'</code> 回车
-<img src='/image/easy/pre/mysql3.png'></p>
-</li>
-</ol>
-</details>
 </div></template>

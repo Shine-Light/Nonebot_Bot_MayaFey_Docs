@@ -34,9 +34,13 @@
 说明: 填入机器人QQ号  
 示例: `bot_id = "xxxxxxxx"`  
 
-### mysql_host
+### mysql_password
 说明: 数据库密码,填入之前设置的密码  
 示例: `mysql_password = "xxxxxxxx"`  
+
+### mysql_user
+说明: 使用 `root``  
+示例: `mysql_user = "root"`  
 
 ## API设置
 ### 腾讯机器翻译
