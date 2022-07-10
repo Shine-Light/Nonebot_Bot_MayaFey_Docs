@@ -130,13 +130,16 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 
 ### pip3
 ::: tip 提示
-输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车  
-输入 `pip3 --version` 回车,如果有版本显示,说明已安装过,可以跳过这步
+输入 `pip3 --version` 回车,如果有版本显示,说明已安装过
+输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车,然后可以跳过这步
 :::
-1. 输入 `apt install -y python3-pip`
-2. 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车  
+1. 输入 `curl https://bootstrap.pypa.io/ez_setup.py -o - | python3 && python3 -m easy_install pip`
+2. 输入 `ln -s /bin/pip /bin/pip3`
 3. 输入 `pip3 --version` 回车,如果有版本显示,说明安装成功 
 <img src='/image/easy/pre/python5.png'>
+
+1. 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车  
+
 
 ### poetry
 ::: tip 提示
@@ -173,5 +176,5 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 4. 输入 `flush privileges;` 回车
 5. 输入 `exut` 回车
 
-6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,,密码要牢记
+6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,密码要牢记
 7. 输入 `/etc/init.d/mysql restart` 回车

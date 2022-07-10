@@ -130,14 +130,23 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 </ol>
 <h3 id="pip3" tabindex="-1"><a class="header-anchor" href="#pip3" aria-hidden="true">#</a> pip3</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车<br>
-输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明已安装过,可以跳过这步</p>
+<p>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明已安装过
+输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车,然后可以跳过这步</p>
 </div>
 <ol>
-<li>输入 <code v-pre>apt install -y python3-pip</code></li>
-<li>输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车</li>
-<li>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明安装成功
-<img src='/image/easy/pre/python5.png'></li>
+<li>
+<p>输入 <code v-pre>curl https://bootstrap.pypa.io/ez_setup.py -o - | python3 &amp;&amp; python3 -m easy_install pip</code></p>
+</li>
+<li>
+<p>输入 <code v-pre>ln -s /bin/pip /bin/pip3</code></p>
+</li>
+<li>
+<p>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明安装成功
+<img src='/image/easy/pre/python5.png'></p>
+</li>
+<li>
+<p>输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车</p>
+</li>
 </ol>
 <h3 id="poetry" tabindex="-1"><a class="header-anchor" href="#poetry" aria-hidden="true">#</a> poetry</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -197,7 +206,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <p>输入 <code v-pre>exut</code> 回车</p>
 </li>
 <li>
-<p>输入 <code v-pre>mysqladmin -u用户名 -p password '你的密码'</code> 回车 X 2,,密码要牢记</p>
+<p>输入 <code v-pre>mysqladmin -u用户名 -p password '你的密码'</code> 回车 X 2,密码要牢记</p>
 </li>
 <li>
 <p>输入 <code v-pre>/etc/init.d/mysql restart</code> 回车</p>
