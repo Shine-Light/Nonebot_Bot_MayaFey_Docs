@@ -11,7 +11,7 @@
 ::: warning 提示
 购买时的系统  
 Windows:无限制  
-Linux:Ubuntu20.04/Ubuntu18.04
+Linux:Ubuntu20.04/Ubuntu18.04/Ubuntu22.04
 :::
 
 完成选择后点击购买  

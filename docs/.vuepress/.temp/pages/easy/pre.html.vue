@@ -11,7 +11,7 @@
 <div class="custom-container warning"><p class="custom-container-title">提示</p>
 <p>购买时的系统<br>
 Windows:无限制<br>
-Linux:Ubuntu20.04/Ubuntu18.04</p>
+Linux:Ubuntu20.04/Ubuntu18.04/Ubuntu22.04</p>
 </div>
 <p>完成选择后点击购买<br>
 如果出现售罄的情况,可以选择其他配置或地区的机器,或者等待补货(纯看运气)</p>
