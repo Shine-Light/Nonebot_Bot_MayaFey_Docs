@@ -130,7 +130,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 </ol>
 <h3 id="pip3" tabindex="-1"><a class="header-anchor" href="#pip3" aria-hidden="true">#</a> pip3</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明已安装过
+<p>输入 <code v-pre>pip3 --version</code> 回车,如果有版本显示,说明已安装过<br>
 输入 <code v-pre>pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple</code>,回车,然后可以跳过这步</p>
 </div>
 <ol>

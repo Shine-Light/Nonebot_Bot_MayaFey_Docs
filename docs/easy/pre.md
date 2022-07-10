@@ -130,7 +130,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 
 ### pip3
 ::: tip 提示
-输入 `pip3 --version` 回车,如果有版本显示,说明已安装过
+输入 `pip3 --version` 回车,如果有版本显示,说明已安装过  
 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车,然后可以跳过这步
 :::
 1. 输入 `curl https://bootstrap.pypa.io/ez_setup.py -o - | python3 && python3 -m easy_install pip`
