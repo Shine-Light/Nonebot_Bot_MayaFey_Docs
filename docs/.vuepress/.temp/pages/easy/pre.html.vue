@@ -211,5 +211,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <li>
 <p>输入 <code v-pre>/etc/init.d/mysql restart</code> 回车</p>
 </li>
+<li>
+<p>输入 <code v-pre>systemctl enable mysql</code> 回车</p>
+</li>
 </ol>
 </div></template>

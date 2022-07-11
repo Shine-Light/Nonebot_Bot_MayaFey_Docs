@@ -178,3 +178,4 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 
 6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,密码要牢记
 7. 输入 `/etc/init.d/mysql restart` 回车
+8. 输入 `systemctl enable mysql` 回车
