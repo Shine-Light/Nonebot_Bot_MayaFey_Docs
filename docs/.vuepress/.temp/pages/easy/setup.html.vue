@@ -3,7 +3,7 @@
 <ol>
 <li>输入 <code v-pre>mkdir -p /nonebot/go-cqhttp</code></li>
 <li>输入 <code v-pre>cd /nonebot/go-cqhttp</code></li>
-<li>输入 <code v-pre>wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc1/go-cqhttp_linux_386.tar.gz</code>,回车,等待下载完成</li>
+<li>输入 <code v-pre>wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc3/go-cqhttp_linux_386.tar.gz</code>,回车,等待下载完成</li>
 </ol>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>github连不上或者下载太慢? 看<a href="#github%E8%BF%9E%E6%8E%A5">常见问题</a></p>

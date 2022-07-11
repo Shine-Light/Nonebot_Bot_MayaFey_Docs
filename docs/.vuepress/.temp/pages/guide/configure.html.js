@@ -348,14 +348,14 @@ export const data = {
                   "title": "EATING_LIMIT",
                   "slug": "eating-limit",
                   "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "GROUPS_ID",
+                  "slug": "groups-id",
+                  "children": []
                 }
               ]
-            },
-            {
-              "level": 4,
-              "title": "GROUPS_ID",
-              "slug": "groups-id",
-              "children": []
             }
           ]
         }

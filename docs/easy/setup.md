@@ -2,7 +2,7 @@
 ## go-cqhttp
 1. 输入 `mkdir -p /nonebot/go-cqhttp`
 2. 输入 `cd /nonebot/go-cqhttp`
-3. 输入 `wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc1/go-cqhttp_linux_386.tar.gz`,回车,等待下载完成
+3. 输入 `wget https://github.com/Mrs4s/go-cqhttp/releases/download/v1.0.0-rc3/go-cqhttp_linux_386.tar.gz`,回车,等待下载完成
 ::: tip 提示
 github连不上或者下载太慢? 看[常见问题](#github连接)
 :::

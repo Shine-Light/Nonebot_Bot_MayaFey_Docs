@@ -97,12 +97,12 @@ export const data = {
   "filePathRelative": "easy/pre.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1657437601000,
+    "updatedTime": 1657514872000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 10
+        "commits": 11
       }
     ]
   }

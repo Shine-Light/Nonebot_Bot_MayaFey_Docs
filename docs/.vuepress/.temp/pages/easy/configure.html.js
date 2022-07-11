@@ -18,21 +18,40 @@ export const data = {
           "children": [
             {
               "level": 4,
-              "title": "翻译API",
-              "slug": "翻译api",
+              "title": "翻译API(可选)",
+              "slug": "翻译api-可选",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "违禁图片检测API(可选)",
+              "slug": "违禁图片检测api-可选",
               "children": []
             }
           ]
         },
         {
           "level": 3,
-          "title": "和风天气API",
-          "slug": "和风天气api",
+          "title": "和风天气API(可选)",
+          "slug": "和风天气api-可选",
           "children": [
             {
               "level": 4,
               "title": "注册",
               "slug": "注册",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "天行数据热搜API(可选)",
+          "slug": "天行数据热搜api-可选",
+          "children": [
+            {
+              "level": 4,
+              "title": "注册",
+              "slug": "注册-1",
               "children": []
             }
           ]
@@ -77,8 +96,8 @@ export const data = {
       "children": [
         {
           "level": 3,
-          "title": "腾讯机器翻译",
-          "slug": "腾讯机器翻译",
+          "title": "腾讯机器翻译(可选)",
+          "slug": "腾讯机器翻译-可选",
           "children": [
             {
               "level": 4,
@@ -96,8 +115,27 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "和风天气",
-          "slug": "和风天气",
+          "title": "腾讯违规图片检测(可选)",
+          "slug": "腾讯违规图片检测-可选",
+          "children": [
+            {
+              "level": 4,
+              "title": "tenid",
+              "slug": "tenid",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "tankey",
+              "slug": "tankey",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "和风天气(可选)",
+          "slug": "和风天气-可选",
           "children": [
             {
               "level": 4,
@@ -115,27 +153,104 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "允许违禁次数",
-          "slug": "允许违禁次数",
+          "title": "热搜API版本",
+          "slug": "热搜api版本",
+          "children": [
+            {
+              "level": 4,
+              "title": "nethot_version",
+              "slug": "nethot-version",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "天行数据热搜(可选)",
+          "slug": "天行数据热搜-可选",
+          "children": [
+            {
+              "level": 4,
+              "title": "tianxtoken",
+              "slug": "tianxtoken",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "插件设置",
+      "slug": "插件设置",
+      "children": [
+        {
+          "level": 3,
+          "title": "允许违规次数",
+          "slug": "允许违规次数",
           "children": [
             {
               "level": 4,
               "title": "BAN_COUNT_ALLOW",
               "slug": "ban-count-allow",
               "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "Epic喜加一",
+          "slug": "epic喜加一",
+          "children": [
+            {
+              "level": 4,
+              "title": "epic_scheduler",
+              "slug": "epic-scheduler",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "群管",
+          "slug": "群管",
+          "children": [
+            {
+              "level": 4,
+              "title": "BAN_COUNT_ALLOW",
+              "slug": "ban-count-allow-1",
+              "children": []
             },
             {
               "level": 4,
-              "title": "Epic喜加一",
-              "slug": "epic喜加一",
-              "children": [
-                {
-                  "level": 5,
-                  "title": "epic_scheduler",
-                  "slug": "epic-scheduler",
-                  "children": []
-                }
-              ]
+              "title": "BAN_RAND_TIME_MIN",
+              "slug": "ban-rand-time-min",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "BAN_RAND_TIMR_MAX",
+              "slug": "ban-rand-timr-max",
+              "children": []
+            }
+          ]
+        },
+        {
+          "level": 3,
+          "title": "今天吃什么",
+          "slug": "今天吃什么",
+          "children": [
+            {
+              "level": 4,
+              "title": "EATING_LIMIT",
+              "slug": "eating-limit",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "GROUPS_ID",
+              "slug": "groups-id",
+              "children": []
             }
           ]
         }
