@@ -89,11 +89,11 @@
 示例: <code v-pre>QWEATHER_APITYPE=0</code></p>
 <h3 id="热搜api版本" tabindex="-1"><a class="header-anchor" href="#热搜api版本" aria-hidden="true">#</a> 热搜API版本</h3>
 <h4 id="nethot-version" tabindex="-1"><a class="header-anchor" href="#nethot-version" aria-hidden="true">#</a> nethot_version</h4>
-<p>说明: 热搜接口版本选择,<code v-pre>han</code>(韩小韩) 或 <code v-pre>tian</code>(天行数据)
+<p>说明: 热搜接口版本选择,<code v-pre>han</code>(韩小韩) 或 <code v-pre>tian</code>(天行数据)<br>
 示例: <code v-pre>nethot_version=&quot;han&quot;</code></p>
 <h3 id="天行数据热搜-可选" tabindex="-1"><a class="header-anchor" href="#天行数据热搜-可选" aria-hidden="true">#</a> 天行数据热搜(可选)</h3>
 <h4 id="tianxtoken" tabindex="-1"><a class="header-anchor" href="#tianxtoken" aria-hidden="true">#</a> tianxtoken</h4>
-<p>说明: 天行数据接口密钥,在<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取
+<p>说明: 天行数据接口密钥,在<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取<br>
 示例: <code v-pre>tianxtoken=&quot;xxxxxxxx&quot;</code></p>
 <h2 id="插件设置" tabindex="-1"><a class="header-anchor" href="#插件设置" aria-hidden="true">#</a> 插件设置</h2>
 <h3 id="允许违规次数" tabindex="-1"><a class="header-anchor" href="#允许违规次数" aria-hidden="true">#</a> 允许违规次数</h3>

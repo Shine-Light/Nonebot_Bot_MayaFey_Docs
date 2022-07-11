@@ -22,12 +22,12 @@ export const data = {
   "filePathRelative": "easy/setup.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1651484398000,
+    "updatedTime": 1657523697000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

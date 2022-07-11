@@ -97,12 +97,12 @@
 
 ### 热搜API版本
 #### nethot_version
-说明: 热搜接口版本选择,`han`(韩小韩) 或 `tian`(天行数据)
+说明: 热搜接口版本选择,`han`(韩小韩) 或 `tian`(天行数据)  
 示例: `nethot_version="han"`
 
 ### 天行数据热搜(可选)
 #### tianxtoken
-说明: 天行数据接口密钥,在[控制台](https://www.tianapi.com/console/)获取
+说明: 天行数据接口密钥,在[控制台](https://www.tianapi.com/console/)获取  
 示例: `tianxtoken="xxxxxxxx"`
 
 ## 插件设置
