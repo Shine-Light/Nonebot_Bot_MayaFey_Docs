@@ -27,11 +27,6 @@
 <li>输入 <code v-pre>cd /nonebot/bot</code></li>
 <li>输入 <code v-pre>poetry run python3 bot.py</code></li>
 <li>在初次运行时会下载 chromiun 内核,下载速度可能很慢,等待下载完成</li>
-</ol>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>libatk-1.0.so.0 libatk-bridge-2.0.so.0 libcups.so.2 libxkbcommon.so.0 libXcomposite.so.1 libXdamage.so.1 libXext.so.6 libXfixes.so.3 libXrandr.so.2 libgbm.so.1 libpango-1.0.so.0 libcairo.so.2 libatspi.so.0</p>
-</div>
-<ol start="5">
 <li>等待机器人启动</li>
 <li>启动后,同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</li>
 <li>将机器人拉入群,在群内发送一条信息 <code v-pre>/初始化</code></li>

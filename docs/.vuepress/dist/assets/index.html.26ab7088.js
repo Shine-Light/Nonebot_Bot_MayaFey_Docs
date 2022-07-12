@@ -1,0 +1,1 @@
+const e={key:"v-1b4deaa9",path:"/introduce/",title:"\u672C\u9879\u76EE",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"License",slug:"license",children:[]}],filePathRelative:"introduce/README.md",git:{createdTime:165199849e4,updatedTime:1657630922e3,contributors:[{name:"Shine-Light",email:"3120815902@qq.com",commits:8}]}};export{e as data};
