@@ -11,6 +11,55 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "0.5版本更新日志 2022/07/13",
+      "slug": "_0-5版本更新日志-2022-07-13",
+      "children": [
+        {
+          "level": 4,
+          "title": "机器人已开源",
+          "slug": "机器人已开源",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 管理功能 -> 机器人开关",
+          "slug": "新增-管理功能-机器人开关",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 被动功能 -> 根用户群邀请自接受",
+          "slug": "新增-被动功能-根用户群邀请自接受",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 Windows可视化界面(测试)",
+          "slug": "新增-windows可视化界面-测试",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 数据库初始化失败",
+          "slug": "修复-数据库初始化失败",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 机器人入群欢迎自己",
+          "slug": "修复-机器人入群欢迎自己",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 词云可能报错",
+          "slug": "修复-词云可能报错",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "0.4.2版本更新日志 2022/7/5",
       "slug": "_0-4-2版本更新日志-2022-7-5",
       "children": [

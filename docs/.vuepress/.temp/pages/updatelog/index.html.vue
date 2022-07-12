@@ -1,4 +1,12 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5版本更新日志-2022-07-13" tabindex="-1"><a class="header-anchor" href="#_0-5版本更新日志-2022-07-13" aria-hidden="true">#</a> 0.5版本更新日志 2022/07/13</h2>
+<h4 id="机器人已开源" tabindex="-1"><a class="header-anchor" href="#机器人已开源" aria-hidden="true">#</a> 机器人已开源</h4>
+<h4 id="新增-管理功能-机器人开关" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-机器人开关" aria-hidden="true">#</a> 新增 管理功能 -&gt; 机器人开关</h4>
+<h4 id="新增-被动功能-根用户群邀请自接受" tabindex="-1"><a class="header-anchor" href="#新增-被动功能-根用户群邀请自接受" aria-hidden="true">#</a> 新增 被动功能 -&gt; 根用户群邀请自接受</h4>
+<h4 id="新增-windows可视化界面-测试" tabindex="-1"><a class="header-anchor" href="#新增-windows可视化界面-测试" aria-hidden="true">#</a> 新增 Windows可视化界面(测试)</h4>
+<h4 id="修复-数据库初始化失败" tabindex="-1"><a class="header-anchor" href="#修复-数据库初始化失败" aria-hidden="true">#</a> 修复 数据库初始化失败</h4>
+<h4 id="修复-机器人入群欢迎自己" tabindex="-1"><a class="header-anchor" href="#修复-机器人入群欢迎自己" aria-hidden="true">#</a> 修复 机器人入群欢迎自己</h4>
+<h4 id="修复-词云可能报错" tabindex="-1"><a class="header-anchor" href="#修复-词云可能报错" aria-hidden="true">#</a> 修复 词云可能报错</h4>
 <h2 id="_0-4-2版本更新日志-2022-7-5" tabindex="-1"><a class="header-anchor" href="#_0-4-2版本更新日志-2022-7-5" aria-hidden="true">#</a> 0.4.2版本更新日志 2022/7/5</h2>
 <h4 id="新增-管理功能-群聊管理-记过" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-群聊管理-记过" aria-hidden="true">#</a> 新增 管理功能 -&gt; 群聊管理 -&gt; 记过</h4>
 <h4 id="新增-娱乐功能-发言排行榜" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-发言排行榜" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 发言排行榜</h4>
