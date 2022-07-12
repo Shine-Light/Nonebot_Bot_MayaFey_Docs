@@ -46,5 +46,5 @@
 <h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
 <p>这种情况多发生在Linux系统上,百度Linux安装中文字体</p>
 <h2 id="找不到想要的问题" tabindex="-1"><a class="header-anchor" href="#找不到想要的问题" aria-hidden="true">#</a> 找不到想要的问题?</h2>
-<p>在Github提Issue,或者加入吹水群()</p>
+<p>在Github提Issue,或者加入<a href="https://jq.qq.com/?_wv=1027&amp;k=ElDdjklL" target="_blank" rel="noopener noreferrer">吹水群(622945924)<ExternalLinkIcon/></a></p>
 </div></template>

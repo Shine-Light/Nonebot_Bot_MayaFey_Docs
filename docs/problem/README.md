@@ -41,4 +41,4 @@ sidebar: auto
 这种情况多发生在Linux系统上,百度Linux安装中文字体
 
 ## 找不到想要的问题?
-在Github提Issue,或者加入吹水群()
+在Github提Issue,或者加入[吹水群(622945924)](https://jq.qq.com/?_wv=1027&k=ElDdjklL)

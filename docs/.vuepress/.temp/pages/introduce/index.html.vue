@@ -18,6 +18,7 @@
 <h1 id="仓库地址" tabindex="-1"><a class="header-anchor" href="#仓库地址" aria-hidden="true">#</a> 仓库地址</h1>
 <p><a href="https://github.com/Shine-Light/Nonebot_Bot_MayaFey" target="_blank" rel="noopener noreferrer">https://github.com/Shine-Light/Nonebot_Bot_MayaFey<ExternalLinkIcon/></a></p>
 <h1 id="吹水群" tabindex="-1"><a class="header-anchor" href="#吹水群" aria-hidden="true">#</a> 吹水群</h1>
+<p><a href="https://jq.qq.com/?_wv=1027&amp;k=ElDdjklL" target="_blank" rel="noopener noreferrer">622945924<ExternalLinkIcon/></a></p>
 <h1 id="感谢" tabindex="-1"><a class="header-anchor" href="#感谢" aria-hidden="true">#</a> 感谢</h1>
 <p><a href="https://github.com/botuniverse/onebot-11" target="_blank" rel="noopener noreferrer">Onebot<ExternalLinkIcon/></a><br>
 <a href="https://github.com/nonebot/nonebot2" target="_blank" rel="noopener noreferrer">Nonebot<ExternalLinkIcon/></a><br>

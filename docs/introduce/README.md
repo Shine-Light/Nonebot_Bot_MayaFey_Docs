@@ -21,7 +21,7 @@
 [https://github.com/Shine-Light/Nonebot_Bot_MayaFey](https://github.com/Shine-Light/Nonebot_Bot_MayaFey)
 
 # 吹水群
-
+[622945924](https://jq.qq.com/?_wv=1027&k=ElDdjklL)
 
 # 感谢
 [Onebot](https://github.com/botuniverse/onebot-11)  
