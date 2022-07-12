@@ -174,7 +174,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 2. 输入 `use mysql;` 回车
 3. 输入 `update user set plugin='caching_sha2_password' where user='root';`
 4. 输入 `flush privileges;` 回车
-5. 输入 `exut` 回车
+5. 输入 `exit` 回车
 
 6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,密码要牢记
 7. 输入 `/etc/init.d/mysql restart` 回车
