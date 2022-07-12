@@ -17,6 +17,12 @@
 6. 机器人的插件可以自己扒下来用,但请保留开发者信息
 7. 若该项目有任何地方有侵犯到你的权益请立即联系我 `shine_light@qq.com`
 
+# 仓库地址
+[https://github.com/Shine-Light/Nonebot_Bot_MayaFey](https://github.com/Shine-Light/Nonebot_Bot_MayaFey)
+
+# 吹水群
+
+
 # 感谢
 [Onebot](https://github.com/botuniverse/onebot-11)  
 [Nonebot](https://github.com/nonebot/nonebot2)  

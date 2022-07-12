@@ -61,7 +61,7 @@
 <h4 id="韩小韩接口版本" tabindex="-1"><a class="header-anchor" href="#韩小韩接口版本" aria-hidden="true">#</a> 韩小韩接口版本</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>无需注册,分类较多,但非大陆IP无法访问。该版本适合大陆IP机器使用<br>
-非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
+非大陆IP机器有时会被屏蔽,需配置代理回国,具体设置查看<RouterLink to="/guide/configure.html/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">代理设置</RouterLink></p>
 </div>
 <p>命令: <code v-pre>/热搜 {类别}</code></p>
 <p>功能: 获取各平台热搜</p>
@@ -95,7 +95,7 @@
 <p>接口来源: <a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">www.tianapi.com/apiview/223<ExternalLinkIcon/></a></p>
 <h3 id="随机笑话" tabindex="-1"><a class="header-anchor" href="#随机笑话" aria-hidden="true">#</a> 随机笑话</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
-<p>该功能非大陆IP机器可能无法使用,需<RouterLink to="/guide/configure.md/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">配置代理</RouterLink></p>
+<p>该功能非大陆IP机器可能无法使用,需<RouterLink to="/guide/configure.html/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">配置代理</RouterLink></p>
 </div>
 <p>命令: <code v-pre>/笑话</code> <code v-pre>/xh</code></p>
 <p>功能: 随机返回一个笑话</p>
@@ -640,6 +640,9 @@
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
 <p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
+<h4 id="启用-停用机器人" tabindex="-1"><a class="header-anchor" href="#启用-停用机器人" aria-hidden="true">#</a> 启用/停用机器人</h4>
+<p>命令: <code v-pre>/启用机器人</code> <code v-pre>/停用机器人</code></p>
+<p>权限: <strong>根用户</strong></p>
 <h4 id="疫情关注" tabindex="-1"><a class="header-anchor" href="#疫情关注" aria-hidden="true">#</a> 疫情关注</h4>
 <p>命令: <code v-pre>/关注疫情 {城市}</code> <code v-pre>/取消关注疫情 {城市}</code> <code v-pre>/疫情关注列表</code></p>
 <p>功能: 关注城市疫情并自动在每天18:30推送</p>

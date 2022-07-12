@@ -1,4 +1,7 @@
 <template><div><h1 id="运行" tabindex="-1"><a class="header-anchor" href="#运行" aria-hidden="true">#</a> 运行</h1>
+<div class="custom-container warning"><p class="custom-container-title">注意</p>
+<p>在安装完成后,建议先开启go-cqhttp,挂个3~5天,再开启机器人,这样不容易风控</p>
+</div>
 <h2 id="windows" tabindex="-1"><a class="header-anchor" href="#windows" aria-hidden="true">#</a> Windows</h2>
 <ol>
 <li>进入go-cqhttp所在目录,打开 <code v-pre>go-cqhttp.bat</code></li>

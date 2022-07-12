@@ -1,4 +1,7 @@
 # 运行
+::: warning 注意
+在安装完成后,建议先开启go-cqhttp,挂个3~5天,再开启机器人,这样不容易风控
+:::
 ## 运行go-cqhttp
 1. 输入 `screen -R gocq` 进入新窗口
 2. 输入 `cd /nonebot/go-cqhttp`

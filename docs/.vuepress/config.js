@@ -35,6 +35,7 @@ module.exports = {
             { text: '功能', link: '/feature/' },
             { text: '指南', link: '/guide/' },
             { text: '零基础', link: '/easy/' },
+            { text: '常见问题', link: '/problem'},
             { text: '我的主页', link: 'https://shinelight.xyz'}, 
         ],
         sidebar: {
@@ -44,7 +45,8 @@ module.exports = {
                 children: [ '/guide/',
                             '/guide/setup',
                             '/guide/configure',
-                            '/guide/run'
+                            '/guide/run', 
+                            '/guide/use'
                 ]
             }],
             '/easy/': [{
@@ -54,7 +56,8 @@ module.exports = {
                             '/easy/pre',
                             '/easy/setup',
                             '/easy/configure',
-                            '/easy/run'
+                            '/easy/run',
+                            '/easy/use'
                 ]
             }]
         }

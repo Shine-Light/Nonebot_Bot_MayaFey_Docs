@@ -179,6 +179,12 @@ export const data = {
             },
             {
               "level": 4,
+              "title": "启用/停用机器人",
+              "slug": "启用-停用机器人",
+              "children": []
+            },
+            {
+              "level": 4,
               "title": "疫情关注",
               "slug": "疫情关注",
               "children": []

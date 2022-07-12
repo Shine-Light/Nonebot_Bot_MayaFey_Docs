@@ -41,6 +41,10 @@ export const themeData = {
       "link": "/easy/"
     },
     {
+      "text": "常见问题",
+      "link": "/problem"
+    },
+    {
       "text": "我的主页",
       "link": "https://shinelight.xyz"
     }
@@ -54,7 +58,8 @@ export const themeData = {
           "/guide/",
           "/guide/setup",
           "/guide/configure",
-          "/guide/run"
+          "/guide/run",
+          "/guide/use"
         ]
       }
     ],
@@ -67,7 +72,8 @@ export const themeData = {
           "/easy/pre",
           "/easy/setup",
           "/easy/configure",
-          "/easy/run"
+          "/easy/run",
+          "/easy/use"
         ]
       }
     ]

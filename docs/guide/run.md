@@ -1,4 +1,7 @@
 # 运行
+::: warning 注意
+在安装完成后,建议先开启go-cqhttp,挂个3~5天,再开启机器人,这样不容易风控
+:::
 ## Windows
 1. 进入go-cqhttp所在目录,打开 `go-cqhttp.bat`
 2. 在机器人所在目录,打开 `start.bat`  
