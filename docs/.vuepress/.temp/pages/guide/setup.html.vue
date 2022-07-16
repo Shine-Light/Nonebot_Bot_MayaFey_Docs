@@ -47,6 +47,8 @@ mysql &gt;= 5.6<br>
 </ol>
 <h4 id="linux-2" tabindex="-1"><a class="header-anchor" href="#linux-2" aria-hidden="true">#</a> Linux</h4>
 <p>方法很多,自行百度</p>
+<h3 id="安装ffmpeg" tabindex="-1"><a class="header-anchor" href="#安装ffmpeg" aria-hidden="true">#</a> 安装ffmpeg</h3>
+<p>参考<a href="https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg" target="_blank" rel="noopener noreferrer">https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg<ExternalLinkIcon/></a></p>
 <h2 id="安装并配置go-cqhttp" tabindex="-1"><a class="header-anchor" href="#安装并配置go-cqhttp" aria-hidden="true">#</a> 安装并配置go-cqhttp</h2>
 <h3 id="windows-2" tabindex="-1"><a class="header-anchor" href="#windows-2" aria-hidden="true">#</a> Windows</h3>
 <ol>

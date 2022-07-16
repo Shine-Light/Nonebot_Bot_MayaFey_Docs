@@ -45,6 +45,9 @@ Linux无需该步骤
 #### Linux
 方法很多,自行百度
 
+### 安装ffmpeg
+参考[https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg](https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg)
+
 ## 安装并配置go-cqhttp
 ### Windows
 1. 新建一个文件夹用于存放程序  

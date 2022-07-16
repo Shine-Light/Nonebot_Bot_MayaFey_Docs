@@ -165,6 +165,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 <li>输入 <code v-pre>screen -v</code>,若有版本显示,则说明安装成功
 <img src='/image/easy/pre/screen1.png'></li>
 </ol>
+<h3 id="ffmpeg" tabindex="-1"><a class="header-anchor" href="#ffmpeg" aria-hidden="true">#</a> ffmpeg</h3>
+<p>参考<a href="https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg" target="_blank" rel="noopener noreferrer">https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg<ExternalLinkIcon/></a></p>
 <h3 id="mysql" tabindex="-1"><a class="header-anchor" href="#mysql" aria-hidden="true">#</a> MySql</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>使用 <code v-pre>rpm -qa|grep -i mysql</code> 回车,若有版本显示,则说明已安装过,可以跳过这一步</p>

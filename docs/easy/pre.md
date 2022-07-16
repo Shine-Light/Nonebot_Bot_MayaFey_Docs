@@ -156,6 +156,9 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 2. 输入 `screen -v`,若有版本显示,则说明安装成功
 <img src='/image/easy/pre/screen1.png'>
 
+### ffmpeg
+参考[https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg](https://docs.go-cqhttp.org/guide/quick_start.html#%E5%AE%89%E8%A3%85-ffmpeg)
+
 ### MySql
 ::: tip 提示
 使用 `rpm -qa|grep -i mysql` 回车,若有版本显示,则说明已安装过,可以跳过这一步
