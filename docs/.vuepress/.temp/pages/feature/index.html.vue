@@ -364,6 +364,44 @@
 </table>
 <p>权限: <strong>群员及以上</strong></p>
 <p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<h3 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h3>
+<p>该功能支持私聊和群聊,聊天内容仅支持文本,图灵接口还没测试 <s>(没钱买接口)</s><br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>@机器人 {聊天内容}</code></td>
+<td>群聊</td>
+</tr>
+<tr>
+<td><code v-pre>{聊天内容}</code></td>
+<td>私聊</td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>聊天内容</td>
+<td>自行输入</td>
+<td>是</td>
+</tr>
+</tbody>
+</table>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>

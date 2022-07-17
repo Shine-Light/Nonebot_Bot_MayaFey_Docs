@@ -267,6 +267,43 @@ export const data = {
                   "children": []
                 }
               ]
+            },
+            {
+              "level": 4,
+              "title": "AI对话",
+              "slug": "ai对话",
+              "children": [
+                {
+                  "level": 5,
+                  "title": "ai_talk_api_type",
+                  "slug": "ai-talk-api-type",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "ai_talk_tianx_key",
+                  "slug": "ai-talk-tianx-key",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "ai_talk_tianx_mode",
+                  "slug": "ai-talk-tianx-mode",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "ai_talk_tianx_priv",
+                  "slug": "ai-talk-tianx-priv",
+                  "children": []
+                },
+                {
+                  "level": 5,
+                  "title": "ai_talk_turing_key",
+                  "slug": "ai-talk-turing-key",
+                  "children": []
+                }
+              ]
             }
           ]
         },
@@ -374,4 +411,17 @@ export const data = {
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

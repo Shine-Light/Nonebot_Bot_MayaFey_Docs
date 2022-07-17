@@ -103,13 +103,26 @@ export const data = {
   "filePathRelative": "easy/pre.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1657631340000,
+    "updatedTime": 1657943287000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 12
+        "commits": 13
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

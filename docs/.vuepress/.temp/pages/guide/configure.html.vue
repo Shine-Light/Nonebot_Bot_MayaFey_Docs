@@ -112,6 +112,19 @@
 <h5 id="qweather-apitype" tabindex="-1"><a class="header-anchor" href="#qweather-apitype" aria-hidden="true">#</a> QWEATHER_APITYPE</h5>
 <p>说明: 版本,免费版、个人开发版、商业版,区别请看<a href="https://dev.qweather.com/help/account/" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a><br>
 0:免费版,1:个人开发版,2:商业版</p>
+<h4 id="ai对话" tabindex="-1"><a class="header-anchor" href="#ai对话" aria-hidden="true">#</a> AI对话</h4>
+<h5 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h5>
+<p>说明: 接口类型,根据自己购买情况选择<br>
+可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>)<br>
+青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9</p>
+<h5 id="ai-talk-tianx-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-key" aria-hidden="true">#</a> ai_talk_tianx_key</h5>
+<p>说明: 天行数据接口密钥,<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
+<h5 id="ai-talk-tianx-mode" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-mode" aria-hidden="true">#</a> ai_talk_tianx_mode</h5>
+<p>说明: 天行数据接口工作模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
+<h5 id="ai-talk-tianx-priv" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-priv" aria-hidden="true">#</a> ai_talk_tianx_priv</h5>
+<p>说明: 天行数据接口私有词库匹配模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
+<h5 id="ai-talk-turing-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-turing-key" aria-hidden="true">#</a> ai_talk_turing_key</h5>
+<p>说明: 图灵数据接口密钥,<a href="http://www.tuling123.com/member/robot/index.jhtml" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h3 id="插件配置" tabindex="-1"><a class="header-anchor" href="#插件配置" aria-hidden="true">#</a> 插件配置</h3>
 <h4 id="定时任务" tabindex="-1"><a class="header-anchor" href="#定时任务" aria-hidden="true">#</a> 定时任务</h4>
 <p>配置默认即可</p>

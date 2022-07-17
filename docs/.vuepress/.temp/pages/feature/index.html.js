@@ -109,6 +109,12 @@ export const data = {
           "title": "发言排行榜",
           "slug": "发言排行榜",
           "children": []
+        },
+        {
+          "level": 3,
+          "title": "AI聊天",
+          "slug": "ai聊天",
+          "children": []
         }
       ]
     },
@@ -444,4 +450,17 @@ export const data = {
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

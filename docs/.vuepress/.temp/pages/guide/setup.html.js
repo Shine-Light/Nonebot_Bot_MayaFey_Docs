@@ -124,13 +124,26 @@ export const data = {
   "filePathRelative": "guide/setup.md",
   "git": {
     "createdTime": 1651484398000,
-    "updatedTime": 1657187074000,
+    "updatedTime": 1657943287000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 7
+        "commits": 8
       }
     ]
   }
+}
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
 }

@@ -119,6 +119,20 @@ COMMAND_START=["/", "!"]
 说明: 版本,免费版、个人开发版、商业版,区别请看[官方文档](https://dev.qweather.com/help/account/)  
 0:免费版,1:个人开发版,2:商业版
 
+#### AI对话
+##### ai_talk_api_type
+说明: 接口类型,根据自己购买情况选择  
+可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),turing([图灵机器人](http://www.turingapi.com/))  
+青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9    
+##### ai_talk_tianx_key
+说明: 天行数据接口密钥,[控制台](https://www.tianapi.com/console/)获取,若不使用该接口该项可不填  
+##### ai_talk_tianx_mode
+说明: 天行数据接口工作模式,详情请看[官方文档](https://www.tianapi.com/apiview/47),若不使用该接口该项可不填    
+##### ai_talk_tianx_priv
+说明: 天行数据接口私有词库匹配模式,详情请看[官方文档](https://www.tianapi.com/apiview/47),若不使用该接口该项可不填    
+##### ai_talk_turing_key
+说明: 图灵数据接口密钥,[控制台](http://www.tuling123.com/member/robot/index.jhtml)获取,若不使用该接口该项可不填  
+
 ### 插件配置
 #### 定时任务
 配置默认即可  

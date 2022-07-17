@@ -1,4 +1,7 @@
 <template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该页面只进行部分配置说明,完整配置说明<RouterLink to="/guide/configure.html">点击这里</RouterLink></p>
+</div>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
 <h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
 <h4 id="翻译api-可选" tabindex="-1"><a class="header-anchor" href="#翻译api-可选" aria-hidden="true">#</a> 翻译API(可选)</h4>
