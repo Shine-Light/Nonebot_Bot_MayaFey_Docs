@@ -1,4 +1,15 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-1版本更新日志-2022-07-19" tabindex="-1"><a class="header-anchor" href="#_0-5-1版本更新日志-2022-07-19" aria-hidden="true">#</a> 0.5.1版本更新日志 2022/07/19</h2>
+<h4 id="优化-统一插件元数据" tabindex="-1"><a class="header-anchor" href="#优化-统一插件元数据" aria-hidden="true">#</a> 优化 统一插件元数据</h4>
+<h4 id="新增-ai对话" tabindex="-1"><a class="header-anchor" href="#新增-ai对话" aria-hidden="true">#</a> 新增 AI对话</h4>
+<h4 id="新增-插件帮助" tabindex="-1"><a class="header-anchor" href="#新增-插件帮助" aria-hidden="true">#</a> 新增 插件帮助</h4>
+<h4 id="修复-每日运势已知问题" tabindex="-1"><a class="header-anchor" href="#修复-每日运势已知问题" aria-hidden="true">#</a> 修复 每日运势已知问题</h4>
+<h4 id="修改-违禁词检测方式" tabindex="-1"><a class="header-anchor" href="#修改-违禁词检测方式" aria-hidden="true">#</a> 修改 违禁词检测方式</h4>
+<h4 id="修改-现在数据库可以自定义数据库名" tabindex="-1"><a class="header-anchor" href="#修改-现在数据库可以自定义数据库名" aria-hidden="true">#</a> 修改 现在数据库可以自定义数据库名</h4>
+<h4 id="更新-每日运势更新-全新的运势文案-收录更多的hololive早安系列" tabindex="-1"><a class="header-anchor" href="#更新-每日运势更新-全新的运势文案-收录更多的hololive早安系列" aria-hidden="true">#</a> 更新 每日运势更新,全新的运势文案！收录更多的Hololive早安系列！</h4>
+<h2 id="备注" tabindex="-1"><a class="header-anchor" href="#备注" aria-hidden="true">#</a> 备注</h2>
+<h4 id="更新后需在github下载resource文件夹替换到本地resource" tabindex="-1"><a class="header-anchor" href="#更新后需在github下载resource文件夹替换到本地resource" aria-hidden="true">#</a> 更新后需在Github下载resource文件夹替换到本地resource</h4>
+<h4 id="本次更新新增了相关配置项-前往文档查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新新增了相关配置项-前往文档查看并配置" aria-hidden="true">#</a> 本次更新新增了相关配置项,前往文档查看并配置</h4>
 <h2 id="_0-5版本更新日志-2022-07-13" tabindex="-1"><a class="header-anchor" href="#_0-5版本更新日志-2022-07-13" aria-hidden="true">#</a> 0.5版本更新日志 2022/07/13</h2>
 <h4 id="机器人已开源" tabindex="-1"><a class="header-anchor" href="#机器人已开源" aria-hidden="true">#</a> 机器人已开源</h4>
 <h4 id="新增-管理功能-机器人开关" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-机器人开关" aria-hidden="true">#</a> 新增 管理功能 -&gt; 机器人开关</h4>

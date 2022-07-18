@@ -11,6 +11,74 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "0.5.1版本更新日志 2022/07/19",
+      "slug": "_0-5-1版本更新日志-2022-07-19",
+      "children": [
+        {
+          "level": 4,
+          "title": "优化 统一插件元数据",
+          "slug": "优化-统一插件元数据",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 AI对话",
+          "slug": "新增-ai对话",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "新增 插件帮助",
+          "slug": "新增-插件帮助",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 每日运势已知问题",
+          "slug": "修复-每日运势已知问题",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改 违禁词检测方式",
+          "slug": "修改-违禁词检测方式",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改 现在数据库可以自定义数据库名",
+          "slug": "修改-现在数据库可以自定义数据库名",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "更新 每日运势更新,全新的运势文案！收录更多的Hololive早安系列！",
+          "slug": "更新-每日运势更新-全新的运势文案-收录更多的hololive早安系列",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "title": "备注",
+      "slug": "备注",
+      "children": [
+        {
+          "level": 4,
+          "title": "更新后需在Github下载resource文件夹替换到本地resource",
+          "slug": "更新后需在github下载resource文件夹替换到本地resource",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "本次更新新增了相关配置项,前往文档查看并配置",
+          "slug": "本次更新新增了相关配置项-前往文档查看并配置",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "0.5版本更新日志 2022/07/13",
       "slug": "_0-5版本更新日志-2022-07-13",
       "children": [
@@ -298,17 +366,4 @@ export const data = {
       }
     ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

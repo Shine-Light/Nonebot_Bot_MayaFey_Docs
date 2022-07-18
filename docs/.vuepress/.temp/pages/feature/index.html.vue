@@ -8,10 +8,34 @@
 <p>出于国内环境的特殊性,本机器人没有涩图相关的功能</p>
 </div>
 <h1 id="功能" tabindex="-1"><a class="header-anchor" href="#功能" aria-hidden="true">#</a> 功能</h1>
-<h2 id="菜单功能" tabindex="-1"><a class="header-anchor" href="#菜单功能" aria-hidden="true">#</a> 菜单功能</h2>
+<h2 id="帮助功能" tabindex="-1"><a class="header-anchor" href="#帮助功能" aria-hidden="true">#</a> 帮助功能</h2>
+<h3 id="菜单" tabindex="-1"><a class="header-anchor" href="#菜单" aria-hidden="true">#</a> 菜单</h3>
 <p>命令: <code v-pre>/菜单</code> <code v-pre>/帮助</code> <code v-pre>/help</code></p>
 <p>功能: 获取总菜单,显示所有菜单的命令</p>
 <p>权限: <strong>成员</strong>及以上</p>
+<h3 id="插件帮助" tabindex="-1"><a class="header-anchor" href="#插件帮助" aria-hidden="true">#</a> 插件帮助</h3>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/帮助 {插件名}</code></td>
+<td>获取插件帮助</td>
+<td><strong>群员</strong>及以上</td>
+</tr>
+<tr>
+<td><code v-pre>/帮助 list</code></td>
+<td>查看正常加载的插件</td>
+<td><strong>群员</strong>及以上</td>
+</tr>
+</tbody>
+</table>
 <h2 id="娱乐功能" tabindex="-1"><a class="header-anchor" href="#娱乐功能" aria-hidden="true">#</a> 娱乐功能</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>游戏功能请<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">点击这里</a></p>
@@ -274,6 +298,16 @@
 <td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
+<td>指定主题抽签</td>
+<td><code v-pre>/{主题}抽签</code></td>
+<td><strong>群员</strong>及以上</td>
+</tr>
+<tr>
+<td>查看可选的抽签主题</td>
+<td><code v-pre>/主题列表</code></td>
+<td><strong>群员</strong>及以上</td>
+</tr>
+<tr>
 <td>设置群抽签主题</td>
 <td><code v-pre>/设置{主题}签</code></td>
 <td><strong>超级用户</strong>及以上</td>
@@ -287,11 +321,6 @@
 <td>刷新抽签</td>
 <td><code v-pre>/刷新抽签</code></td>
 <td><strong>超级用户</strong>及以上</td>
-</tr>
-<tr>
-<td>查看可选的抽签主题</td>
-<td><code v-pre>/主题列表</code></td>
-<td><strong>群员</strong>及以上</td>
 </tr>
 <tr>
 <td>查看群抽签主题</td>

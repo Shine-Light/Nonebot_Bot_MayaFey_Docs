@@ -10,9 +10,22 @@ export const data = {
   "headers": [
     {
       "level": 2,
-      "title": "菜单功能",
-      "slug": "菜单功能",
-      "children": []
+      "title": "帮助功能",
+      "slug": "帮助功能",
+      "children": [
+        {
+          "level": 3,
+          "title": "菜单",
+          "slug": "菜单",
+          "children": []
+        },
+        {
+          "level": 3,
+          "title": "插件帮助",
+          "slug": "插件帮助",
+          "children": []
+        }
+      ]
     },
     {
       "level": 2,
@@ -441,26 +454,13 @@ export const data = {
   "filePathRelative": "feature/README.md",
   "git": {
     "createdTime": 1651147298000,
-    "updatedTime": 1657630922000,
+    "updatedTime": 1658068259000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 17
+        "commits": 18
       }
     ]
   }
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }
