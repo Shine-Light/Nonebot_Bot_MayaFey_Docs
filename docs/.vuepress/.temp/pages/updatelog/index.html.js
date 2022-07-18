@@ -55,25 +55,25 @@ export const data = {
           "title": "更新 每日运势更新,全新的运势文案！收录更多的Hololive早安系列！",
           "slug": "更新-每日运势更新-全新的运势文案-收录更多的hololive早安系列",
           "children": []
-        }
-      ]
-    },
-    {
-      "level": 2,
-      "title": "备注",
-      "slug": "备注",
-      "children": [
-        {
-          "level": 4,
-          "title": "更新后需在Github下载resource文件夹替换到本地resource",
-          "slug": "更新后需在github下载resource文件夹替换到本地resource",
-          "children": []
         },
         {
-          "level": 4,
-          "title": "本次更新新增了相关配置项,前往文档查看并配置",
-          "slug": "本次更新新增了相关配置项-前往文档查看并配置",
-          "children": []
+          "level": 3,
+          "title": "备注",
+          "slug": "备注",
+          "children": [
+            {
+              "level": 4,
+              "title": "更新后需在Github下载resource文件夹替换到本地resource",
+              "slug": "更新后需在github下载resource文件夹替换到本地resource",
+              "children": []
+            },
+            {
+              "level": 4,
+              "title": "本次更新新增了相关配置项,前往文档查看并配置",
+              "slug": "本次更新新增了相关配置项-前往文档查看并配置",
+              "children": []
+            }
+          ]
         }
       ]
     },
@@ -357,12 +357,12 @@ export const data = {
   "filePathRelative": "updatelog/README.md",
   "git": {
     "createdTime": 1654260259000,
-    "updatedTime": 1657638373000,
+    "updatedTime": 1658151251000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 5
+        "commits": 6
       }
     ]
   }
