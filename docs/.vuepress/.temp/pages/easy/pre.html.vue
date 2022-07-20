@@ -135,7 +135,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 </div>
 <ol>
 <li>
-<p>输入 <code v-pre>curl https://bootstrap.pypa.io/ez_setup.py -o - | python3 &amp;&amp; python3 -m easy_install pip</code></p>
+<p>输入 <code v-pre>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py &amp;&amp; python3 get-pip.py</code></p>
 </li>
 <li>
 <p>输入 <code v-pre>ln -s /bin/pip /bin/pip3</code></p>

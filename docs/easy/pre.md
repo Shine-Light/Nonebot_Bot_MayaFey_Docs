@@ -133,7 +133,7 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 输入 `pip3 --version` 回车,如果有版本显示,说明已安装过  
 输入 `pip3 config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`,回车,然后可以跳过这步
 :::
-1. 输入 `curl https://bootstrap.pypa.io/ez_setup.py -o - | python3 && python3 -m easy_install pip`
+1. 输入 `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python3 get-pip.py`
 2. 输入 `ln -s /bin/pip /bin/pip3`
 3. 输入 `pip3 --version` 回车,如果有版本显示,说明安装成功 
 <img src='/image/easy/pre/python5.png'>
