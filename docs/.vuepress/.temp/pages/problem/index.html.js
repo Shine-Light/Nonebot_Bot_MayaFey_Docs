@@ -10,6 +10,12 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "如何更新机器人",
+      "slug": "如何更新机器人",
+      "children": []
+    },
+    {
+      "level": 2,
       "title": "如何修改插件权限",
       "slug": "如何修改插件权限",
       "children": []

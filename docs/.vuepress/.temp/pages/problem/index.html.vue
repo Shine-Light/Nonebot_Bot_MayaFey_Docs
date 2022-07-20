@@ -1,4 +1,9 @@
 <template><div><h1 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题" aria-hidden="true">#</a> 常见问题</h1>
+<h2 id="如何更新机器人" tabindex="-1"><a class="header-anchor" href="#如何更新机器人" aria-hidden="true">#</a> 如何更新机器人</h2>
+<ol>
+<li>在更新前先备份</li>
+<li>在群里发送 <code v-pre>/更新</code>,等待更新完成进行一次初始化即可</li>
+</ol>
 <h2 id="如何修改插件权限" tabindex="-1"><a class="header-anchor" href="#如何修改插件权限" aria-hidden="true">#</a> 如何修改插件权限</h2>
 <p>在真宵机器人中有两种权限模式,正常模式和特殊模式<br>
 正常模式中一个插件一种权限,特殊模式中一个插件多个权限<br>
