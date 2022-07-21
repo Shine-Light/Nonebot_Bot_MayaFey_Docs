@@ -117,14 +117,6 @@
 <p>功能: 获取全网热搜</p>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">www.tianapi.com/apiview/223<ExternalLinkIcon/></a></p>
-<h3 id="随机笑话" tabindex="-1"><a class="header-anchor" href="#随机笑话" aria-hidden="true">#</a> 随机笑话</h3>
-<div class="custom-container warning"><p class="custom-container-title">注意</p>
-<p>该功能非大陆IP机器可能无法使用,需<RouterLink to="/guide/configure.html/#%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE">配置代理</RouterLink></p>
-</div>
-<p>命令: <code v-pre>/笑话</code> <code v-pre>/xh</code></p>
-<p>功能: 随机返回一个笑话</p>
-<p>权限: <strong>群员</strong>及以上</p>
-<p>接口来源: <a href="https://api.vvhan.com/xiaohua.html" target="_blank" rel="noopener noreferrer">api.vvhan.com/xiaohua.html<ExternalLinkIcon/></a></p>
 <h3 id="点歌台" tabindex="-1"><a class="header-anchor" href="#点歌台" aria-hidden="true">#</a> 点歌台</h3>
 <p>命令: <code v-pre>/{平台}点歌 {歌名}</code></p>
 <p>功能: 发送指定歌曲在指定平台的链接</p>

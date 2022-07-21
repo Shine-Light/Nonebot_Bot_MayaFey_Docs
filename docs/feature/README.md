@@ -113,20 +113,6 @@ sidebar: auto
 
 接口来源: [www.tianapi.com/apiview/223](https://www.tianapi.com/apiview/223)
 
-### 随机笑话
-::: warning 注意
-该功能非大陆IP机器可能无法使用,需[配置代理](/guide/configure.html/#代理设置)
-:::
-
-命令: `/笑话` `/xh`
-
-功能: 随机返回一个笑话
-
-权限: **群员**及以上
-
-接口来源: [api.vvhan.com/xiaohua.html](https://api.vvhan.com/xiaohua.html)
-
-
 ### 点歌台
 命令: `/{平台}点歌 {歌名}`
 

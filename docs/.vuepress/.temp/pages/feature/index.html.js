@@ -71,12 +71,6 @@ export const data = {
         },
         {
           "level": 3,
-          "title": "随机笑话",
-          "slug": "随机笑话",
-          "children": []
-        },
-        {
-          "level": 3,
           "title": "点歌台",
           "slug": "点歌台",
           "children": []
