@@ -11,6 +11,25 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "0.5.1-fix4版本 2022/07/21",
+      "slug": "_0-5-1-fix4版本-2022-07-21",
+      "children": [
+        {
+          "level": 4,
+          "title": "修复 入群事件不响应",
+          "slug": "修复-入群事件不响应",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 戳一戳事件不响应",
+          "slug": "修复-戳一戳事件不响应",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "0.5.1-fix3版本 2022/07/21",
       "slug": "_0-5-1-fix3版本-2022-07-21",
       "children": [
@@ -432,12 +451,12 @@ export const data = {
   "filePathRelative": "updatelog/README.md",
   "git": {
     "createdTime": 1654260259000,
-    "updatedTime": 1658319179000,
+    "updatedTime": 1658374967000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 8
+        "commits": 9
       }
     ]
   }

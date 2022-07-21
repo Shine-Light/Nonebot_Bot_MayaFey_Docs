@@ -1,4 +1,7 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-1-fix4版本-2022-07-21" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix4版本-2022-07-21" aria-hidden="true">#</a> 0.5.1-fix4版本 2022/07/21</h2>
+<h4 id="修复-入群事件不响应" tabindex="-1"><a class="header-anchor" href="#修复-入群事件不响应" aria-hidden="true">#</a> 修复 入群事件不响应</h4>
+<h4 id="修复-戳一戳事件不响应" tabindex="-1"><a class="header-anchor" href="#修复-戳一戳事件不响应" aria-hidden="true">#</a> 修复 戳一戳事件不响应</h4>
 <h2 id="_0-5-1-fix3版本-2022-07-21" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix3版本-2022-07-21" aria-hidden="true">#</a> 0.5.1-fix3版本 2022/07/21</h2>
 <h4 id="修复-ai聊天不响应" tabindex="-1"><a class="header-anchor" href="#修复-ai聊天不响应" aria-hidden="true">#</a> 修复 AI聊天不响应</h4>
 <h4 id="修复-根用户拉群被拒绝" tabindex="-1"><a class="header-anchor" href="#修复-根用户拉群被拒绝" aria-hidden="true">#</a> 修复 根用户拉群被拒绝</h4>
