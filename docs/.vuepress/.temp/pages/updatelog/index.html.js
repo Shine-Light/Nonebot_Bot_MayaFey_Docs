@@ -11,6 +11,37 @@ export const data = {
   "headers": [
     {
       "level": 2,
+      "title": "0.5.1-fix3版本 2022/07/21",
+      "slug": "_0-5-1-fix3版本-2022-07-21",
+      "children": [
+        {
+          "level": 4,
+          "title": "修复 AI聊天不响应",
+          "slug": "修复-ai聊天不响应",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修复 根用户拉群被拒绝",
+          "slug": "修复-根用户拉群被拒绝",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改 好友事件检测方式",
+          "slug": "修改-好友事件检测方式",
+          "children": []
+        },
+        {
+          "level": 4,
+          "title": "修改 更新日志地",
+          "slug": "修改-更新日志地",
+          "children": []
+        }
+      ]
+    },
+    {
+      "level": 2,
       "title": "0.5.1-fix2版本更新日志 2022/07/20",
       "slug": "_0-5-1-fix2版本更新日志-2022-07-20",
       "children": [
@@ -42,8 +73,8 @@ export const data = {
     },
     {
       "level": 2,
-      "title": "0.5.1-fix版本 2022/07/19",
-      "slug": "_0-5-1-fix版本-2022-07-19",
+      "title": "0.5.1-fix1版本 2022/07/19",
+      "slug": "_0-5-1-fix1版本-2022-07-19",
       "children": [
         {
           "level": 4,
@@ -401,12 +432,12 @@ export const data = {
   "filePathRelative": "updatelog/README.md",
   "git": {
     "createdTime": 1654260259000,
-    "updatedTime": 1658169779000,
+    "updatedTime": 1658319179000,
     "contributors": [
       {
         "name": "Shine-Light",
         "email": "3120815902@qq.com",
-        "commits": 7
+        "commits": 8
       }
     ]
   }

@@ -1,10 +1,15 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-1-fix3版本-2022-07-21" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix3版本-2022-07-21" aria-hidden="true">#</a> 0.5.1-fix3版本 2022/07/21</h2>
+<h4 id="修复-ai聊天不响应" tabindex="-1"><a class="header-anchor" href="#修复-ai聊天不响应" aria-hidden="true">#</a> 修复 AI聊天不响应</h4>
+<h4 id="修复-根用户拉群被拒绝" tabindex="-1"><a class="header-anchor" href="#修复-根用户拉群被拒绝" aria-hidden="true">#</a> 修复 根用户拉群被拒绝</h4>
+<h4 id="修改-好友事件检测方式" tabindex="-1"><a class="header-anchor" href="#修改-好友事件检测方式" aria-hidden="true">#</a> 修改 好友事件检测方式</h4>
+<h4 id="修改-更新日志地" tabindex="-1"><a class="header-anchor" href="#修改-更新日志地" aria-hidden="true">#</a> 修改 更新日志地</h4>
 <h2 id="_0-5-1-fix2版本更新日志-2022-07-20" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix2版本更新日志-2022-07-20" aria-hidden="true">#</a> 0.5.1-fix2版本更新日志 2022/07/20</h2>
 <h4 id="修正-配置说明" tabindex="-1"><a class="header-anchor" href="#修正-配置说明" aria-hidden="true">#</a> 修正 配置说明</h4>
 <h4 id="修复-每日运势报错" tabindex="-1"><a class="header-anchor" href="#修复-每日运势报错" aria-hidden="true">#</a> 修复 每日运势报错</h4>
 <h4 id="修改-机器人进群后的启用提示改为1次" tabindex="-1"><a class="header-anchor" href="#修改-机器人进群后的启用提示改为1次" aria-hidden="true">#</a> 修改 机器人进群后的启用提示改为1次</h4>
 <h4 id="删除-娱乐功能-笑话" tabindex="-1"><a class="header-anchor" href="#删除-娱乐功能-笑话" aria-hidden="true">#</a> 删除  娱乐功能 -&gt; 笑话</h4>
-<h2 id="_0-5-1-fix版本-2022-07-19" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix版本-2022-07-19" aria-hidden="true">#</a> 0.5.1-fix版本 2022/07/19</h2>
+<h2 id="_0-5-1-fix1版本-2022-07-19" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix1版本-2022-07-19" aria-hidden="true">#</a> 0.5.1-fix1版本 2022/07/19</h2>
 <h4 id="修复-无法初始化" tabindex="-1"><a class="header-anchor" href="#修复-无法初始化" aria-hidden="true">#</a> 修复 无法初始化</h4>
 <h2 id="_0-5-1版本更新日志-2022-07-19" tabindex="-1"><a class="header-anchor" href="#_0-5-1版本更新日志-2022-07-19" aria-hidden="true">#</a> 0.5.1版本更新日志 2022/07/19</h2>
 <h4 id="优化-统一插件元数据" tabindex="-1"><a class="header-anchor" href="#优化-统一插件元数据" aria-hidden="true">#</a> 优化 统一插件元数据</h4>
