@@ -1,4 +1,10 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-2版本更新日志-2022-07-22" tabindex="-1"><a class="header-anchor" href="#_0-5-2版本更新日志-2022-07-22" aria-hidden="true">#</a> 0.5.2版本更新日志 2022/07/22</h2>
+<h4 id="新增-娱乐功能-折磨群友" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-折磨群友" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 折磨群友</h4>
+<h4 id="新增-管理功能-重启" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-重启" aria-hidden="true">#</a> 新增 管理功能 -&gt; 重启</h4>
+<h4 id="修复-消息过快导致sum-json错误" tabindex="-1"><a class="header-anchor" href="#修复-消息过快导致sum-json错误" aria-hidden="true">#</a> 修复 消息过快导致sum.json错误</h4>
+<h4 id="修复-增加问答时旧问题会被覆盖" tabindex="-1"><a class="header-anchor" href="#修复-增加问答时旧问题会被覆盖" aria-hidden="true">#</a> 修复 增加问答时旧问题会被覆盖</h4>
+<h4 id="修改-降低-等待机器人连接-提示频率" tabindex="-1"><a class="header-anchor" href="#修改-降低-等待机器人连接-提示频率" aria-hidden="true">#</a> 修改 降低 等待机器人连接 提示频率</h4>
 <h2 id="_0-5-1-fix4版本-2022-07-21" tabindex="-1"><a class="header-anchor" href="#_0-5-1-fix4版本-2022-07-21" aria-hidden="true">#</a> 0.5.1-fix4版本 2022/07/21</h2>
 <h4 id="修复-入群事件不响应" tabindex="-1"><a class="header-anchor" href="#修复-入群事件不响应" aria-hidden="true">#</a> 修复 入群事件不响应</h4>
 <h4 id="修复-戳一戳事件不响应" tabindex="-1"><a class="header-anchor" href="#修复-戳一戳事件不响应" aria-hidden="true">#</a> 修复 戳一戳事件不响应</h4>

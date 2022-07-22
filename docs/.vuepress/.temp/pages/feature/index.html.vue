@@ -386,8 +386,10 @@
 <p>权限: <strong>群员及以上</strong></p>
 <p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h3>
-<p>该功能支持私聊和群聊,聊天内容仅支持文本,图灵接口还没测试 <s>(没钱买接口)</s><br>
-命令:</p>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该功能支持私聊和群聊,聊天内容仅支持文本,图灵接口还没测试 <s>(没钱买接口)</s></p>
+</div>
+<p>命令:</p>
 <table>
 <thead>
 <tr>
@@ -420,6 +422,55 @@
 <td>聊天内容</td>
 <td>自行输入</td>
 <td>是</td>
+</tr>
+</tbody>
+</table>
+<h3 id="折磨群友" tabindex="-1"><a class="header-anchor" href="#折磨群友" aria-hidden="true">#</a> 折磨群友</h3>
+<p>功能: 在指定时间随机戳一戳群友<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/折磨群友 开|关闭</code></td>
+<td>功能开关</td>
+<td>若未配置就启动,默认配置为:<br> /间隔1小时戳一次</td>
+</tr>
+<tr>
+<td><code v-pre>/折磨群友 {模式} {时间}</code></td>
+<td>功能配置</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>模式</td>
+<td>间隔/定时</td>
+<td>是</td>
+<td>间隔:每n个时间单位戳一次,定时:在指定时间戳一次</td>
+</tr>
+<tr>
+<td>时间</td>
+<td>{小时}:{分钟}:{秒数}</td>
+<td>是</td>
+<td>必须为整数和正数</td>
 </tr>
 </tbody>
 </table>
@@ -699,6 +750,9 @@
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
 <p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
+<h4 id="重启" tabindex="-1"><a class="header-anchor" href="#重启" aria-hidden="true">#</a> 重启</h4>
+<p>命令: <code v-pre>/重启</code> <code v-pre>/reboot</code></p>
+<p>权限: <strong>根用户</strong></p>
 <h4 id="启用-停用机器人" tabindex="-1"><a class="header-anchor" href="#启用-停用机器人" aria-hidden="true">#</a> 启用/停用机器人</h4>
 <p>命令: <code v-pre>/启用机器人</code> <code v-pre>/停用机器人</code></p>
 <p>权限: <strong>根用户</strong></p>
