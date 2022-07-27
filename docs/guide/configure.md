@@ -1,7 +1,8 @@
 # 配置
+配置文件在根目录下的 `.env.prod`
 ## API账号注册
 ### 腾讯API
-涉及插件: 翻译,违禁图片检测  
+涉及插件: 腾讯翻译,违禁图片检测  
 
 #### 注册
 1. 进入[腾讯云官网](https://cloud.tencent.com),注册账号  
@@ -33,12 +34,45 @@
 ::: tip 提示
 该接口每日100次免费调用额度
 :::
-涉及插件: 全网热搜
+涉及插件: 全网热搜, 聊天机器人
 
 #### 注册
 1. 进入[官网](https://www.tianapi.com/login.html),注册账号  
 2. 进入[热搜API](https://www.tianapi.com/apiview/223),选择申请开通
 3. 开通完成
+
+### 茉莉云(可选)
+:::  tip 提示
+该接口每日500次免费调用额度
+:::
+涉及插件: 聊天机器人
+
+#### 注册
+1. 进入[官网](https://mlyai.com/login),注册账号  
+2. 选择 `机器人` 选项卡, 选择添加机器人, 填写消息后保存  
+
+### 图灵机器人(可选)
+:::  tip 提示
+该接口为付费接口
+:::
+涉及插件: 聊天机器人
+
+#### 注册
+1. 进入[官网](https://www.tuling123.com),注册账号  
+2. 激活机器人,根据自己情况选择套餐  
+
+### 百度翻译开放平台API(可选)
+涉及插件: 百度翻译
+
+#### 注册
+1. 进入[百度翻译开放平台官网](http://api.fanyi.baidu.com/),注册账号,并实名认证  
+
+#### 翻译API(可选)
+::: tip 提示
+该接口每月有100w字符的免费额度,若超出则需另付费,具体定价参考[官方文档](http://api.fanyi.baidu.com/product/112)
+:::
+1. 进入[控制台](http://api.fanyi.baidu.com/api/trans/product/desktop)  
+2. 选择 `总览` 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定
 
 ## 机器人配置
 ### 基础配置
@@ -77,7 +111,7 @@ COMMAND_START=["/", "!"]
 #### mysql_port
 说明: 数据库服务器端口,默认即可  
 #### mysql_user
-说明: 数据库用户名,默认即可  
+说明: 数据库用户名,使用 `root` 用户  
 #### mysql_password
 说明: 数据库密码,填入之前设置的密码  
 #### mysql_db
@@ -122,7 +156,7 @@ COMMAND_START=["/", "!"]
 #### AI对话
 ##### ai_talk_api_type
 说明: 接口类型,根据自己购买情况选择  
-可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),turing([图灵机器人](http://www.turingapi.com/))  
+可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),turing([图灵机器人](http://www.turingapi.com/),moli([茉莉云](https://mlyai.com/)))  
 青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9    
 ##### ai_talk_tianx_key
 说明: 天行数据接口密钥,[控制台](https://www.tianapi.com/console/)获取,若不使用该接口该项可不填  
@@ -131,7 +165,11 @@ COMMAND_START=["/", "!"]
 ##### ai_talk_tianx_priv
 说明: 天行数据接口私有词库匹配模式,详情请看[官方文档](https://www.tianapi.com/apiview/47),若不使用该接口该项可不填    
 ##### ai_talk_turing_key
-说明: 图灵数据接口密钥,[控制台](http://www.tuling123.com/member/robot/index.jhtml)获取,若不使用该接口该项可不填  
+说明: 图灵机器人接口密钥,[控制台](http://www.tuling123.com/member/robot/index.jhtml)获取,若不使用该接口该项可不填  
+##### ai_talk_moli_key
+说明: 茉莉云接口key,[控制台](https://mlyai.com/profile/index.html#/robot/list)获取,若不使用该接口该项可不填  
+##### ai_talk_moli_secret
+说明: 茉莉云接口密钥,[控制台](https://mlyai.com/profile/index.html#/robot/list)获取,若不使用该接口该项可不填  
 
 ### 插件配置
 #### 定时任务

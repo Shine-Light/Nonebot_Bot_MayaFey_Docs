@@ -39,9 +39,8 @@ Linux无需该步骤
 1. 下载[XAMPP](https://www.apachefriends.org/zh_cn/index.html),打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成  
 2. 以管理员身份启动XAMPP
 3. 启动Apache和Mysql
-4. 选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin
-5. 在侧边栏点击刚才创建的数据库
-6. 选择 权限 选项卡,新建一个账户,记好账号和密码
+4. 选择Mysql栏的 Admin 进入管理面板
+5. 选择 用户 选项卡,选择主机名为 `127.0.0.1` 的 `root` 账户,选择 change password ,修改密码后确认
 #### Linux
 方法很多,自行百度
 

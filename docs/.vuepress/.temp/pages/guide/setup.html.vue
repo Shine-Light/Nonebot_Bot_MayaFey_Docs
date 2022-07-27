@@ -41,9 +41,8 @@ mysql &gt;= 5.6<br>
 <li>下载<a href="https://www.apachefriends.org/zh_cn/index.html" target="_blank" rel="noopener noreferrer">XAMPP<ExternalLinkIcon/></a>,打开安装程序,只需勾选 Mysql 即可,其余自行选择,等待安装完成</li>
 <li>以管理员身份启动XAMPP</li>
 <li>启动Apache和Mysql</li>
-<li>选择Mysql栏的 Admin 进入管理面板,新建数据库,数据库名填mayafey,排序规则使用 utf8mb4_bin</li>
-<li>在侧边栏点击刚才创建的数据库</li>
-<li>选择 权限 选项卡,新建一个账户,记好账号和密码</li>
+<li>选择Mysql栏的 Admin 进入管理面板</li>
+<li>选择 用户 选项卡,选择主机名为 <code v-pre>127.0.0.1</code> 的 <code v-pre>root</code> 账户,选择 change password ,修改密码后确认</li>
 </ol>
 <h4 id="linux-2" tabindex="-1"><a class="header-anchor" href="#linux-2" aria-hidden="true">#</a> Linux</h4>
 <p>方法很多,自行百度</p>

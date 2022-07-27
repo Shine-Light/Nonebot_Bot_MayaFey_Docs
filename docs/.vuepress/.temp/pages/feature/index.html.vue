@@ -476,13 +476,41 @@
 </table>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该功能需配置腾讯云TMT机器翻译接口密钥</p>
-</div>
-<p>命令: <code v-pre>/翻译</code></p>
+<h4 id="腾讯版本" tabindex="-1"><a class="header-anchor" href="#腾讯版本" aria-hidden="true">#</a> 腾讯版本</h4>
+<p>命令: <code v-pre>/腾讯翻译</code></p>
 <p>功能: 翻译指定内容</p>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/Lancercmd/nonebot_plugin_translator" target="_blank" rel="noopener noreferrer">github.com/Lancercmd/nonebot_plugin_translator<ExternalLinkIcon/></a></p>
+<h4 id="百度版本" tabindex="-1"><a class="header-anchor" href="#百度版本" aria-hidden="true">#</a> 百度版本</h4>
+<p>功能: 翻译指定内容</p>
+<p>命令: <code v-pre>x译x {内容}</code></p>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选项</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td>中, 英, 粤, 文, 日, 韩, 法, 西, 泰, 阿, 俄, 葡, 德, 意, 希, 荷, 波, 保, 爱, 丹, 芬, 捷, 罗, 斯, 瑞, 匈, 繁, 越</td>
+<td>是</td>
+<td>第一个x可以为x,表示自动识别,第二个不可为x</td>
+</tr>
+<tr>
+<td>内容</td>
+<td>自行输入</td>
+<td>是</td>
+<td>不可超过2000字</td>
+</tr>
+</tbody>
+</table>
+<p>权限: <strong>群员</strong>及以上</p>
+<p>插件来源: <a href="https://github.com/NumberSir/nonebot_plugin_baidutranslate" target="_blank" rel="noopener noreferrer">github.com/NumberSir/nonebot_plugin_baidutranslate<ExternalLinkIcon/></a></p>
 <h3 id="疫情" tabindex="-1"><a class="header-anchor" href="#疫情" aria-hidden="true">#</a> 疫情</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能可以设置定时推送指定城市信息,具体前往<a href="#%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD">管理功能</a></p>

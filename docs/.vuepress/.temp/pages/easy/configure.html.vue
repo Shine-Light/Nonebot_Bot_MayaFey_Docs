@@ -3,7 +3,7 @@
 <p>该页面只进行部分配置说明,完整配置说明<RouterLink to="/guide/configure.html">点击这里</RouterLink></p>
 </div>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
-<h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
+<h3 id="腾讯api-可选" tabindex="-1"><a class="header-anchor" href="#腾讯api-可选" aria-hidden="true">#</a> 腾讯API(可选)</h3>
 <h4 id="翻译api-可选" tabindex="-1"><a class="header-anchor" href="#翻译api-可选" aria-hidden="true">#</a> 翻译API(可选)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该接口每月有500w字符的免费额度,若超出则需另付费,具体定价参考<a href="https://cloud.tencent.com/document/product/551/35017" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a></p>
@@ -45,11 +45,46 @@
 <ol>
 <li>进入<a href="https://www.tianapi.com/login.html" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
 <li>进入<a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">热搜API<ExternalLinkIcon/></a>,选择申请开通</li>
+<li>进入<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">机器人API<ExternalLinkIcon/></a>,选择申请开通,机器人可在控制台进行自定义</li>
 <li>开通完成</li>
+</ol>
+<h3 id="茉莉云-可选" tabindex="-1"><a class="header-anchor" href="#茉莉云-可选" aria-hidden="true">#</a> 茉莉云(可选)</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口每日500次免费调用额度</p>
+</div>
+<p>涉及插件: 聊天机器人</p>
+<h4 id="注册-2" tabindex="-1"><a class="header-anchor" href="#注册-2" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="https://mlyai.com/login" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
+<li>选择 <code v-pre>机器人</code> 选项卡, 选择添加机器人, 填写消息后保存</li>
+</ol>
+<h3 id="图灵机器人-可选" tabindex="-1"><a class="header-anchor" href="#图灵机器人-可选" aria-hidden="true">#</a> 图灵机器人(可选)</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口为付费接口</p>
+</div>
+<p>涉及插件: 聊天机器人</p>
+<h4 id="注册-3" tabindex="-1"><a class="header-anchor" href="#注册-3" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="https://www.tuling123.com" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
+<li>激活机器人,根据自己情况选择套餐</li>
+</ol>
+<h3 id="百度翻译开放平台api-可选" tabindex="-1"><a class="header-anchor" href="#百度翻译开放平台api-可选" aria-hidden="true">#</a> 百度翻译开放平台API(可选)</h3>
+<p>涉及插件: 百度翻译</p>
+<h4 id="注册-4" tabindex="-1"><a class="header-anchor" href="#注册-4" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="http://api.fanyi.baidu.com/" target="_blank" rel="noopener noreferrer">百度翻译开放平台官网<ExternalLinkIcon/></a>,注册账号,并实名认证</li>
+</ol>
+<h4 id="翻译api-可选-1" tabindex="-1"><a class="header-anchor" href="#翻译api-可选-1" aria-hidden="true">#</a> 翻译API(可选)</h4>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口每月有100w字符的免费额度,若超出则需另付费,具体定价参考<a href="http://api.fanyi.baidu.com/product/112" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a></p>
+</div>
+<ol>
+<li>进入<a href="http://api.fanyi.baidu.com/api/trans/product/desktop" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a></li>
+<li>选择 <code v-pre>总览</code> 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定</li>
 </ol>
 <h2 id="机器人配置" tabindex="-1"><a class="header-anchor" href="#机器人配置" aria-hidden="true">#</a> 机器人配置</h2>
 <h3 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h3>
-<p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
+<p>说明: 根用户,拥有机器人的所有权限,每个根用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
 示例: <code v-pre>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
 <h3 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h3>
 <p>说明: 填入机器人QQ号<br>

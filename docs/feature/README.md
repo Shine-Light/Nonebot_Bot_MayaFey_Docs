@@ -287,16 +287,28 @@ sidebar: auto
 
 ## 生活功能
 ### 翻译
-::: tip 提示
-该功能需配置腾讯云TMT机器翻译接口密钥
-:::
-命令: `/翻译`
+#### 腾讯版本
+命令: `/腾讯翻译`
 
 功能: 翻译指定内容
 
 权限: **群员**及以上
 
 插件来源: [github.com/Lancercmd/nonebot_plugin_translator](https://github.com/Lancercmd/nonebot_plugin_translator)
+#### 百度版本
+功能: 翻译指定内容  
+
+命令: `x译x {内容}`  
+
+参数:  
+|参数名|可选项|必须|备注|
+|-|-|-|-|
+|x|中, 英, 粤, 文, 日, 韩, 法, 西, 泰, 阿, 俄, 葡, 德, 意, 希, 荷, 波, 保, 爱, 丹, 芬, 捷, 罗, 斯, 瑞, 匈, 繁, 越|是|第一个x可以为x,表示自动识别,第二个不可为x|
+|内容|自行输入|是|不可超过2000字|
+
+权限: **群员**及以上
+
+插件来源: [github.com/NumberSir/nonebot_plugin_baidutranslate](https://github.com/NumberSir/nonebot_plugin_baidutranslate)
 
 ### 疫情
 ::: tip 提示

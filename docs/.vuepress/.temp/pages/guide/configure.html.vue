@@ -1,7 +1,8 @@
 <template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
+<p>配置文件在根目录下的 <code v-pre>.env.prod</code></p>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
 <h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
-<p>涉及插件: 翻译,违禁图片检测</p>
+<p>涉及插件: 腾讯翻译,违禁图片检测</p>
 <h4 id="注册" tabindex="-1"><a class="header-anchor" href="#注册" aria-hidden="true">#</a> 注册</h4>
 <ol>
 <li>进入<a href="https://cloud.tencent.com" target="_blank" rel="noopener noreferrer">腾讯云官网<ExternalLinkIcon/></a>,注册账号</li>
@@ -38,12 +39,46 @@
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该接口每日100次免费调用额度</p>
 </div>
-<p>涉及插件: 全网热搜</p>
+<p>涉及插件: 全网热搜, 聊天机器人</p>
 <h4 id="注册-2" tabindex="-1"><a class="header-anchor" href="#注册-2" aria-hidden="true">#</a> 注册</h4>
 <ol>
 <li>进入<a href="https://www.tianapi.com/login.html" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
 <li>进入<a href="https://www.tianapi.com/apiview/223" target="_blank" rel="noopener noreferrer">热搜API<ExternalLinkIcon/></a>,选择申请开通</li>
 <li>开通完成</li>
+</ol>
+<h3 id="茉莉云-可选" tabindex="-1"><a class="header-anchor" href="#茉莉云-可选" aria-hidden="true">#</a> 茉莉云(可选)</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口每日500次免费调用额度</p>
+</div>
+<p>涉及插件: 聊天机器人</p>
+<h4 id="注册-3" tabindex="-1"><a class="header-anchor" href="#注册-3" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="https://mlyai.com/login" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
+<li>选择 <code v-pre>机器人</code> 选项卡, 选择添加机器人, 填写消息后保存</li>
+</ol>
+<h3 id="图灵机器人-可选" tabindex="-1"><a class="header-anchor" href="#图灵机器人-可选" aria-hidden="true">#</a> 图灵机器人(可选)</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口为付费接口</p>
+</div>
+<p>涉及插件: 聊天机器人</p>
+<h4 id="注册-4" tabindex="-1"><a class="header-anchor" href="#注册-4" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="https://www.tuling123.com" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>,注册账号</li>
+<li>激活机器人,根据自己情况选择套餐</li>
+</ol>
+<h3 id="百度翻译开放平台api-可选" tabindex="-1"><a class="header-anchor" href="#百度翻译开放平台api-可选" aria-hidden="true">#</a> 百度翻译开放平台API(可选)</h3>
+<p>涉及插件: 百度翻译</p>
+<h4 id="注册-5" tabindex="-1"><a class="header-anchor" href="#注册-5" aria-hidden="true">#</a> 注册</h4>
+<ol>
+<li>进入<a href="http://api.fanyi.baidu.com/" target="_blank" rel="noopener noreferrer">百度翻译开放平台官网<ExternalLinkIcon/></a>,注册账号,并实名认证</li>
+</ol>
+<h4 id="翻译api-可选-1" tabindex="-1"><a class="header-anchor" href="#翻译api-可选-1" aria-hidden="true">#</a> 翻译API(可选)</h4>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该接口每月有100w字符的免费额度,若超出则需另付费,具体定价参考<a href="http://api.fanyi.baidu.com/product/112" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a></p>
+</div>
+<ol>
+<li>进入<a href="http://api.fanyi.baidu.com/api/trans/product/desktop" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a></li>
+<li>选择 <code v-pre>总览</code> 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定</li>
 </ol>
 <h2 id="机器人配置" tabindex="-1"><a class="header-anchor" href="#机器人配置" aria-hidden="true">#</a> 机器人配置</h2>
 <h3 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置" aria-hidden="true">#</a> 基础配置</h3>
@@ -76,7 +111,7 @@
 <h4 id="mysql-port" tabindex="-1"><a class="header-anchor" href="#mysql-port" aria-hidden="true">#</a> mysql_port</h4>
 <p>说明: 数据库服务器端口,默认即可</p>
 <h4 id="mysql-user" tabindex="-1"><a class="header-anchor" href="#mysql-user" aria-hidden="true">#</a> mysql_user</h4>
-<p>说明: 数据库用户名,默认即可</p>
+<p>说明: 数据库用户名,使用 <code v-pre>root</code> 用户</p>
 <h4 id="mysql-password" tabindex="-1"><a class="header-anchor" href="#mysql-password" aria-hidden="true">#</a> mysql_password</h4>
 <p>说明: 数据库密码,填入之前设置的密码</p>
 <h4 id="mysql-db" tabindex="-1"><a class="header-anchor" href="#mysql-db" aria-hidden="true">#</a> mysql_db</h4>
@@ -115,7 +150,7 @@
 <h4 id="ai对话" tabindex="-1"><a class="header-anchor" href="#ai对话" aria-hidden="true">#</a> AI对话</h4>
 <h5 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h5>
 <p>说明: 接口类型,根据自己购买情况选择<br>
-可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>)<br>
+可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>,moli(<a href="https://mlyai.com/" target="_blank" rel="noopener noreferrer">茉莉云<ExternalLinkIcon/></a>))<br>
 青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9</p>
 <h5 id="ai-talk-tianx-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-key" aria-hidden="true">#</a> ai_talk_tianx_key</h5>
 <p>说明: 天行数据接口密钥,<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
@@ -124,7 +159,11 @@
 <h5 id="ai-talk-tianx-priv" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-priv" aria-hidden="true">#</a> ai_talk_tianx_priv</h5>
 <p>说明: 天行数据接口私有词库匹配模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
 <h5 id="ai-talk-turing-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-turing-key" aria-hidden="true">#</a> ai_talk_turing_key</h5>
-<p>说明: 图灵数据接口密钥,<a href="http://www.tuling123.com/member/robot/index.jhtml" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
+<p>说明: 图灵机器人接口密钥,<a href="http://www.tuling123.com/member/robot/index.jhtml" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
+<h5 id="ai-talk-moli-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-key" aria-hidden="true">#</a> ai_talk_moli_key</h5>
+<p>说明: 茉莉云接口key,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
+<h5 id="ai-talk-moli-secret" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-secret" aria-hidden="true">#</a> ai_talk_moli_secret</h5>
+<p>说明: 茉莉云接口密钥,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h3 id="插件配置" tabindex="-1"><a class="header-anchor" href="#插件配置" aria-hidden="true">#</a> 插件配置</h3>
 <h4 id="定时任务" tabindex="-1"><a class="header-anchor" href="#定时任务" aria-hidden="true">#</a> 定时任务</h4>
 <p>配置默认即可</p>
