@@ -1,4 +1,11 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-3版本更新日志-2022-07-27" tabindex="-1"><a class="header-anchor" href="#_0-5-3版本更新日志-2022-07-27" aria-hidden="true">#</a> 0.5.3版本更新日志 2022/07/27</h2>
+<h4 id="修改-原-翻译-更名为-腾讯翻译" tabindex="-1"><a class="header-anchor" href="#修改-原-翻译-更名为-腾讯翻译" aria-hidden="true">#</a> 修改 原 翻译 更名为 腾讯翻译</h4>
+<h4 id="修改-ai聊天适配茉莉云接口" tabindex="-1"><a class="header-anchor" href="#修改-ai聊天适配茉莉云接口" aria-hidden="true">#</a> 修改 AI聊天适配茉莉云接口</h4>
+<h4 id="更新-每日运势更新文案" tabindex="-1"><a class="header-anchor" href="#更新-每日运势更新文案" aria-hidden="true">#</a> 更新 每日运势更新文案</h4>
+<h4 id="修复-每日运势修复已知问题" tabindex="-1"><a class="header-anchor" href="#修复-每日运势修复已知问题" aria-hidden="true">#</a> 修复 每日运势修复已知问题</h4>
+<h4 id="修复-根用户在成为管理员时权限被降低" tabindex="-1"><a class="header-anchor" href="#修复-根用户在成为管理员时权限被降低" aria-hidden="true">#</a> 修复 根用户在成为管理员时权限被降低</h4>
+<h4 id="新增-生活功能-百度翻译" tabindex="-1"><a class="header-anchor" href="#新增-生活功能-百度翻译" aria-hidden="true">#</a> 新增 生活功能 -&gt; 百度翻译</h4>
 <h2 id="_0-5-2版本更新日志-2022-07-22" tabindex="-1"><a class="header-anchor" href="#_0-5-2版本更新日志-2022-07-22" aria-hidden="true">#</a> 0.5.2版本更新日志 2022/07/22</h2>
 <h4 id="新增-娱乐功能-折磨群友" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-折磨群友" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 折磨群友</h4>
 <h4 id="新增-管理功能-重启" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-重启" aria-hidden="true">#</a> 新增 管理功能 -&gt; 重启</h4>
