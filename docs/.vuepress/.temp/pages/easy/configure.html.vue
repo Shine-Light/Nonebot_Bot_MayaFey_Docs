@@ -134,21 +134,21 @@
 <p>说明: 天行数据接口密钥,在<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取<br>
 示例: <code v-pre>tianxtoken=&quot;xxxxxxxx&quot;</code></p>
 <h3 id="ai聊天-可选" tabindex="-1"><a class="header-anchor" href="#ai聊天-可选" aria-hidden="true">#</a> AI聊天(可选)</h3>
-<h5 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h5>
+<h4 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h4>
 <p>说明: 接口类型,根据自己购买情况选择<br>
 可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>,moli(<a href="https://mlyai.com/" target="_blank" rel="noopener noreferrer">茉莉云<ExternalLinkIcon/></a>))<br>
 青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9</p>
-<h5 id="ai-talk-tianx-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-key" aria-hidden="true">#</a> ai_talk_tianx_key</h5>
+<h4 id="ai-talk-tianx-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-key" aria-hidden="true">#</a> ai_talk_tianx_key</h4>
 <p>说明: 天行数据接口密钥,<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
-<h5 id="ai-talk-tianx-mode" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-mode" aria-hidden="true">#</a> ai_talk_tianx_mode</h5>
+<h4 id="ai-talk-tianx-mode" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-mode" aria-hidden="true">#</a> ai_talk_tianx_mode</h4>
 <p>说明: 天行数据接口工作模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
-<h5 id="ai-talk-tianx-priv" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-priv" aria-hidden="true">#</a> ai_talk_tianx_priv</h5>
+<h4 id="ai-talk-tianx-priv" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-priv" aria-hidden="true">#</a> ai_talk_tianx_priv</h4>
 <p>说明: 天行数据接口私有词库匹配模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
-<h5 id="ai-talk-turing-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-turing-key" aria-hidden="true">#</a> ai_talk_turing_key</h5>
+<h4 id="ai-talk-turing-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-turing-key" aria-hidden="true">#</a> ai_talk_turing_key</h4>
 <p>说明: 图灵机器人接口密钥,<a href="http://www.tuling123.com/member/robot/index.jhtml" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
-<h5 id="ai-talk-moli-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-key" aria-hidden="true">#</a> ai_talk_moli_key</h5>
+<h4 id="ai-talk-moli-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-key" aria-hidden="true">#</a> ai_talk_moli_key</h4>
 <p>说明: 茉莉云接口key,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
-<h5 id="ai-talk-moli-secret" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-secret" aria-hidden="true">#</a> ai_talk_moli_secret</h5>
+<h4 id="ai-talk-moli-secret" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-secret" aria-hidden="true">#</a> ai_talk_moli_secret</h4>
 <p>说明: 茉莉云接口密钥,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h2 id="插件设置" tabindex="-1"><a class="header-anchor" href="#插件设置" aria-hidden="true">#</a> 插件设置</h2>
 <h3 id="允许违规次数" tabindex="-1"><a class="header-anchor" href="#允许违规次数" aria-hidden="true">#</a> 允许违规次数</h3>
