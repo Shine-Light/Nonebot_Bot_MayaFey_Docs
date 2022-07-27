@@ -153,7 +153,7 @@ COMMAND_START=["/", "!"]
 说明: 版本,免费版、个人开发版、商业版,区别请看[官方文档](https://dev.qweather.com/help/account/)  
 0:免费版,1:个人开发版,2:商业版
 
-#### AI对话
+#### AI聊天
 ##### ai_talk_api_type
 说明: 接口类型,根据自己购买情况选择  
 可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),turing([图灵机器人](http://www.turingapi.com/),moli([茉莉云](https://mlyai.com/)))  

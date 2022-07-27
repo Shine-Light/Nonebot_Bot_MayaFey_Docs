@@ -147,7 +147,7 @@
 <h5 id="qweather-apitype" tabindex="-1"><a class="header-anchor" href="#qweather-apitype" aria-hidden="true">#</a> QWEATHER_APITYPE</h5>
 <p>说明: 版本,免费版、个人开发版、商业版,区别请看<a href="https://dev.qweather.com/help/account/" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a><br>
 0:免费版,1:个人开发版,2:商业版</p>
-<h4 id="ai对话" tabindex="-1"><a class="header-anchor" href="#ai对话" aria-hidden="true">#</a> AI对话</h4>
+<h4 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h4>
 <h5 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h5>
 <p>说明: 接口类型,根据自己购买情况选择<br>
 可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>,moli(<a href="https://mlyai.com/" target="_blank" rel="noopener noreferrer">茉莉云<ExternalLinkIcon/></a>))<br>
