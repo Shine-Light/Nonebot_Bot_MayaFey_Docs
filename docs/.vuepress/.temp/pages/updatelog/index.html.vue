@@ -1,4 +1,9 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-4版本更新日志-2022-07-31" tabindex="-1"><a class="header-anchor" href="#_0-5-4版本更新日志-2022-07-31" aria-hidden="true">#</a> 0.5.4版本更新日志 2022/07/31</h2>
+<h4 id="新增-自定义定时任务" tabindex="-1"><a class="header-anchor" href="#新增-自定义定时任务" aria-hidden="true">#</a> 新增 自定义定时任务</h4>
+<h4 id="修复-超级用户会触发违禁词处罚" tabindex="-1"><a class="header-anchor" href="#修复-超级用户会触发违禁词处罚" aria-hidden="true">#</a> 修复 超级用户会触发违禁词处罚</h4>
+<h4 id="修复-关闭机器人后任有提示" tabindex="-1"><a class="header-anchor" href="#修复-关闭机器人后任有提示" aria-hidden="true">#</a> 修复 关闭机器人后任有提示</h4>
+<h4 id="修复-违禁词修改级别失败" tabindex="-1"><a class="header-anchor" href="#修复-违禁词修改级别失败" aria-hidden="true">#</a> 修复 违禁词修改级别失败</h4>
 <h2 id="_0-5-3版本更新日志-2022-07-27" tabindex="-1"><a class="header-anchor" href="#_0-5-3版本更新日志-2022-07-27" aria-hidden="true">#</a> 0.5.3版本更新日志 2022/07/27</h2>
 <h4 id="修改-原-翻译-更名为-腾讯翻译" tabindex="-1"><a class="header-anchor" href="#修改-原-翻译-更名为-腾讯翻译" aria-hidden="true">#</a> 修改 原 翻译 更名为 腾讯翻译</h4>
 <h4 id="修改-ai聊天适配茉莉云接口" tabindex="-1"><a class="header-anchor" href="#修改-ai聊天适配茉莉云接口" aria-hidden="true">#</a> 修改 AI聊天适配茉莉云接口</h4>
