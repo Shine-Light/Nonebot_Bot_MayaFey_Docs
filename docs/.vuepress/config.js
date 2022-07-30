@@ -27,7 +27,6 @@ module.exports = {
         notFound: ['哎呀,页面找不到了', '页面走丢了', '404 Not Found'],
         backToHome: '返回主页',
         toggleDarkMode: '切换夜间模式',
-        sidebarDepth: 5,
         navbar: [
             { text: '首页', link: '/' },
             { text: '介绍', link: '/introduce' },

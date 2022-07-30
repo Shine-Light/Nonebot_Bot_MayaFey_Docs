@@ -1168,6 +1168,87 @@
 </tr>
 </tbody>
 </table>
+<h4 id="自定义定时任务" tabindex="-1"><a class="header-anchor" href="#自定义定时任务" aria-hidden="true">#</a> 自定义定时任务</h4>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/新增定时任务 {标题} {模式} {时间} {内容}</code></td>
+<td>新增一个定时任务</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/修改定时任务 {标题} {模式} {时间} {内容}</code></td>
+<td>修改一个定时任务</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/删除定时任务 {标题}</code></td>
+<td>删除一个定时任务</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/定时任务列表</code></td>
+<td>查看定时任务列表</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/清理过期定时任务</code></td>
+<td>清理过期定时任务</td>
+<td><strong>超级用户及以上</strong></td>
+<td>只对日期模式的任务有效,每天会自动清理</td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选项</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>标题</td>
+<td>自行输入</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>模式</td>
+<td>定时、间隔、日期</td>
+<td>是</td>
+<td>定时:每日的某时刻 间隔:每n个时刻 日期:具体一个时刻</td>
+</tr>
+<tr>
+<td>时间</td>
+<td>日期格式:<code v-pre>年-月-日 时:分:秒</code> 其他格式:<code v-pre>时:分:秒</code></td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>内容</td>
+<td>自行输入</td>
+<td>否</td>
+<td>建议先不写内容,后面会有交互输入,支持 <code v-pre>@xx</code> <code v-pre>图片</code> <code v-pre>文字</code> <code v-pre>表情</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>所有私聊管理功能权限需在 管理员 及以上</p>

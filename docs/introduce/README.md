@@ -27,6 +27,7 @@
 [Onebot](https://github.com/botuniverse/onebot-11)  
 [Nonebot](https://github.com/nonebot/nonebot2)  
 [go-cqhttp](https://github.com/Mrs4s/go-cqhttp)  
+[htmlrender](https://github.com/kexue-z/nonebot-plugin-htmlrender)  
 以及各位插件开发者
 
 ## License
