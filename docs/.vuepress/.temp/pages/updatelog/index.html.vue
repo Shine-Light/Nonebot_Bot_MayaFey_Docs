@@ -1,4 +1,6 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-5-fix1版本更新日志-2022-08-06" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix1版本更新日志-2022-08-06" aria-hidden="true">#</a> 0.5.5-fix1版本更新日志 2022/08/06</h2>
+<h4 id="修复-启停用机器人出错" tabindex="-1"><a class="header-anchor" href="#修复-启停用机器人出错" aria-hidden="true">#</a> 修复 启停用机器人出错</h4>
 <h2 id="_0-5-5版本更新日志-2022-08-06" tabindex="-1"><a class="header-anchor" href="#_0-5-5版本更新日志-2022-08-06" aria-hidden="true">#</a> 0.5.5版本更新日志 2022/08/06</h2>
 <h4 id="修复-数据库用户名密码为纯数字时报错" tabindex="-1"><a class="header-anchor" href="#修复-数据库用户名密码为纯数字时报错" aria-hidden="true">#</a> 修复 数据库用户名密码为纯数字时报错</h4>
 <h4 id="新增-离群-踢出提示" tabindex="-1"><a class="header-anchor" href="#新增-离群-踢出提示" aria-hidden="true">#</a> 新增 离群/踢出提示</h4>
