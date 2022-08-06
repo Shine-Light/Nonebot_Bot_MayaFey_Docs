@@ -20,6 +20,9 @@
 # 仓库地址
 [https://github.com/Shine-Light/Nonebot_Bot_MayaFey](https://github.com/Shine-Light/Nonebot_Bot_MayaFey)
 
+# UI
+[UI](https://github.com/Shine-Light/Nonebot_Bot_MayaFey_UI)
+
 # 吹水群
 [622945924](https://jq.qq.com/?_wv=1027&k=ElDdjklL)
 

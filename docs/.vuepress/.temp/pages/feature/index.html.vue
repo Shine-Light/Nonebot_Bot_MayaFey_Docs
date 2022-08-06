@@ -1058,11 +1058,11 @@
 </thead>
 <tbody>
 <tr>
-<td>入群欢迎</td>
+<td>设置入群欢迎</td>
 <td><code v-pre>/入群欢迎 {内容}</code></td>
 </tr>
 <tr>
-<td>回群欢迎</td>
+<td>设置回群欢迎</td>
 <td><code v-pre>/回群欢迎 {内容}</code></td>
 </tr>
 </tbody>
@@ -1249,6 +1249,70 @@
 </tr>
 </tbody>
 </table>
+<h4 id="退-回踢出群提示" tabindex="-1"><a class="header-anchor" href="#退-回踢出群提示" aria-hidden="true">#</a> 退/回踢出群提示</h4>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>设置离群提示</td>
+<td><code v-pre>/离群提示 {内容}</code></td>
+</tr>
+<tr>
+<td>设置踢出提示</td>
+<td><code v-pre>/踢出提示 {内容}</code></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容</td>
+<td>自行输入</td>
+<td>是</td>
+<td>支持文字,转义字符和图片</td>
+</tr>
+</tbody>
+</table>
+<p>转义字符:</p>
+<table>
+<thead>
+<tr>
+<th>转义字符</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>{leaved}</td>
+<td>退群的人</td>
+</tr>
+<tr>
+<td>{kicked}</td>
+<td>被踢的人</td>
+</tr>
+<tr>
+<td>{kicker}</td>
+<td>踢出的操作者</td>
+</tr>
+</tbody>
+</table>
+<p>示例: <code v-pre>/踢出提示 {kicked} 被 {kicker} 踢出了群聊</code></p>
+<p>权限: <strong>超级用户</strong>及以上</p>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>所有私聊管理功能权限需在 管理员 及以上</p>

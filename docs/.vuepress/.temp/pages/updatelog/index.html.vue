@@ -1,4 +1,9 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-5版本更新日志-2022-08-06" tabindex="-1"><a class="header-anchor" href="#_0-5-5版本更新日志-2022-08-06" aria-hidden="true">#</a> 0.5.5版本更新日志 2022/08/06</h2>
+<h4 id="修复-数据库用户名密码为纯数字时报错" tabindex="-1"><a class="header-anchor" href="#修复-数据库用户名密码为纯数字时报错" aria-hidden="true">#</a> 修复 数据库用户名密码为纯数字时报错</h4>
+<h4 id="新增-离群-踢出提示" tabindex="-1"><a class="header-anchor" href="#新增-离群-踢出提示" aria-hidden="true">#</a> 新增 离群/踢出提示</h4>
+<h2 id="_0-5-4-fix1版本更新日志-2022-08-04" tabindex="-1"><a class="header-anchor" href="#_0-5-4-fix1版本更新日志-2022-08-04" aria-hidden="true">#</a> 0.5.4-fix1版本更新日志 2022/08/04</h2>
+<h4 id="修复-问答问题为空导致机器人刷屏" tabindex="-1"><a class="header-anchor" href="#修复-问答问题为空导致机器人刷屏" aria-hidden="true">#</a> 修复 问答问题为空导致机器人刷屏</h4>
 <h2 id="_0-5-4版本更新日志-2022-07-31" tabindex="-1"><a class="header-anchor" href="#_0-5-4版本更新日志-2022-07-31" aria-hidden="true">#</a> 0.5.4版本更新日志 2022/07/31</h2>
 <h4 id="新增-自定义定时任务" tabindex="-1"><a class="header-anchor" href="#新增-自定义定时任务" aria-hidden="true">#</a> 新增 自定义定时任务</h4>
 <h4 id="修复-超级用户会触发违禁词处罚" tabindex="-1"><a class="header-anchor" href="#修复-超级用户会触发违禁词处罚" aria-hidden="true">#</a> 修复 超级用户会触发违禁词处罚</h4>
