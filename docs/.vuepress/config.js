@@ -4,6 +4,7 @@ const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
 const { gitPlugin } = require('@vuepress/plugin-git')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
 const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
+const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 module.exports = {
     title: '真宵机器人',
     description: '专注群聊的QQ机器人',
@@ -68,7 +69,7 @@ module.exports = {
         }),
         activeHeaderLinksPlugin({
             // 配置项
-        }),
+        })
     ]
 
 }

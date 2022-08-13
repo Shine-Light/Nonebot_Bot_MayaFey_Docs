@@ -1,4 +1,8 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-5-fix3版本更新日志-2022-08-13" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix3版本更新日志-2022-08-13" aria-hidden="true">#</a> 0.5.5-fix3版本更新日志 2022/08/13</h2>
+<h4 id="修改-违禁词检测方式-减少误触发" tabindex="-1"><a class="header-anchor" href="#修改-违禁词检测方式-减少误触发" aria-hidden="true">#</a> 修改 违禁词检测方式,减少误触发</h4>
+<h2 id="_0-5-5-fix2版本更新日志-2022-08-12" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix2版本更新日志-2022-08-12" aria-hidden="true">#</a> 0.5.5-fix2版本更新日志 2022/08/12</h2>
+<h4 id="修复-离群提示不显示图片" tabindex="-1"><a class="header-anchor" href="#修复-离群提示不显示图片" aria-hidden="true">#</a> 修复 离群提示不显示图片</h4>
 <h2 id="_0-5-5-fix1版本更新日志-2022-08-06" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix1版本更新日志-2022-08-06" aria-hidden="true">#</a> 0.5.5-fix1版本更新日志 2022/08/06</h2>
 <h4 id="修复-启停用机器人出错" tabindex="-1"><a class="header-anchor" href="#修复-启停用机器人出错" aria-hidden="true">#</a> 修复 启停用机器人出错</h4>
 <h2 id="_0-5-5版本更新日志-2022-08-06" tabindex="-1"><a class="header-anchor" href="#_0-5-5版本更新日志-2022-08-06" aria-hidden="true">#</a> 0.5.5版本更新日志 2022/08/06</h2>
