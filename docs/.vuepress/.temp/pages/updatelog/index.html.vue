@@ -1,4 +1,24 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-6版本更新日志-2022-08-18" tabindex="-1"><a class="header-anchor" href="#_0-5-6版本更新日志-2022-08-18" aria-hidden="true">#</a> 0.5.6版本更新日志 2022/08/18</h2>
+<h4 id="更新-复读支持-和-表情" tabindex="-1"><a class="header-anchor" href="#更新-复读支持-和-表情" aria-hidden="true">#</a> 更新 复读支持 @ 和 表情</h4>
+<h4 id="新增-模拟原神祈愿" tabindex="-1"><a class="header-anchor" href="#新增-模拟原神祈愿" aria-hidden="true">#</a> 新增 模拟原神祈愿</h4>
+<h4 id="修复-启用-停用报错" tabindex="-1"><a class="header-anchor" href="#修复-启用-停用报错" aria-hidden="true">#</a> 修复 启用/停用报错</h4>
+<h2 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h2>
+<h3 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h3>
+<ol>
+<li>mysql_host_genshin</li>
+<li>mysql_port_genshin</li>
+<li>mysql_user_genshin</li>
+<li>mysql_password_genshin</li>
+<li>mysql_db_genshin</li>
+<li>genshin_port</li>
+<li>genshin_host</li>
+<li>genshin_ssl</li>
+</ol>
+<h3 id="本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" tabindex="-1"><a class="header-anchor" href="#本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" aria-hidden="true">#</a> 本次更新需部署 原神祈愿API,如果不需要这个功能可以不部署</h3>
+<h1 id="_0-5-5-fix4版本更新日志-2022-08-15" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix4版本更新日志-2022-08-15" aria-hidden="true">#</a> 0.5.5-fix4版本更新日志 2022/08/15</h1>
+<h4 id="修复-每次发言会在后台索引违禁词列表" tabindex="-1"><a class="header-anchor" href="#修复-每次发言会在后台索引违禁词列表" aria-hidden="true">#</a> 修复 每次发言会在后台索引违禁词列表</h4>
+<h4 id="修复-机器人关闭失效" tabindex="-1"><a class="header-anchor" href="#修复-机器人关闭失效" aria-hidden="true">#</a> 修复 机器人关闭失效</h4>
 <h2 id="_0-5-5-fix3版本更新日志-2022-08-13" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix3版本更新日志-2022-08-13" aria-hidden="true">#</a> 0.5.5-fix3版本更新日志 2022/08/13</h2>
 <h4 id="修改-违禁词检测方式-减少误触发" tabindex="-1"><a class="header-anchor" href="#修改-违禁词检测方式-减少误触发" aria-hidden="true">#</a> 修改 违禁词检测方式,减少误触发</h4>
 <h2 id="_0-5-5-fix2版本更新日志-2022-08-12" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix2版本更新日志-2022-08-12" aria-hidden="true">#</a> 0.5.5-fix2版本更新日志 2022/08/12</h2>

@@ -3,6 +3,27 @@ sidebarDepth: 1
 sidebar: 'auto'
 ---
 # 更新日志
+## 0.5.6版本更新日志 2022/08/18
+#### 更新 复读支持 @ 和 表情
+#### 新增 模拟原神祈愿
+#### 修复 启用/停用报错
+
+## 提示
+### 本次更新增加了以下配置项,请前往文档或Github查看并配置
+1. mysql\_host_genshin
+2. mysql\_port_genshin
+3. mysql\_user_genshin
+4. mysql\_password_genshin
+5. mysql\_db_genshin
+6. genshin_port
+7. genshin_host
+8. genshin_ssl
+### 本次更新需部署 原神祈愿API,如果不需要这个功能可以不部署
+
+# 0.5.5-fix4版本更新日志 2022/08/15
+#### 修复 每次发言会在后台索引违禁词列表
+#### 修复 机器人关闭失效
+
 ## 0.5.5-fix3版本更新日志 2022/08/13
 #### 修改 违禁词检测方式,减少误触发
 
