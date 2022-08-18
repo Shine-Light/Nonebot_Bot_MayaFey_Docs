@@ -1,6 +1,6 @@
 <template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该页面只进行部分配置说明,完整配置说明<RouterLink to="/guide/configure.html">点击这里</RouterLink></p>
+<p>该页面只进行部分配置说明,未提及的全部为默认即可,完整配置说明<RouterLink to="/guide/configure.html">点击这里</RouterLink></p>
 </div>
 <h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
 <h3 id="腾讯api-可选" tabindex="-1"><a class="header-anchor" href="#腾讯api-可选" aria-hidden="true">#</a> 腾讯API(可选)</h3>
@@ -150,6 +150,10 @@
 <p>说明: 茉莉云接口key,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h4 id="ai-talk-moli-secret" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-secret" aria-hidden="true">#</a> ai_talk_moli_secret</h4>
 <p>说明: 茉莉云接口密钥,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
+<h3 id="原神祈愿api设置-可选" tabindex="-1"><a class="header-anchor" href="#原神祈愿api设置-可选" aria-hidden="true">#</a> 原神祈愿API设置(可选)</h3>
+<h4 id="mysql-password-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-password-genshin" aria-hidden="true">#</a> mysql_password_genshin</h4>
+<p>说明: 数据库密码<br>
+示例: <code v-pre>mysql_password_genshin=&quot;xxxxxxxx&quot;</code></p>
 <h2 id="插件设置" tabindex="-1"><a class="header-anchor" href="#插件设置" aria-hidden="true">#</a> 插件设置</h2>
 <h3 id="允许违规次数" tabindex="-1"><a class="header-anchor" href="#允许违规次数" aria-hidden="true">#</a> 允许违规次数</h3>
 <h4 id="ban-count-allow" tabindex="-1"><a class="header-anchor" href="#ban-count-allow" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h4>

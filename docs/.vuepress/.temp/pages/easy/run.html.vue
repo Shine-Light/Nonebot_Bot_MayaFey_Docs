@@ -21,6 +21,13 @@
 <p>同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</p>
 </li>
 </ol>
+<h2 id="运行祈愿接口" tabindex="-1"><a class="header-anchor" href="#运行祈愿接口" aria-hidden="true">#</a> 运行祈愿接口</h2>
+<ol>
+<li>输入 <code v-pre>screen -R bot</code> 进入新窗口</li>
+<li>输入 <code v-pre>cd /nonebot/GenshinPray</code></li>
+<li>输入 <code v-pre>dotnet GenshinPray.dll --launch-profile Production --urls http://0.0.0.0:8081</code></li>
+<li>启动后,同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</li>
+</ol>
 <h2 id="运行机器人" tabindex="-1"><a class="header-anchor" href="#运行机器人" aria-hidden="true">#</a> 运行机器人</h2>
 <ol>
 <li>输入 <code v-pre>screen -R bot</code> 进入新窗口</li>

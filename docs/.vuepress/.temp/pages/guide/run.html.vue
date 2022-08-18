@@ -6,6 +6,7 @@
 <ol>
 <li>进入go-cqhttp所在目录,打开 <code v-pre>go-cqhttp.bat</code></li>
 <li>在机器人所在目录,打开 <code v-pre>start.bat</code></li>
+<li>在 原神祈愿API 目录打开cmd,运行 <code v-pre>dotnet GenshinPray.dll --launch-profile Production --urls http://0.0.0.0:8081</code>,不需要这个功能可以跳过</li>
 <li>开始运行</li>
 </ol>
 <h2 id="linux" tabindex="-1"><a class="header-anchor" href="#linux" aria-hidden="true">#</a> Linux</h2>
@@ -15,6 +16,8 @@
 <li>等待运行,运行后按 Ctrl + A + D 退出窗口</li>
 <li>进入机器人目录,输入 <code v-pre>screen -R bot</code></li>
 <li>输入 <code v-pre>poetry run python3 bot.py</code></li>
+<li>进入 原神祈愿API 目录,<code v-pre>screen -R bot</code></li>
+<li>运行 <code v-pre>dotnet GenshinPray.dll --launch-profile Production --urls http://0.0.0.0:8081</code>,不需要这个功能可以跳过</li>
 <li>等待运行,运行后按 Ctrl + A + D 退出窗口,想回到机器人终端输入 <code v-pre>screen -R bot</code> 即可</li>
 </ol>
 </div></template>

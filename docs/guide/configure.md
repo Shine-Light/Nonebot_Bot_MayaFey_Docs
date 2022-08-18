@@ -115,7 +115,28 @@ COMMAND_START=["/", "!"]
 #### mysql_password
 说明: 数据库密码,填入之前设置的密码  
 #### mysql_db
-说明: 数据库名,填入创建时的数据库名,或者用默认
+说明: 数据库名,填入自己想要的那种,或者用默认
+
+### 原神祈愿设置
+::: tip 提示
+没有特殊情况的话,前四项和mysql设置一致即可
+:::
+#### mysql_host_genshin
+说明: 数据库服务器主机地址,默认即可 
+#### mysql_port_genshin
+说明: 数据库服务器端口,默认即可  
+#### mysql_user_genshin
+说明: 数据库用户名,使用 `root` 用户 
+#### mysql_password_genshin
+说明: 数据库密码,填入之前设置的密码  
+#### mysql_db_genshin
+说明: 数据库名,默认 `genshinpray`,无特殊情况不修改
+#### genshin_port
+说明: 祈愿API端口,默认即可  
+#### genshin_host
+说明: 祈愿API主机名,默认即可 
+#### genshin_ssl
+说明: 是否使用https, 0关 1开
 
 ### API设置
 #### 腾讯机器翻译

@@ -33,6 +33,8 @@ sidebarDepth: 2
 |-|-|-|
 |`/帮助 {插件名}`|获取插件帮助|**群员**及以上|
 |`/帮助 list`|查看正常加载的插件|**群员**及以上|
+
+插件来源: [nonebot-plugin-help](https://github.com/XZhouQD/nonebot-plugin-help)
 ## 娱乐功能
 ::: tip 提示
 游戏功能请[点击这里](#游戏功能)
@@ -130,7 +132,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/noneplugin/nonebot-plugin-simplemusic](https://github.com/noneplugin/nonebot-plugin-simplemusic)
+插件来源: [nonebot-plugin-simplemusic](https://github.com/noneplugin/nonebot-plugin-simplemusic)修改而来
 
 
 ### 群词云
@@ -145,7 +147,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
+插件来源: [nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 ### logo制作
 帮助命令: `/logo 帮助`
@@ -165,7 +167,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/noneplugin/nonebot-plugin-logo](https://github.com/noneplugin/nonebot-plugin-logo)
+插件来源: [nonebot-plugin-logo](https://github.com/noneplugin/nonebot-plugin-logo)修改而来
 
 ### 表情包制作
 帮助命令: `/表情包制作`
@@ -185,7 +187,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/noneplugin/nonebot-plugin-memes](https://github.com/noneplugin/nonebot-plugin-memes)
+插件来源: [nonebot-plugin-memes](https://github.com/noneplugin/nonebot-plugin-memes)修改而来
 
 ### 答案之书
 功能: 返回一个 "答案"  
@@ -198,7 +200,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/A-kirami/nonebot-plugin-answersbook](https://github.com/A-kirami/nonebot-plugin-answersbook)
+插件来源: [nonebot-plugin-answersbook](https://github.com/A-kirami/nonebot-plugin-answersbook)修改而来
 
 ### 到账语音生成  
 功能: 生成一条支付宝到账语音  
@@ -239,7 +241,7 @@ sidebarDepth: 2
 |角色|自行输入|是|可根据主题列表来尝试角色|
 |主题|自行输入|是|通过主题列表查看可用主题|  
 
-插件来源:[github.com/MinatoAquaCrews/nonebot_plugin_fortune](https://github.com/MinatoAquaCrews/nonebot_plugin_fortune)修改而来
+插件来源:[nonebot_plugin_fortune](https://github.com/MinatoAquaCrews/nonebot_plugin_fortune)修改而来
 
 ### 发言排行榜
 命令:  
@@ -255,7 +257,7 @@ sidebarDepth: 2
 
 权限: **群员及以上**
 
-插件来源:[github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
+插件来源:[nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 ### AI聊天
 ::: tip 提示
@@ -286,6 +288,47 @@ sidebarDepth: 2
 |模式|间隔/定时|是|间隔:每n个时间单位戳一次,定时:在指定时间戳一次|
 |时间|{小时}:{分钟}:{秒数}|是|必须为整数和正数|
 
+### 原神祈愿
+::: tip 提示
+该功能需要配置 原神祈愿API
+:::
+功能: 根据官方爆率模拟祈愿  
+命令:  
+|命令|功能|权限|备注|
+|-|-|-|-|
+|`/角色祈愿 单\|十抽 {蛋池编号}`|角色池(UP池)祈愿|**成员**及以上|默认每抽消耗1积分|
+|`/常驻祈愿 单\|十抽`|常驻池祈愿|**成员**及以上|默认每抽消耗1积分|
+|`/全角色祈愿 单\|十抽`|全角色祈愿|**成员**及以上|默认每抽消耗1积分|
+|`/武器祈愿 单\|十抽`|武器池祈愿|**成员**及以上|默认每抽消耗1积分|
+|`/全武器祈愿 单\|十抽`|全武器祈愿|**成员**及以上|默认每抽消耗1积分|
+|`/武器定轨 {武器名}`|武器定轨|**成员**及以上|需要完整的武器名且需在武器池UP中|
+|`/查询定轨`|查询定轨|**成员**及以上||
+|`/祈愿蛋池列表`|获取当前群聊已配置得到角色池(UP池)信息|**成员**及以上||
+|`/祈愿蛋池详情 {蛋池编号}`|获取蛋池详细信息|**成员**及以上||
+|`/我的祈愿`|查看自己的出货情况|**成员**及以上||
+|`/我的祈愿记录`|查看自己前20条4,5星出货记录|**成员**及以上|按时间排序|
+|`/祈愿排行榜`|查看4,5星出货排行|**成员**及以上||
+|`/祈愿费用`|查看祈愿单抽费用|**成员**及以上||
+|`/设置祈愿费用 {积分数}`|设置祈愿单抽费用|**超级用户**及以上||
+|`/自定义祈愿角色池 {蛋池编号} {角色列表}`|自定义角色池|**超级用户**及以上|蛋池不存在时自动创建,角色需要1个5星和3个4星,用空格隔开|
+|`/自定义原神武器池 {武器列表}`|查看祈愿单抽费用|**超级用户**及以上|蛋池不存在时自动创建,武器需要2个5星和5个4星,用空格隔开|
+|`/清空原神角色池`|清空已配置的角色池|**超级用户**及以上||
+|`/清空原神武器池`|清空已配置的武器池|**超级用户**及以上||
+|`/设置祈愿服装概率 {概率}`|设定角色皮肤出现概率|**超级用户**及以上||
+
+
+参数:  
+|参数|可选值|必须|备注|
+|-|-|-|-|
+|蛋池编号|自行输入|是|可以通过 蛋池列表 获取|
+|武器名|自行输入|是|必须是完整的武器名|
+|积分数|自行输入|是|可以为0,但不能为负数|
+|角色列表|自行输入|是|需要1个5星和3个4星,用空格隔开|
+|武器列表|自行输入|是|需要2个5星和5个4星,用空格隔开|
+|概率|0~100|是|只支持整数|
+
+接口来源: [GenshinPray](https://github.com/GardenHamster/GenshinPray)
+
 ## 生活功能
 ### 翻译
 #### 腾讯版本
@@ -295,7 +338,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/Lancercmd/nonebot_plugin_translator](https://github.com/Lancercmd/nonebot_plugin_translator)
+插件来源: [nonebot_plugin_translator](https://github.com/Lancercmd/nonebot_plugin_translator)修改而来
 #### 百度版本
 功能: 翻译指定内容  
 
@@ -309,7 +352,7 @@ sidebarDepth: 2
 
 权限: **群员**及以上
 
-插件来源: [github.com/NumberSir/nonebot_plugin_baidutranslate](https://github.com/NumberSir/nonebot_plugin_baidutranslate)
+插件来源: [nonebot_plugin_baidutranslate](https://github.com/NumberSir/nonebot_plugin_baidutranslate)修改而来
 
 ### 疫情
 ::: tip 提示
@@ -330,7 +373,7 @@ sidebarDepth: 2
 
 示例: `上海疫情` `上海疫情政策`
 
-插件来源: [github.com/Zeta-qixi/nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)修改而来
+插件来源: [nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)修改而来
 
 ### 天气
 ::: tip 提示
@@ -351,7 +394,7 @@ sidebarDepth: 2
 
 示例: `北京天气`
 
-插件来源: [github.com/kexue-z/nonebot-plugin-heweather](https://github.com/kexue-z/nonebot-plugin-heweather)
+插件来源: [nonebot-plugin-heweather](https://github.com/kexue-z/nonebot-plugin-heweather)修改而来
 
 ### 违禁词查询
 命令: `/违禁词 列表`
@@ -365,7 +408,7 @@ sidebarDepth: 2
 |`epic喜加一`|查询epic本周免费游戏|**群员**及以上|
 |`喜加一订阅`|订阅喜加一资讯,定时推送|**超级用户**及以上|  
 
-插件来源: [github.com/monsterxcn/nonebot_plugin_epicfree](https://github.com/monsterxcn/nonebot_plugin_epicfree)修改而来  
+插件来源: [nonebot_plugin_epicfree](https://github.com/monsterxcn/nonebot_plugin_epicfree)修改而来
 
 ### 今天吃什么
 功能: 让真宵来帮你决定今天吃什么  
@@ -389,7 +432,7 @@ sidebarDepth: 2
 |菜名|自行输入|是|
 |问候语|自行输入|是|  
 
-插件来源:[github.com/MinatoAquaCrews/nonebot_plugin_what2eat](https://github.com/MinatoAquaCrews/nonebot_plugin_what2eat)修改而来  
+插件来源:[nonebot_plugin_what2eat](https://github.com/MinatoAquaCrews/nonebot_plugin_what2eat)修改而来
 
 ### 早晚安
 功能: 和真宵说早晚安，记录睡眠时间
@@ -416,7 +459,7 @@ sidebarDepth: 2
 |数值|自行输入|是|  
 
 
-插件来源:[github.com/MinatoAquaCrews/nonebot_plugin_morning](https://github.com/MinatoAquaCrews/nonebot_plugin_morning)修改而来
+插件来源:[nonebot_plugin_morning](https://github.com/MinatoAquaCrews/nonebot_plugin_morning)修改而来
 ## 管理功能
 ### 群聊管理
 #### 机器人更新
@@ -449,7 +492,7 @@ sidebarDepth: 2
 
 权限: **超级用户**及以上  
 
-插件来源: [github.com/Zeta-qixi/nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)
+插件来源: [nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)修改而来
 
 #### 群管(禁、解、踢、黑)
 ::: tip 提示
@@ -474,7 +517,7 @@ sidebarDepth: 2
 
 示例: `/禁@群词云 60`
 
-插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
+插件来源: [nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 ##### 测试功能
 ::: danger 警告
@@ -510,7 +553,7 @@ sidebarDepth: 2
 
 权限: **超级用户**及以上
 
-插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
+插件来源: [nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 #### 违禁词
 ::: tip 提示
@@ -531,7 +574,7 @@ sidebarDepth: 2
 
 权限: **超级用户**及以上  
 
-插件来源: [github.com/yzyyz1387/nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来  
+插件来源: [nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 ##### 自定义违禁词系统命令
 
@@ -781,7 +824,7 @@ sidebarDepth: 2
 
 示例：`/装弹 1 10`  
 
-插件来源: [github.com/HibiKier/nonebot_plugin_russian](https://github.com/HibiKier/nonebot_plugin_russian)修改而来
+插件来源: [nonebot_plugin_russian](https://github.com/HibiKier/nonebot_plugin_russian)修改而来
 
 #### 21点
 发起游戏: /21点 {积分}  
@@ -800,7 +843,7 @@ sidebarDepth: 2
 |游戏ID|自行输入|是|游戏ID,通过 查看游戏列表 获取|
 |@XXX|自行输入|是||  
 
-插件来源: [https://github.com/yaowan233/nonebot-plugin-blackjack](https://github.com/yaowan233/nonebot-plugin-blackjack)修改而来
+插件来源: [nonebot-plugin-blackjack](https://github.com/yaowan233/nonebot-plugin-blackjack)修改而来
 
 ## 被动功能
 ### 恶意触发命令检测

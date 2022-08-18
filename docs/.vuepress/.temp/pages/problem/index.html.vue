@@ -1,5 +1,9 @@
 <template><div><h1 id="常见问题" tabindex="-1"><a class="header-anchor" href="#常见问题" aria-hidden="true">#</a> 常见问题</h1>
 <h2 id="如何更新机器人" tabindex="-1"><a class="header-anchor" href="#如何更新机器人" aria-hidden="true">#</a> 如何更新机器人</h2>
+<div class="custom-container warning"><p class="custom-container-title">提示</p>
+<p>真宵的自动更新是基于前一个版本的基础更新的,所以如果中间间隔了一个版本,那么将无法自动更新,如果强制更新的话会导致出现错误<br>
+如果中间间隔了一个版本,需在Github下载完整代码进行覆盖</p>
+</div>
 <ol>
 <li>在更新前先备份</li>
 <li>在群里发送 <code v-pre>/更新</code>,等待更新完成进行一次初始化即可</li>
@@ -50,6 +54,8 @@
 </ol>
 <h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
 <p>这种情况多发生在Linux系统上,百度Linux安装中文字体</p>
+<h2 id="github速度慢" tabindex="-1"><a class="header-anchor" href="#github速度慢" aria-hidden="true">#</a> Github速度慢</h2>
+<p>有代理的可以挂代理,没有代理可以百度 Github 加速</p>
 <h2 id="找不到想要的问题" tabindex="-1"><a class="header-anchor" href="#找不到想要的问题" aria-hidden="true">#</a> 找不到想要的问题?</h2>
 <p>在Github提Issue,或者加入<a href="https://jq.qq.com/?_wv=1027&amp;k=ElDdjklL" target="_blank" rel="noopener noreferrer">吹水群(622945924)<ExternalLinkIcon/></a></p>
 </div></template>

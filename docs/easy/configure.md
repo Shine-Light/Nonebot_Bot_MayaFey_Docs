@@ -1,6 +1,6 @@
 # 配置
 ::: tip 提示
-该页面只进行部分配置说明,完整配置说明[点击这里](/guide/configure.md)
+该页面只进行部分配置说明,未提及的全部为默认即可,完整配置说明[点击这里](/guide/configure.md)
 :::
 ## API账号注册
 ### 腾讯API(可选)
@@ -158,6 +158,11 @@
 说明: 茉莉云接口key,[控制台](https://mlyai.com/profile/index.html#/robot/list)获取,若不使用该接口该项可不填  
 #### ai_talk_moli_secret
 说明: 茉莉云接口密钥,[控制台](https://mlyai.com/profile/index.html#/robot/list)获取,若不使用该接口该项可不填  
+
+### 原神祈愿API设置(可选)
+#### mysql_password_genshin
+说明: 数据库密码  
+示例: `mysql_password_genshin="xxxxxxxx"`
 
 ## 插件设置
 ### 允许违规次数

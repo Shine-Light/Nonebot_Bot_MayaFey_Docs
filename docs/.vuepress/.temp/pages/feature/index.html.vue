@@ -36,6 +36,7 @@
 </tr>
 </tbody>
 </table>
+<p>插件来源: <a href="https://github.com/XZhouQD/nonebot-plugin-help" target="_blank" rel="noopener noreferrer">nonebot-plugin-help<ExternalLinkIcon/></a></p>
 <h2 id="娱乐功能" tabindex="-1"><a class="header-anchor" href="#娱乐功能" aria-hidden="true">#</a> 娱乐功能</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>游戏功能请<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">点击这里</a></p>
@@ -147,7 +148,7 @@
 </table>
 <p>示例: <code v-pre>/qq点歌 孤勇者</code></p>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-simplemusic" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-simplemusic<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-simplemusic" target="_blank" rel="noopener noreferrer">nonebot-plugin-simplemusic<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="群词云" tabindex="-1"><a class="header-anchor" href="#群词云" aria-hidden="true">#</a> 群词云</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能只有在群<a href="#%E7%BE%A4%E8%AF%8D%E4%BA%91%E8%AE%BE%E7%BD%AE">开启群词云记录</a>后才能使用
@@ -156,7 +157,7 @@
 <p>命令: <code v-pre>/群词云</code></p>
 <p>功能: 获取当日群消息词云</p>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="logo制作" tabindex="-1"><a class="header-anchor" href="#logo制作" aria-hidden="true">#</a> logo制作</h3>
 <p>帮助命令: <code v-pre>/logo 帮助</code></p>
 <p>功能: 制作P站,油管等LOGO</p>
@@ -188,7 +189,7 @@
 </table>
 <p>示例: <code v-pre>/ph Bili Bili</code></p>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-logo<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">nonebot-plugin-logo<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="表情包制作" tabindex="-1"><a class="header-anchor" href="#表情包制作" aria-hidden="true">#</a> 表情包制作</h3>
 <p>帮助命令: <code v-pre>/表情包制作</code></p>
 <p>功能: 制作鲁迅说,王境泽等表情包</p>
@@ -220,7 +221,7 @@
 <img src="/image/feature/memes_help.jpg" height='500px'>
 <p>示例: <code v-pre>/鲁迅说过 我没说过这句话</code></p>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">github.com/noneplugin/nonebot-plugin-memes<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">nonebot-plugin-memes<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="答案之书" tabindex="-1"><a class="header-anchor" href="#答案之书" aria-hidden="true">#</a> 答案之书</h3>
 <p>功能: 返回一个 &quot;答案&quot;</p>
 <p>命令: <code v-pre>翻看答案{问题}</code></p>
@@ -241,7 +242,7 @@
 </tbody>
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/A-kirami/nonebot-plugin-answersbook" target="_blank" rel="noopener noreferrer">github.com/A-kirami/nonebot-plugin-answersbook<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/A-kirami/nonebot-plugin-answersbook" target="_blank" rel="noopener noreferrer">nonebot-plugin-answersbook<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="到账语音生成" tabindex="-1"><a class="header-anchor" href="#到账语音生成" aria-hidden="true">#</a> 到账语音生成</h3>
 <p>功能: 生成一条支付宝到账语音</p>
 <p>命令: <code v-pre>/到账 {金额}</code></p>
@@ -346,7 +347,7 @@
 </tr>
 </tbody>
 </table>
-<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_fortune" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_fortune<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_fortune" target="_blank" rel="noopener noreferrer">nonebot_plugin_fortune<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="发言排行榜" tabindex="-1"><a class="header-anchor" href="#发言排行榜" aria-hidden="true">#</a> 发言排行榜</h3>
 <p>命令:</p>
 <table>
@@ -384,7 +385,7 @@
 </tbody>
 </table>
 <p>权限: <strong>群员及以上</strong></p>
-<p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能支持私聊和群聊,聊天内容仅支持文本,图灵接口还没测试 <s>(没钱买接口)</s></p>
@@ -474,13 +475,195 @@
 </tr>
 </tbody>
 </table>
+<h3 id="原神祈愿" tabindex="-1"><a class="header-anchor" href="#原神祈愿" aria-hidden="true">#</a> 原神祈愿</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>该功能需要配置 原神祈愿API</p>
+</div>
+<p>功能: 根据官方爆率模拟祈愿<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/角色祈愿 单|十抽 {蛋池编号}</code></td>
+<td>角色池(UP池)祈愿</td>
+<td><strong>成员</strong>及以上</td>
+<td>默认每抽消耗1积分</td>
+</tr>
+<tr>
+<td><code v-pre>/常驻祈愿 单|十抽</code></td>
+<td>常驻池祈愿</td>
+<td><strong>成员</strong>及以上</td>
+<td>默认每抽消耗1积分</td>
+</tr>
+<tr>
+<td><code v-pre>/全角色祈愿 单|十抽</code></td>
+<td>全角色祈愿</td>
+<td><strong>成员</strong>及以上</td>
+<td>默认每抽消耗1积分</td>
+</tr>
+<tr>
+<td><code v-pre>/武器祈愿 单|十抽</code></td>
+<td>武器池祈愿</td>
+<td><strong>成员</strong>及以上</td>
+<td>默认每抽消耗1积分</td>
+</tr>
+<tr>
+<td><code v-pre>/全武器祈愿 单|十抽</code></td>
+<td>全武器祈愿</td>
+<td><strong>成员</strong>及以上</td>
+<td>默认每抽消耗1积分</td>
+</tr>
+<tr>
+<td><code v-pre>/武器定轨 {武器名}</code></td>
+<td>武器定轨</td>
+<td><strong>成员</strong>及以上</td>
+<td>需要完整的武器名且需在武器池UP中</td>
+</tr>
+<tr>
+<td><code v-pre>/查询定轨</code></td>
+<td>查询定轨</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/祈愿蛋池列表</code></td>
+<td>获取当前群聊已配置得到角色池(UP池)信息</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/祈愿蛋池详情 {蛋池编号}</code></td>
+<td>获取蛋池详细信息</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/我的祈愿</code></td>
+<td>查看自己的出货情况</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/我的祈愿记录</code></td>
+<td>查看自己前20条4,5星出货记录</td>
+<td><strong>成员</strong>及以上</td>
+<td>按时间排序</td>
+</tr>
+<tr>
+<td><code v-pre>/祈愿排行榜</code></td>
+<td>查看4,5星出货排行</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/祈愿费用</code></td>
+<td>查看祈愿单抽费用</td>
+<td><strong>成员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/设置祈愿费用 {积分数}</code></td>
+<td>设置祈愿单抽费用</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/自定义祈愿角色池 {蛋池编号} {角色列表}</code></td>
+<td>自定义角色池</td>
+<td><strong>超级用户</strong>及以上</td>
+<td>蛋池不存在时自动创建,角色需要1个5星和3个4星,用空格隔开</td>
+</tr>
+<tr>
+<td><code v-pre>/自定义原神武器池 {武器列表}</code></td>
+<td>查看祈愿单抽费用</td>
+<td><strong>超级用户</strong>及以上</td>
+<td>蛋池不存在时自动创建,武器需要2个5星和5个4星,用空格隔开</td>
+</tr>
+<tr>
+<td><code v-pre>/清空原神角色池</code></td>
+<td>清空已配置的角色池</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/清空原神武器池</code></td>
+<td>清空已配置的武器池</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/设置祈愿服装概率 {概率}</code></td>
+<td>设定角色皮肤出现概率</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>蛋池编号</td>
+<td>自行输入</td>
+<td>是</td>
+<td>可以通过 蛋池列表 获取</td>
+</tr>
+<tr>
+<td>武器名</td>
+<td>自行输入</td>
+<td>是</td>
+<td>必须是完整的武器名</td>
+</tr>
+<tr>
+<td>积分数</td>
+<td>自行输入</td>
+<td>是</td>
+<td>可以为0,但不能为负数</td>
+</tr>
+<tr>
+<td>角色列表</td>
+<td>自行输入</td>
+<td>是</td>
+<td>需要1个5星和3个4星,用空格隔开</td>
+</tr>
+<tr>
+<td>武器列表</td>
+<td>自行输入</td>
+<td>是</td>
+<td>需要2个5星和5个4星,用空格隔开</td>
+</tr>
+<tr>
+<td>概率</td>
+<td>0~100</td>
+<td>是</td>
+<td>只支持整数</td>
+</tr>
+</tbody>
+</table>
+<p>接口来源: <a href="https://github.com/GardenHamster/GenshinPray" target="_blank" rel="noopener noreferrer">GenshinPray<ExternalLinkIcon/></a></p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <h4 id="腾讯版本" tabindex="-1"><a class="header-anchor" href="#腾讯版本" aria-hidden="true">#</a> 腾讯版本</h4>
 <p>命令: <code v-pre>/腾讯翻译</code></p>
 <p>功能: 翻译指定内容</p>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/Lancercmd/nonebot_plugin_translator" target="_blank" rel="noopener noreferrer">github.com/Lancercmd/nonebot_plugin_translator<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/Lancercmd/nonebot_plugin_translator" target="_blank" rel="noopener noreferrer">nonebot_plugin_translator<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="百度版本" tabindex="-1"><a class="header-anchor" href="#百度版本" aria-hidden="true">#</a> 百度版本</h4>
 <p>功能: 翻译指定内容</p>
 <p>命令: <code v-pre>x译x {内容}</code></p>
@@ -510,7 +693,7 @@
 </tbody>
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/NumberSir/nonebot_plugin_baidutranslate" target="_blank" rel="noopener noreferrer">github.com/NumberSir/nonebot_plugin_baidutranslate<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/NumberSir/nonebot_plugin_baidutranslate" target="_blank" rel="noopener noreferrer">nonebot_plugin_baidutranslate<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="疫情" tabindex="-1"><a class="header-anchor" href="#疫情" aria-hidden="true">#</a> 疫情</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能可以设置定时推送指定城市信息,具体前往<a href="#%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD">管理功能</a></p>
@@ -536,7 +719,7 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>示例: <code v-pre>上海疫情</code> <code v-pre>上海疫情政策</code></p>
-<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="天气" tabindex="-1"><a class="header-anchor" href="#天气" aria-hidden="true">#</a> 天气</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能使用了 和风天气API,需配置API密钥</p>
@@ -562,7 +745,7 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>示例: <code v-pre>北京天气</code></p>
-<p>插件来源: <a href="https://github.com/kexue-z/nonebot-plugin-heweather" target="_blank" rel="noopener noreferrer">github.com/kexue-z/nonebot-plugin-heweather<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/kexue-z/nonebot-plugin-heweather" target="_blank" rel="noopener noreferrer">nonebot-plugin-heweather<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="违禁词查询" tabindex="-1"><a class="header-anchor" href="#违禁词查询" aria-hidden="true">#</a> 违禁词查询</h3>
 <p>命令: <code v-pre>/违禁词 列表</code></p>
 <p>权限: <strong>群员</strong>及以上</p>
@@ -589,7 +772,7 @@
 </tr>
 </tbody>
 </table>
-<p>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">github.com/monsterxcn/nonebot_plugin_epicfree<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/monsterxcn/nonebot_plugin_epicfree" target="_blank" rel="noopener noreferrer">nonebot_plugin_epicfree<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="今天吃什么" tabindex="-1"><a class="header-anchor" href="#今天吃什么" aria-hidden="true">#</a> 今天吃什么</h3>
 <p>功能: 让真宵来帮你决定今天吃什么</p>
 <p>命令:</p>
@@ -680,7 +863,7 @@
 </tr>
 </tbody>
 </table>
-<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_what2eat" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_what2eat<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_what2eat" target="_blank" rel="noopener noreferrer">nonebot_plugin_what2eat<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="早晚安" tabindex="-1"><a class="header-anchor" href="#早晚安" aria-hidden="true">#</a> 早晚安</h3>
 <p>功能: 和真宵说早晚安，记录睡眠时间</p>
 <p>命令:</p>
@@ -772,7 +955,7 @@
 </tr>
 </tbody>
 </table>
-<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_morning" target="_blank" rel="noopener noreferrer">github.com/MinatoAquaCrews/nonebot_plugin_morning<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源:<a href="https://github.com/MinatoAquaCrews/nonebot_plugin_morning" target="_blank" rel="noopener noreferrer">nonebot_plugin_morning<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="群聊管理" tabindex="-1"><a class="header-anchor" href="#群聊管理" aria-hidden="true">#</a> 群聊管理</h3>
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
@@ -806,7 +989,7 @@
 </table>
 <p>示例: <code v-pre>/关注疫情 上海</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">github.com/Zeta-qixi/nonebot-plugin-covid19-news<ExternalLinkIcon/></a></p>
+<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>请将机器人设置为群管理员,否则功能无法使用</p>
@@ -865,7 +1048,7 @@
 </table>
 <p>权限: <strong>超级用户</strong>及以上</p>
 <p>示例: <code v-pre>/禁@群词云 60</code></p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="测试功能" tabindex="-1"><a class="header-anchor" href="#测试功能" aria-hidden="true">#</a> 测试功能</h5>
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>此功能为测试功能,不保证能用性</p>
@@ -917,7 +1100,7 @@
 </tbody>
 </table>
 <p>权限: <strong>超级用户</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="违禁词" tabindex="-1"><a class="header-anchor" href="#违禁词" aria-hidden="true">#</a> 违禁词</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>违禁词有两套系统,一套自定义系统,一套内置系统<br />
@@ -950,7 +1133,7 @@
 </tbody>
 </table>
 <p>权限: <strong>超级用户</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">github.com/yzyyz1387/nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="自定义违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#自定义违禁词系统命令" aria-hidden="true">#</a> 自定义违禁词系统命令</h5>
 <table>
 <thead>
@@ -1530,7 +1713,7 @@
 </tbody>
 </table>
 <p>示例：<code v-pre>/装弹 1 10</code></p>
-<p>插件来源: <a href="https://github.com/HibiKier/nonebot_plugin_russian" target="_blank" rel="noopener noreferrer">github.com/HibiKier/nonebot_plugin_russian<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/HibiKier/nonebot_plugin_russian" target="_blank" rel="noopener noreferrer">nonebot_plugin_russian<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="_21点" tabindex="-1"><a class="header-anchor" href="#_21点" aria-hidden="true">#</a> 21点</h4>
 <p>发起游戏: /21点 {积分}<br>
 查看游戏列表: /21点列表<br>
@@ -1571,7 +1754,7 @@
 </tr>
 </tbody>
 </table>
-<p>插件来源: <a href="https://github.com/yaowan233/nonebot-plugin-blackjack" target="_blank" rel="noopener noreferrer">https://github.com/yaowan233/nonebot-plugin-blackjack<ExternalLinkIcon/></a>修改而来</p>
+<p>插件来源: <a href="https://github.com/yaowan233/nonebot-plugin-blackjack" target="_blank" rel="noopener noreferrer">nonebot-plugin-blackjack<ExternalLinkIcon/></a>修改而来</p>
 <h2 id="被动功能" tabindex="-1"><a class="header-anchor" href="#被动功能" aria-hidden="true">#</a> 被动功能</h2>
 <h3 id="恶意触发命令检测" tabindex="-1"><a class="header-anchor" href="#恶意触发命令检测" aria-hidden="true">#</a> 恶意触发命令检测</h3>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>

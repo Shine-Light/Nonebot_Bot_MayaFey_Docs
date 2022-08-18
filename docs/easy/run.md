@@ -11,6 +11,12 @@
 
 5. 同时按下键盘的 `Ctrl` , `A` 和 `D`键 将程序挂在后台运行  
 
+## 运行祈愿接口
+1. 输入 `screen -R bot` 进入新窗口
+2. 输入 `cd /nonebot/GenshinPray`
+3. 输入 `dotnet GenshinPray.dll --launch-profile Production --urls http://0.0.0.0:8081`
+4. 启动后,同时按下键盘的 `Ctrl` , `A` 和 `D`键 将程序挂在后台运行
+
 ## 运行机器人
 1. 输入 `screen -R bot` 进入新窗口
 2. 输入 `cd /nonebot/bot`

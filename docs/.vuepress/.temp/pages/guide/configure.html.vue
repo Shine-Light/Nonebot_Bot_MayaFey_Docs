@@ -115,7 +115,27 @@
 <h4 id="mysql-password" tabindex="-1"><a class="header-anchor" href="#mysql-password" aria-hidden="true">#</a> mysql_password</h4>
 <p>说明: 数据库密码,填入之前设置的密码</p>
 <h4 id="mysql-db" tabindex="-1"><a class="header-anchor" href="#mysql-db" aria-hidden="true">#</a> mysql_db</h4>
-<p>说明: 数据库名,填入创建时的数据库名,或者用默认</p>
+<p>说明: 数据库名,填入自己想要的那种,或者用默认</p>
+<h3 id="原神祈愿设置" tabindex="-1"><a class="header-anchor" href="#原神祈愿设置" aria-hidden="true">#</a> 原神祈愿设置</h3>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>没有特殊情况的话,前四项和mysql设置一致即可</p>
+</div>
+<h4 id="mysql-host-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-host-genshin" aria-hidden="true">#</a> mysql_host_genshin</h4>
+<p>说明: 数据库服务器主机地址,默认即可</p>
+<h4 id="mysql-port-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-port-genshin" aria-hidden="true">#</a> mysql_port_genshin</h4>
+<p>说明: 数据库服务器端口,默认即可</p>
+<h4 id="mysql-user-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-user-genshin" aria-hidden="true">#</a> mysql_user_genshin</h4>
+<p>说明: 数据库用户名,使用 <code v-pre>root</code> 用户</p>
+<h4 id="mysql-password-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-password-genshin" aria-hidden="true">#</a> mysql_password_genshin</h4>
+<p>说明: 数据库密码,填入之前设置的密码</p>
+<h4 id="mysql-db-genshin" tabindex="-1"><a class="header-anchor" href="#mysql-db-genshin" aria-hidden="true">#</a> mysql_db_genshin</h4>
+<p>说明: 数据库名,默认 <code v-pre>genshinpray</code>,无特殊情况不修改</p>
+<h4 id="genshin-port" tabindex="-1"><a class="header-anchor" href="#genshin-port" aria-hidden="true">#</a> genshin_port</h4>
+<p>说明: 祈愿API端口,默认即可</p>
+<h4 id="genshin-host" tabindex="-1"><a class="header-anchor" href="#genshin-host" aria-hidden="true">#</a> genshin_host</h4>
+<p>说明: 祈愿API主机名,默认即可</p>
+<h4 id="genshin-ssl" tabindex="-1"><a class="header-anchor" href="#genshin-ssl" aria-hidden="true">#</a> genshin_ssl</h4>
+<p>说明: 是否使用https, 0关 1开</p>
 <h3 id="api设置" tabindex="-1"><a class="header-anchor" href="#api设置" aria-hidden="true">#</a> API设置</h3>
 <h4 id="腾讯机器翻译" tabindex="-1"><a class="header-anchor" href="#腾讯机器翻译" aria-hidden="true">#</a> 腾讯机器翻译</h4>
 <h5 id="tencentcloud-common-region" tabindex="-1"><a class="header-anchor" href="#tencentcloud-common-region" aria-hidden="true">#</a> tencentcloud_common_region</h5>

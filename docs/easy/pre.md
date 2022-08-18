@@ -175,10 +175,8 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 ### MySql修改密码并开机自启
 1. 输入 `mysql` 回车
 2. 输入 `use mysql;` 回车
-3. 输入 `update user set plugin='caching_sha2_password' where user='root';`
+3. 输入 `ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码';`
 4. 输入 `flush privileges;` 回车
 5. 输入 `exit` 回车
-
-6. 输入 `mysqladmin -u用户名 -p password '你的密码'` 回车 X 2,密码要牢记
-7. 输入 `/etc/init.d/mysql restart` 回车
-8. 输入 `systemctl enable mysql` 回车
+6. 输入 `/etc/init.d/mysql restart` 回车
+7. 输入 `systemctl enable mysql` 回车

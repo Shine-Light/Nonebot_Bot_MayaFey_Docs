@@ -192,29 +192,12 @@ deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted univer
 </ol>
 <h3 id="mysql修改密码并开机自启" tabindex="-1"><a class="header-anchor" href="#mysql修改密码并开机自启" aria-hidden="true">#</a> MySql修改密码并开机自启</h3>
 <ol>
-<li>
-<p>输入 <code v-pre>mysql</code> 回车</p>
-</li>
-<li>
-<p>输入 <code v-pre>use mysql;</code> 回车</p>
-</li>
-<li>
-<p>输入 <code v-pre>update user set plugin='caching_sha2_password' where user='root';</code></p>
-</li>
-<li>
-<p>输入 <code v-pre>flush privileges;</code> 回车</p>
-</li>
-<li>
-<p>输入 <code v-pre>exit</code> 回车</p>
-</li>
-<li>
-<p>输入 <code v-pre>mysqladmin -u用户名 -p password '你的密码'</code> 回车 X 2,密码要牢记</p>
-</li>
-<li>
-<p>输入 <code v-pre>/etc/init.d/mysql restart</code> 回车</p>
-</li>
-<li>
-<p>输入 <code v-pre>systemctl enable mysql</code> 回车</p>
-</li>
+<li>输入 <code v-pre>mysql</code> 回车</li>
+<li>输入 <code v-pre>use mysql;</code> 回车</li>
+<li>输入 <code v-pre>ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码';</code></li>
+<li>输入 <code v-pre>flush privileges;</code> 回车</li>
+<li>输入 <code v-pre>exit</code> 回车</li>
+<li>输入 <code v-pre>/etc/init.d/mysql restart</code> 回车</li>
+<li>输入 <code v-pre>systemctl enable mysql</code> 回车</li>
 </ol>
 </div></template>
