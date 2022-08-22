@@ -69,6 +69,17 @@ module.exports = {
         }),
         activeHeaderLinksPlugin({
             // 配置项
+        }),
+        docsearchPlugin({
+            apiKey: 'bbe3ea1114293eee287d354d6815ae1b', 
+            indexName: 'mayafey-shinelight', 
+            appId: '8XD51375OR', 
+            placeholder: '搜索文档', 
+            translations: {
+                button: {
+                    buttonText: '搜索文档',
+                }
+            }
         })
     ]
 

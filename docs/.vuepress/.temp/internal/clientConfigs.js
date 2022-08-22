@@ -5,6 +5,7 @@ import clientConfig3 from 'H:/project/Bot/Vuepress/node_modules/@vuepress/plugin
 import clientConfig4 from 'H:/project/Bot/Vuepress/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
 import clientConfig5 from 'H:/project/Bot/Vuepress/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import clientConfig6 from 'H:/project/Bot/Vuepress/node_modules/@vuepress/plugin-active-header-links/lib/client/config.js'
+import clientConfig7 from 'H:/project/Bot/Vuepress/node_modules/@vuepress/plugin-docsearch/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -14,4 +15,5 @@ export const clientConfigs = [
   clientConfig4,
   clientConfig5,
   clientConfig6,
+  clientConfig7,
 ]
