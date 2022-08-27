@@ -3,8 +3,8 @@
 <h4 id="更新-复读支持-和-表情" tabindex="-1"><a class="header-anchor" href="#更新-复读支持-和-表情" aria-hidden="true">#</a> 更新 复读支持 @ 和 表情</h4>
 <h4 id="新增-模拟原神祈愿" tabindex="-1"><a class="header-anchor" href="#新增-模拟原神祈愿" aria-hidden="true">#</a> 新增 模拟原神祈愿</h4>
 <h4 id="修复-启用-停用报错" tabindex="-1"><a class="header-anchor" href="#修复-启用-停用报错" aria-hidden="true">#</a> 修复 启用/停用报错</h4>
-<h2 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h2>
-<h3 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h3>
+<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>mysql_host_genshin</li>
 <li>mysql_port_genshin</li>

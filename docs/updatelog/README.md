@@ -8,8 +8,8 @@ sidebar: 'auto'
 #### 新增 模拟原神祈愿
 #### 修复 启用/停用报错
 
-## 提示
-### 本次更新增加了以下配置项,请前往文档或Github查看并配置
+### 提示
+#### 本次更新增加了以下配置项,请前往文档或Github查看并配置
 1. mysql\_host_genshin
 2. mysql\_port_genshin
 3. mysql\_user_genshin

@@ -264,11 +264,7 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>接口来源: <a href="https://mm.cqu.cc/share/zhifubaodaozhang" target="_blank" rel="noopener noreferrer">mm.cqu.cc/share/zhifubaodaozhang<ExternalLinkIcon/></a></p>
-<!-- TODO: 自定义签底 -->
 <h3 id="今日运势" tabindex="-1"><a class="header-anchor" href="#今日运势" aria-hidden="true">#</a> 今日运势</h3>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>想自定义签底?<a href="">点击这里</a></p>
-</div>
 <p>功能: 抽取你今天的运势</p>
 <p>命令:</p>
 <table>
@@ -1051,13 +1047,13 @@
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="测试功能" tabindex="-1"><a class="header-anchor" href="#测试功能" aria-hidden="true">#</a> 测试功能</h5>
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
-<p>此功能为测试功能,不保证能用性</p>
-<p>以下测试功能需机器人为群主</p>
-<p>并且只有<strong>根用户</strong>(即配置文件写死的<strong>SUPERUSER</strong>)有权使用</p>
+<p>此功能为测试功能,不保证能用性<br>
+以下测试功能需机器人为群主<br>
+并且只有<strong>根用户</strong>(即配置文件写死的<strong>SUPERUSER</strong>)有权使用</p>
 </div>
-<p>命令:</p>
-<p>添加管理员 <code v-pre>/管理员+ {@xx} {@xx} ...</code></p>
-<p>取消管理员 <code v-pre>/管理员- {@xx} {@xx} ...</code></p>
+<p>命令:<br>
+添加管理员 <code v-pre>/管理员+ {@xx} {@xx} ...</code><br>
+取消管理员 <code v-pre>/管理员- {@xx} {@xx} ...</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -1075,10 +1071,14 @@
 <td>是</td>
 <td>可以@多个,多个之间使用空格隔开<br />若@自带空格则无需再加空格</td>
 </tr>
+<tr>
+<td>示例: <code v-pre>/管理员+ @群成员</code></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
-<p>示例: <code v-pre>/管理员+ @群成员</code></p>
-<p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="群词云设置" tabindex="-1"><a class="header-anchor" href="#群词云设置" aria-hidden="true">#</a> 群词云设置</h4>
 <p>命令:</p>
 <table>
@@ -1544,7 +1544,7 @@
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; <strong>超级用户</strong> &gt; 成员 &gt; 黑名单</p>
+<p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
 <p>权限说明(en): Van &gt; owner &gt; admin &gt; superuser &gt; member &gt; baned</p>
 </div>
 <h3 id="查看当前权限" tabindex="-1"><a class="header-anchor" href="#查看当前权限" aria-hidden="true">#</a> 查看当前权限</h3>
