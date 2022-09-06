@@ -1603,11 +1603,33 @@
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>在收到陌生人好友请求时,会将请求推送给所有根用户</p>
 </div>
-<p>命令:<br>
-|命令|功能|备注|
-|<code v-pre>/好友请求查询</code>|获取当前所有好友请求||
-|<code v-pre>/好友请求详情 {QQ}</code>|获取指定好友请求详情,如时间,验证信息等||
-|<code v-pre>/同意\|拒绝请求 {QQ} {备注}</code>|同意或拒绝指定请求|若请求已过期则操作无效|</p>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/好友请求查询</code></td>
+<td>获取当前所有好友请求</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/好友请求详情 {QQ}</code></td>
+<td>获取指定好友请求详情,如时间,验证信息等</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/同意|拒绝请求 {QQ} {备注}</code></td>
+<td>同意或拒绝指定请求</td>
+<td>若请求已过期则操作无效</td>
+</tr>
+</tbody>
+</table>
 <p>参数:</p>
 <table>
 <thead>
