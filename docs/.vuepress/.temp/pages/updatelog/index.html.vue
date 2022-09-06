@@ -1,9 +1,22 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-7版本更新日志-2022-09-06" tabindex="-1"><a class="header-anchor" href="#_0-5-7版本更新日志-2022-09-06" aria-hidden="true">#</a> 0.5.7版本更新日志 2022/09/06</h2>
+<h4 id="新增-原神角色展柜查询" tabindex="-1"><a class="header-anchor" href="#新增-原神角色展柜查询" aria-hidden="true">#</a> 新增 原神角色展柜查询</h4>
+<h4 id="更新-模拟原神祈愿支持3-0" tabindex="-1"><a class="header-anchor" href="#更新-模拟原神祈愿支持3-0" aria-hidden="true">#</a> 更新 模拟原神祈愿支持3.0</h4>
+<h4 id="修复-原神数据库断连" tabindex="-1"><a class="header-anchor" href="#修复-原神数据库断连" aria-hidden="true">#</a> 修复 原神数据库断连</h4>
+<h4 id="修复-清理自定义定时任务报错" tabindex="-1"><a class="header-anchor" href="#修复-清理自定义定时任务报错" aria-hidden="true">#</a> 修复 清理自定义定时任务报错</h4>
+<h4 id="修改-机器人好友自同意权限更改为-根用户" tabindex="-1"><a class="header-anchor" href="#修改-机器人好友自同意权限更改为-根用户" aria-hidden="true">#</a> 修改 机器人好友自同意权限更改为 根用户</h4>
+<h4 id="修改-现在非管理员也可以加机器人好友" tabindex="-1"><a class="header-anchor" href="#修改-现在非管理员也可以加机器人好友" aria-hidden="true">#</a> 修改 现在非管理员也可以加机器人好友</h4>
+<h4 id="修改-加机器人好友由根用户确认是否添加" tabindex="-1"><a class="header-anchor" href="#修改-加机器人好友由根用户确认是否添加" aria-hidden="true">#</a> 修改 加机器人好友由根用户确认是否添加</h4>
+<h4 id="修改-删除-sql查询-关键字限制" tabindex="-1"><a class="header-anchor" href="#修改-删除-sql查询-关键字限制" aria-hidden="true">#</a> 修改 删除 SQL查询 关键字限制</h4>
+<h4 id="修改-sql查询-权限更改为-根用户" tabindex="-1"><a class="header-anchor" href="#修改-sql查询-权限更改为-根用户" aria-hidden="true">#</a> 修改 SQL查询 权限更改为 根用户</h4>
+<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h4 id="原神祈愿接口有新版本-请及时更新" tabindex="-1"><a class="header-anchor" href="#原神祈愿接口有新版本-请及时更新" aria-hidden="true">#</a> 原神祈愿接口有新版本,请及时更新</h4>
+<h4 id="新增依赖-pyee-在机器人目录执行-poetry-install-或使用-pip-安装" tabindex="-1"><a class="header-anchor" href="#新增依赖-pyee-在机器人目录执行-poetry-install-或使用-pip-安装" aria-hidden="true">#</a> 新增依赖 pyee,在机器人目录执行 poetry install 或使用 pip 安装</h4>
 <h2 id="_0-5-6版本更新日志-2022-08-18" tabindex="-1"><a class="header-anchor" href="#_0-5-6版本更新日志-2022-08-18" aria-hidden="true">#</a> 0.5.6版本更新日志 2022/08/18</h2>
 <h4 id="更新-复读支持-和-表情" tabindex="-1"><a class="header-anchor" href="#更新-复读支持-和-表情" aria-hidden="true">#</a> 更新 复读支持 @ 和 表情</h4>
 <h4 id="新增-模拟原神祈愿" tabindex="-1"><a class="header-anchor" href="#新增-模拟原神祈愿" aria-hidden="true">#</a> 新增 模拟原神祈愿</h4>
 <h4 id="修复-启用-停用报错" tabindex="-1"><a class="header-anchor" href="#修复-启用-停用报错" aria-hidden="true">#</a> 修复 启用/停用报错</h4>
-<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-1" tabindex="-1"><a class="header-anchor" href="#提示-1" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>mysql_host_genshin</li>
@@ -15,8 +28,8 @@
 <li>genshin_host</li>
 <li>genshin_ssl</li>
 </ol>
-<h3 id="本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" tabindex="-1"><a class="header-anchor" href="#本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" aria-hidden="true">#</a> 本次更新需部署 原神祈愿API,如果不需要这个功能可以不部署</h3>
-<h1 id="_0-5-5-fix4版本更新日志-2022-08-15" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix4版本更新日志-2022-08-15" aria-hidden="true">#</a> 0.5.5-fix4版本更新日志 2022/08/15</h1>
+<h4 id="本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" tabindex="-1"><a class="header-anchor" href="#本次更新需部署-原神祈愿api-如果不需要这个功能可以不部署" aria-hidden="true">#</a> 本次更新需部署 原神祈愿API,如果不需要这个功能可以不部署</h4>
+<h2 id="_0-5-5-fix4版本更新日志-2022-08-15" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix4版本更新日志-2022-08-15" aria-hidden="true">#</a> 0.5.5-fix4版本更新日志 2022/08/15</h2>
 <h4 id="修复-每次发言会在后台索引违禁词列表" tabindex="-1"><a class="header-anchor" href="#修复-每次发言会在后台索引违禁词列表" aria-hidden="true">#</a> 修复 每次发言会在后台索引违禁词列表</h4>
 <h4 id="修复-机器人关闭失效" tabindex="-1"><a class="header-anchor" href="#修复-机器人关闭失效" aria-hidden="true">#</a> 修复 机器人关闭失效</h4>
 <h2 id="_0-5-5-fix3版本更新日志-2022-08-13" tabindex="-1"><a class="header-anchor" href="#_0-5-5-fix3版本更新日志-2022-08-13" aria-hidden="true">#</a> 0.5.5-fix3版本更新日志 2022/08/13</h2>

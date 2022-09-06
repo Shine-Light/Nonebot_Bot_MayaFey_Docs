@@ -380,7 +380,7 @@
 </tr>
 </tbody>
 </table>
-<p>权限: <strong>群员及以上</strong></p>
+<p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
@@ -422,6 +422,7 @@
 </tr>
 </tbody>
 </table>
+<p>权限: <strong>群员</strong>及以上</p>
 <h3 id="折磨群友" tabindex="-1"><a class="header-anchor" href="#折磨群友" aria-hidden="true">#</a> 折磨群友</h3>
 <p>功能: 在指定时间随机戳一戳群友<br>
 命令:</p>
@@ -471,6 +472,7 @@
 </tr>
 </tbody>
 </table>
+<p>权限: <strong>群员</strong>及以上</p>
 <h3 id="原神祈愿" tabindex="-1"><a class="header-anchor" href="#原神祈愿" aria-hidden="true">#</a> 原神祈愿</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能需要配置 原神祈愿API</p>
@@ -653,6 +655,77 @@
 </tbody>
 </table>
 <p>接口来源: <a href="https://github.com/GardenHamster/GenshinPray" target="_blank" rel="noopener noreferrer">GenshinPray<ExternalLinkIcon/></a></p>
+<h3 id="原神角色展柜查询" tabindex="-1"><a class="header-anchor" href="#原神角色展柜查询" aria-hidden="true">#</a> 原神角色展柜查询</h3>
+<p>功能: 查询原神角色展示信息,并评分<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/原神面板绑定 {uid}</code></td>
+<td>将当前QQ与指定UID绑定</td>
+<td>绑定的账号需要开启角色展示详情</td>
+</tr>
+<tr>
+<td><code v-pre>/原神面板</code></td>
+<td>查询当前绑定的账号中可用的角色</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/原神面板{uid}</code></td>
+<td>查询当前指定的账号中可用的角色</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/原神面板 {角色}</code></td>
+<td>查询当前绑定的账号中指定角色的信息</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/原神面板{@xx}</code></td>
+<td>查询某人的原神角色展柜信息</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>uid</td>
+<td>自行输入</td>
+<td>是</td>
+<td>在游戏左下角可用看到</td>
+</tr>
+<tr>
+<td>角色</td>
+<td>自行输入</td>
+<td>是</td>
+<td>可用通过 <code v-pre>/原神面板</code> 获取</td>
+</tr>
+<tr>
+<td>@xx</td>
+<td>@某人</td>
+<td>是</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>权限: <strong>群员</strong>及以上</p>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <h4 id="腾讯版本" tabindex="-1"><a class="header-anchor" href="#腾讯版本" aria-hidden="true">#</a> 腾讯版本</h4>
@@ -1498,10 +1571,10 @@
 <p>权限: <strong>超级用户</strong>及以上</p>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>所有私聊管理功能权限需在 管理员 及以上</p>
+<p>所有私聊管理功能权限为 <strong>根用户</strong></p>
 </div>
 <h4 id="执行sql" tabindex="-1"><a class="header-anchor" href="#执行sql" aria-hidden="true">#</a> 执行SQL</h4>
-<p>命令: <code v-pre>/sql {群号}</code></p>
+<p>命令: <code v-pre>/sql {sql语句}</code></p>
 <p>参数:</p>
 <table>
 <thead>
@@ -1514,12 +1587,6 @@
 </thead>
 <tbody>
 <tr>
-<td>群号</td>
-<td>自行输入</td>
-<td>是</td>
-<td>检测是否有本群权限</td>
-</tr>
-<tr>
 <td>SQL语句</td>
 <td>自行输入</td>
 <td>是</td>
@@ -1528,7 +1595,46 @@
 </tbody>
 </table>
 <p>功能: 执行sql语句,并返回结果</p>
-<p>权限: <strong>管理员</strong>及以上</p>
+<p>权限: <strong>根用户</strong></p>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>所有私聊管理功能权限需在 管理员 及以上</p>
+</div>
+<h4 id="机器人好友请求管理" tabindex="-1"><a class="header-anchor" href="#机器人好友请求管理" aria-hidden="true">#</a> 机器人好友请求管理</h4>
+<div class="custom-container tip"><p class="custom-container-title">提示</p>
+<p>在收到陌生人好友请求时,会将请求推送给所有根用户</p>
+</div>
+<p>命令:<br>
+|命令|功能|备注|
+|<code v-pre>/好友请求查询</code>|获取当前所有好友请求||
+|<code v-pre>/好友请求详情 {QQ}</code>|获取指定好友请求详情,如时间,验证信息等||
+|<code v-pre>/同意\|拒绝请求 {QQ} {备注}</code>|同意或拒绝指定请求|若请求已过期则操作无效|</p>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>QQ</td>
+<td>请求的QQ号</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>备注</td>
+<td>自行输入</td>
+<td>否</td>
+<td>输入 <code v-pre>空</code> 则表示不备注</td>
+</tr>
+</tbody>
+</table>
+<p>功能: 处理机器人好友请求</p>
+<p>权限: <strong>根用户</strong></p>
 <h2 id="积分系统" tabindex="-1"><a class="header-anchor" href="#积分系统" aria-hidden="true">#</a> 积分系统</h2>
 <h3 id="查看积分" tabindex="-1"><a class="header-anchor" href="#查看积分" aria-hidden="true">#</a> 查看积分</h3>
 <p>命令: <code v-pre>/我的积分</code> <code v-pre>/积分</code></p>
@@ -1774,9 +1880,9 @@
 <h3 id="拉群自接受" tabindex="-1"><a class="header-anchor" href="#拉群自接受" aria-hidden="true">#</a> 拉群自接受</h3>
 <p>自动同意<strong>超级用户</strong>及以上邀请的成员</p>
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>
-<p>自动同意管理员及以上的好友请求</p>
+<p>自动同意<strong>根用户</strong>的好友请求,在收到陌生人好友请求时,会将请求推送给所有根用户,由根用户决定是否添加</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>
-<p>当群内消息 +1 时,机器人会跟着 +1</p>
+<p>当群内消息 +1 时,机器人会跟着 +1,支持文字和表情</p>
 <h3 id="定时撤回" tabindex="-1"><a class="header-anchor" href="#定时撤回" aria-hidden="true">#</a> 定时撤回</h3>
 <p>部分过长信息会在 30~60秒 内自动撤回</p>
 </div></template>
