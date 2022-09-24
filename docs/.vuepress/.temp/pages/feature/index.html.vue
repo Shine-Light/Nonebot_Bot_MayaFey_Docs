@@ -1,11 +1,10 @@
 <template><div><div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>在默认情况下,大部分命令前需加 <code v-pre>/</code> 号,若需取消 <code v-pre>/</code> 或者替换为其他,请查看<RouterLink to="/guide/configure.html#command-start">机器人配置</RouterLink></p>
-<p>命令随时变换,命令按群内帮助菜单为准</p>
-<p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
-<p>机器人权限(不是群内权限): Van(根用户) &gt; 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)</p>
-<p>具体权限控制请前往<a href="#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</a></p>
-<p>所有功能都是分群管理,不用担心数据混乱</p>
-<p>出于国内环境的特殊性,本机器人没有涩图相关的功能</p>
+<p>在默认情况下,大部分命令前需加 <code v-pre>/</code> 号,若需取消 <code v-pre>/</code> 或者替换为其他,请查看<RouterLink to="/guide/configure.html#command-start">机器人配置</RouterLink><br>
+命令随时变换,命令按群内帮助菜单为准<br>
+机器人权限(不是群内权限): Van(根用户) &gt; 群主(owner) &gt; 管理员(admin) &gt; 超级用户(superuser) &gt; 群员(member) &gt; 黑名单(baned)<br>
+具体权限控制请前往<a href="#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</a><br>
+所有功能都是分群管理,不用担心数据混乱<br>
+出于国内环境的特殊性,本机器人没有涩图相关的功能,需要的话可以在<a href="https://v2.nonebot.dev/store" target="_blank" rel="noopener noreferrer">nb商店<ExternalLinkIcon/></a>中寻找插件</p>
 </div>
 <h1 id="功能" tabindex="-1"><a class="header-anchor" href="#功能" aria-hidden="true">#</a> 功能</h1>
 <h2 id="帮助功能" tabindex="-1"><a class="header-anchor" href="#帮助功能" aria-hidden="true">#</a> 帮助功能</h2>
@@ -1897,14 +1896,16 @@
 <div class="custom-container danger"><p class="custom-container-title">警告</p>
 <p>该功能请谨慎开启</p>
 </div>
-<p>将群内闪照转化为正常图片,通过私聊发送到<strong>根用户</strong></p>
-<p><strong>根用户</strong>只能在配置文件中设置</p>
+<p>将群内闪照转化为正常图片,通过私聊发送到<strong>根用户</strong><br>
+<strong>根用户</strong>只能在配置文件中设置</p>
 <h3 id="拉群自接受" tabindex="-1"><a class="header-anchor" href="#拉群自接受" aria-hidden="true">#</a> 拉群自接受</h3>
 <p>自动同意<strong>超级用户</strong>及以上邀请的成员</p>
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>
 <p>自动同意<strong>根用户</strong>的好友请求,在收到陌生人好友请求时,会将请求推送给所有根用户,由根用户决定是否添加</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>
-<p>当群内消息 +1 时,机器人会跟着 +1,支持文字和表情</p>
+<p>当群内消息 +1 时,机器人会跟着 +1,支持文字和表情(QQ自带表情)</p>
 <h3 id="定时撤回" tabindex="-1"><a class="header-anchor" href="#定时撤回" aria-hidden="true">#</a> 定时撤回</h3>
 <p>部分过长信息会在 30~60秒 内自动撤回</p>
+<h3 id="防白嫖" tabindex="-1"><a class="header-anchor" href="#防白嫖" aria-hidden="true">#</a> 防白嫖</h3>
+<p>在入群后 指定时间 内退群将直接纳入黑名单,防止白嫖完就走,指定时间可在配置中自定义</p>
 </div></template>

@@ -1,4 +1,21 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-8版本更新日志-2022-09-24" tabindex="-1"><a class="header-anchor" href="#_0-5-8版本更新日志-2022-09-24" aria-hidden="true">#</a> 0.5.8版本更新日志 2022/09/24</h2>
+<h4 id="新增-被动功能-防白嫖" tabindex="-1"><a class="header-anchor" href="#新增-被动功能-防白嫖" aria-hidden="true">#</a> 新增 被动功能 -&gt; 防白嫖</h4>
+<h4 id="更新-生活功能-疫情查询-更新至最新版本" tabindex="-1"><a class="header-anchor" href="#更新-生活功能-疫情查询-更新至最新版本" aria-hidden="true">#</a> 更新 生活功能 -&gt; 疫情查询 更新至最新版本</h4>
+<h4 id="修复-低优先级第三方插件不触发" tabindex="-1"><a class="header-anchor" href="#修复-低优先级第三方插件不触发" aria-hidden="true">#</a> 修复 低优先级第三方插件不触发</h4>
+<h4 id="修复-新人进群签到报错" tabindex="-1"><a class="header-anchor" href="#修复-新人进群签到报错" aria-hidden="true">#</a> 修复 新人进群签到报错</h4>
+<h4 id="修改-昵称可自定义" tabindex="-1"><a class="header-anchor" href="#修改-昵称可自定义" aria-hidden="true">#</a> 修改 昵称可自定义</h4>
+<h4 id="修改-疫情查询-权限更改为-群员及以上" tabindex="-1"><a class="header-anchor" href="#修改-疫情查询-权限更改为-群员及以上" aria-hidden="true">#</a> 修改 疫情查询 权限更改为 群员及以上</h4>
+<h4 id="修改-恶意触发可自定义配置" tabindex="-1"><a class="header-anchor" href="#修改-恶意触发可自定义配置" aria-hidden="true">#</a> 修改 恶意触发可自定义配置</h4>
+<h4 id="优化-数据库数据初始化逻辑" tabindex="-1"><a class="header-anchor" href="#优化-数据库数据初始化逻辑" aria-hidden="true">#</a> 优化 数据库数据初始化逻辑</h4>
+<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
+<ol>
+<li>fast_time</li>
+<li>fast_count</li>
+<li>auto_baned_delta_time</li>
+<li>covid19_message_type</li>
+</ol>
 <h2 id="_0-5-7版本更新日志-2022-09-06" tabindex="-1"><a class="header-anchor" href="#_0-5-7版本更新日志-2022-09-06" aria-hidden="true">#</a> 0.5.7版本更新日志 2022/09/06</h2>
 <h4 id="新增-原神角色展柜查询" tabindex="-1"><a class="header-anchor" href="#新增-原神角色展柜查询" aria-hidden="true">#</a> 新增 原神角色展柜查询</h4>
 <h4 id="更新-模拟原神祈愿支持3-0" tabindex="-1"><a class="header-anchor" href="#更新-模拟原神祈愿支持3-0" aria-hidden="true">#</a> 更新 模拟原神祈愿支持3.0</h4>
@@ -9,15 +26,15 @@
 <h4 id="修改-加机器人好友由根用户确认是否添加" tabindex="-1"><a class="header-anchor" href="#修改-加机器人好友由根用户确认是否添加" aria-hidden="true">#</a> 修改 加机器人好友由根用户确认是否添加</h4>
 <h4 id="修改-删除-sql查询-关键字限制" tabindex="-1"><a class="header-anchor" href="#修改-删除-sql查询-关键字限制" aria-hidden="true">#</a> 修改 删除 SQL查询 关键字限制</h4>
 <h4 id="修改-sql查询-权限更改为-根用户" tabindex="-1"><a class="header-anchor" href="#修改-sql查询-权限更改为-根用户" aria-hidden="true">#</a> 修改 SQL查询 权限更改为 根用户</h4>
-<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-1" tabindex="-1"><a class="header-anchor" href="#提示-1" aria-hidden="true">#</a> 提示</h3>
 <h4 id="原神祈愿接口有新版本-请及时更新" tabindex="-1"><a class="header-anchor" href="#原神祈愿接口有新版本-请及时更新" aria-hidden="true">#</a> 原神祈愿接口有新版本,请及时更新</h4>
 <h4 id="新增依赖-pyee-在机器人目录执行-poetry-install-或使用-pip-安装" tabindex="-1"><a class="header-anchor" href="#新增依赖-pyee-在机器人目录执行-poetry-install-或使用-pip-安装" aria-hidden="true">#</a> 新增依赖 pyee,在机器人目录执行 poetry install 或使用 pip 安装</h4>
 <h2 id="_0-5-6版本更新日志-2022-08-18" tabindex="-1"><a class="header-anchor" href="#_0-5-6版本更新日志-2022-08-18" aria-hidden="true">#</a> 0.5.6版本更新日志 2022/08/18</h2>
 <h4 id="更新-复读支持-和-表情" tabindex="-1"><a class="header-anchor" href="#更新-复读支持-和-表情" aria-hidden="true">#</a> 更新 复读支持 @ 和 表情</h4>
 <h4 id="新增-模拟原神祈愿" tabindex="-1"><a class="header-anchor" href="#新增-模拟原神祈愿" aria-hidden="true">#</a> 新增 模拟原神祈愿</h4>
 <h4 id="修复-启用-停用报错" tabindex="-1"><a class="header-anchor" href="#修复-启用-停用报错" aria-hidden="true">#</a> 修复 启用/停用报错</h4>
-<h3 id="提示-1" tabindex="-1"><a class="header-anchor" href="#提示-1" aria-hidden="true">#</a> 提示</h3>
-<h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
+<h3 id="提示-2" tabindex="-1"><a class="header-anchor" href="#提示-2" aria-hidden="true">#</a> 提示</h3>
+<h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置-1" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置-1" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>mysql_host_genshin</li>
 <li>mysql_port_genshin</li>

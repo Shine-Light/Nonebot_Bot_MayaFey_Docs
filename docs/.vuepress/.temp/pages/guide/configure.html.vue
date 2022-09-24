@@ -90,7 +90,7 @@
 <p>说明: 根用户,拥有机器人的所有权限,每个超级用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号)<br>
 示例: <code v-pre>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
 <h4 id="nickname" tabindex="-1"><a class="header-anchor" href="#nickname" aria-hidden="true">#</a> NICKNAME</h4>
-<p>说明: 机器人的昵称,默认即可</p>
+<p>说明: 机器人的昵称,自行修改,使用时会随机抽取一个使用</p>
 <h4 id="command-start" tabindex="-1"><a class="header-anchor" href="#command-start" aria-hidden="true">#</a> COMMAND_START</h4>
 <p>说明: 命令起始符,即命令前加的前缀,若设置为空则命令前无需加前缀<br>
 示例:</p>
@@ -211,4 +211,21 @@
 <h5 id="groups-id" tabindex="-1"><a class="header-anchor" href="#groups-id" aria-hidden="true">#</a> GROUPS_ID</h5>
 <p>说明: 开启按时吃饭提示的群<br>
 示例: <code v-pre>GROUPS_ID=[&quot;123456789&quot;]</code></p>
+<h4 id="恶意触发" tabindex="-1"><a class="header-anchor" href="#恶意触发" aria-hidden="true">#</a> 恶意触发</h4>
+<p>说明: 在 fast_time 内触发 fast_count 次命令</p>
+<h5 id="fast-time" tabindex="-1"><a class="header-anchor" href="#fast-time" aria-hidden="true">#</a> fast_time</h5>
+<p>说明: 恶意触发时间,单位:秒<br>
+示例: <code v-pre>fast_time=10</code></p>
+<h5 id="fast-count" tabindex="-1"><a class="header-anchor" href="#fast-count" aria-hidden="true">#</a> fast_count</h5>
+<p>说明: 恶意触发次数<br>
+示例: <code v-pre>fast_count=5</code></p>
+<h4 id="防白嫖" tabindex="-1"><a class="header-anchor" href="#防白嫖" aria-hidden="true">#</a> 防白嫖</h4>
+<p>说明: 在入群后 指定时间 内退群将直接纳入黑名单</p>
+<h4 id="auto-baned-delta-time" tabindex="-1"><a class="header-anchor" href="#auto-baned-delta-time" aria-hidden="true">#</a> auto_baned_delta_time</h4>
+<p>说明: 指定时间,单位:分钟<br>
+示例: <code v-pre>auto_baned_delta_time=0</code></p>
+<h4 id="疫情查询配置" tabindex="-1"><a class="header-anchor" href="#疫情查询配置" aria-hidden="true">#</a> 疫情查询配置</h4>
+<h5 id="covid19-message-type" tabindex="-1"><a class="header-anchor" href="#covid19-message-type" aria-hidden="true">#</a> covid19_message_type</h5>
+<p>说明: 推送消息类型,image:图片, text:文字<br>
+示例: <code v-pre>covid19_message_type = &quot;image&quot;</code></p>
 </div></template>

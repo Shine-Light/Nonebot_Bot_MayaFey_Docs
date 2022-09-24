@@ -86,6 +86,9 @@
 <h3 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h3>
 <p>说明: 根用户,拥有机器人的所有权限,每个根用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
 示例: <code v-pre>SUPERUSERS = [&quot;12345678&quot;, &quot;114514&quot;, &quot;12138&quot;]</code></p>
+<h3 id="nickname" tabindex="-1"><a class="header-anchor" href="#nickname" aria-hidden="true">#</a> NICKNAME</h3>
+<p>说明: 机器人的昵称,自行修改,使用时会随机抽取一个使用
+示例: <code v-pre>SUPERUSERS = [&quot;真宵&quot;, &quot;绫里真宵&quot;, &quot;真宵宵&quot;]</code></p>
 <h3 id="bot-id" tabindex="-1"><a class="header-anchor" href="#bot-id" aria-hidden="true">#</a> bot_id</h3>
 <p>说明: 填入机器人QQ号<br>
 示例: <code v-pre>bot_id = &quot;xxxxxxxx&quot;</code></p>
