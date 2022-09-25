@@ -1,4 +1,7 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-8-fix1版本更新日志-2022-09-25" tabindex="-1"><a class="header-anchor" href="#_0-5-8-fix1版本更新日志-2022-09-25" aria-hidden="true">#</a> 0.5.8-fix1版本更新日志 2022/09/25</h2>
+<h4 id="修复-旧用户签到报错" tabindex="-1"><a class="header-anchor" href="#修复-旧用户签到报错" aria-hidden="true">#</a> 修复 旧用户签到报错</h4>
+<h4 id="修复-入群欢迎变成回归欢迎" tabindex="-1"><a class="header-anchor" href="#修复-入群欢迎变成回归欢迎" aria-hidden="true">#</a> 修复 入群欢迎变成回归欢迎</h4>
 <h2 id="_0-5-8版本更新日志-2022-09-24" tabindex="-1"><a class="header-anchor" href="#_0-5-8版本更新日志-2022-09-24" aria-hidden="true">#</a> 0.5.8版本更新日志 2022/09/24</h2>
 <h4 id="新增-被动功能-防白嫖" tabindex="-1"><a class="header-anchor" href="#新增-被动功能-防白嫖" aria-hidden="true">#</a> 新增 被动功能 -&gt; 防白嫖</h4>
 <h4 id="更新-生活功能-疫情查询-更新至最新版本" tabindex="-1"><a class="header-anchor" href="#更新-生活功能-疫情查询-更新至最新版本" aria-hidden="true">#</a> 更新 生活功能 -&gt; 疫情查询 更新至最新版本</h4>
