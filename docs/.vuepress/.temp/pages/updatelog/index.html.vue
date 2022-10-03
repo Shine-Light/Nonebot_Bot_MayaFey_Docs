@@ -1,4 +1,8 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-5-9-fix1版本更新日志-2022-10-03" tabindex="-1"><a class="header-anchor" href="#_0-5-9-fix1版本更新日志-2022-10-03" aria-hidden="true">#</a> 0.5.9-fix1版本更新日志 2022/10/03</h2>
+<h4 id="修复-抽老婆设置失效" tabindex="-1"><a class="header-anchor" href="#修复-抽老婆设置失效" aria-hidden="true">#</a> 修复 抽老婆设置失效</h4>
+<h4 id="修复-关闭抽到机器人会死循环" tabindex="-1"><a class="header-anchor" href="#修复-关闭抽到机器人会死循环" aria-hidden="true">#</a> 修复 关闭抽到机器人会死循环</h4>
+<h4 id="修复-退群即被拉黑" tabindex="-1"><a class="header-anchor" href="#修复-退群即被拉黑" aria-hidden="true">#</a> 修复 退群即被拉黑</h4>
 <h2 id="_0-5-9版本更新日志-2022-10-03" tabindex="-1"><a class="header-anchor" href="#_0-5-9版本更新日志-2022-10-03" aria-hidden="true">#</a> 0.5.9版本更新日志 2022/10/03</h2>
 <h4 id="新增-被动功能-违禁图检测-适配百度智能云接口" tabindex="-1"><a class="header-anchor" href="#新增-被动功能-违禁图检测-适配百度智能云接口" aria-hidden="true">#</a> 新增 被动功能 -&gt; 违禁图检测 适配百度智能云接口</h4>
 <h4 id="新增-娱乐功能-抽群友当老婆" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-抽群友当老婆" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 抽群友当老婆</h4>
