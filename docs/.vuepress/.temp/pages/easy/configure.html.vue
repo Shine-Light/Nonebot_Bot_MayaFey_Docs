@@ -82,6 +82,17 @@
 <li>进入<a href="http://api.fanyi.baidu.com/api/trans/product/desktop" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a></li>
 <li>选择 <code v-pre>总览</code> 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定</li>
 </ol>
+<h3 id="百度内容安全api-可选" tabindex="-1"><a class="header-anchor" href="#百度内容安全api-可选" aria-hidden="true">#</a> 百度内容安全API(可选)</h3>
+<p>涉及插件: 违禁图片检测</p>
+<h4 id="注册-5" tabindex="-1"><a class="header-anchor" href="#注册-5" aria-hidden="true">#</a> 注册</h4>
+<p>前往<a href="https://login.bce.baidu.com/new-reg?tpl=bceplat&amp;from=portal" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>注册,并实名认证</p>
+<h4 id="内容安全api-可选" tabindex="-1"><a class="header-anchor" href="#内容安全api-可选" aria-hidden="true">#</a> 内容安全API(可选)</h4>
+<ol>
+<li>在<a href="cloud.baidu.com">官网</a>依次选择, 产品 人工智能 图像内容安全,点击立即使用</li>
+<li>进入控制台后,点击领取免费资源,勾选<code v-pre>内容审核平台-文本</code>点击领取</li>
+<li>回到控制台,点击应用列表,选择创建应用,填写信息,点击立即创建</li>
+<li>应用列表的 <code v-pre>API key</code> 和 <code v-pre>Secret key</code> 就是需要填写在配置中的密钥</li>
+</ol>
 <h2 id="机器人配置" tabindex="-1"><a class="header-anchor" href="#机器人配置" aria-hidden="true">#</a> 机器人配置</h2>
 <h3 id="superusers" tabindex="-1"><a class="header-anchor" href="#superusers" aria-hidden="true">#</a> SUPERUSERS</h3>
 <p>说明: 根用户,拥有机器人的所有权限,每个根用户用 <code v-pre>&quot;&quot;</code> 包起来,用 <code v-pre>,</code> 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好<br>
@@ -109,16 +120,25 @@
 <p>说明: 访问密钥,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取<br>
 示例: <code v-pre>tencentcloud_common_secretkey=&quot;xxxxxxxx&quot;</code><br>
 <img src='/image/easy/configure/ten.png'></p>
-<h3 id="腾讯违规图片检测-可选" tabindex="-1"><a class="header-anchor" href="#腾讯违规图片检测-可选" aria-hidden="true">#</a> 腾讯违规图片检测(可选)</h3>
+<h3 id="违规图片检测-可选" tabindex="-1"><a class="header-anchor" href="#违规图片检测-可选" aria-hidden="true">#</a> 违规图片检测(可选)</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该配置为可选配置,若不设置请将 <code v-pre>tenid</code> 和 <code v-pre>tenkey</code> 设置为 <code v-pre>xxxxx</code></p>
 </div>
 <h4 id="tenid" tabindex="-1"><a class="header-anchor" href="#tenid" aria-hidden="true">#</a> tenid</h4>
 <p>说明: 访问密钥id,<a href="#tencentcloud_common_secretid">同上</a>
-示例: <code v-pre>tencentcloud_common_secretid=&quot;xxxxxxxx&quot;</code></p>
-<h4 id="tankey" tabindex="-1"><a class="header-anchor" href="#tankey" aria-hidden="true">#</a> tankey</h4>
+示例: <code v-pre>tenid=&quot;xxxxxxxx&quot;</code></p>
+<h4 id="tenkeys" tabindex="-1"><a class="header-anchor" href="#tenkeys" aria-hidden="true">#</a> tenkeys</h4>
 <p>说明: 访问密钥,<a href="#tencentcloud_common_secretkey">同上</a>
-示例: <code v-pre>tencentcloud_common_secretkey=&quot;xxxxxxxx&quot;</code></p>
+示例: <code v-pre>tenkeys=&quot;xxxxxxxx&quot;</code></p>
+<h4 id="baidu-image-key" tabindex="-1"><a class="header-anchor" href="#baidu-image-key" aria-hidden="true">#</a> baidu_image_key</h4>
+<p>说明: APIkey,可以在<a href="https://console.bce.baidu.com/ai/#/ai/antiporn/app/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>查看<br>
+示例: <code v-pre>baidu_image_key=&quot;xxxxxxxx&quot;</code></p>
+<h4 id="baidu-image-secret" tabindex="-1"><a class="header-anchor" href="#baidu-image-secret" aria-hidden="true">#</a> baidu_image_secret</h4>
+<p>说明: Secretkey,可以在<a href="https://console.bce.baidu.com/ai/#/ai/antiporn/app/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>查看<br>
+示例: <code v-pre>baidu_image_secret=&quot;xxxxxxxx&quot;</code></p>
+<h4 id="baidu-image-level" tabindex="-1"><a class="header-anchor" href="#baidu-image-level" aria-hidden="true">#</a> baidu_image_level</h4>
+<p>说明: 检测等级,0:宽松,1:严格,具体检测项可以在<a href="https://ai.baidu.com/censoring#/strategylist" target="_blank" rel="noopener noreferrer">策略配置<ExternalLinkIcon/></a>查看<br>
+示例: <code v-pre>baidu_image_level=&quot;1&quot;</code></p>
 <h3 id="和风天气-可选" tabindex="-1"><a class="header-anchor" href="#和风天气-可选" aria-hidden="true">#</a> 和风天气(可选)</h3>
 <h4 id="qweather-apikey" tabindex="-1"><a class="header-anchor" href="#qweather-apikey" aria-hidden="true">#</a> QWEATHER_APIKEY</h4>
 <p>说明: APIKEY,在<a href="https://console.qweather.com/#/apps" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>中获取<br>

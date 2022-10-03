@@ -725,6 +725,92 @@
 </tbody>
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
+<h3 id="抽群友当老婆" tabindex="-1"><a class="header-anchor" href="#抽群友当老婆" aria-hidden="true">#</a> 抽群友当老婆</h3>
+<p>功能: 随机抽取群友做老婆<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/抽老婆</code></td>
+<td>随机抽取群友做老婆</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/我的老婆</code></td>
+<td>查看我的老婆</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/抽老婆配置</code></td>
+<td>查看当前群中该插件配置</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/抽老婆设置 {设置项} {设置值}</code></td>
+<td>查询当前绑定的账号中指定角色的信息</td>
+<td><strong>超级用户</strong>及以上</td>
+<td>可交互</td>
+</tr>
+</tbody>
+</table>
+<p>设置项及对应设置值:</p>
+<table>
+<thead>
+<tr>
+<th>设置项</th>
+<th>设置值</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>渣男</td>
+<td>开|关</td>
+<td>可以换老婆</td>
+</tr>
+<tr>
+<td>NTR</td>
+<td>开|关</td>
+<td>可以抽到同一个人</td>
+</tr>
+<tr>
+<td>无视性别</td>
+<td>开|关</td>
+<td>可以南/钕通</td>
+</tr>
+<tr>
+<td>机器人</td>
+<td>开|关</td>
+<td>可以抽到机器人</td>
+</tr>
+<tr>
+<td>自己</td>
+<td>开|关</td>
+<td>可以抽到自己</td>
+</tr>
+<tr>
+<td>潜水成员不参与</td>
+<td>开|关</td>
+<td>不会抽到潜水的人</td>
+</tr>
+<tr>
+<td>潜水时间阈值</td>
+<td>整数</td>
+<td>超过时间阈值视为潜水</td>
+</tr>
+</tbody>
+</table>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <h4 id="腾讯版本" tabindex="-1"><a class="header-anchor" href="#腾讯版本" aria-hidden="true">#</a> 腾讯版本</h4>

@@ -1,7 +1,7 @@
 <template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
 <p>配置文件在根目录下的 <code v-pre>.env.prod</code></p>
-<h2 id="api账号注册" tabindex="-1"><a class="header-anchor" href="#api账号注册" aria-hidden="true">#</a> API账号注册</h2>
-<h3 id="腾讯api" tabindex="-1"><a class="header-anchor" href="#腾讯api" aria-hidden="true">#</a> 腾讯API</h3>
+<h2 id="api账号注册-可选" tabindex="-1"><a class="header-anchor" href="#api账号注册-可选" aria-hidden="true">#</a> API账号注册(可选)</h2>
+<h3 id="腾讯api-可选" tabindex="-1"><a class="header-anchor" href="#腾讯api-可选" aria-hidden="true">#</a> 腾讯API(可选)</h3>
 <p>涉及插件: 腾讯翻译,违禁图片检测</p>
 <h4 id="注册" tabindex="-1"><a class="header-anchor" href="#注册" aria-hidden="true">#</a> 注册</h4>
 <ol>
@@ -80,6 +80,17 @@
 <li>进入<a href="http://api.fanyi.baidu.com/api/trans/product/desktop" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a></li>
 <li>选择 <code v-pre>总览</code> 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定</li>
 </ol>
+<h3 id="百度内容安全api-可选" tabindex="-1"><a class="header-anchor" href="#百度内容安全api-可选" aria-hidden="true">#</a> 百度内容安全API(可选)</h3>
+<p>涉及插件: 违禁图片检测</p>
+<h4 id="注册-6" tabindex="-1"><a class="header-anchor" href="#注册-6" aria-hidden="true">#</a> 注册</h4>
+<p>前往<a href="https://login.bce.baidu.com/new-reg?tpl=bceplat&amp;from=portal" target="_blank" rel="noopener noreferrer">官网<ExternalLinkIcon/></a>注册,并实名认证</p>
+<h4 id="内容安全api-可选" tabindex="-1"><a class="header-anchor" href="#内容安全api-可选" aria-hidden="true">#</a> 内容安全API(可选)</h4>
+<ol>
+<li>在<a href="cloud.baidu.com">官网</a>依次选择, 产品 人工智能 图像内容安全,点击立即使用</li>
+<li>进入控制台后,点击领取免费资源,勾选<code v-pre>内容审核平台-文本</code>点击领取</li>
+<li>回到控制台,点击应用列表,选择创建应用,填写信息,点击立即创建</li>
+<li>应用列表的 <code v-pre>API key</code> 和 <code v-pre>Secret key</code> 就是需要填写在配置中的密钥</li>
+</ol>
 <h2 id="机器人配置" tabindex="-1"><a class="header-anchor" href="#机器人配置" aria-hidden="true">#</a> 机器人配置</h2>
 <h3 id="基础配置" tabindex="-1"><a class="header-anchor" href="#基础配置" aria-hidden="true">#</a> 基础配置</h3>
 <h4 id="host" tabindex="-1"><a class="header-anchor" href="#host" aria-hidden="true">#</a> HOST</h4>
@@ -147,14 +158,22 @@
 <p>说明: 访问密钥id,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取</p>
 <h5 id="tencentcloud-common-secretkey" tabindex="-1"><a class="header-anchor" href="#tencentcloud-common-secretkey" aria-hidden="true">#</a> tencentcloud_common_secretkey</h5>
 <p>说明: 访问密钥,在<a href="https://console.cloud.tencent.com/cam/capi" target="_blank" rel="noopener noreferrer">腾讯云控制台<ExternalLinkIcon/></a>里获取</p>
-<h4 id="腾讯违规图片检测-可选" tabindex="-1"><a class="header-anchor" href="#腾讯违规图片检测-可选" aria-hidden="true">#</a> 腾讯违规图片检测(可选)</h4>
+<h4 id="违规图片检测" tabindex="-1"><a class="header-anchor" href="#违规图片检测" aria-hidden="true">#</a> 违规图片检测</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该配置为可选配置,若不设置请将 <code v-pre>tenid</code> 和 <code v-pre>tenkey</code> 设置为 <code v-pre>xxxxx</code></p>
 </div>
+<h5 id="腾讯接口" tabindex="-1"><a class="header-anchor" href="#腾讯接口" aria-hidden="true">#</a> 腾讯接口</h5>
 <h5 id="tenid" tabindex="-1"><a class="header-anchor" href="#tenid" aria-hidden="true">#</a> tenid</h5>
 <p>说明: 访问密钥id,<a href="#tencentcloud_common_secretid">同上</a></p>
 <h5 id="tankey" tabindex="-1"><a class="header-anchor" href="#tankey" aria-hidden="true">#</a> tankey</h5>
 <p>说明: 访问密钥,<a href="#tencentcloud_common_secretkey">同上</a></p>
+<h5 id="百度接口" tabindex="-1"><a class="header-anchor" href="#百度接口" aria-hidden="true">#</a> 百度接口</h5>
+<h5 id="baidu-image-key" tabindex="-1"><a class="header-anchor" href="#baidu-image-key" aria-hidden="true">#</a> baidu_image_key</h5>
+<p>说明: APIkey,可以在<a href="https://console.bce.baidu.com/ai/#/ai/antiporn/app/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>查看</p>
+<h5 id="baidu-image-secret" tabindex="-1"><a class="header-anchor" href="#baidu-image-secret" aria-hidden="true">#</a> baidu_image_secret</h5>
+<p>说明: Secretkey,可以在<a href="https://console.bce.baidu.com/ai/#/ai/antiporn/app/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>查看</p>
+<h5 id="baidu-image-level" tabindex="-1"><a class="header-anchor" href="#baidu-image-level" aria-hidden="true">#</a> baidu_image_level</h5>
+<p>说明: 检测等级,0:宽松,1:严格,具体检测项可以在<a href="https://ai.baidu.com/censoring#/strategylist" target="_blank" rel="noopener noreferrer">策略配置<ExternalLinkIcon/></a>查看</p>
 <h4 id="热搜api版本" tabindex="-1"><a class="header-anchor" href="#热搜api版本" aria-hidden="true">#</a> 热搜API版本</h4>
 <h5 id="nethot-version" tabindex="-1"><a class="header-anchor" href="#nethot-version" aria-hidden="true">#</a> nethot_version</h5>
 <p>说明: 热搜接口版本选择,<code v-pre>han</code>(韩小韩) 或 <code v-pre>tian</code>(天行数据)</p>

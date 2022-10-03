@@ -1,7 +1,7 @@
 # 配置
 配置文件在根目录下的 `.env.prod`
-## API账号注册
-### 腾讯API
+## API账号注册(可选)
+### 腾讯API(可选)
 涉及插件: 腾讯翻译,违禁图片检测  
 
 #### 注册
@@ -73,6 +73,18 @@
 :::
 1. 进入[控制台](http://api.fanyi.baidu.com/api/trans/product/desktop)  
 2. 选择 `总览` 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定
+
+### 百度内容安全API(可选)
+涉及插件: 违禁图片检测
+
+#### 注册
+前往[官网](https://login.bce.baidu.com/new-reg?tpl=bceplat&from=portal)注册,并实名认证
+
+#### 内容安全API(可选)
+1. 在[官网](cloud.baidu.com)依次选择, 产品 人工智能 图像内容安全,点击立即使用
+2. 进入控制台后,点击领取免费资源,勾选`内容审核平台-文本`点击领取
+3. 回到控制台,点击应用列表,选择创建应用,填写信息,点击立即创建
+4. 应用列表的 `API key` 和 `Secret key` 就是需要填写在配置中的密钥
 
 ## 机器人配置
 ### 基础配置
@@ -150,14 +162,23 @@ COMMAND_START=["/", "!"]
 ##### tencentcloud_common_secretkey
 说明: 访问密钥,在[腾讯云控制台](https://console.cloud.tencent.com/cam/capi)里获取  
 
-#### 腾讯违规图片检测(可选)
+#### 违规图片检测
 ::: tip 提示
 该配置为可选配置,若不设置请将 `tenid` 和 `tenkey` 设置为 `xxxxx`
 :::
+##### 腾讯接口
 ##### tenid
 说明: 访问密钥id,[同上](#tencentcloud_common_secretid)
 ##### tankey
 说明: 访问密钥,[同上](#tencentcloud_common_secretkey)
+##### 百度接口
+##### baidu_image_key
+说明: APIkey,可以在[控制台](https://console.bce.baidu.com/ai/#/ai/antiporn/app/list)查看
+##### baidu_image_secret
+说明: Secretkey,可以在[控制台](https://console.bce.baidu.com/ai/#/ai/antiporn/app/list)查看
+##### baidu_image_level
+说明: 检测等级,0:宽松,1:严格,具体检测项可以在[策略配置](https://ai.baidu.com/censoring#/strategylist)查看
+
 
 #### 热搜API版本
 ##### nethot_version

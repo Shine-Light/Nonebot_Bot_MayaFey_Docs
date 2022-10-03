@@ -77,6 +77,18 @@
 1. 进入[控制台](http://api.fanyi.baidu.com/api/trans/product/desktop)  
 2. 选择 `总览` 选项卡,选择开通服务,选择通用翻译,填好信息,选择确定
 
+### 百度内容安全API(可选)
+涉及插件: 违禁图片检测
+
+#### 注册
+前往[官网](https://login.bce.baidu.com/new-reg?tpl=bceplat&from=portal)注册,并实名认证
+
+#### 内容安全API(可选)
+1. 在[官网](cloud.baidu.com)依次选择, 产品 人工智能 图像内容安全,点击立即使用
+2. 进入控制台后,点击领取免费资源,勾选`内容审核平台-文本`点击领取
+3. 回到控制台,点击应用列表,选择创建应用,填写信息,点击立即创建
+4. 应用列表的 `API key` 和 `Secret key` 就是需要填写在配置中的密钥
+
 ## 机器人配置
 ### SUPERUSERS
 说明: 根用户,拥有机器人的所有权限,每个根用户用 `""` 包起来,用 `,` 隔开(英文半角逗号,不是中文的逗号),没有特殊情况的话填自己的QQ号就好  
@@ -112,16 +124,25 @@
 示例: `tencentcloud_common_secretkey="xxxxxxxx"`  
 <img src='/image/easy/configure/ten.png'>
 
-### 腾讯违规图片检测(可选)
+### 违规图片检测(可选)
 ::: tip 提示
 该配置为可选配置,若不设置请将 `tenid` 和 `tenkey` 设置为 `xxxxx`
 :::
 #### tenid
 说明: 访问密钥id,[同上](#tencentcloud_common_secretid)
-示例: `tencentcloud_common_secretid="xxxxxxxx"`
-#### tankey
+示例: `tenid="xxxxxxxx"`
+#### tenkeys
 说明: 访问密钥,[同上](#tencentcloud_common_secretkey)
-示例: `tencentcloud_common_secretkey="xxxxxxxx"`  
+示例: `tenkeys="xxxxxxxx"`  
+#### baidu_image_key
+说明: APIkey,可以在[控制台](https://console.bce.baidu.com/ai/#/ai/antiporn/app/list)查看  
+示例: `baidu_image_key="xxxxxxxx"`  
+#### baidu_image_secret
+说明: Secretkey,可以在[控制台](https://console.bce.baidu.com/ai/#/ai/antiporn/app/list)查看  
+示例: `baidu_image_secret="xxxxxxxx"`  
+#### baidu_image_level
+说明: 检测等级,0:宽松,1:严格,具体检测项可以在[策略配置](https://ai.baidu.com/censoring#/strategylist)查看  
+示例: `baidu_image_level="1"`  
 
 ### 和风天气(可选)
 #### QWEATHER_APIKEY
