@@ -1,4 +1,7 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-6-0-fix1版本更新日志-2022-10-06" tabindex="-1"><a class="header-anchor" href="#_0-6-0-fix1版本更新日志-2022-10-06" aria-hidden="true">#</a> 0.6.0-fix1版本更新日志 2022/10/06</h2>
+<h4 id="新增-违禁词检测后会自动撤回" tabindex="-1"><a class="header-anchor" href="#新增-违禁词检测后会自动撤回" aria-hidden="true">#</a> 新增 违禁词检测后会自动撤回</h4>
+<h4 id="修复-撤回插件刷屏" tabindex="-1"><a class="header-anchor" href="#修复-撤回插件刷屏" aria-hidden="true">#</a> 修复 撤回插件刷屏</h4>
 <h2 id="_0-6-0版本更新日志-2022-10-05" tabindex="-1"><a class="header-anchor" href="#_0-6-0版本更新日志-2022-10-05" aria-hidden="true">#</a> 0.6.0版本更新日志 2022/10/05</h2>
 <h4 id="更新-适配-nonebot2-0-0-rc-1" tabindex="-1"><a class="header-anchor" href="#更新-适配-nonebot2-0-0-rc-1" aria-hidden="true">#</a> 更新 适配 nonebot2.0.0-rc.1</h4>
 <h4 id="修复-违禁图检测违规类型错误" tabindex="-1"><a class="header-anchor" href="#修复-违禁图检测违规类型错误" aria-hidden="true">#</a> 修复 违禁图检测违规类型错误</h4>
