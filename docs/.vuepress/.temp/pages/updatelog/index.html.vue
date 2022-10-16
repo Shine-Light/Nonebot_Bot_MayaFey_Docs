@@ -1,4 +1,14 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-6-1版本更新日志-2022-10-16" tabindex="-1"><a class="header-anchor" href="#_0-6-1版本更新日志-2022-10-16" aria-hidden="true">#</a> 0.6.1版本更新日志 2022/10/16</h2>
+<h4 id="修复-运势报错" tabindex="-1"><a class="header-anchor" href="#修复-运势报错" aria-hidden="true">#</a> 修复 运势报错</h4>
+<h4 id="修复-禁言无权限" tabindex="-1"><a class="header-anchor" href="#修复-禁言无权限" aria-hidden="true">#</a> 修复 禁言无权限</h4>
+<h4 id="修复-闪照报错" tabindex="-1"><a class="header-anchor" href="#修复-闪照报错" aria-hidden="true">#</a> 修复 闪照报错</h4>
+<h4 id="修复-更新失败后无法再次更新" tabindex="-1"><a class="header-anchor" href="#修复-更新失败后无法再次更新" aria-hidden="true">#</a> 修复 更新失败后无法再次更新</h4>
+<h4 id="修复-权限插件触发被动插件" tabindex="-1"><a class="header-anchor" href="#修复-权限插件触发被动插件" aria-hidden="true">#</a> 修复 权限插件触发被动插件</h4>
+<h4 id="修复-根用户修改无效" tabindex="-1"><a class="header-anchor" href="#修复-根用户修改无效" aria-hidden="true">#</a> 修复 根用户修改无效</h4>
+<h4 id="修复-无法初始化部分成员数据" tabindex="-1"><a class="header-anchor" href="#修复-无法初始化部分成员数据" aria-hidden="true">#</a> 修复 无法初始化部分成员数据</h4>
+<h4 id="修复-管理员及以上用户权限可以被修改" tabindex="-1"><a class="header-anchor" href="#修复-管理员及以上用户权限可以被修改" aria-hidden="true">#</a> 修复 管理员及以上用户权限可以被修改</h4>
+<h4 id="修改-无用依赖" tabindex="-1"><a class="header-anchor" href="#修改-无用依赖" aria-hidden="true">#</a> 修改 无用依赖</h4>
 <h2 id="_0-6-0-fix1版本更新日志-2022-10-06" tabindex="-1"><a class="header-anchor" href="#_0-6-0-fix1版本更新日志-2022-10-06" aria-hidden="true">#</a> 0.6.0-fix1版本更新日志 2022/10/06</h2>
 <h4 id="新增-违禁词检测后会自动撤回" tabindex="-1"><a class="header-anchor" href="#新增-违禁词检测后会自动撤回" aria-hidden="true">#</a> 新增 违禁词检测后会自动撤回</h4>
 <h4 id="修复-撤回插件刷屏" tabindex="-1"><a class="header-anchor" href="#修复-撤回插件刷屏" aria-hidden="true">#</a> 修复 撤回插件刷屏</h4>
