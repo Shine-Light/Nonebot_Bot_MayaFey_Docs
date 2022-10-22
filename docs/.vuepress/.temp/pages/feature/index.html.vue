@@ -1681,9 +1681,6 @@
 </table>
 <p>功能: 执行sql语句,并返回结果</p>
 <p>权限: <strong>根用户</strong></p>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>所有私聊管理功能权限需在 管理员 及以上</p>
-</div>
 <h4 id="机器人好友请求管理" tabindex="-1"><a class="header-anchor" href="#机器人好友请求管理" aria-hidden="true">#</a> 机器人好友请求管理</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>在收到陌生人好友请求时,会将请求推送给所有根用户</p>
