@@ -1675,7 +1675,7 @@
 <td>SQL语句</td>
 <td>自行输入</td>
 <td>是</td>
-<td>检测成功后输入的SQL语句,只能查,不能增删改</td>
+<td>检测成功后输入的SQL语句</td>
 </tr>
 </tbody>
 </table>
