@@ -5,17 +5,16 @@ const { gitPlugin } = require('@vuepress/plugin-git')
 const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
 const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+var md = require('markdown-it')({
+    level: [2, 3]
+});
+
 module.exports = {
     title: '真宵机器人',
     description: '专注群聊的QQ机器人',
     head: [
         ['link', {rel: 'icon', href: '/image/logo.png'}],
     ],
-    markdown: {
-        extractHeaders: {
-            level: [2,3,4,5]
-        }
-    },
     theme: defaultTheme({
         logo: '/image/logo.png',
         repo: 'https://github.com/Shine-Light/Nonebot_Bot_MayaFey',
@@ -81,6 +80,10 @@ module.exports = {
                 }
             }
         })
-    ]
-
+    ],
+    markdown: {
+        headers: {
+            level: [2, 3, 4]
+        }
+    },
 }

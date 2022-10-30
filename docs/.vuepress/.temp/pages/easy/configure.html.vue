@@ -198,9 +198,9 @@
 <h4 id="eating-limit" tabindex="-1"><a class="header-anchor" href="#eating-limit" aria-hidden="true">#</a> EATING_LIMIT</h4>
 <p>说明: 每餐每个时间段询问上限<br>
 示例: <code v-pre>EATING_LIMIT=9</code></p>
-<h4 id="groups-id" tabindex="-1"><a class="header-anchor" href="#groups-id" aria-hidden="true">#</a> GROUPS_ID</h4>
+<h4 id="greeting-groups-id" tabindex="-1"><a class="header-anchor" href="#greeting-groups-id" aria-hidden="true">#</a> GREETING_GROUPS_ID</h4>
 <p>说明: 开启按时吃饭提示的群<br>
-示例: <code v-pre>GROUPS_ID=[&quot;123456789&quot;]</code></p>
+示例: <code v-pre>GREETING_GROUPS_ID=[&quot;123456789&quot;]</code></p>
 <h2 id="保存配置" tabindex="-1"><a class="header-anchor" href="#保存配置" aria-hidden="true">#</a> 保存配置</h2>
 <ol>
 <li>回到 Xshell ,打开 <code v-pre>传输窗口</code></li>

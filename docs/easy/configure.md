@@ -214,9 +214,9 @@
 说明: 每餐每个时间段询问上限  
 示例: `EATING_LIMIT=9`
 
-#### GROUPS_ID
+#### GREETING_GROUPS_ID
 说明: 开启按时吃饭提示的群  
-示例: `GROUPS_ID=["123456789"]`
+示例: `GREETING_GROUPS_ID=["123456789"]`
 
 ## 保存配置
 1. 回到 Xshell ,打开 `传输窗口`

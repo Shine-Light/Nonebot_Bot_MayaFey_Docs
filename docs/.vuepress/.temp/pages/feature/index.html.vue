@@ -190,34 +190,78 @@
 <p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">nonebot-plugin-logo<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="表情包制作" tabindex="-1"><a class="header-anchor" href="#表情包制作" aria-hidden="true">#</a> 表情包制作</h3>
-<p>帮助命令: <code v-pre>/表情包制作</code></p>
 <p>功能: 制作鲁迅说,王境泽等表情包</p>
-<p>命令: <code v-pre>/{类别} {文本1} {文本2} ...</code></p>
 <table>
 <thead>
 <tr>
-<th>参数名</th>
-<th>可选值</th>
-<th>必须</th>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
 <th>备注</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>类别</td>
-<td>见下图</td>
-<td>是</td>
-<td>类别见图</td>
+<td><code v-pre>/表情包制作</code></td>
+<td>查看支持的指令</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
 </tr>
 <tr>
-<td>文本1,文本2</td>
-<td>自行输入</td>
-<td>是</td>
-<td>每个类别有不同的文本数,<br />请在群里获取帮助查看</td>
+<td><code v-pre>/{表情名} {文字1} {文字2} ...</code></td>
+<td>生成表情包</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/禁用头像表情 {表情名}</code></td>
+<td>关闭指定表情包</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/启用头像表情 {表情名}</code></td>
+<td>开启被关闭的表情包</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/全局禁用头像表情 {表情名}</code></td>
+<td>关闭指定表情包,所有群生效</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/全局启用头像表情 {表情名}</code></td>
+<td>开启被关闭的表情包,所有群生效</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<img src="/image/feature/memes_help.jpg" height='500px'>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表情名</td>
+<td>通过<code v-pre>/表情包</code>获取</td>
+<td>是</td>
+</tr>
+<tr>
+<td>文字n</td>
+<td>自行输入</td>
+<td>是s</td>
+</tr>
+</tbody>
+</table>
+<img src="/image/feature/memes_help.jpg" height='450px'>
 <p>示例: <code v-pre>/鲁迅说过 我没说过这句话</code></p>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-memes" target="_blank" rel="noopener noreferrer">nonebot-plugin-memes<ExternalLinkIcon/></a>修改而来</p>
@@ -807,10 +851,94 @@
 <tr>
 <td>潜水时间阈值</td>
 <td>整数</td>
-<td>超过时间阈值视为潜水</td>
+<td>超过时间阈值视为潜水,单位:天</td>
 </tr>
 </tbody>
 </table>
+<h3 id="头像表情包制作" tabindex="-1"><a class="header-anchor" href="#头像表情包制作" aria-hidden="true">#</a> 头像表情包制作</h3>
+<p>功能: 与头像或图片互动生成表情包,如抱抱,贴贴,锤...<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/头像表情包</code></td>
+<td>查看支持的指令</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/{表情名} {@xx}|{qq号}|自己|{图片}</code></td>
+<td>生成表情包</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/禁用头像表情 {表情名}</code></td>
+<td>关闭指定表情包</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/启用头像表情 {表情名}</code></td>
+<td>开启被关闭的表情包</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/全局禁用头像表情 {表情名}</code></td>
+<td>关闭指定表情包,所有群生效</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/全局启用头像表情 {表情名}</code></td>
+<td>开启被关闭的表情包,所有群生效</td>
+<td><strong>超级用户</strong>及以上</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>表情名</td>
+<td>通过<code v-pre>/头像表情包</code>获取</td>
+<td>是</td>
+</tr>
+<tr>
+<td>qq号</td>
+<td>自行输入</td>
+<td>否</td>
+</tr>
+<tr>
+<td>@xx</td>
+<td>@某人</td>
+<td>否</td>
+</tr>
+<tr>
+<td>图片</td>
+<td>自行发送</td>
+<td>否</td>
+</tr>
+</tbody>
+</table>
+<img src="/image/feature/petpet_help.jpg" height='450px'>
 <h2 id="生活功能" tabindex="-1"><a class="header-anchor" href="#生活功能" aria-hidden="true">#</a> 生活功能</h2>
 <h3 id="翻译" tabindex="-1"><a class="header-anchor" href="#翻译" aria-hidden="true">#</a> 翻译</h3>
 <h4 id="腾讯版本" tabindex="-1"><a class="header-anchor" href="#腾讯版本" aria-hidden="true">#</a> 腾讯版本</h4>
@@ -942,31 +1070,43 @@
 <tbody>
 <tr>
 <td>吃什么</td>
-<td><code v-pre>/{时间段}吃什么</code></td>
+<td><code v-pre>/{时段}吃什么</code></td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td>喝什么</td>
+<td><code v-pre>/{时段}喝什么</code></td>
 <td><strong>群员</strong>及以上</td>
 <td></td>
 </tr>
 <tr>
 <td>查看群特色菜单</td>
-<td><code v-pre>/群特色菜单</code></td>
+<td><code v-pre>/吃什么菜单</code></td>
 <td><strong>群员</strong>及以上</td>
 <td></td>
 </tr>
 <tr>
 <td>添加菜品至群特色菜单</td>
-<td><code v-pre>/添加 {菜名}</code></td>
+<td><code v-pre>/菜品添加 {菜名}</code></td>
 <td><strong>超级用户</strong>及以上</td>
 <td>只会在本群生效</td>
 </tr>
 <tr>
 <td>从菜单移除菜品</td>
-<td><code v-pre>/移除 {菜名}</code></td>
+<td><code v-pre>/移除菜品 {菜名}</code></td>
 <td><strong>超级用户</strong>及以上</td>
 <td>可以同时移除特色菜单和基础菜单中的菜品</td>
 </tr>
 <tr>
+<td>添加菜品至基础菜单</td>
+<td><code v-pre>/加菜 {菜名}</code></td>
+<td><strong>超级用户</strong>及以上</td>
+<td>全局生效</td>
+</tr>
+<tr>
 <td>查看基础菜单</td>
-<td><code v-pre>/基础菜菜单</code></td>
+<td><code v-pre>/吃什么基础菜单</code></td>
 <td><strong>超级用户</strong>及以上</td>
 <td></td>
 </tr>
@@ -978,13 +1118,13 @@
 </tr>
 <tr>
 <td>添加问候</td>
-<td><code v-pre>/添加问候 {问候语}</code></td>
+<td><code v-pre>/添加饭点问候 {时段} {问候语}</code></td>
 <td><strong>超级用户</strong>及以上</td>
 <td>饭点小助手的问候语</td>
 </tr>
 <tr>
 <td>删除问候</td>
-<td><code v-pre>/删除问候 {问候语}</code></td>
+<td><code v-pre>/删除饭点问候 {时段} {问候语}</code></td>
 <td><strong>超级用户</strong>及以上</td>
 <td></td>
 </tr>
@@ -1001,7 +1141,7 @@
 </thead>
 <tbody>
 <tr>
-<td>时间段</td>
+<td>时段</td>
 <td>早上/中午/晚上/夜宵/早餐...</td>
 <td>是</td>
 </tr>

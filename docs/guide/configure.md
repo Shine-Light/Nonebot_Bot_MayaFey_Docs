@@ -113,6 +113,13 @@ COMMAND_START=["/", "!"]
 #### timezone
 说明: 时区,默认为上海
 
+
+#### RESOURCE_PATH
+说明: resource路径,默认即可
+
+#### custom_font_path
+说明: 字体路径,默认即可
+
 ### 代理设置
 #### proxy
 说明: 代理地址,若代理需认证,在前面要加上 `用户名:密码@`
@@ -243,9 +250,9 @@ COMMAND_START=["/", "!"]
 说明: 每餐每个时间段询问上限  
 示例: `EATING_LIMIT=9`
 
-##### GROUPS_ID
+##### GREETING_GROUPS_ID
 说明: 开启按时吃饭提示的群  
-示例: `GROUPS_ID=["123456789"]`
+示例: `GREETING_GROUPS_ID=["123456789"]`
 
 #### 恶意触发
 说明: 在 fast_time 内触发 fast_count 次命令

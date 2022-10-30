@@ -113,6 +113,10 @@
 <p>说明: 机器人QQ号</p>
 <h4 id="timezone" tabindex="-1"><a class="header-anchor" href="#timezone" aria-hidden="true">#</a> timezone</h4>
 <p>说明: 时区,默认为上海</p>
+<h4 id="resource-path" tabindex="-1"><a class="header-anchor" href="#resource-path" aria-hidden="true">#</a> RESOURCE_PATH</h4>
+<p>说明: resource路径,默认即可</p>
+<h4 id="custom-font-path" tabindex="-1"><a class="header-anchor" href="#custom-font-path" aria-hidden="true">#</a> custom_font_path</h4>
+<p>说明: 字体路径,默认即可</p>
 <h3 id="代理设置" tabindex="-1"><a class="header-anchor" href="#代理设置" aria-hidden="true">#</a> 代理设置</h3>
 <h4 id="proxy" tabindex="-1"><a class="header-anchor" href="#proxy" aria-hidden="true">#</a> proxy</h4>
 <p>说明: 代理地址,若代理需认证,在前面要加上 <code v-pre>用户名:密码@</code></p>
@@ -227,9 +231,9 @@
 <h5 id="eating-limit" tabindex="-1"><a class="header-anchor" href="#eating-limit" aria-hidden="true">#</a> EATING_LIMIT</h5>
 <p>说明: 每餐每个时间段询问上限<br>
 示例: <code v-pre>EATING_LIMIT=9</code></p>
-<h5 id="groups-id" tabindex="-1"><a class="header-anchor" href="#groups-id" aria-hidden="true">#</a> GROUPS_ID</h5>
+<h5 id="greeting-groups-id" tabindex="-1"><a class="header-anchor" href="#greeting-groups-id" aria-hidden="true">#</a> GREETING_GROUPS_ID</h5>
 <p>说明: 开启按时吃饭提示的群<br>
-示例: <code v-pre>GROUPS_ID=[&quot;123456789&quot;]</code></p>
+示例: <code v-pre>GREETING_GROUPS_ID=[&quot;123456789&quot;]</code></p>
 <h4 id="恶意触发" tabindex="-1"><a class="header-anchor" href="#恶意触发" aria-hidden="true">#</a> 恶意触发</h4>
 <p>说明: 在 fast_time 内触发 fast_count 次命令</p>
 <h5 id="fast-time" tabindex="-1"><a class="header-anchor" href="#fast-time" aria-hidden="true">#</a> fast_time</h5>
