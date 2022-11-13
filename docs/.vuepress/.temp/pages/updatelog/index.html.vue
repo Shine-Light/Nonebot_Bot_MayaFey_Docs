@@ -1,8 +1,26 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-6-3版本更新日志-2022-11-13" tabindex="-1"><a class="header-anchor" href="#_0-6-3版本更新日志-2022-11-13" aria-hidden="true">#</a> 0.6.3版本更新日志 2022/11/13</h2>
+<h4 id="新增-群聊管理-宵禁" tabindex="-1"><a class="header-anchor" href="#新增-群聊管理-宵禁" aria-hidden="true">#</a> 新增 群聊管理 -&gt; 宵禁</h4>
+<h4 id="新增-群聊管理-群管-增加全员禁言" tabindex="-1"><a class="header-anchor" href="#新增-群聊管理-群管-增加全员禁言" aria-hidden="true">#</a> 新增 群聊管理 -&gt; 群管 增加全员禁言</h4>
+<h4 id="新增-被动功能-复读-支持复读图片" tabindex="-1"><a class="header-anchor" href="#新增-被动功能-复读-支持复读图片" aria-hidden="true">#</a> 新增 被动功能 -&gt; 复读 支持复读图片</h4>
+<h4 id="修改-重定向捕获关闭ssl验证" tabindex="-1"><a class="header-anchor" href="#修改-重定向捕获关闭ssl验证" aria-hidden="true">#</a> 修改 重定向捕获关闭SSL验证</h4>
+<h4 id="修改-修改链接地址" tabindex="-1"><a class="header-anchor" href="#修改-修改链接地址" aria-hidden="true">#</a> 修改 修改链接地址</h4>
+<h4 id="修改-饭点助手支持cq码" tabindex="-1"><a class="header-anchor" href="#修改-饭点助手支持cq码" aria-hidden="true">#</a> 修改 饭点助手支持CQ码</h4>
+<h4 id="修改-离群插件逻辑分离-移除插件不影响运行" tabindex="-1"><a class="header-anchor" href="#修改-离群插件逻辑分离-移除插件不影响运行" aria-hidden="true">#</a> 修改 离群插件逻辑分离,移除插件不影响运行</h4>
+<h4 id="修改-入群插件逻辑分离-移除插件不影响运行" tabindex="-1"><a class="header-anchor" href="#修改-入群插件逻辑分离-移除插件不影响运行" aria-hidden="true">#</a> 修改 入群插件逻辑分离,移除插件不影响运行</h4>
+<h4 id="修改-违禁词检测更换初始化方式-移除插件不影响运行" tabindex="-1"><a class="header-anchor" href="#修改-违禁词检测更换初始化方式-移除插件不影响运行" aria-hidden="true">#</a> 修改 违禁词检测更换初始化方式,移除插件不影响运行</h4>
+<h4 id="修改-词云更换初始化方式-移除插件不影响运行" tabindex="-1"><a class="header-anchor" href="#修改-词云更换初始化方式-移除插件不影响运行" aria-hidden="true">#</a> 修改 词云更换初始化方式,移除插件不影响运行</h4>
+<h4 id="修复-开关异常提示后无法开关机器人" tabindex="-1"><a class="header-anchor" href="#修复-开关异常提示后无法开关机器人" aria-hidden="true">#</a> 修复 开关异常提示后无法开关机器人</h4>
+<h4 id="修复-未启动机器人任会触发命令" tabindex="-1"><a class="header-anchor" href="#修复-未启动机器人任会触发命令" aria-hidden="true">#</a> 修复 未启动机器人任会触发命令</h4>
+<h4 id="修复-复读报错" tabindex="-1"><a class="header-anchor" href="#修复-复读报错" aria-hidden="true">#</a> 修复 复读报错</h4>
+<h4 id="修复-复读各群相互影响" tabindex="-1"><a class="header-anchor" href="#修复-复读各群相互影响" aria-hidden="true">#</a> 修复 复读各群相互影响</h4>
+<h4 id="修复-违禁图广告类型报错" tabindex="-1"><a class="header-anchor" href="#修复-违禁图广告类型报错" aria-hidden="true">#</a> 修复 违禁图广告类型报错</h4>
+<h4 id="修复-关闭违禁词检测的状态下任会触发" tabindex="-1"><a class="header-anchor" href="#修复-关闭违禁词检测的状态下任会触发" aria-hidden="true">#</a> 修复 关闭违禁词检测的状态下任会触发</h4>
+<h4 id="修复-修正依赖" tabindex="-1"><a class="header-anchor" href="#修复-修正依赖" aria-hidden="true">#</a> 修复 修正依赖</h4>
 <h2 id="_0-6-2版本更新日志-2022-10-30" tabindex="-1"><a class="header-anchor" href="#_0-6-2版本更新日志-2022-10-30" aria-hidden="true">#</a> 0.6.2版本更新日志 2022/10/30</h2>
 <h4 id="新增-娱乐功能-头像表情包制作" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-头像表情包制作" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 头像表情包制作</h4>
 <h4 id="更新-娱乐功能-表情包制作" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-表情包制作" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 表情包制作</h4>
-<h4 id="更新-娱乐功能-吃什么" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-吃什么" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 吃什么</h4>
+<h4 id="更新-生活功能-吃什么" tabindex="-1"><a class="header-anchor" href="#更新-生活功能-吃什么" aria-hidden="true">#</a> 更新 生活功能 -&gt; 吃什么</h4>
 <h4 id="更新-娱乐功能-原神祈愿支持3-2" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-原神祈愿支持3-2" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 原神祈愿支持3.2</h4>
 <h4 id="修复-循环导入问题" tabindex="-1"><a class="header-anchor" href="#修复-循环导入问题" aria-hidden="true">#</a> 修复 循环导入问题</h4>
 <h4 id="修改-吃什么插件配置更改至config文件夹下" tabindex="-1"><a class="header-anchor" href="#修改-吃什么插件配置更改至config文件夹下" aria-hidden="true">#</a> 修改 吃什么插件配置更改至config文件夹下</h4>

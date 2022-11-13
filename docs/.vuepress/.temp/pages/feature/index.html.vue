@@ -1299,19 +1299,27 @@
 <tbody>
 <tr>
 <td>禁言</td>
-<td><code v-pre>/禁{@xx} {@xx} ... {时间}</code></td>
+<td><code v-pre>/禁 {@xx} {@xx} ... {时间}</code></td>
 </tr>
 <tr>
 <td>解禁</td>
-<td><code v-pre>/解{@xx} {@xx} ...</code></td>
+<td><code v-pre>/解 {@xx} {@xx} ...</code></td>
 </tr>
 <tr>
 <td>踢出</td>
-<td><code v-pre>/踢{@xx} {@xx} ...</code></td>
+<td><code v-pre>/踢 {@xx} {@xx} ...</code></td>
 </tr>
 <tr>
 <td>拉黑</td>
-<td><code v-pre>/黑{@xx} {@xx} ...</code></td>
+<td><code v-pre>/黑 {@xx} {@xx} ...</code></td>
+</tr>
+<tr>
+<td>全员禁言</td>
+<td><code v-pre>/禁言全员 {@xx} {@xx} ...</code></td>
+</tr>
+<tr>
+<td>解除全员禁言</td>
+<td><code v-pre>/解禁全员 {@xx} {@xx} ...</code></td>
 </tr>
 </tbody>
 </table>
@@ -1793,6 +1801,56 @@
 </tbody>
 </table>
 <p>示例: <code v-pre>/踢出提示 {kicked} 被 {kicker} 踢出了群聊</code></p>
+<p>权限: <strong>超级用户</strong>及以上</p>
+<h4 id="宵禁" tabindex="-1"><a class="header-anchor" href="#宵禁" aria-hidden="true">#</a> 宵禁</h4>
+<p>功能: 在指定时间里禁言全员<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>功能</th>
+<th>命令</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>设置宵禁开始时间</td>
+<td><code v-pre>/宵禁开始时间 {时间}</code></td>
+<td></td>
+</tr>
+<tr>
+<td>设置宵禁开始时间</td>
+<td><code v-pre>/宵禁结束时间 {时间}</code></td>
+<td></td>
+</tr>
+<tr>
+<td>开启|关闭宵禁</td>
+<td><code v-pre>/开启|关闭宵禁</code></td>
+<td>指开启|关闭定时禁言,不是开启|关闭禁言</td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>时间</td>
+<td>小时:分钟</td>
+<td>是</td>
+<td>24小时制</td>
+</tr>
+</tbody>
+</table>
+<p>示例: <code v-pre>/宵禁开始时间 23:30</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
 <h3 id="私聊管理" tabindex="-1"><a class="header-anchor" href="#私聊管理" aria-hidden="true">#</a> 私聊管理</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
