@@ -1738,7 +1738,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="退-回踢出群提示" tabindex="-1"><a class="header-anchor" href="#退-回踢出群提示" aria-hidden="true">#</a> 退/回踢出群提示</h4>
+<h4 id="退-踢出群提示" tabindex="-1"><a class="header-anchor" href="#退-踢出群提示" aria-hidden="true">#</a> 退/踢出群提示</h4>
 <p>命令:</p>
 <table>
 <thead>
@@ -1791,12 +1791,24 @@
 <td>退群的人</td>
 </tr>
 <tr>
+<td>{leaved_id}</td>
+<td>退群的人的QQ号</td>
+</tr>
+<tr>
 <td>{kicked}</td>
 <td>被踢的人</td>
 </tr>
 <tr>
 <td>{kicker}</td>
 <td>踢出的操作者</td>
+</tr>
+<tr>
+<td>{kicked_id}</td>
+<td>被踢的人的QQ号</td>
+</tr>
+<tr>
+<td>{kicker_id}</td>
+<td>踢出的操作者的QQ号</td>
 </tr>
 </tbody>
 </table>
