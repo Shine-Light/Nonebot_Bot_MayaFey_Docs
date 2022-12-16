@@ -518,7 +518,7 @@
 <p>权限: <strong>群员</strong>及以上</p>
 <h3 id="原神祈愿" tabindex="-1"><a class="header-anchor" href="#原神祈愿" aria-hidden="true">#</a> 原神祈愿</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该功能需要配置 原神祈愿API</p>
+<p>该功能需要配置 <RouterLink to="/guide/setup.html#%E5%AE%89%E8%A3%85%E5%8E%9F%E7%A5%9E%E7%A5%88%E6%84%BFapi-%E5%8F%AF%E9%80%89">原神祈愿API</RouterLink></p>
 </div>
 <p>功能: 根据官方爆率模拟祈愿<br>
 命令:</p>
@@ -769,7 +769,7 @@
 </tbody>
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
-<h3 id="抽群友当老婆" tabindex="-1"><a class="header-anchor" href="#抽群友当老婆" aria-hidden="true">#</a> 抽群友当老婆</h3>
+<h3 id="随机群友老婆" tabindex="-1"><a class="header-anchor" href="#随机群友老婆" aria-hidden="true">#</a> 随机群友老婆</h3>
 <p>功能: 随机抽取群友做老婆<br>
 命令:</p>
 <table>
@@ -2048,7 +2048,7 @@
 <td>回答</td>
 <td>自行输入</td>
 <td>是</td>
-<td>回答中只能有图片、文字和QQ表情,其他内容不识别</td>
+<td>支持图片、文字和QQ表情</td>
 </tr>
 </tbody>
 </table>
@@ -2175,13 +2175,141 @@
 </tbody>
 </table>
 <p>插件来源: <a href="https://github.com/yaowan233/nonebot-plugin-blackjack" target="_blank" rel="noopener noreferrer">nonebot-plugin-blackjack<ExternalLinkIcon/></a>修改而来</p>
+<h4 id="猜群友" tabindex="-1"><a class="header-anchor" href="#猜群友" aria-hidden="true">#</a> 猜群友</h4>
+<p>功能: 根据线索猜群友<br>
+命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>权限</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/猜群友</code></td>
+<td>开始游戏</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/猜 {@xx}</code></td>
+<td>猜某人</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/结束猜群友</code></td>
+<td>结束猜群友</td>
+<td><strong>群员</strong>及以上</td>
+<td>不会返还积分</td>
+</tr>
+<tr>
+<td><code v-pre>/猜群友配置</code></td>
+<td>查看猜群友配置</td>
+<td><strong>群员</strong>及以上</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/猜群友设置 {配置项} {配置值}</code></td>
+<td>查询当前绑定的账号中指定角色的信息</td>
+<td><strong>超级用户</strong>及以上</td>
+<td>可交互</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>@XXX</td>
+<td>自行输入</td>
+<td>是</td>
+<td></td>
+</tr>
+<tr>
+<td>配置项</td>
+<td>自行输入</td>
+<td>是</td>
+<td>详见下表</td>
+</tr>
+<tr>
+<td>配置值</td>
+<td>自行输入</td>
+<td>是</td>
+<td>详见下表</td>
+</tr>
+</tbody>
+</table>
+<p>设置项及对应设置值:</p>
+<table>
+<thead>
+<tr>
+<th>设置项</th>
+<th>设置值</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>消耗积分</td>
+<td>整数</td>
+<td>开启一局游戏需要的积分</td>
+</tr>
+<tr>
+<td>奖励积分</td>
+<td>整数</td>
+<td>获胜奖励的积分</td>
+</tr>
+<tr>
+<td>过期时间</td>
+<td>整数</td>
+<td>游戏超时时间,超时自动结束,单位:秒</td>
+</tr>
+<tr>
+<td>抽到机器人</td>
+<td>开|关</td>
+<td>可以抽到机器人</td>
+</tr>
+<tr>
+<td>抽到自己</td>
+<td>开|关</td>
+<td>可以抽到自己</td>
+</tr>
+<tr>
+<td>潜水成员不参与</td>
+<td>开|关</td>
+<td>不会抽到潜水的人</td>
+</tr>
+<tr>
+<td>潜水时间阈值</td>
+<td>整数</td>
+<td>超过时间阈值视为潜水,单位:天</td>
+</tr>
+<tr>
+<td>头像切割大小百分比</td>
+<td>分数(&lt;=1)</td>
+<td>头像线索的切割大小百分比</td>
+</tr>
+</tbody>
+</table>
 <h2 id="被动功能" tabindex="-1"><a class="header-anchor" href="#被动功能" aria-hidden="true">#</a> 被动功能</h2>
 <h3 id="恶意触发命令检测" tabindex="-1"><a class="header-anchor" href="#恶意触发命令检测" aria-hidden="true">#</a> 恶意触发命令检测</h3>
 <p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
 <h3 id="违禁图片检测" tabindex="-1"><a class="header-anchor" href="#违禁图片检测" aria-hidden="true">#</a> 违禁图片检测</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该功能需配置腾讯云内容安全中的图片安全API密钥</p>
-<p>检测的类型为: 色情,性感,违法,广告,暴恐,政治,谩骂</p>
+<p>该功能需配置腾讯云\百度云内容安全中的图片安全API密钥</p>
+<p>腾讯云检测的类型为: 色情,性感,违法,广告,暴恐,政治,谩骂<br>
+百度云检测类型可在百度云控制台自行设置</p>
 <p>由于容易误封,所以默认为高度确认违规的情况下触发</p>
 </div>
 <p>检测到违规图片会撤回并禁言</p>
