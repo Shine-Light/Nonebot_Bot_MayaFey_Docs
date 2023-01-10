@@ -157,38 +157,6 @@
 <p>功能: 获取当日群消息词云</p>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
-<h3 id="logo制作" tabindex="-1"><a class="header-anchor" href="#logo制作" aria-hidden="true">#</a> logo制作</h3>
-<p>帮助命令: <code v-pre>/logo 帮助</code></p>
-<p>功能: 制作P站,油管等LOGO</p>
-<p>命令: <code v-pre>/{类別} {文本1} {文本2} ...</code></p>
-<p>参数:</p>
-<table>
-<thead>
-<tr>
-<th>参数名</th>
-<th>可选值</th>
-<th>必须</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>类别</td>
-<td>ph/yt/5000兆/douyin/google</td>
-<td>是</td>
-<td>ph: Pornhub,yt: Youtuber</td>
-</tr>
-<tr>
-<td>文本1,文本2</td>
-<td>自行输入</td>
-<td>是</td>
-<td>每个类别有不同的文本数,<br />请在群里获取帮助查看</td>
-</tr>
-</tbody>
-</table>
-<p>示例: <code v-pre>/ph Bili Bili</code></p>
-<p>权限: <strong>群员</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/noneplugin/nonebot-plugin-logo" target="_blank" rel="noopener noreferrer">nonebot-plugin-logo<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="表情包制作" tabindex="-1"><a class="header-anchor" href="#表情包制作" aria-hidden="true">#</a> 表情包制作</h3>
 <p>功能: 制作鲁迅说,王境泽等表情包</p>
 <table>
@@ -1050,7 +1018,12 @@
 <tr>
 <td><code v-pre>喜加一订阅</code></td>
 <td>订阅喜加一资讯,定时推送</td>
-<td><strong>超级用户</strong>及以上</td>
+<td><strong>群员</strong>及以上</td>
+</tr>
+<tr>
+<td><code v-pre>喜加一订阅取消</code></td>
+<td>取消订阅喜加一资讯</td>
+<td><strong>群员</strong>及以上</td>
 </tr>
 </tbody>
 </table>
@@ -1253,7 +1226,7 @@
 <h2 id="管理功能" tabindex="-1"><a class="header-anchor" href="#管理功能" aria-hidden="true">#</a> 管理功能</h2>
 <h3 id="群聊管理" tabindex="-1"><a class="header-anchor" href="#群聊管理" aria-hidden="true">#</a> 群聊管理</h3>
 <h4 id="机器人更新" tabindex="-1"><a class="header-anchor" href="#机器人更新" aria-hidden="true">#</a> 机器人更新</h4>
-<p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code></p>
+<p>命令: <code v-pre>/检查更新</code> <code v-pre>/更新</code> <code v-pre>/更新日志</code> <code v-pre>/忽略本次更新</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
 <h4 id="重启" tabindex="-1"><a class="header-anchor" href="#重启" aria-hidden="true">#</a> 重启</h4>
 <p>命令: <code v-pre>/重启</code> <code v-pre>/reboot</code></p>
@@ -1682,6 +1655,12 @@
 <td></td>
 </tr>
 <tr>
+<td><code v-pre>/开启|关闭定时任务 {标题}</code></td>
+<td>开启或关闭一个定时任务</td>
+<td><strong>超级用户及以上</strong></td>
+<td></td>
+</tr>
+<tr>
 <td><code v-pre>/删除定时任务 {标题}</code></td>
 <td>删除一个定时任务</td>
 <td><strong>超级用户及以上</strong></td>
@@ -1877,7 +1856,6 @@
 <th>参数名</th>
 <th>可选值</th>
 <th>必须</th>
-<th>备注</th>
 </tr>
 </thead>
 <tbody>
@@ -1885,7 +1863,6 @@
 <td>SQL语句</td>
 <td>自行输入</td>
 <td>是</td>
-<td>检测成功后输入的SQL语句</td>
 </tr>
 </tbody>
 </table>
@@ -1950,18 +1927,45 @@
 <p>功能: 处理机器人好友请求</p>
 <p>权限: <strong>根用户</strong></p>
 <h2 id="积分系统" tabindex="-1"><a class="header-anchor" href="#积分系统" aria-hidden="true">#</a> 积分系统</h2>
-<h3 id="查看积分" tabindex="-1"><a class="header-anchor" href="#查看积分" aria-hidden="true">#</a> 查看积分</h3>
-<p>命令: <code v-pre>/我的积分</code> <code v-pre>/积分</code></p>
-<p>权限: <strong>成员</strong>及以上</p>
-<h3 id="积分排行榜-前十" tabindex="-1"><a class="header-anchor" href="#积分排行榜-前十" aria-hidden="true">#</a> 积分排行榜(前十)</h3>
-<p>命令: <code v-pre>/积分排行榜</code> <code v-pre>/积分排名</code></p>
-<p>权限: <strong>成员</strong>及以上</p>
+<h3 id="命令" tabindex="-1"><a class="header-anchor" href="#命令" aria-hidden="true">#</a> 命令</h3>
+<table>
+<thead>
+<tr>
+<th>积分</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/我的积分</code></td>
+<td>查看积分</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/积分排行榜</code></td>
+<td>查看积分排行</td>
+<td>前十名</td>
+</tr>
+<tr>
+<td><code v-pre>/发红包 {积分数} {份数}</code></td>
+<td>发送积分红包</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/抢红包</code></td>
+<td>领取积分红包</td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h3 id="积分获取分式" tabindex="-1"><a class="header-anchor" href="#积分获取分式" aria-hidden="true">#</a> 积分获取分式</h3>
 <h4 id="方式1-签到" tabindex="-1"><a class="header-anchor" href="#方式1-签到" aria-hidden="true">#</a> 方式1: 签到</h4>
-<p>命令: <code v-pre>/签到</code></p>
-<p>权限: <strong>成员</strong>及以上</p>
+<p>命令: <code v-pre>/签到</code><br>
+权限: <strong>成员</strong>及以上</p>
 <h4 id="方式2-小游戏" tabindex="-1"><a class="header-anchor" href="#方式2-小游戏" aria-hidden="true">#</a> 方式2: 小游戏</h4>
 <p>详情请看<a href="#%E6%B8%B8%E6%88%8F%E5%8A%9F%E8%83%BD">游戏功能</a></p>
+<h4 id="方式3-积分红包" tabindex="-1"><a class="header-anchor" href="#方式3-积分红包" aria-hidden="true">#</a> 方式3: 积分红包</h4>
 <h2 id="权限系统" tabindex="-1"><a class="header-anchor" href="#权限系统" aria-hidden="true">#</a> 权限系统</h2>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>权限说明: 根用户 &gt; 群主 &gt; 群管理 &gt; 超级用户 &gt; 成员 &gt; 黑名单</p>
@@ -2324,7 +2328,8 @@
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>
 <p>自动同意<strong>根用户</strong>的好友请求,在收到陌生人好友请求时,会将请求推送给所有根用户,由根用户决定是否添加</p>
 <h3 id="复读机" tabindex="-1"><a class="header-anchor" href="#复读机" aria-hidden="true">#</a> 复读机</h3>
-<p>当群内消息 +1 时,机器人会跟着 +1,支持文字和表情(QQ自带表情)</p>
+<p>当群内消息 +1 时,机器人会跟着 +1,支持文字、图片和表情<br>
+可在 <code v-pre>config/repeater/config_general.json</code> 中修改触发阈值</p>
 <h3 id="定时撤回" tabindex="-1"><a class="header-anchor" href="#定时撤回" aria-hidden="true">#</a> 定时撤回</h3>
 <p>部分过长信息会在 30~60秒 内自动撤回</p>
 <h3 id="防白嫖" tabindex="-1"><a class="header-anchor" href="#防白嫖" aria-hidden="true">#</a> 防白嫖</h3>

@@ -41,18 +41,27 @@
 <p>群聊插件:</p>
 <ol>
 <li>将插件放入 <code v-pre>content/plugins</code> 文件夹</li>
-<li>在 <code v-pre>config/permission/common</code> 每个群的配置文件中设置权限</li>
+<li>在 <code v-pre>config/permission/common</code> 每个群的配置文件中设置权限(可选,不更改默认为 member)</li>
+<li>在 <code v-pre>config/translate.json</code> 配置插件名(可选,默认为插件文件夹名)</li>
 <li>在群中执行一次初始化</li>
 </ol>
 <p>私聊插件:<br>
 将插件放入 <code v-pre>content/plugin_private</code> 中即可</p>
+<h2 id="如何修改插件配置" tabindex="-1"><a class="header-anchor" href="#如何修改插件配置" aria-hidden="true">#</a> 如何修改插件配置</h2>
+<p>大部分插件的配置存储在 <code v-pre>config/插件名</code> 文件夹下,不同插件配置结构可能不同,可以根据具体插件具体修改</p>
 <h2 id="如何修改菜单" tabindex="-1"><a class="header-anchor" href="#如何修改菜单" aria-hidden="true">#</a> 如何修改菜单</h2>
 <ol>
 <li>使用记事本,vscode等软件打开 <code v-pre>content/plugins/menu/__init__.py</code></li>
 <li>在里面找到对应的菜单说明,修改并保存</li>
 <li>重启机器人</li>
 </ol>
-<h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
+<h2 id="如何修改积分" tabindex="-1"><a class="header-anchor" href="#如何修改积分" aria-hidden="true">#</a> 如何修改积分</h2>
+<ol>
+<li>向机器人私聊发送 <code v-pre>/sql</code></li>
+<li>再次发送以下代码</li>
+</ol>
+<div class="language-sql ext-sql line-numbers-mode"><pre v-pre class="language-sql"><code><span class="token keyword">UPDATE</span> credit <span class="token keyword">SET</span> credit<span class="token operator">=</span>积分数 <span class="token keyword">WHERE</span> gid<span class="token operator">=</span><span class="token string">'群号'</span> <span class="token operator">AND</span> uid<span class="token operator">=</span><span class="token string">'QQ号'</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
 <p>这种情况多发生在Linux系统上,百度Linux安装中文字体</p>
 <h2 id="github速度慢" tabindex="-1"><a class="header-anchor" href="#github速度慢" aria-hidden="true">#</a> Github速度慢</h2>
 <p>有代理的可以挂代理,没有代理可以百度 Github 加速</p>

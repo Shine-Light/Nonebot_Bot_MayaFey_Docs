@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-74cd02e8\",\"path\":\"/develop/config.html\",\"title\":\"设置\\\\获取插件配置\",\"lang\":\"en-US\",\"frontmatter\":{},\"excerpt\":\"\",\"headers\":[],\"filePathRelative\":\"develop/config.md\",\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]}}")

@@ -34,6 +34,7 @@ module.exports = {
             { text: '功能', link: '/feature/' },
             { text: '指南', link: '/guide/' },
             { text: '零基础', link: '/easy/' },
+            { text: '开发文档', link: '/develop/'},
             { text: '常见问题', link: '/problem'},
             { text: '我的主页', link: 'https://shinelight.xyz'}, 
         ],
@@ -57,6 +58,19 @@ module.exports = {
                             '/easy/configure',
                             '/easy/run',
                             '/easy/use'
+                ]
+            }],
+            '/develop/': [{
+                text: '开发文档',
+                collapsible: true,
+                children: [ '/develop/',
+                            '/develop/standard/',
+                            '/develop/config/',
+                            '/develop/permissions/',
+                            '/develop/credit/',
+                            '/develop/utils/',
+                            '/develop/api/',
+                            '/develop/other.md'
                 ]
             }]
         }

@@ -34,16 +34,27 @@ sidebar: auto
 ## 如何安装插件
 群聊插件:  
 1. 将插件放入 `content/plugins` 文件夹
-2. 在 `config/permission/common` 每个群的配置文件中设置权限
-3. 在群中执行一次初始化  
+2. 在 `config/permission/common` 每个群的配置文件中设置权限(可选,不更改默认为 member)
+3. 在 `config/translate.json` 配置插件名(可选,默认为插件文件夹名)
+4. 在群中执行一次初始化  
 
 私聊插件:  
 将插件放入 `content/plugin_private` 中即可
+
+## 如何修改插件配置
+大部分插件的配置存储在 `config/插件名` 文件夹下,不同插件配置结构可能不同,可以根据具体插件具体修改
 
 ## 如何修改菜单
 1. 使用记事本,vscode等软件打开 `content/plugins/menu/__init__.py` 
 2. 在里面找到对应的菜单说明,修改并保存
 3. 重启机器人
+
+## 如何修改积分
+1. 向机器人私聊发送 `/sql`
+2. 再次发送以下代码
+```sql
+UPDATE credit SET credit=积分数 WHERE gid='群号' AND uid='QQ号';
+```
 
 ## 图片都是框框怎么办
 这种情况多发生在Linux系统上,百度Linux安装中文字体

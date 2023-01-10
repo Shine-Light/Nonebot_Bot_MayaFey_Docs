@@ -1,4 +1,7 @@
 <template><div><h1 id="前言" tabindex="-1"><a class="header-anchor" href="#前言" aria-hidden="true">#</a> 前言</h1>
+<div class="custom-container warning"><p class="custom-container-title">提示</p>
+<p>本篇文档只有手动安装的教程,不会有一键脚本</p>
+</div>
 <h2 id="声明" tabindex="-1"><a class="header-anchor" href="#声明" aria-hidden="true">#</a> 声明</h2>
 <h3 id="本篇声明" tabindex="-1"><a class="header-anchor" href="#本篇声明" aria-hidden="true">#</a> 本篇声明</h3>
 <ol>
