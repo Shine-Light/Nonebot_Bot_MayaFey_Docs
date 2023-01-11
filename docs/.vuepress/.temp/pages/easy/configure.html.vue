@@ -107,7 +107,8 @@
 <p>说明: 数据库密码,填入之前设置的密码<br>
 示例: <code v-pre>mysql_password = &quot;xxxxxxxx&quot;</code></p>
 <h3 id="mysql-user" tabindex="-1"><a class="header-anchor" href="#mysql-user" aria-hidden="true">#</a> mysql_user</h3>
-<p>说明: 使用 <code v-pre>root``   示例: </code>mysql_user = &quot;root&quot;`</p>
+<p>说明: 使用 <code v-pre>root</code><br>
+示例: <code v-pre>mysql_user = &quot;root&quot;</code></p>
 <h2 id="api设置" tabindex="-1"><a class="header-anchor" href="#api设置" aria-hidden="true">#</a> API设置</h2>
 <h3 id="腾讯机器翻译-可选" tabindex="-1"><a class="header-anchor" href="#腾讯机器翻译-可选" aria-hidden="true">#</a> 腾讯机器翻译(可选)</h3>
 <div class="custom-container warning"><p class="custom-container-title">注意</p>
@@ -159,7 +160,7 @@
 <h3 id="ai聊天-可选" tabindex="-1"><a class="header-anchor" href="#ai聊天-可选" aria-hidden="true">#</a> AI聊天(可选)</h3>
 <h4 id="ai-talk-api-type" tabindex="-1"><a class="header-anchor" href="#ai-talk-api-type" aria-hidden="true">#</a> ai_talk_api_type</h4>
 <p>说明: 接口类型,根据自己购买情况选择<br>
-可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),turing(<a href="http://www.turingapi.com/" target="_blank" rel="noopener noreferrer">图灵机器人<ExternalLinkIcon/></a>,moli(<a href="https://mlyai.com/" target="_blank" rel="noopener noreferrer">茉莉云<ExternalLinkIcon/></a>))<br>
+可选项: tianx(<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">天行数据<ExternalLinkIcon/></a>),qingyunke(<a href="http://api.qingyunke.com/" target="_blank" rel="noopener noreferrer">青云客<ExternalLinkIcon/></a>),moli(<a href="https://mlyai.com/" target="_blank" rel="noopener noreferrer">茉莉云<ExternalLinkIcon/></a>))<br>
 青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9</p>
 <h4 id="ai-talk-tianx-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-key" aria-hidden="true">#</a> ai_talk_tianx_key</h4>
 <p>说明: 天行数据接口密钥,<a href="https://www.tianapi.com/console/" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
@@ -167,8 +168,6 @@
 <p>说明: 天行数据接口工作模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
 <h4 id="ai-talk-tianx-priv" tabindex="-1"><a class="header-anchor" href="#ai-talk-tianx-priv" aria-hidden="true">#</a> ai_talk_tianx_priv</h4>
 <p>说明: 天行数据接口私有词库匹配模式,详情请看<a href="https://www.tianapi.com/apiview/47" target="_blank" rel="noopener noreferrer">官方文档<ExternalLinkIcon/></a>,若不使用该接口该项可不填</p>
-<h4 id="ai-talk-turing-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-turing-key" aria-hidden="true">#</a> ai_talk_turing_key</h4>
-<p>说明: 图灵机器人接口密钥,<a href="http://www.tuling123.com/member/robot/index.jhtml" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h4 id="ai-talk-moli-key" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-key" aria-hidden="true">#</a> ai_talk_moli_key</h4>
 <p>说明: 茉莉云接口key,<a href="https://mlyai.com/profile/index.html#/robot/list" target="_blank" rel="noopener noreferrer">控制台<ExternalLinkIcon/></a>获取,若不使用该接口该项可不填</p>
 <h4 id="ai-talk-moli-secret" tabindex="-1"><a class="header-anchor" href="#ai-talk-moli-secret" aria-hidden="true">#</a> ai_talk_moli_secret</h4>
@@ -184,9 +183,9 @@
 示例: <code v-pre>BAN_COUNT_ALLOW=3</code></p>
 <h3 id="epic喜加一" tabindex="-1"><a class="header-anchor" href="#epic喜加一" aria-hidden="true">#</a> Epic喜加一</h3>
 <h4 id="epic-scheduler" tabindex="-1"><a class="header-anchor" href="#epic-scheduler" aria-hidden="true">#</a> epic_scheduler</h4>
-<p>说明: 订阅推送时间,&quot;星期(周日为0) 小时 分钟 秒&quot;<br>
-示例: 星期五 20:00:00 推送<br>
-<code v-pre>epic_scheduler=&quot;4 20 0 0&quot;</code></p>
+<p>说明: 订阅推送时间,&quot;小时 分钟 秒&quot;<br>
+示例: 20:00:00 推送<br>
+<code v-pre>epic_scheduler=&quot;20 0 0&quot;</code></p>
 <h3 id="群管" tabindex="-1"><a class="header-anchor" href="#群管" aria-hidden="true">#</a> 群管</h3>
 <h4 id="ban-count-allow-1" tabindex="-1"><a class="header-anchor" href="#ban-count-allow-1" aria-hidden="true">#</a> BAN_COUNT_ALLOW</h4>
 <p>说明: 最大允许违禁次数,违禁达到次数时将踢出并拉黑</p>

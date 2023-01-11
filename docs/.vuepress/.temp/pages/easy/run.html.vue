@@ -36,7 +36,5 @@
 <li>在初次运行时会下载 chromiun 内核,下载速度可能很慢,等待下载完成</li>
 <li>等待机器人启动</li>
 <li>启动后,同时按下键盘的 <code v-pre>Ctrl</code> , <code v-pre>A</code> 和 <code v-pre>D</code>键 将程序挂在后台运行</li>
-<li>将机器人拉入群,在群内发送一条信息 <code v-pre>/初始化</code></li>
-<li>当机器人回复 <code v-pre>初始化成功</code> 时,机器人开始正常运行</li>
 </ol>
 </div></template>

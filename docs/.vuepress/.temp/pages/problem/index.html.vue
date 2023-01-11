@@ -58,10 +58,12 @@
 <h2 id="如何修改积分" tabindex="-1"><a class="header-anchor" href="#如何修改积分" aria-hidden="true">#</a> 如何修改积分</h2>
 <ol>
 <li>向机器人私聊发送 <code v-pre>/sql</code></li>
-<li>再次发送以下代码</li>
+<li>发送以下代码</li>
 </ol>
 <div class="language-sql ext-sql line-numbers-mode"><pre v-pre class="language-sql"><code><span class="token keyword">UPDATE</span> credit <span class="token keyword">SET</span> credit<span class="token operator">=</span>积分数 <span class="token keyword">WHERE</span> gid<span class="token operator">=</span><span class="token string">'群号'</span> <span class="token operator">AND</span> uid<span class="token operator">=</span><span class="token string">'QQ号'</span><span class="token punctuation">;</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2 id="匿名用户发言一直无权限" tabindex="-1"><a class="header-anchor" href="#匿名用户发言一直无权限" aria-hidden="true">#</a> 匿名用户发言一直无权限</h2>
+<p>真宵机器人没有适配匿名发言,最好关闭匿名发言再使用</p>
+<h2 id="图片都是框框怎么办" tabindex="-1"><a class="header-anchor" href="#图片都是框框怎么办" aria-hidden="true">#</a> 图片都是框框怎么办</h2>
 <p>这种情况多发生在Linux系统上,百度Linux安装中文字体</p>
 <h2 id="github速度慢" tabindex="-1"><a class="header-anchor" href="#github速度慢" aria-hidden="true">#</a> Github速度慢</h2>
 <p>有代理的可以挂代理,没有代理可以百度 Github 加速</p>

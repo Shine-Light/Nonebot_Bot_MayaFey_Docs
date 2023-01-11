@@ -90,7 +90,10 @@ __plugin_meta__ = PluginMetadata(
             "matcher_2": "Van"
         },
         "configs": {
-            "/{{gid}}/"
+            "/{{gid}}/template/config.json": {
+              "key1": "value1"
+            },
+            "key2": "value2"
         },
         "configs_general": {
           "key_G": "value_G"

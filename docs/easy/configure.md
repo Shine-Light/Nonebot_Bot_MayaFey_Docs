@@ -107,7 +107,7 @@
 示例: `mysql_password = "xxxxxxxx"`  
 
 ### mysql_user
-说明: 使用 `root``  
+说明: 使用 `root`  
 示例: `mysql_user = "root"`  
 
 ## API设置
@@ -169,7 +169,7 @@
 ### AI聊天(可选)
 #### ai_talk_api_type
 说明: 接口类型,根据自己购买情况选择  
-可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),turing([图灵机器人](http://www.turingapi.com/),moli([茉莉云](https://mlyai.com/)))  
+可选项: tianx([天行数据](https://www.tianapi.com/apiview/47)),qingyunke([青云客](http://api.qingyunke.com/)),moli([茉莉云](https://mlyai.com/)))  
 青云客免费且无需注册(暂时),天行数据每日100次免费额度,图灵机器人永久基础款19.9    
 #### ai_talk_tianx_key
 说明: 天行数据接口密钥,[控制台](https://www.tianapi.com/console/)获取,若不使用该接口该项可不填  
@@ -177,8 +177,6 @@
 说明: 天行数据接口工作模式,详情请看[官方文档](https://www.tianapi.com/apiview/47),若不使用该接口该项可不填    
 #### ai_talk_tianx_priv
 说明: 天行数据接口私有词库匹配模式,详情请看[官方文档](https://www.tianapi.com/apiview/47),若不使用该接口该项可不填    
-#### ai_talk_turing_key
-说明: 图灵机器人接口密钥,[控制台](http://www.tuling123.com/member/robot/index.jhtml)获取,若不使用该接口该项可不填  
 #### ai_talk_moli_key
 说明: 茉莉云接口key,[控制台](https://mlyai.com/profile/index.html#/robot/list)获取,若不使用该接口该项可不填  
 #### ai_talk_moli_secret
@@ -197,9 +195,9 @@
 
 ### Epic喜加一
 #### epic_scheduler
-说明: 订阅推送时间,"星期(周日为0) 小时 分钟 秒"  
-示例: 星期五 20:00:00 推送  
-`epic_scheduler="4 20 0 0"`
+说明: 订阅推送时间,"小时 分钟 秒"  
+示例: 20:00:00 推送  
+`epic_scheduler="20 0 0"`
 
 ### 群管
 #### BAN_COUNT_ALLOW

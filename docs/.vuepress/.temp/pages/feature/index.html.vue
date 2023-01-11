@@ -395,7 +395,7 @@
 <p>插件来源:<a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="ai聊天" tabindex="-1"><a class="header-anchor" href="#ai聊天" aria-hidden="true">#</a> AI聊天</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该功能支持私聊和群聊,聊天内容仅支持文本,图灵接口还没测试 <s>(没钱买接口)</s></p>
+<p>该功能支持私聊和群聊,聊天内容仅支持文本</p>
 </div>
 <p>命令:</p>
 <table>

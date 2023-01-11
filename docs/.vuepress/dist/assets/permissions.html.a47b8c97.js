@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-65620040","path":"/develop/permissions.html","title":"\u591A\u6743\u9650","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"develop/permissions.md","git":{"createdTime":null,"updatedTime":null,"contributors":[]}}');export{e as data};
