@@ -944,32 +944,6 @@
 </table>
 <p>权限: <strong>群员</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/NumberSir/nonebot_plugin_baidutranslate" target="_blank" rel="noopener noreferrer">nonebot_plugin_baidutranslate<ExternalLinkIcon/></a>修改而来</p>
-<h3 id="疫情" tabindex="-1"><a class="header-anchor" href="#疫情" aria-hidden="true">#</a> 疫情</h3>
-<div class="custom-container tip"><p class="custom-container-title">提示</p>
-<p>该功能可以设置定时推送指定城市信息,具体前往<a href="#%E7%AE%A1%E7%90%86%E5%8A%9F%E8%83%BD">管理功能</a></p>
-</div>
-<p>命令: <code v-pre>{城市}疫情</code> <code v-pre>{城市}疫情政策</code></p>
-<p>功能: 查看指定城市疫情/疫情政策</p>
-<p>参数:</p>
-<table>
-<thead>
-<tr>
-<th>参数名</th>
-<th>可选值</th>
-<th>必须</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>城市</td>
-<td>自行输入</td>
-<td>是</td>
-</tr>
-</tbody>
-</table>
-<p>权限: <strong>群员</strong>及以上</p>
-<p>示例: <code v-pre>上海疫情</code> <code v-pre>上海疫情政策</code></p>
-<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
 <h3 id="天气" tabindex="-1"><a class="header-anchor" href="#天气" aria-hidden="true">#</a> 天气</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能使用了 和风天气API,需配置API密钥</p>
@@ -1294,6 +1268,14 @@
 <td>解除全员禁言</td>
 <td><code v-pre>/解禁全员 {@xx} {@xx} ...</code></td>
 </tr>
+<tr>
+<td>解除全员禁言</td>
+<td><code v-pre>/设置头衔 {@xx} {@xx} ... {头衔}</code></td>
+</tr>
+<tr>
+<td>解除全员禁言</td>
+<td><code v-pre>/取消头衔 {@xx} {@xx} ... {头衔}</code></td>
+</tr>
 </tbody>
 </table>
 <p>参数:</p>
@@ -1318,6 +1300,12 @@
 <td>1~25919999</td>
 <td>否</td>
 <td>单位:秒,不加则随机时间(不建议)</td>
+</tr>
+<tr>
+<td>头衔</td>
+<td>自行输入</td>
+<td>是</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1404,10 +1392,6 @@
 <tr>
 <td>严格违禁等级</td>
 <td><code v-pre>/严格违禁词</code></td>
-</tr>
-<tr>
-<td>更新词库</td>
-<td><code v-pre>/更新违禁词库</code></td>
 </tr>
 </tbody>
 </table>
@@ -1957,6 +1941,11 @@
 <td>领取积分红包</td>
 <td></td>
 </tr>
+<tr>
+<td><code v-pre>/转账 {积分数} {@xxx}</code></td>
+<td>向xxx转账</td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <h3 id="积分获取分式" tabindex="-1"><a class="header-anchor" href="#积分获取分式" aria-hidden="true">#</a> 积分获取分式</h3>
@@ -2026,6 +2015,10 @@
 <td><code v-pre>模糊问{问题}答{回答}</code></td>
 </tr>
 <tr>
+<td>添加(正则)</td>
+<td><code v-pre>正则问{问题}答{回答}</code></td>
+</tr>
+<tr>
 <td>删除</td>
 <td><code v-pre>/问答删除 {问题}</code></td>
 </tr>
@@ -2052,12 +2045,13 @@
 <td>回答</td>
 <td>自行输入</td>
 <td>是</td>
-<td>支持图片、文字和QQ表情</td>
+<td>支持图片、文字、正则表达式和QQ表情</td>
 </tr>
 </tbody>
 </table>
-<p>示例: <code v-pre>精准问主页答shinelight.xyz</code></p>
-<p>权限: <strong>超级用户</strong>及以上</p>
+<p>优先匹配精准,再匹配正则,最后再匹配模糊<br>
+示例: <code v-pre>精准问主页答shinelight.xyz</code><br>
+权限: <strong>超级用户</strong>及以上</p>
 <h2 id="游戏功能" tabindex="-1"><a class="header-anchor" href="#游戏功能" aria-hidden="true">#</a> 游戏功能</h2>
 <h3 id="获取游戏菜单" tabindex="-1"><a class="header-anchor" href="#获取游戏菜单" aria-hidden="true">#</a> 获取游戏菜单</h3>
 <p>命令: <code v-pre>/游戏菜单</code></p>

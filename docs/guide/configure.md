@@ -267,8 +267,3 @@ COMMAND_START=["/", "!"]
 #### auto_baned_delta_time
 说明: 指定时间,单位:分钟  
 示例: `auto_baned_delta_time=0`  
-
-#### 疫情查询配置
-##### covid19_message_type
-说明: 推送消息类型,image:图片, text:文字  
-示例: `covid19_message_type = "image"`

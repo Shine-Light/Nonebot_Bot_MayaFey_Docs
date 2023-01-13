@@ -245,8 +245,4 @@
 <h4 id="auto-baned-delta-time" tabindex="-1"><a class="header-anchor" href="#auto-baned-delta-time" aria-hidden="true">#</a> auto_baned_delta_time</h4>
 <p>说明: 指定时间,单位:分钟<br>
 示例: <code v-pre>auto_baned_delta_time=0</code></p>
-<h4 id="疫情查询配置" tabindex="-1"><a class="header-anchor" href="#疫情查询配置" aria-hidden="true">#</a> 疫情查询配置</h4>
-<h5 id="covid19-message-type" tabindex="-1"><a class="header-anchor" href="#covid19-message-type" aria-hidden="true">#</a> covid19_message_type</h5>
-<p>说明: 推送消息类型,image:图片, text:文字<br>
-示例: <code v-pre>covid19_message_type = &quot;image&quot;</code></p>
 </div></template>
