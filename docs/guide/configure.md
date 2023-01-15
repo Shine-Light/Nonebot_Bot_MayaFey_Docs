@@ -231,9 +231,9 @@ COMMAND_START=["/", "!"]
 
 #### Epic喜加一
 ##### epic_scheduler
-说明: 订阅推送时间,"星期(周日为0) 小时 分钟 秒"  
-示例: 星期五 20:00:00 推送  
-`epic_scheduler="4 20 0 0"`
+说明: 订阅推送时间,"小时 分钟 秒"  
+示例: 20:00:00 推送  
+`epic_scheduler="20 0 0"`
 
 #### 群管
 ##### BAN_COUNT_ALLOW

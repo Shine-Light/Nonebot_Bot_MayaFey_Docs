@@ -1231,9 +1231,12 @@
 <p>示例: <code v-pre>/关注疫情 上海</code></p>
 <p>权限: <strong>超级用户</strong>及以上</p>
 <p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
-<h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑)</h4>
+<h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑...)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>请将机器人设置为群管理员,否则功能无法使用</p>
+</div>
+<div class="custom-container warning"><p class="custom-container-title">提示</p>
+<p>头衔和管理员设置需机器人为群主</p>
 </div>
 <p>命令:</p>
 <table>
@@ -1241,40 +1244,59 @@
 <tr>
 <th>功能</th>
 <th>命令</th>
+<th>权限</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>禁言</td>
 <td><code v-pre>/禁 {@xx} {@xx} ... {时间}</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
 <td>解禁</td>
 <td><code v-pre>/解 {@xx} {@xx} ...</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
 <td>踢出</td>
 <td><code v-pre>/踢 {@xx} {@xx} ...</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
 <td>拉黑</td>
 <td><code v-pre>/黑 {@xx} {@xx} ...</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
 <td>全员禁言</td>
 <td><code v-pre>/禁言全员 {@xx} {@xx} ...</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
 <td>解除全员禁言</td>
 <td><code v-pre>/解禁全员 {@xx} {@xx} ...</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
-<td>解除全员禁言</td>
+<td>设置头衔</td>
 <td><code v-pre>/设置头衔 {@xx} {@xx} ... {头衔}</code></td>
+<td><strong>超级用户及以上</strong></td>
 </tr>
 <tr>
-<td>解除全员禁言</td>
+<td>取消头衔</td>
 <td><code v-pre>/取消头衔 {@xx} {@xx} ... {头衔}</code></td>
+<td><strong>超级用户及以上</strong></td>
+</tr>
+<tr>
+<td>添加管理员</td>
+<td><code v-pre>/管理员+ {@xx} {@xx} ...</code></td>
+<td><strong>根用户</strong></td>
+</tr>
+<tr>
+<td>取消管理员</td>
+<td><code v-pre>/管理员+ {@xx} {@xx} ...</code></td>
+<td><strong>根用户</strong></td>
 </tr>
 </tbody>
 </table>
@@ -1293,7 +1315,7 @@
 <td>@xx</td>
 <td>@群成员</td>
 <td>是</td>
-<td>可以@多个,多个之间使用空格隔开<br />若@自带空格则无需再加空格</td>
+<td>可以@多个</td>
 </tr>
 <tr>
 <td>时间</td>
@@ -1305,43 +1327,6 @@
 <td>头衔</td>
 <td>自行输入</td>
 <td>是</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>权限: <strong>超级用户</strong>及以上</p>
-<p>示例: <code v-pre>/禁@群词云 60</code></p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
-<h5 id="测试功能" tabindex="-1"><a class="header-anchor" href="#测试功能" aria-hidden="true">#</a> 测试功能</h5>
-<div class="custom-container danger"><p class="custom-container-title">警告</p>
-<p>此功能为测试功能,不保证能用性<br>
-以下测试功能需机器人为群主<br>
-并且只有<strong>根用户</strong>(即配置文件写死的<strong>SUPERUSER</strong>)有权使用</p>
-</div>
-<p>命令:<br>
-添加管理员 <code v-pre>/管理员+ {@xx} {@xx} ...</code><br>
-取消管理员 <code v-pre>/管理员- {@xx} {@xx} ...</code></p>
-<p>参数:</p>
-<table>
-<thead>
-<tr>
-<th>参数名</th>
-<th>可选值</th>
-<th>必须</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>@xx</td>
-<td>@群成员</td>
-<td>是</td>
-<td>可以@多个,多个之间使用空格隔开<br />若@自带空格则无需再加空格</td>
-</tr>
-<tr>
-<td>示例: <code v-pre>/管理员+ @群成员</code></td>
-<td></td>
-<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -1905,6 +1890,53 @@
 <td>自行输入</td>
 <td>否</td>
 <td>输入 <code v-pre>空</code> 则表示不备注</td>
+</tr>
+</tbody>
+</table>
+<p>功能: 处理机器人好友请求</p>
+<p>权限: <strong>根用户</strong></p>
+<h4 id="控制机器人发送群聊信息" tabindex="-1"><a class="header-anchor" href="#控制机器人发送群聊信息" aria-hidden="true">#</a> 控制机器人发送群聊信息</h4>
+<p>命令:</p>
+<table>
+<thead>
+<tr>
+<th>命令</th>
+<th>功能</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code v-pre>/发送 {群号}</code></td>
+<td>发送信息到指定群内,支持CQ码</td>
+<td>群号可用<code v-pre>all</code>表示所有开启机器人的群</td>
+</tr>
+<tr>
+<td><code v-pre>/显示发送者</code></td>
+<td>发送信息时显示发送者昵称</td>
+<td></td>
+</tr>
+<tr>
+<td><code v-pre>/隐藏发送者</code></td>
+<td>发送信息时隐藏发送者昵称</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>参数:</p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>可选值</th>
+<th>必须</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>{群号}</td>
+<td><code v-pre>all|自行输入</code></td>
+<td>是</td>
 </tr>
 </tbody>
 </table>

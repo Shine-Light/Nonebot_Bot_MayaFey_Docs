@@ -36,17 +36,17 @@
 <h3 id="permission-common" tabindex="-1"><a class="header-anchor" href="#permission-common" aria-hidden="true">#</a> permission_common</h3>
 <ul>
 <li>类型: <code v-pre>str</code></li>
-<li>说明: 插件正常模式权限,默认 member,有关权限说明请前往<RouterLink to="/feature/#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</RouterLink></li>
+<li>说明: 插件正常模式权限,默认 member,有关权限说明请前往<RouterLink to="/feature/#%E6%9D%83%E9%99%90%E7%B3%BB%E7%BB%9F">权限系统</RouterLink>,私聊插件该项无效</li>
 </ul>
 <h3 id="unset" tabindex="-1"><a class="header-anchor" href="#unset" aria-hidden="true">#</a> unset</h3>
 <ul>
 <li>类型: <code v-pre>bool</code></li>
-<li>说明: 插件是否为不可控制插件,即无法通过插件控制开关,默认为 <code v-pre>False</code></li>
+<li>说明: 插件是否为不可控制插件,即无法通过插件控制开关,默认为 <code v-pre>False</code>,私聊插件该项无效</li>
 </ul>
 <h3 id="total-unable" tabindex="-1"><a class="header-anchor" href="#total-unable" aria-hidden="true">#</a> total_unable</h3>
 <ul>
 <li>类型: <code v-pre>bool</code></li>
-<li>说明: 插件是否为不统计插件,即不被统计使用次数,默认为<code v-pre>False</code></li>
+<li>说明: 插件是否为不统计插件,即不被统计使用次数,默认为<code v-pre>False</code>,私聊插件该项无效</li>
 </ul>
 <h3 id="version" tabindex="-1"><a class="header-anchor" href="#version" aria-hidden="true">#</a> version</h3>
 <ul>
@@ -66,7 +66,7 @@
 <h3 id="permission-special" tabindex="-1"><a class="header-anchor" href="#permission-special" aria-hidden="true">#</a> permission_special</h3>
 <ul>
 <li>类型: <code v-pre>dict</code></li>
-<li>说明: 插件特殊权限,<code v-pre>matcher名称</code>作为键,<code v-pre>权限</code>作为值,<code v-pre>matcher名称</code>并不是硬性要求,可以根据特殊权限控制的写法自定,关于特殊权限详见<RouterLink to="/develop/permissions.html">多权限</RouterLink></li>
+<li>说明: 插件特殊权限,<code v-pre>matcher名称</code>作为键,<code v-pre>权限</code>作为值,<code v-pre>matcher名称</code>并不是硬性要求,可以根据特殊权限控制的写法自定,关于特殊权限详见<RouterLink to="/develop/permissions.html">多权限</RouterLink>,私聊插件该项无效</li>
 <li>示例:</li>
 </ul>
 <div class="language-python ext-py line-numbers-mode"><pre v-pre class="language-python"><code><span class="token string">"permission_special"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
