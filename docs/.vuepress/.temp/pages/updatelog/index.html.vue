@@ -1,4 +1,29 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-6-5版本更新日志-2023-1-17" tabindex="-1"><a class="header-anchor" href="#_0-6-5版本更新日志-2023-1-17" aria-hidden="true">#</a> 0.6.5版本更新日志 2023/1/17</h2>
+<h4 id="新增-管理功能-自定义定时任务-新增任务独立开关" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-自定义定时任务-新增任务独立开关" aria-hidden="true">#</a> 新增 管理功能 -&gt; 自定义定时任务 新增任务独立开关</h4>
+<h4 id="新增-管理功能-自定义定时任务-查看定时任务列表时增加状态信息" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-自定义定时任务-查看定时任务列表时增加状态信息" aria-hidden="true">#</a> 新增 管理功能 -&gt; 自定义定时任务 查看定时任务列表时增加状态信息</h4>
+<h4 id="新增-管理功能-sql查询-返回结果增加影响行数" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-sql查询-返回结果增加影响行数" aria-hidden="true">#</a> 新增 管理功能 -&gt; sql查询 返回结果增加影响行数</h4>
+<h4 id="新增-管理功能-更新-增加忽略本次更新" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-更新-增加忽略本次更新" aria-hidden="true">#</a> 新增 管理功能 -&gt; 更新 增加忽略本次更新</h4>
+<h4 id="新增-管理功能-入回群欢迎-欢迎文本自动在末尾增加编辑者" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-入回群欢迎-欢迎文本自动在末尾增加编辑者" aria-hidden="true">#</a> 新增 管理功能 -&gt; 入回群欢迎 欢迎文本自动在末尾增加编辑者</h4>
+<h4 id="新增-管理功能-控制机器人发送群聊信息" tabindex="-1"><a class="header-anchor" href="#新增-管理功能-控制机器人发送群聊信息" aria-hidden="true">#</a> 新增 管理功能 -&gt; 控制机器人发送群聊信息</h4>
+<h4 id="新增-娱乐功能-问答-增加正则模式" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-问答-增加正则模式" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 问答 增加正则模式</h4>
+<h4 id="新增-娱乐功能-积分-新增红包" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-积分-新增红包" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 积分 新增红包</h4>
+<h4 id="新增-娱乐功能-积分-新增转账" tabindex="-1"><a class="header-anchor" href="#新增-娱乐功能-积分-新增转账" aria-hidden="true">#</a> 新增 娱乐功能 -&gt; 积分 新增转账</h4>
+<h4 id="新增-配置自动生成-使用pluginmetadata自动生成配置" tabindex="-1"><a class="header-anchor" href="#新增-配置自动生成-使用pluginmetadata自动生成配置" aria-hidden="true">#</a> 新增 配置自动生成,使用PluginMetadata自动生成配置</h4>
+<h4 id="更新-娱乐功能-epic限免资讯-更新至最新版本" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-epic限免资讯-更新至最新版本" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; epic限免资讯 更新至最新版本</h4>
+<h4 id="更新-管理功能-群管-重写群管-并支持头衔和管理员设定" tabindex="-1"><a class="header-anchor" href="#更新-管理功能-群管-重写群管-并支持头衔和管理员设定" aria-hidden="true">#</a> 更新 管理功能 -&gt; 群管 重写群管,并支持头衔和管理员设定</h4>
+<h4 id="修改-管理功能-自定义违禁词-内置违禁词不再更新" tabindex="-1"><a class="header-anchor" href="#修改-管理功能-自定义违禁词-内置违禁词不再更新" aria-hidden="true">#</a> 修改 管理功能 -&gt; 自定义违禁词 内置违禁词不再更新</h4>
+<h4 id="修改-被动功能-复读-修改复读逻辑-并支持触发次数配置" tabindex="-1"><a class="header-anchor" href="#修改-被动功能-复读-修改复读逻辑-并支持触发次数配置" aria-hidden="true">#</a> 修改 被动功能 -&gt; 复读 修改复读逻辑,并支持触发次数配置</h4>
+<h4 id="修改-json-tool写入时使用格式化" tabindex="-1"><a class="header-anchor" href="#修改-json-tool写入时使用格式化" aria-hidden="true">#</a> 修改 json_tool写入时使用格式化</h4>
+<h4 id="修改-机器人默认为禁用状态-在新群不再提示未开启" tabindex="-1"><a class="header-anchor" href="#修改-机器人默认为禁用状态-在新群不再提示未开启" aria-hidden="true">#</a> 修改 机器人默认为禁用状态,在新群不再提示未开启</h4>
+<h4 id="修复-管理功能-自定义定时任务-修复定时任务秒数为0时无法添加" tabindex="-1"><a class="header-anchor" href="#修复-管理功能-自定义定时任务-修复定时任务秒数为0时无法添加" aria-hidden="true">#</a> 修复 管理功能 -&gt; 自定义定时任务 修复定时任务秒数为0时无法添加</h4>
+<h4 id="修复-管理功能-自定义定时任务-修复自定义定时任务无法修改任务" tabindex="-1"><a class="header-anchor" href="#修复-管理功能-自定义定时任务-修复自定义定时任务无法修改任务" aria-hidden="true">#</a> 修复 管理功能 -&gt; 自定义定时任务 修复自定义定时任务无法修改任务</h4>
+<h4 id="修复-修复api错误" tabindex="-1"><a class="header-anchor" href="#修复-修复api错误" aria-hidden="true">#</a> 修复 修复api错误</h4>
+<h4 id="修复-修复机器人退群报错" tabindex="-1"><a class="header-anchor" href="#修复-修复机器人退群报错" aria-hidden="true">#</a> 修复 修复机器人退群报错</h4>
+<h4 id="修复-修复文本错误" tabindex="-1"><a class="header-anchor" href="#修复-修复文本错误" aria-hidden="true">#</a> 修复 修复文本错误</h4>
+<h4 id="移除-娱乐功能-logo制作-移除logo插件并由表情包制作插件代替" tabindex="-1"><a class="header-anchor" href="#移除-娱乐功能-logo制作-移除logo插件并由表情包制作插件代替" aria-hidden="true">#</a> 移除 娱乐功能 -&gt; logo制作 移除logo插件并由表情包制作插件代替</h4>
+<h4 id="移除-生活功能-疫情查询-移除covid19插件" tabindex="-1"><a class="header-anchor" href="#移除-生活功能-疫情查询-移除covid19插件" aria-hidden="true">#</a> 移除 生活功能 -&gt; 疫情查询 移除covid19插件</h4>
+<h4 id="移除-删除无用代码" tabindex="-1"><a class="header-anchor" href="#移除-删除无用代码" aria-hidden="true">#</a> 移除 删除无用代码</h4>
 <h2 id="_0-6-4版本更新日志-2022-12-18" tabindex="-1"><a class="header-anchor" href="#_0-6-4版本更新日志-2022-12-18" aria-hidden="true">#</a> 0.6.4版本更新日志 2022/12/18</h2>
 <h4 id="新增-游戏功能-猜群友" tabindex="-1"><a class="header-anchor" href="#新增-游戏功能-猜群友" aria-hidden="true">#</a> 新增 游戏功能 -&gt; 猜群友</h4>
 <h4 id="更新-娱乐功能-模拟原神祈愿-支持3-3" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-模拟原神祈愿-支持3-3" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 模拟原神祈愿 支持3.3</h4>
@@ -19,8 +44,8 @@
 <h4 id="修复-被动功能-复读-复读图片错误" tabindex="-1"><a class="header-anchor" href="#修复-被动功能-复读-复读图片错误" aria-hidden="true">#</a> 修复 被动功能 -&gt; 复读 复读图片错误</h4>
 <h4 id="修复-管理功能-入-回群欢迎词-新人入群变回归" tabindex="-1"><a class="header-anchor" href="#修复-管理功能-入-回群欢迎词-新人入群变回归" aria-hidden="true">#</a> 修复 管理功能 -&gt; 入/回群欢迎词 新人入群变回归</h4>
 <h4 id="修复-生活功能-吃什么-无法开启饭点助手" tabindex="-1"><a class="header-anchor" href="#修复-生活功能-吃什么-无法开启饭点助手" aria-hidden="true">#</a> 修复 生活功能 -&gt; 吃什么 无法开启饭点助手</h4>
-<h4 id="修复-修复机器人退群报错" tabindex="-1"><a class="header-anchor" href="#修复-修复机器人退群报错" aria-hidden="true">#</a> 修复 修复机器人退群报错</h4>
-<h4 id="修复-修复文本错误" tabindex="-1"><a class="header-anchor" href="#修复-修复文本错误" aria-hidden="true">#</a> 修复 修复文本错误</h4>
+<h4 id="修复-修复机器人退群报错-1" tabindex="-1"><a class="header-anchor" href="#修复-修复机器人退群报错-1" aria-hidden="true">#</a> 修复 修复机器人退群报错</h4>
+<h4 id="修复-修复文本错误-1" tabindex="-1"><a class="header-anchor" href="#修复-修复文本错误-1" aria-hidden="true">#</a> 修复 修复文本错误</h4>
 <h4 id="修复-修正依赖" tabindex="-1"><a class="header-anchor" href="#修复-修正依赖" aria-hidden="true">#</a> 修复 修正依赖</h4>
 <h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装" tabindex="-1"><a class="header-anchor" href="#本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装" aria-hidden="true">#</a> 本次更新更新了以下依赖,自行使用 poetry update 或 pip 安装</h4>
