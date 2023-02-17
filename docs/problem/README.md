@@ -14,22 +14,31 @@ sidebar: auto
 在真宵机器人中有两种权限模式,正常模式和特殊模式  
 正常模式中一个插件一种权限,特殊模式中一个插件多个权限  
 如:违禁词插件中,有成员使用的违禁词查询,有超级用户使用的管理违禁词  
-普通插件修改权限:
+#### 普通插件修改权限
 1. 在 `config/permission/common`  文件夹下找到对应群的配置文件
 2. 找到对应插件名,修改权限
 ::: tip 提示
 插件名称翻译: 在 `config/translate.json` 中  
 权限等级: Van > owner > admin > superuser > member > baned
 :::
-特殊插件修改权限:
+#### 特殊插件修改权限
 ::: warning 注意
 某些插件可能同时存在于两个模式中,那么说明这个插件大部分指令的权限是一样的,只有小部分不同,根据情况修改即可
 :::
+此方法适用于有 `if permission.tools.special_per` 语句的插件
 1. 在 `content/plugins` 文件夹下找到要修改的插件文件夹, 用记事本,vscode等软件打开 `__init__.py` 文件,找到要修改的指令触发器
 <img src="/image/problem/permission_1.png">
+<img src="/image/problem/permission_2.png">
 
 2. 在 `config/permission/special` 文件夹下找到对应群的配置文件
 3. 找到对应指令触发器,修改权限
+#### 修改默认权限
+如果有很多个群都是同一个权限设置,懒得一个一个去设置,可以使用该方法
+1. 删除 `config/permission/群号` 文件夹
+2. 在 `content/plugins` 文件夹下找到要修改的插件文件夹, 用记事本,vscode等软件打开 `__init__.py` 文件,找到 `__plugin_meta__`
+3. 将 `permission_common` 或者 `permission_special` 更改为自己想要的权限
+4. 在群中初始化
+<img src="/image/problem/permission_3.png">
 
 ## 如何安装插件
 群聊插件:  
