@@ -1208,29 +1208,6 @@
 <h4 id="启用-停用机器人" tabindex="-1"><a class="header-anchor" href="#启用-停用机器人" aria-hidden="true">#</a> 启用/停用机器人</h4>
 <p>命令: <code v-pre>/启用机器人</code> <code v-pre>/停用机器人</code></p>
 <p>权限: <strong>根用户</strong></p>
-<h4 id="疫情关注" tabindex="-1"><a class="header-anchor" href="#疫情关注" aria-hidden="true">#</a> 疫情关注</h4>
-<p>命令: <code v-pre>/关注疫情 {城市}</code> <code v-pre>/取消关注疫情 {城市}</code> <code v-pre>/疫情关注列表</code></p>
-<p>功能: 关注城市疫情并自动在每天18:30推送</p>
-<p>参数:</p>
-<table>
-<thead>
-<tr>
-<th>参数名</th>
-<th>可选值</th>
-<th>必须</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>城市</td>
-<td>自行输入</td>
-<td>是</td>
-</tr>
-</tbody>
-</table>
-<p>示例: <code v-pre>/关注疫情 上海</code></p>
-<p>权限: <strong>超级用户</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/Zeta-qixi/nonebot-plugin-covid19-news" target="_blank" rel="noopener noreferrer">nonebot-plugin-covid19-news<ExternalLinkIcon/></a>修改而来</p>
 <h4 id="群管-禁、解、踢、黑" tabindex="-1"><a class="header-anchor" href="#群管-禁、解、踢、黑" aria-hidden="true">#</a> 群管(禁、解、踢、黑...)</h4>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>请将机器人设置为群管理员,否则功能无法使用</p>
@@ -1381,7 +1358,6 @@
 </tbody>
 </table>
 <p>权限: <strong>超级用户</strong>及以上</p>
-<p>插件来源: <a href="https://github.com/yzyyz1387/nonebot_plugin_admin" target="_blank" rel="noopener noreferrer">nonebot_plugin_admin<ExternalLinkIcon/></a>修改而来</p>
 <h5 id="自定义违禁词系统命令" tabindex="-1"><a class="header-anchor" href="#自定义违禁词系统命令" aria-hidden="true">#</a> 自定义违禁词系统命令</h5>
 <table>
 <thead>

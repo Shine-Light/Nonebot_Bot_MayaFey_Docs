@@ -501,23 +501,6 @@ sidebarDepth: 3
 
 权限: **根用户**
 
-#### 疫情关注
-命令: `/关注疫情 {城市}` `/取消关注疫情 {城市}` `/疫情关注列表`
-
-功能: 关注城市疫情并自动在每天18:30推送
-
-参数:
-
-|参数名|可选值|必须|
-|-|-|-|
-|城市|自行输入|是|
-
-示例: `/关注疫情 上海`
-
-权限: **超级用户**及以上  
-
-插件来源: [nonebot-plugin-covid19-news](https://github.com/Zeta-qixi/nonebot-plugin-covid19-news)修改而来
-
 #### 群管(禁、解、踢、黑...)
 ::: tip 提示
 请将机器人设置为群管理员,否则功能无法使用
@@ -575,8 +558,6 @@ sidebarDepth: 3
 |严格违禁等级|`/严格违禁词`|
 
 权限: **超级用户**及以上  
-
-插件来源: [nonebot_plugin_admin](https://github.com/yzyyz1387/nonebot_plugin_admin)修改而来
 
 ##### 自定义违禁词系统命令
 
