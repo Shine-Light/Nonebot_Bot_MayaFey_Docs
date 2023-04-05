@@ -66,7 +66,7 @@ module.exports = {
                 children: [ '/develop/',
                             '/develop/standard/',
                             '/develop/config/',
-                            '/develop/permissions/',
+                            '/develop/matcherCtrl/',
                             '/develop/credit/',
                             '/develop/utils/',
                             '/develop/api/',

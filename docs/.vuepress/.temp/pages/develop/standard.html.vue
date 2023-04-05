@@ -66,14 +66,55 @@
 <h3 id="permission-special" tabindex="-1"><a class="header-anchor" href="#permission-special" aria-hidden="true">#</a> permission_special</h3>
 <ul>
 <li>类型: <code v-pre>dict</code></li>
-<li>说明: 插件特殊权限,<code v-pre>matcher名称</code>作为键,<code v-pre>权限</code>作为值,<code v-pre>matcher名称</code>并不是硬性要求,可以根据特殊权限控制的写法自定,关于特殊权限详见<RouterLink to="/develop/permissions.html">多权限</RouterLink>,私聊插件该项无效</li>
+<li>说明: 插件特殊权限,<code v-pre>插件名:matcher名称</code>作为键,<code v-pre>权限</code>作为值,<code v-pre>插件名:matcher名称</code>并不是硬性要求,这么写只是为了防止不同插件冲突,可以根据特殊权限控制的写法自定,需注册Matcher控制,详见<RouterLink to="/develop/matcherCtrl.html">Matcher级别控制</RouterLink>,私聊插件该项无效</li>
 <li>示例:</li>
 </ul>
 <div class="language-python ext-py line-numbers-mode"><pre v-pre class="language-python"><code><span class="token string">"permission_special"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
     <span class="token string">"matcher名称"</span><span class="token punctuation">:</span> <span class="token string">"权限"</span><span class="token punctuation">,</span>
     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
 <span class="token punctuation">}</span> 
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="configs" tabindex="-1"><a class="header-anchor" href="#configs" aria-hidden="true">#</a> configs</h3>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="cd" tabindex="-1"><a class="header-anchor" href="#cd" aria-hidden="true">#</a> cd</h3>
+<ul>
+<li>类型: <code v-pre>dict</code></li>
+<li>说明: cd配置项,支持Plugin级别和Matcher级别控制,Matcher级别控制需注册Matcher控制,详见<RouterLink to="/develop/matcherCtrl.html">Matcher控制</RouterLink>,有两种写法,私聊插件该项无效
+<ul>
+<li>完整写法<br>
+完整写法允许进行Matcher级别的控制<div class="language-python ext-py line-numbers-mode"><pre v-pre class="language-python"><code><span class="token string">"cd"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  <span class="token comment"># Plugin级别</span>
+  <span class="token string">"plugin"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"count"</span><span class="token punctuation">:</span> 次数<span class="token punctuation">,</span>
+    <span class="token string">"time"</span><span class="token punctuation">:</span> 时间<span class="token punctuation">,</span>
+    <span class="token string">"ban_time"</span><span class="token punctuation">:</span> 禁言时间
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token comment"># Matcher级别</span>
+  <span class="token string">"matcher"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+    <span class="token string">"插件名:matcher名称"</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      <span class="token string">"count"</span><span class="token punctuation">:</span> 次数<span class="token punctuation">,</span>
+      <span class="token string">"time"</span><span class="token punctuation">:</span> 时间<span class="token punctuation">,</span>
+      <span class="token string">"ban_time"</span><span class="token punctuation">:</span> 禁言时间
+    <span class="token punctuation">}</span><span class="token punctuation">,</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+<li>缩略写法<br>
+缩略写法中的配置全部识别为Plugin级别<div class="language-python ext-py line-numbers-mode"><pre v-pre class="language-python"><code><span class="token comment"># Plugin级别</span>
+<span class="token punctuation">{</span>
+  <span class="token string">"count"</span><span class="token punctuation">:</span> 次数<span class="token punctuation">,</span>
+  <span class="token string">"time"</span><span class="token punctuation">:</span> 时间<span class="token punctuation">,</span>
+  <span class="token string">"ban_time"</span><span class="token punctuation">:</span> 禁言时间
+<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></li>
+</ul>
+</li>
+<li>补充:
+<ul>
+<li>时间单位均为秒</li>
+<li>当 <code v-pre>count</code> <code v-pre>time</code> <code v-pre>ban_time</code> 任意一项小于等于0时, 视为关闭cd</li>
+<li><code v-pre>count</code> <code v-pre>time</code> <code v-pre>ban_time</code> 任意一项都可为空, 默认值分别为 <code v-pre>5</code> <code v-pre>10</code> <code v-pre>300</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="configs" tabindex="-1"><a class="header-anchor" href="#configs" aria-hidden="true">#</a> configs</h3>
 <ul>
 <li>类型: <code v-pre>dict</code></li>
 <li>说明: 插件的配置信息,使用json存储配置文件,有两种写法,两种写法可以混用

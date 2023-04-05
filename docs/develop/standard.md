@@ -40,7 +40,7 @@
 - 说明: 插件中文名,默认为插件名
 ### permission_special
 - 类型: `dict`
-- 说明: 插件特殊权限,`matcher名称`作为键,`权限`作为值,`matcher名称`并不是硬性要求,可以根据特殊权限控制的写法自定,关于特殊权限详见[多权限](./permissions.md),私聊插件该项无效
+- 说明: 插件特殊权限,`插件名:matcher名称`作为键,`权限`作为值,`插件名:matcher名称`并不是硬性要求,这么写只是为了防止不同插件冲突,可以根据特殊权限控制的写法自定,需注册Matcher控制,详见[Matcher级别控制](./matcherCtrl.md),私聊插件该项无效
 - 示例: 
 ```python
 "permission_special": {
@@ -48,6 +48,43 @@
     ...
 } 
 ```
+### cd
+- 类型: `dict`
+- 说明: cd配置项,支持Plugin级别和Matcher级别控制,Matcher级别控制需注册Matcher控制,详见[Matcher控制](./matcherCtrl.md),有两种写法,私聊插件该项无效
+  - 完整写法  
+    完整写法允许进行Matcher级别的控制
+    ```python
+    "cd": {
+      # Plugin级别
+      "plugin": {
+        "count": 次数,
+        "time": 时间,
+        "ban_time": 禁言时间
+      },
+      # Matcher级别
+      "matcher": {
+        "插件名:matcher名称": {
+          "count": 次数,
+          "time": 时间,
+          "ban_time": 禁言时间
+        },...
+      }
+    }
+    ```
+  - 缩略写法  
+    缩略写法中的配置全部识别为Plugin级别
+    ```python
+    # Plugin级别
+    {
+      "count": 次数,
+      "time": 时间,
+      "ban_time": 禁言时间
+    }
+    ```
+- 补充:
+  - 时间单位均为秒
+  - 当 `count` `time` `ban_time` 任意一项小于等于0时, 视为关闭cd
+  - `count` `time` `ban_time` 任意一项都可为空, 默认值分别为 `5` `10` `300`
 ### configs
 - 类型: `dict`
 - 说明: 插件的配置信息,使用json存储配置文件,有两种写法,两种写法可以混用

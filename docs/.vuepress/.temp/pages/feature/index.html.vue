@@ -2309,8 +2309,8 @@
 </tbody>
 </table>
 <h2 id="被动功能" tabindex="-1"><a class="header-anchor" href="#被动功能" aria-hidden="true">#</a> 被动功能</h2>
-<h3 id="恶意触发命令检测" tabindex="-1"><a class="header-anchor" href="#恶意触发命令检测" aria-hidden="true">#</a> 恶意触发命令检测</h3>
-<p>成员不能在 <strong>10s内 触发命令 5次</strong>,否则会被禁言 5分钟</p>
+<h3 id="cd" tabindex="-1"><a class="header-anchor" href="#cd" aria-hidden="true">#</a> cd</h3>
+<p>插件触发次数及时间限制, 可在 <code v-pre>config/cd/群号/cd.json</code> 中配置, 配置项可参考<RouterLink to="/develop/standard.html#cd">插件标准</RouterLink></p>
 <h3 id="违禁图片检测" tabindex="-1"><a class="header-anchor" href="#违禁图片检测" aria-hidden="true">#</a> 违禁图片检测</h3>
 <div class="custom-container tip"><p class="custom-container-title">提示</p>
 <p>该功能需配置腾讯云\百度云内容安全中的图片安全API密钥</p>
@@ -2319,12 +2319,6 @@
 <p>由于容易误封,所以默认为高度确认违规的情况下触发</p>
 </div>
 <p>检测到违规图片会撤回并禁言</p>
-<h3 id="闪照捕获" tabindex="-1"><a class="header-anchor" href="#闪照捕获" aria-hidden="true">#</a> 闪照捕获</h3>
-<div class="custom-container danger"><p class="custom-container-title">警告</p>
-<p>该功能请谨慎开启</p>
-</div>
-<p>将群内闪照转化为正常图片,通过私聊发送到<strong>根用户</strong><br>
-<strong>根用户</strong>只能在配置文件中设置</p>
 <h3 id="拉群自接受" tabindex="-1"><a class="header-anchor" href="#拉群自接受" aria-hidden="true">#</a> 拉群自接受</h3>
 <p>自动同意<strong>超级用户</strong>及以上邀请的成员</p>
 <h3 id="好友自接受" tabindex="-1"><a class="header-anchor" href="#好友自接受" aria-hidden="true">#</a> 好友自接受</h3>
