@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-784399a7","path":"/develop/matcherCtrl.html","title":"Matcher\u7EA7\u522B\u63A7\u5236","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"filePathRelative":"develop/matcherCtrl.md","git":{"createdTime":null,"updatedTime":null,"contributors":[]}}');export{e as data};

@@ -1,4 +1,30 @@
 <template><div><h1 id="更新日志" tabindex="-1"><a class="header-anchor" href="#更新日志" aria-hidden="true">#</a> 更新日志</h1>
+<h2 id="_0-6-7版本更新日志-2023-4-9" tabindex="-1"><a class="header-anchor" href="#_0-6-7版本更新日志-2023-4-9" aria-hidden="true">#</a> 0.6.7版本更新日志 2023/4/9</h2>
+<h4 id="新增-cd支持至matcher级别" tabindex="-1"><a class="header-anchor" href="#新增-cd支持至matcher级别" aria-hidden="true">#</a> 新增 CD支持至Matcher级别</h4>
+<h4 id="更新-娱乐功能-头像表情包-更新至最新版本" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-头像表情包-更新至最新版本" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 头像表情包 更新至最新版本</h4>
+<h4 id="更新-所有插件适配插件标准" tabindex="-1"><a class="header-anchor" href="#更新-所有插件适配插件标准" aria-hidden="true">#</a> 更新 所有插件适配插件标准</h4>
+<h4 id="更新-更新依赖" tabindex="-1"><a class="header-anchor" href="#更新-更新依赖" aria-hidden="true">#</a> 更新 更新依赖</h4>
+<h4 id="更新-优化性能" tabindex="-1"><a class="header-anchor" href="#更新-优化性能" aria-hidden="true">#</a> 更新 优化性能</h4>
+<h4 id="修改-恶意触发更名为cd" tabindex="-1"><a class="header-anchor" href="#修改-恶意触发更名为cd" aria-hidden="true">#</a> 修改 恶意触发更名为cd</h4>
+<h4 id="修改-修改文件结构" tabindex="-1"><a class="header-anchor" href="#修改-修改文件结构" aria-hidden="true">#</a> 修改 修改文件结构</h4>
+<h4 id="修改-表情包制作与头像表情包制作合并" tabindex="-1"><a class="header-anchor" href="#修改-表情包制作与头像表情包制作合并" aria-hidden="true">#</a> 修改 表情包制作与头像表情包制作合并</h4>
+<h4 id="修复-娱乐功能-ai聊天-修复ai聊天茉莉云类型颠倒" tabindex="-1"><a class="header-anchor" href="#修复-娱乐功能-ai聊天-修复ai聊天茉莉云类型颠倒" aria-hidden="true">#</a> 修复 娱乐功能 -&gt; AI聊天 修复AI聊天茉莉云类型颠倒</h4>
+<h4 id="修复-生活功能-天气-修复heweather报错" tabindex="-1"><a class="header-anchor" href="#修复-生活功能-天气-修复heweather报错" aria-hidden="true">#</a> 修复 生活功能 -&gt; 天气 修复heweather报错</h4>
+<h4 id="修复-娱乐功能-头像表情包制作-修复petpet和memes启动失败" tabindex="-1"><a class="header-anchor" href="#修复-娱乐功能-头像表情包制作-修复petpet和memes启动失败" aria-hidden="true">#</a> 修复 娱乐功能 -&gt; 头像表情包制作 修复petpet和memes启动失败</h4>
+<h4 id="修复-管理功能-违禁图检测-修复检测违禁图后无法禁言" tabindex="-1"><a class="header-anchor" href="#修复-管理功能-违禁图检测-修复检测违禁图后无法禁言" aria-hidden="true">#</a> 修复 管理功能 -&gt; 违禁图检测 修复检测违禁图后无法禁言</h4>
+<h4 id="修复-管理功能-cd-修复触发cd后无法禁言" tabindex="-1"><a class="header-anchor" href="#修复-管理功能-cd-修复触发cd后无法禁言" aria-hidden="true">#</a> 修复 管理功能 -&gt; CD 修复触发CD后无法禁言</h4>
+<h4 id="修复-私聊管理功能-好友请求处理-修复friends配置无法创建" tabindex="-1"><a class="header-anchor" href="#修复-私聊管理功能-好友请求处理-修复friends配置无法创建" aria-hidden="true">#</a> 修复 私聊管理功能 -&gt; 好友请求处理 修复friends配置无法创建</h4>
+<h4 id="修复-修复初次初始化时-报错无权限" tabindex="-1"><a class="header-anchor" href="#修复-修复初次初始化时-报错无权限" aria-hidden="true">#</a> 修复 修复初次初始化时,报错无权限</h4>
+<h4 id="修复-修复无法获取baned权限" tabindex="-1"><a class="header-anchor" href="#修复-修复无法获取baned权限" aria-hidden="true">#</a> 修复 修复无法获取baned权限</h4>
+<h4 id="移除-移除flash" tabindex="-1"><a class="header-anchor" href="#移除-移除flash" aria-hidden="true">#</a> 移除 移除flash</h4>
+<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h4 id="本次更新几乎涵盖了全部插件-更新前记得备份" tabindex="-1"><a class="header-anchor" href="#本次更新几乎涵盖了全部插件-更新前记得备份" aria-hidden="true">#</a> 本次更新几乎涵盖了全部插件, 更新前记得备份</h4>
+<h4 id="本次更新后需安装或更新以下依赖" tabindex="-1"><a class="header-anchor" href="#本次更新后需安装或更新以下依赖" aria-hidden="true">#</a> 本次更新后需安装或更新以下依赖</h4>
+<ul>
+<li>meme-generator (安装)</li>
+<li>fastapi (更新)</li>
+<li>nonebot2 (更新)</li>
+</ul>
 <h2 id="_0-6-6版本更新日志-2023-3-5" tabindex="-1"><a class="header-anchor" href="#_0-6-6版本更新日志-2023-3-5" aria-hidden="true">#</a> 0.6.6版本更新日志 2023/3/5</h2>
 <h4 id="新增-增加数据库错误时退出" tabindex="-1"><a class="header-anchor" href="#新增-增加数据库错误时退出" aria-hidden="true">#</a> 新增 增加数据库错误时退出</h4>
 <h4 id="新增-配置增加新增配置方法" tabindex="-1"><a class="header-anchor" href="#新增-配置增加新增配置方法" aria-hidden="true">#</a> 新增 配置增加新增配置方法</h4>
@@ -21,7 +47,7 @@
 <h4 id="修复-修复获取atqq时参数为字符串无法识别" tabindex="-1"><a class="header-anchor" href="#修复-修复获取atqq时参数为字符串无法识别" aria-hidden="true">#</a> 修复 修复获取atQQ时参数为字符串无法识别</h4>
 <h4 id="修复-修复可以设置级别高于自己的用户的权限" tabindex="-1"><a class="header-anchor" href="#修复-修复可以设置级别高于自己的用户的权限" aria-hidden="true">#</a> 修复 修复可以设置级别高于自己的用户的权限</h4>
 <h4 id="移除-删除无用代码" tabindex="-1"><a class="header-anchor" href="#移除-删除无用代码" aria-hidden="true">#</a> 移除 删除无用代码</h4>
-<h3 id="提示" tabindex="-1"><a class="header-anchor" href="#提示" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-1" tabindex="-1"><a class="header-anchor" href="#提示-1" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新替换了-bot-py-文件" tabindex="-1"><a class="header-anchor" href="#本次更新替换了-bot-py-文件" aria-hidden="true">#</a> 本次更新替换了 bot.py 文件</h4>
 <h4 id="原神祈愿接口有新版本-请及时更新" tabindex="-1"><a class="header-anchor" href="#原神祈愿接口有新版本-请及时更新" aria-hidden="true">#</a> 原神祈愿接口有新版本,请及时更新</h4>
 <h2 id="_0-6-5版本更新日志-2023-1-17" tabindex="-1"><a class="header-anchor" href="#_0-6-5版本更新日志-2023-1-17" aria-hidden="true">#</a> 0.6.5版本更新日志 2023/1/17</h2>
@@ -72,7 +98,7 @@
 <h4 id="修复-修复机器人退群报错-1" tabindex="-1"><a class="header-anchor" href="#修复-修复机器人退群报错-1" aria-hidden="true">#</a> 修复 修复机器人退群报错</h4>
 <h4 id="修复-修复文本错误-1" tabindex="-1"><a class="header-anchor" href="#修复-修复文本错误-1" aria-hidden="true">#</a> 修复 修复文本错误</h4>
 <h4 id="修复-修正依赖" tabindex="-1"><a class="header-anchor" href="#修复-修正依赖" aria-hidden="true">#</a> 修复 修正依赖</h4>
-<h3 id="提示-1" tabindex="-1"><a class="header-anchor" href="#提示-1" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-2" tabindex="-1"><a class="header-anchor" href="#提示-2" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装" tabindex="-1"><a class="header-anchor" href="#本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装" aria-hidden="true">#</a> 本次更新更新了以下依赖,自行使用 poetry update 或 pip 安装</h4>
 <ol>
 <li>新增 nonebot-plugin-htmlrender 依赖</li>
@@ -108,7 +134,7 @@
 <h4 id="更新-娱乐功能-原神祈愿支持3-2" tabindex="-1"><a class="header-anchor" href="#更新-娱乐功能-原神祈愿支持3-2" aria-hidden="true">#</a> 更新 娱乐功能 -&gt; 原神祈愿支持3.2</h4>
 <h4 id="修复-循环导入问题" tabindex="-1"><a class="header-anchor" href="#修复-循环导入问题" aria-hidden="true">#</a> 修复 循环导入问题</h4>
 <h4 id="修改-吃什么插件配置更改至config文件夹下" tabindex="-1"><a class="header-anchor" href="#修改-吃什么插件配置更改至config文件夹下" aria-hidden="true">#</a> 修改 吃什么插件配置更改至config文件夹下</h4>
-<h3 id="提示-2" tabindex="-1"><a class="header-anchor" href="#提示-2" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-3" tabindex="-1"><a class="header-anchor" href="#提示-3" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装-1" tabindex="-1"><a class="header-anchor" href="#本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装-1" aria-hidden="true">#</a> 本次更新更新了以下依赖,自行使用 poetry update 或 pip 安装</h4>
 <h5 id="新增" tabindex="-1"><a class="header-anchor" href="#新增" aria-hidden="true">#</a> 新增</h5>
 <h5 id="删除-emoji" tabindex="-1"><a class="header-anchor" href="#删除-emoji" aria-hidden="true">#</a> 删除 emoji</h5>
@@ -134,7 +160,7 @@
 <h4 id="更新-适配-nonebot2-0-0-rc-1" tabindex="-1"><a class="header-anchor" href="#更新-适配-nonebot2-0-0-rc-1" aria-hidden="true">#</a> 更新 适配 nonebot2.0.0-rc.1</h4>
 <h4 id="修复-违禁图检测违规类型错误" tabindex="-1"><a class="header-anchor" href="#修复-违禁图检测违规类型错误" aria-hidden="true">#</a> 修复 违禁图检测违规类型错误</h4>
 <h4 id="优化-自动撤回逻辑优化" tabindex="-1"><a class="header-anchor" href="#优化-自动撤回逻辑优化" aria-hidden="true">#</a> 优化 自动撤回逻辑优化</h4>
-<h3 id="提示-3" tabindex="-1"><a class="header-anchor" href="#提示-3" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-4" tabindex="-1"><a class="header-anchor" href="#提示-4" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装-2" tabindex="-1"><a class="header-anchor" href="#本次更新更新了以下依赖-自行使用-poetry-update-或-pip-安装-2" aria-hidden="true">#</a> 本次更新更新了以下依赖,自行使用 poetry update 或 pip 安装</h4>
 <h5 id="nonebot2" tabindex="-1"><a class="header-anchor" href="#nonebot2" aria-hidden="true">#</a> nonebot2</h5>
 <h5 id="nonebot-plugin-apscheduler" tabindex="-1"><a class="header-anchor" href="#nonebot-plugin-apscheduler" aria-hidden="true">#</a> nonebot-plugin-apscheduler</h5>
@@ -149,7 +175,7 @@
 <h4 id="修复-防白嫖报错" tabindex="-1"><a class="header-anchor" href="#修复-防白嫖报错" aria-hidden="true">#</a> 修复 防白嫖报错</h4>
 <h4 id="修复-定时任务文字错误" tabindex="-1"><a class="header-anchor" href="#修复-定时任务文字错误" aria-hidden="true">#</a> 修复 定时任务文字错误</h4>
 <h4 id="修复-触发违禁词后会触发命令" tabindex="-1"><a class="header-anchor" href="#修复-触发违禁词后会触发命令" aria-hidden="true">#</a> 修复 触发违禁词后会触发命令</h4>
-<h3 id="提示-4" tabindex="-1"><a class="header-anchor" href="#提示-4" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-5" tabindex="-1"><a class="header-anchor" href="#提示-5" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置-1" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置-1" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>baidu_image_key</li>
@@ -168,7 +194,7 @@
 <h4 id="修改-疫情查询-权限更改为-群员及以上" tabindex="-1"><a class="header-anchor" href="#修改-疫情查询-权限更改为-群员及以上" aria-hidden="true">#</a> 修改 疫情查询 权限更改为 群员及以上</h4>
 <h4 id="修改-恶意触发可自定义配置" tabindex="-1"><a class="header-anchor" href="#修改-恶意触发可自定义配置" aria-hidden="true">#</a> 修改 恶意触发可自定义配置</h4>
 <h4 id="优化-数据库数据初始化逻辑" tabindex="-1"><a class="header-anchor" href="#优化-数据库数据初始化逻辑" aria-hidden="true">#</a> 优化 数据库数据初始化逻辑</h4>
-<h3 id="提示-5" tabindex="-1"><a class="header-anchor" href="#提示-5" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-6" tabindex="-1"><a class="header-anchor" href="#提示-6" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置-2" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置-2" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>fast_time</li>
@@ -186,14 +212,14 @@
 <h4 id="修改-加机器人好友由根用户确认是否添加" tabindex="-1"><a class="header-anchor" href="#修改-加机器人好友由根用户确认是否添加" aria-hidden="true">#</a> 修改 加机器人好友由根用户确认是否添加</h4>
 <h4 id="修改-删除-sql查询-关键字限制" tabindex="-1"><a class="header-anchor" href="#修改-删除-sql查询-关键字限制" aria-hidden="true">#</a> 修改 删除 SQL查询 关键字限制</h4>
 <h4 id="修改-sql查询-权限更改为-根用户" tabindex="-1"><a class="header-anchor" href="#修改-sql查询-权限更改为-根用户" aria-hidden="true">#</a> 修改 SQL查询 权限更改为 根用户</h4>
-<h3 id="提示-6" tabindex="-1"><a class="header-anchor" href="#提示-6" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-7" tabindex="-1"><a class="header-anchor" href="#提示-7" aria-hidden="true">#</a> 提示</h3>
 <h4 id="原神祈愿接口有新版本-请及时更新-3" tabindex="-1"><a class="header-anchor" href="#原神祈愿接口有新版本-请及时更新-3" aria-hidden="true">#</a> 原神祈愿接口有新版本,请及时更新</h4>
 <h4 id="新增依赖-pyee-在机器人目录执行-poetry-update-或使用-pip-安装" tabindex="-1"><a class="header-anchor" href="#新增依赖-pyee-在机器人目录执行-poetry-update-或使用-pip-安装" aria-hidden="true">#</a> 新增依赖 pyee,在机器人目录执行 poetry update 或使用 pip 安装</h4>
 <h2 id="_0-5-6版本更新日志-2022-08-18" tabindex="-1"><a class="header-anchor" href="#_0-5-6版本更新日志-2022-08-18" aria-hidden="true">#</a> 0.5.6版本更新日志 2022/08/18</h2>
 <h4 id="更新-复读支持-和-表情" tabindex="-1"><a class="header-anchor" href="#更新-复读支持-和-表情" aria-hidden="true">#</a> 更新 复读支持 @ 和 表情</h4>
 <h4 id="新增-模拟原神祈愿" tabindex="-1"><a class="header-anchor" href="#新增-模拟原神祈愿" aria-hidden="true">#</a> 新增 模拟原神祈愿</h4>
 <h4 id="修复-启用-停用报错" tabindex="-1"><a class="header-anchor" href="#修复-启用-停用报错" aria-hidden="true">#</a> 修复 启用/停用报错</h4>
-<h3 id="提示-7" tabindex="-1"><a class="header-anchor" href="#提示-7" aria-hidden="true">#</a> 提示</h3>
+<h3 id="提示-8" tabindex="-1"><a class="header-anchor" href="#提示-8" aria-hidden="true">#</a> 提示</h3>
 <h4 id="本次更新增加了以下配置项-请前往文档或github查看并配置-3" tabindex="-1"><a class="header-anchor" href="#本次更新增加了以下配置项-请前往文档或github查看并配置-3" aria-hidden="true">#</a> 本次更新增加了以下配置项,请前往文档或Github查看并配置</h4>
 <ol>
 <li>mysql_host_genshin</li>
