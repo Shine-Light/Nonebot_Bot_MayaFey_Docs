@@ -1,9 +1,4 @@
 const { defaultTheme } = require('@vuepress/theme-default')
-const { backToTopPlugin } = require('@vuepress/plugin-back-to-top')
-const { mediumZoomPlugin } = require('@vuepress/plugin-medium-zoom')
-const { gitPlugin } = require('@vuepress/plugin-git')
-const { nprogressPlugin } = require('@vuepress/plugin-nprogress')
-const { activeHeaderLinksPlugin } = require('@vuepress/plugin-active-header-links')
 const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
 var md = require('markdown-it')({
     level: [2, 3]
@@ -35,8 +30,9 @@ module.exports = {
             { text: '指南', link: '/guide/' },
             { text: '零基础', link: '/easy/' },
             { text: '开发文档', link: '/develop/'},
+            { text: 'WebUI', link: '/webui/'},
             { text: '常见问题', link: '/problem'},
-            { text: '我的主页', link: 'https://shinelight.xyz'}, 
+            { text: '我的主页', link: 'https://shinelight.xyz'},
         ],
         sidebar: {
             '/guide/': [{
@@ -76,13 +72,6 @@ module.exports = {
         }
     }),
     plugins: [
-        backToTopPlugin(), mediumZoomPlugin(),nprogressPlugin(),
-        gitPlugin({
-            // 配置项
-        }),
-        activeHeaderLinksPlugin({
-            // 配置项
-        }),
         docsearchPlugin({
             apiKey: 'bbe3ea1114293eee287d354d6815ae1b', 
             indexName: 'mayafey-shinelight', 

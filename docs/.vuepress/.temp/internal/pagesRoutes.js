@@ -23,5 +23,6 @@ export const pagesRoutes = [
   ["v-1b4deaa9","/introduce/",{"title":"本项目"},["/introduce/index.html","/introduce/README.md"]],
   ["v-ca97092e","/problem/",{"title":"常见问题"},["/problem/index.html","/problem/README.md"]],
   ["v-83047d26","/updatelog/",{"title":"更新日志"},["/updatelog/index.html","/updatelog/README.md"]],
+  ["v-cb294700","/webui/",{"title":"mayafey_webui"},["/webui/index.html","/webui/README.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
 ]
